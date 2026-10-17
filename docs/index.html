@@ -1,0 +1,289 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Alternance en ingénierie</title>
+<meta name="description" content="Nombre d'offres d'alternance dans les métiers de l'ingénierie, par département, avec une carte de France.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #f6f7f9; --surface: #ffffff; --text: #18202b; --muted: #5d6877; --line: #e2e6ec;
+  --accent: #1f5fbf; --accent-soft: #e6eefb; --warn-bg: #fff4d6; --warn-text: #6b4e00;
+  --s0: #eef3fb; --s1: #c7d8f2; --s2: #8fb3e6; --s3: #4f86d4; --s4: #1f5fbf; --s5: #123d80;
+  --empty: #e9ecf0; --stroke: #ffffff; --sel: #e8710a;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #11151b; --surface: #1a2029; --text: #e7ebf0; --muted: #9aa5b3; --line: #2c3440;
+    --accent: #7fa9ec; --accent-soft: #22324a; --warn-bg: #3a3014; --warn-text: #f3d68a;
+    --s0: #1e2a3b; --s1: #23406a; --s2: #2c5899; --s3: #4277c6; --s4: #6f9be0; --s5: #a9c6f2;
+    --empty: #252c36; --stroke: #11151b; --sel: #ff9a3d;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #11151b; --surface: #1a2029; --text: #e7ebf0; --muted: #9aa5b3; --line: #2c3440;
+  --accent: #7fa9ec; --accent-soft: #22324a; --warn-bg: #3a3014; --warn-text: #f3d68a;
+  --s0: #1e2a3b; --s1: #23406a; --s2: #2c5899; --s3: #4277c6; --s4: #6f9be0; --s5: #a9c6f2;
+  --empty: #252c36; --stroke: #11151b; --sel: #ff9a3d;
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--text); font: 15px/1.5 Inter, system-ui, sans-serif; }
+.wrap { max-width: 1180px; margin: 0 auto; padding: 24px 16px 48px; }
+h1 { font-size: 28px; margin: 0 0 4px; letter-spacing: -0.01em; }
+h2 { font-size: 17px; margin: 0 0 12px; }
+.sub { color: var(--muted); margin: 0 0 20px; }
+.banner { background: var(--warn-bg); color: var(--warn-text); border-radius: 8px; padding: 10px 14px; margin-bottom: 16px; }
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 18px; }
+.kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 12px; margin-bottom: 16px; }
+.kpi .v { font-size: 26px; font-weight: 700; font-variant-numeric: tabular-nums; }
+.kpi .l { color: var(--muted); font-size: 13px; }
+.chips { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 16px; }
+.chip { border: 1px solid var(--line); background: var(--surface); color: var(--text); border-radius: 999px; padding: 6px 12px; font: inherit; font-size: 13px; cursor: pointer; }
+.chip[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: #fff; }
+:root[data-theme="dark"] .chip[aria-pressed="true"] { color: #0d1420; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .chip[aria-pressed="true"] { color: #0d1420; } }
+.grid { display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr); gap: 16px; }
+@media (max-width: 860px) { .grid { grid-template-columns: 1fr; } }
+#map { width: 100%; height: auto; display: block; }
+#map path.dep { stroke: var(--stroke); stroke-width: 0.7; cursor: pointer; }
+#map path.dep:hover { stroke: var(--text); stroke-width: 1.2; }
+#map path.dep.sel { stroke: var(--sel); stroke-width: 2.2; }
+.legend { display: flex; align-items: center; gap: 6px; font-size: 12px; color: var(--muted); margin-top: 8px; flex-wrap: wrap; }
+.legend span.sw { width: 26px; height: 10px; display: inline-block; }
+.dom { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+.dom button { flex: 1 1 100px; border: 1px solid var(--line); border-radius: 8px; padding: 6px 8px; font: inherit; font-size: 12px; text-align: left; cursor: pointer; color: var(--text); }
+.dom button.sel { outline: 2px solid var(--sel); }
+.dom b { display: block; font-size: 15px; }
+.tip { position: fixed; pointer-events: none; background: var(--text); color: var(--bg); padding: 6px 10px; border-radius: 6px; font-size: 13px; opacity: 0; transition: opacity .1s; z-index: 10; }
+.bars { display: grid; gap: 8px; }
+.bar .top { display: flex; justify-content: space-between; gap: 8px; font-size: 13px; }
+.bar .track { height: 8px; background: var(--empty); border-radius: 4px; overflow: hidden; margin-top: 3px; }
+.bar .fill { height: 100%; background: var(--accent); }
+table { width: 100%; border-collapse: collapse; font-size: 14px; }
+td, th { padding: 6px 4px; border-bottom: 1px solid var(--line); text-align: left; }
+td.n, th.n { text-align: right; font-variant-numeric: tabular-nums; }
+tr.clic { cursor: pointer; } tr.clic:hover { background: var(--accent-soft); }
+.panel-head { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; }
+.link { background: none; border: none; color: var(--accent); cursor: pointer; font: inherit; font-size: 13px; padding: 0; }
+.offres { margin-top: 16px; }
+.search { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 12px; }
+.search input { flex: 1 1 220px; padding: 8px 10px; border: 1px solid var(--line); border-radius: 8px; background: var(--bg); color: var(--text); font: inherit; }
+.offre { padding: 10px 0; border-bottom: 1px solid var(--line); }
+.offre a { color: var(--accent); font-weight: 600; text-decoration: none; }
+.offre a:hover { text-decoration: underline; }
+.offre .meta { color: var(--muted); font-size: 13px; }
+.tag { display: inline-block; background: var(--accent-soft); color: var(--accent); border-radius: 4px; padding: 0 6px; font-size: 12px; margin-right: 4px; }
+footer { color: var(--muted); font-size: 13px; margin-top: 24px; }
+footer a { color: var(--accent); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Alternance en ingénierie</h1>
+  <p class="sub">Offres d'apprentissage et de professionnalisation dans les métiers de l'ingénierie, par département.</p>
+  <div id="banner" class="banner" hidden></div>
+
+  <div class="kpis">
+    <div class="card kpi"><div class="v" id="k-total">–</div><div class="l" id="k-total-l">offres en cours</div></div>
+    <div class="card kpi"><div class="v" id="k-top">–</div><div class="l">département le plus fourni</div></div>
+    <div class="card kpi"><div class="v" id="k-idf">–</div><div class="l">part de l'Île-de-France</div></div>
+    <div class="card kpi"><div class="v" id="k-deps">–</div><div class="l">départements avec au moins une offre</div></div>
+  </div>
+
+  <div class="chips" id="chips" role="group" aria-label="Domaine"></div>
+
+  <div class="grid">
+    <div class="card">
+      <h2 id="map-title">Offres par département</h2>
+      <svg id="map" role="img" aria-label="Carte de France des offres par département"></svg>
+      <div class="legend" id="legend"></div>
+      <div class="dom" id="dom"></div>
+    </div>
+    <div class="card">
+      <div id="panel"></div>
+    </div>
+  </div>
+
+  <div class="card offres">
+    <div class="panel-head"><h2 id="offres-title">Dernières offres</h2><span class="sub" id="offres-count" style="margin:0;font-size:13px"></span></div>
+    <div class="search"><input id="q" type="search" placeholder="Rechercher un intitulé, une entreprise, une ville…" aria-label="Rechercher une offre"></div>
+    <div id="liste"></div>
+  </div>
+
+  <footer id="footer"></footer>
+</div>
+<div class="tip" id="tip"></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+<script>
+const fmt = n => n.toLocaleString("fr-FR");
+const pct = x => (x * 100).toLocaleString("fr-FR", { maximumFractionDigits: 1 }) + " %";
+const css = v => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+const IDF = ["75", "77", "78", "91", "92", "93", "94", "95"];
+const state = { domaine: "tous", dep: null, q: "" };
+let D, geo;
+
+// Données d'exemple, utilisées tant que l'extraction France Travail n'a pas tourné
+function donneesExemple(geo) {
+  let s = 42; const rnd = () => (s = (s * 16807) % 2147483647) / 2147483647;
+  const domaines = [
+    ["informatique", "Informatique et numérique"], ["etudes", "Études, R&D et conception"],
+    ["production", "Production, méthodes et maintenance"], ["qualite", "Qualité, hygiène, sécurité, environnement"],
+    ["btp", "BTP et génie civil"], ["affaires", "Ingénierie d'affaires et technico-commercial"],
+  ].map(([id, nom]) => ({ id, nom, romes: [] }));
+  const poids = { "75": 14, "92": 10, "69": 7, "31": 6, "13": 5, "59": 5, "33": 4, "44": 4, "38": 4, "67": 3, "35": 3, "34": 3, "78": 4, "91": 4, "94": 3, "93": 3, "95": 2, "06": 2, "63": 2, "76": 2 };
+  const deps = geo.features.map(f => [f.properties.code, f.properties.nom])
+    .concat([["971", "Guadeloupe"], ["972", "Martinique"], ["973", "Guyane"], ["974", "La Réunion"], ["976", "Mayotte"]]);
+  const departements = {};
+  for (const [code, nom] of deps) {
+    const w = (poids[code] ?? 0.4 + rnd()) * (code.length === 3 ? 0.3 : 1);
+    const dom = Object.fromEntries(domaines.map(d => [d.id, Math.round(w * (4 + rnd() * 18))]));
+    departements[code] = { nom, domaines: dom, total: d3.sum(Object.values(dom)) };
+  }
+  const postes = { informatique: "Développeur logiciel", etudes: "Ingénieur études et conception", production: "Ingénieur méthodes industrialisation", qualite: "Ingénieur qualité", btp: "Ingénieur travaux", affaires: "Ingénieur d'affaires" };
+  const offres = d3.range(60).map(i => {
+    const d = domaines[i % 6].id, [code, nom] = deps[Math.floor(rnd() * 96)];
+    return { id: "ex" + i, intitule: postes[d] + " en alternance (H/F)", entreprise: "Entreprise d'exemple", lieu: `${code} - ${nom}`, departement: code, domaine: d, contrat: i % 3 ? "Contrat apprentissage" : "Contrat de professionnalisation", date: "", url: "" };
+  });
+  return { exemple: true, mise_a_jour: "", source: "", domaines, departements, offres };
+}
+
+const valeur = code => {
+  const d = D.departements[code];
+  if (!d) return 0;
+  return state.domaine === "tous" ? d.total : d.domaines[state.domaine] ?? 0;
+};
+const nomDomaine = id => D.domaines.find(d => d.id === id)?.nom ?? id;
+
+function chips() {
+  const el = document.getElementById("chips");
+  el.innerHTML = "";
+  for (const [id, nom] of [["tous", "Tous les domaines"], ...D.domaines.map(d => [d.id, d.nom])]) {
+    const b = document.createElement("button");
+    b.className = "chip"; b.textContent = nom;
+    b.setAttribute("aria-pressed", state.domaine === id);
+    b.onclick = () => { state.domaine = id; rendre(); };
+    el.append(b);
+  }
+}
+
+function kpis() {
+  const codes = Object.keys(D.departements);
+  const tot = d3.sum(codes, valeur);
+  const top = d3.greatest(codes, valeur);
+  document.getElementById("k-total").textContent = fmt(tot);
+  document.getElementById("k-total-l").textContent = state.domaine === "tous" ? "offres en cours" : "offres en cours · " + nomDomaine(state.domaine);
+  document.getElementById("k-top").textContent = top && valeur(top) ? `${D.departements[top].nom}` : "–";
+  document.getElementById("k-idf").textContent = tot ? pct(d3.sum(IDF, valeur) / tot) : "–";
+  document.getElementById("k-deps").textContent = `${codes.filter(c => valeur(c) > 0).length} / ${codes.length}`;
+}
+
+function echelle() {
+  const vals = Object.keys(D.departements).map(valeur).filter(v => v > 0);
+  const cols = ["--s0", "--s1", "--s2", "--s3", "--s4", "--s5"].map(css);
+  const f = d3.scaleQuantile().domain(vals.length ? vals : [0, 1]).range(cols);
+  return { f: v => v > 0 ? f(v) : css("--empty"), cols, seuils: f.quantiles(), max: d3.max(vals) ?? 0 };
+}
+
+function carte() {
+  const svg = d3.select("#map"), W = 600, H = 600;
+  svg.attr("viewBox", `0 0 ${W} ${H}`);
+  const proj = d3.geoConicConformal().parallels([44, 49]).rotate([-3, 0]).fitSize([W, H], geo);
+  const path = d3.geoPath(proj);
+  const e = echelle(), tip = document.getElementById("tip");
+  svg.selectAll("path.dep").data(geo.features, f => f.properties.code).join("path")
+    .attr("class", f => "dep" + (f.properties.code === state.dep ? " sel" : ""))
+    .attr("d", path)
+    .attr("fill", f => e.f(valeur(f.properties.code)))
+    .on("mousemove", (ev, f) => {
+      tip.innerHTML = `<b>${f.properties.nom}</b> (${f.properties.code})<br>${fmt(valeur(f.properties.code))} offres`;
+      tip.style.left = ev.clientX + 12 + "px"; tip.style.top = ev.clientY + 12 + "px"; tip.style.opacity = 1;
+    })
+    .on("mouseleave", () => tip.style.opacity = 0)
+    .on("click", (ev, f) => choisir(f.properties.code));
+  svg.selectAll("path.sel").raise();
+
+  // Légende
+  const lg = document.getElementById("legend");
+  const bornes = [d3.min(Object.keys(D.departements).map(valeur).filter(v => v > 0)) ?? 0, ...e.seuils.map(Math.round), e.max];
+  lg.innerHTML = `<span>Nombre d'offres :</span>` + e.cols.map((c, i) =>
+    `<span class="sw" style="background:${c}" title="${fmt(bornes[i])} – ${fmt(bornes[i + 1])}"></span>`).join("")
+    + `<span>${fmt(bornes[0])} → ${fmt(e.max)}</span>`;
+
+  // Outre-mer, hors carte
+  const dom = document.getElementById("dom");
+  dom.innerHTML = "";
+  for (const code of Object.keys(D.departements).filter(c => c.length === 3)) {
+    const b = document.createElement("button"), v = valeur(code);
+    b.className = code === state.dep ? "sel" : "";
+    b.style.background = e.f(v);
+    b.style.color = e.cols.indexOf(e.f(v)) >= 3 ? css("--bg") : css("--text");
+    b.innerHTML = `${D.departements[code].nom}<b>${fmt(v)}</b>`;
+    b.onclick = () => choisir(code);
+    dom.append(b);
+  }
+}
+
+function choisir(code) { state.dep = state.dep === code ? null : code; rendre(); }
+
+function panneau() {
+  const el = document.getElementById("panel");
+  if (!state.dep) {
+    const codes = Object.keys(D.departements).sort((a, b) => valeur(b) - valeur(a)).slice(0, 15);
+    el.innerHTML = `<h2>Départements les plus fournis</h2>
+      <table><thead><tr><th>Département</th><th class="n">Offres</th></tr></thead><tbody>
+      ${codes.map(c => `<tr class="clic" data-c="${c}"><td>${D.departements[c].nom} <span class="sub">(${c})</span></td><td class="n">${fmt(valeur(c))}</td></tr>`).join("")}
+      </tbody></table><p class="sub" style="margin:10px 0 0;font-size:13px">Cliquez sur un département pour le détail.</p>`;
+    el.querySelectorAll("tr.clic").forEach(tr => tr.onclick = () => choisir(tr.dataset.c));
+    return;
+  }
+  const d = D.departements[state.dep];
+  const max = d3.max(D.domaines, x => d.domaines[x.id] ?? 0) || 1;
+  const rang = Object.keys(D.departements).sort((a, b) => valeur(b) - valeur(a)).indexOf(state.dep) + 1;
+  el.innerHTML = `<div class="panel-head"><h2>${d.nom} (${state.dep})</h2><button class="link" id="fermer">Toute la France</button></div>
+    <div class="kpi" style="margin-bottom:14px"><div class="v">${fmt(valeur(state.dep))}</div>
+    <div class="l">offres${state.domaine === "tous" ? "" : " · " + nomDomaine(state.domaine)} · ${rang}<sup>e</sup> département</div></div>
+    <div class="bars">${D.domaines.map(x => {
+      const v = d.domaines[x.id] ?? 0;
+      return `<div class="bar"><div class="top"><span>${x.nom}</span><b>${fmt(v)}</b></div>
+        <div class="track"><div class="fill" style="width:${v / max * 100}%;${state.domaine !== "tous" && state.domaine !== x.id ? "opacity:.35" : ""}"></div></div></div>`;
+    }).join("")}</div>`;
+  document.getElementById("fermer").onclick = () => choisir(state.dep);
+}
+
+function liste() {
+  const q = state.q.toLowerCase();
+  const res = D.offres.filter(o =>
+    (state.domaine === "tous" || o.domaine === state.domaine) &&
+    (!state.dep || o.departement === state.dep) &&
+    (!q || `${o.intitule} ${o.entreprise} ${o.lieu}`.toLowerCase().includes(q)));
+  document.getElementById("offres-title").textContent = state.dep ? `Dernières offres · ${D.departements[state.dep].nom}` : "Dernières offres";
+  document.getElementById("offres-count").textContent = `${fmt(res.length)} sur les ${fmt(D.offres.length)} plus récentes`;
+  const esc = s => String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+  document.getElementById("liste").innerHTML = res.slice(0, 50).map(o => `<div class="offre">
+      ${o.url ? `<a href="${esc(o.url)}" target="_blank" rel="noopener">${esc(o.intitule)}</a>` : `<b>${esc(o.intitule)}</b>`}
+      <div class="meta"><span class="tag">${esc(nomDomaine(o.domaine))}</span>${esc(o.entreprise || "Entreprise non communiquée")} · ${esc(o.lieu)}${o.contrat ? " · " + esc(o.contrat) : ""}${o.date ? " · publiée le " + new Date(o.date).toLocaleDateString("fr-FR") : ""}</div>
+    </div>`).join("") || `<p class="sub">Aucune offre récente ne correspond.</p>`;
+}
+
+function rendre() { chips(); kpis(); carte(); panneau(); liste(); }
+
+(async () => {
+  geo = await d3.json("data/departements.geojson");
+  try { D = await d3.json("data/offres.json"); } catch { D = donneesExemple(geo); }
+  if (D.exemple) {
+    const b = document.getElementById("banner");
+    b.hidden = false;
+    b.textContent = "Données d'exemple : les chiffres affichés sont fictifs. Ils seront remplacés par les offres réelles de France Travail dès la première extraction.";
+  }
+  document.getElementById("footer").innerHTML = D.exemple
+    ? "Source prévue : France Travail, API Offres d'emploi v2."
+    : `Source : ${D.source}. Mise à jour le ${new Date(D.mise_a_jour).toLocaleDateString("fr-FR")}. Contours : <a href="https://github.com/gregoiredavid/france-geojson">france-geojson</a> (IGN/INSEE).`;
+  document.getElementById("q").oninput = e => { state.q = e.target.value; liste(); };
+  rendre();
+})();
+</script>
+</body>
+</html>
