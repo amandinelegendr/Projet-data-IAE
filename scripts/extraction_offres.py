@@ -50,8 +50,12 @@ def lire_jeton():
         "scope": "api_offresdemploiv2 o2dsoffre",
     }).encode()
     requete = urllib.request.Request(URL_JETON, data=corps, headers={"Content-Type": "application/x-www-form-urlencoded"})
-    with urllib.request.urlopen(requete, timeout=30) as reponse:
-        return json.load(reponse)["access_token"]
+    try:
+        with urllib.request.urlopen(requete, timeout=30) as reponse:
+            return json.load(reponse)["access_token"]
+    except urllib.error.HTTPError as erreur:
+        # La réponse explique le refus (ex. invalid_client, invalid_scope) sans contenir d'identifiant
+        sys.exit(f"Jeton refusé par France Travail ({erreur.code}) : {erreur.read().decode(errors='replace')}")
 
 
 def rechercher(jeton, **parametres):
