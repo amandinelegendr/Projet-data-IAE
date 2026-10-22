@@ -12,6 +12,7 @@ Aucune donnée n'est inventée : un champ absent de l'offre reste « non précis
 
 import csv
 import datetime
+import html
 import io
 import json
 import math
@@ -43,6 +44,10 @@ THEMES = [
     ("btp", "Ingénierie BTP", ["F1117"]),
 ]
 THEME_DU_ROME = {rome: cle for cle, _, romes in THEMES for rome in romes}
+
+# Certains codes ROME (H1404 surtout) couvrent aussi des postes d'exécution : on écarte les intitulés hors ingénierie
+HORS_INGENIERIE = re.compile(r"pr[ée]parateur sal[ée]|pizz|vendeu|op[ée]rat(eur|rice|eur/trice)[^,]{0,6} de (production|fabrication)|"
+                             r"agent de fabrication|bac pro|m[ée]canique automobile|installateurs? thermique", re.IGNORECASE)
 
 # Bassins industriels et technologiques : une offre en fait partie si elle est à moins de 30 km d'un des centres
 BASSINS = [
@@ -258,8 +263,9 @@ def categorie(nom, taille_min):
 
 
 def taille_minimum(taille):
-    m = re.match(r"\s*(\d+)", taille or "")
-    return int(m.group(1)) if m else None
+    """Borne basse de la tranche d'effectif : « 10 000 salariés et plus » -> 10000."""
+    m = re.match(r"\s*(\d[\d\s \xa0]*)", taille or "")
+    return int(re.sub(r"\D", "", m.group(1))) if m else None
 
 
 def salaire_annonce(texte):
@@ -318,7 +324,8 @@ def main():
     for o in offres:
         offre, lieu = o.get("offer", {}), (o.get("workplace", {}).get("location") or {})
         theme = next((THEME_DU_ROME[r] for r in offre.get("rome_codes") or [] if r in THEME_DU_ROME), None)
-        if not theme:
+        titre = html.unescape(offre.get("title", ""))
+        if not theme or HORS_INGENIERIE.search(titre):
             continue
         dep, ville = localiser(lieu, polygones)
         if dep not in noms_deps:
@@ -348,8 +355,8 @@ def main():
         resultats.append({
             "id": o.get("identifier", {}).get("id") or o.get("identifier", {}).get("partner_job_id"),
             "source": o.get("identifier", {}).get("partner_label"),
-            "titre": offre.get("title", ""),
-            "entreprise": travail.get("name") or travail.get("legal_name") or "",
+            "titre": titre,
+            "entreprise": html.unescape(travail.get("name") or travail.get("legal_name") or ""),
             "siret": travail.get("siret"),
             "categorie": cat,
             "categorie_methode": methode_cat,
