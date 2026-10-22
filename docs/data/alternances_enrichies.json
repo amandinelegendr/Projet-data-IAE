@@ -344,6 +344,149 @@
  },
  "offres": [
   {
+   "id": "6ad3f11fcc1761c8ae02d84d",
+   "source": "Hellowork",
+   "titre": "Chef de Projet Transverse - Alternance H/F",
+   "entreprise": "CARREFOUR HYPERMARCHES",
+   "siret": "45132133500023",
+   "categorie": "CAC 40",
+   "categorie_methode": "nom",
+   "taille": "10 000 salariés et plus",
+   "taille_min": 10000,
+   "naf": "Activités des sièges sociaux",
+   "idcc": 2216,
+   "convention": "Commerce de détail alimentaire",
+   "theme": "production",
+   "rome": [
+    "H1402"
+   ],
+   "ville": "Massy",
+   "departement": "91",
+   "region": "11",
+   "lat": 48.728133,
+   "lon": 2.269556,
+   "bassin": "Paris / Saclay",
+   "contrat": [
+    "Apprentissage",
+    "Professionnalisation"
+   ],
+   "duree_mois": 24,
+   "niveau": "7",
+   "teletravail": "Non précisé",
+   "salaire_brut_mensuel": 1167,
+   "salaire_source": "minimum légal",
+   "loyer_studio": 573,
+   "pouvoir_achat_ajuste": 594,
+   "score_attractivite": 54.6,
+   "score_detail": {
+    "prestige": 30,
+    "remuneration": 6.7,
+    "missions": 12,
+    "cadre_vie": 5.9
+   },
+   "competences": [
+    "Gestion de projet",
+    "International",
+    "R&D / Innovation"
+   ],
+   "date": "2026-10-17",
+   "url": "https://r.holeest.com/redirect?jd_token=yz51SH&o=1&from=https%3A%2F%2Fwww.hellowork.com%2Ffr-fr%2Femplois%2F84548250.html%3Futm_source%3Dbonnealternance%26utm_medium%3Dmetamoteurs-free%26utm_campaign%3Dalternance%2B-%2Bproduction%26utm_content%3Dfluxbonnealternance%26utm_term%3D84548250"
+  },
+  {
+   "id": "6a7263831e39cbba1ed2a2c2",
+   "source": "Hellowork",
+   "titre": "Animateur Qualité en Alternance H/F",
+   "entreprise": "ARKEMA FRANCE",
+   "siret": "31963279000857",
+   "categorie": "Grand Groupe",
+   "categorie_methode": "nom",
+   "taille": "5 000 à 9 999 salariés",
+   "taille_min": 5000,
+   "naf": "Activités des sièges sociaux",
+   "idcc": 44,
+   "convention": "Chimie",
+   "theme": "qualite",
+   "rome": [
+    "H1524"
+   ],
+   "ville": "Pierre-De-Bresse",
+   "departement": "71",
+   "region": "27",
+   "lat": 46.877955,
+   "lon": 5.252328,
+   "bassin": null,
+   "contrat": [
+    "Apprentissage",
+    "Professionnalisation"
+   ],
+   "duree_mois": 12,
+   "niveau": "7",
+   "teletravail": "Non précisé",
+   "salaire_brut_mensuel": 1167,
+   "salaire_source": "minimum légal",
+   "loyer_studio": 286,
+   "pouvoir_achat_ajuste": 881,
+   "score_attractivite": 53.0,
+   "score_detail": {
+    "prestige": 24.5,
+    "remuneration": 6.7,
+    "missions": 13,
+    "cadre_vie": 8.8
+   },
+   "competences": [
+    "Gestion de projet",
+    "Amélioration continue",
+    "R&D / Innovation",
+    "Management"
+   ],
+   "date": "2026-10-04",
+   "url": "https://r.holeest.com/redirect?jd_token=pKTDOB&o=1&from=https%3A%2F%2Fwww.hellowork.com%2Ffr-fr%2Femplois%2F82027714.html%3Futm_source%3Dbonnealternance%26utm_medium%3Dmetamoteurs-free%26utm_campaign%3Dalternance%2B-%2B%7Bseo_domain%7D%26utm_content%3Dfluxbonnealternance%26utm_term%3D82027714"
+  },
+  {
+   "id": "6ad7e8b1697d75a5c9fd22a7",
+   "source": "France Travail",
+   "titre": "Technicien qualité (H/F)",
+   "entreprise": "MANPOWER FRANCE",
+   "siret": "42995529712201",
+   "categorie": "Grand Groupe",
+   "categorie_methode": "effectif",
+   "taille": "2 000 à 4 999 salariés",
+   "taille_min": 2000,
+   "naf": "Activités des agences de travail temporaire",
+   "idcc": 1090,
+   "convention": "Services de l'automobile",
+   "theme": "qualite",
+   "rome": [
+    "H1528"
+   ],
+   "ville": "Rochefort",
+   "departement": "17",
+   "region": "75",
+   "lat": 45.94403,
+   "lon": -0.967748,
+   "bassin": null,
+   "contrat": [
+    "Professionnalisation"
+   ],
+   "duree_mois": 6,
+   "niveau": null,
+   "teletravail": "Non précisé",
+   "salaire_brut_mensuel": 1458,
+   "salaire_source": "minimum légal",
+   "loyer_studio": 371,
+   "pouvoir_achat_ajuste": 1087,
+   "score_attractivite": 52.7,
+   "score_detail": {
+    "prestige": 23.8,
+    "remuneration": 14.0,
+    "missions": 4,
+    "cadre_vie": 10.9
+   },
+   "competences": [],
+   "date": "2026-10-20",
+   "url": "https://www.manpower.fr/offers/details/1101506979?partenaire=FRANCE_TRAVAIL"
+  },
+  {
    "id": "6abc35232df2835ebd350650",
    "source": "APEC",
    "titre": "Responsable Qualité Sécurité Environnement - Méthodes Produit et Process F/H",
@@ -395,103 +538,281 @@
    "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179474937W?xtor=#at_medium=affiliate&at_campaign=Export_offres_la_bonne_alternance&at_type=partenaire_export"
   },
   {
-   "id": "6ad3f11fcc1761c8ae02d84d",
-   "source": "Hellowork",
-   "titre": "Chef de Projet Transverse - Alternance H/F",
-   "entreprise": "CARREFOUR HYPERMARCHES",
-   "siret": "45132133500023",
+   "id": "6ac41dee1778092e497ef0bf",
+   "source": "RH Alternance",
+   "titre": "Ingénieure / Ingénieur Projet Aéronautique - Alternance",
+   "entreprise": "CAPGEMINI TECHNOLOGY SERVICES",
+   "siret": "47976684200724",
    "categorie": "CAC 40",
    "categorie_methode": "nom",
    "taille": "10 000 salariés et plus",
-   "taille_min": 10,
-   "naf": "Activités des sièges sociaux",
-   "idcc": 2216,
-   "convention": "Commerce de détail alimentaire",
-   "theme": "production",
+   "taille_min": 10000,
+   "naf": "Conseil en systèmes et logiciels informatiques",
+   "idcc": 1486,
+   "convention": "Syntec (bureaux d'études)",
+   "theme": "rd",
    "rome": [
-    "H1402"
+    "H1206"
    ],
-   "ville": "Massy",
-   "departement": "91",
-   "region": "11",
-   "lat": 48.728133,
-   "lon": 2.269556,
-   "bassin": "Paris / Saclay",
+   "ville": "Cornebarrieu",
+   "departement": "31",
+   "region": "76",
+   "lat": 43.649903,
+   "lon": 1.315701,
+   "bassin": "Toulouse",
    "contrat": [
     "Apprentissage",
     "Professionnalisation"
    ],
-   "duree_mois": 24,
-   "niveau": "7",
+   "duree_mois": null,
+   "niveau": null,
    "teletravail": "Non précisé",
    "salaire_brut_mensuel": 1167,
    "salaire_source": "minimum légal",
-   "loyer_studio": 573,
-   "pouvoir_achat_ajuste": 594,
-   "score_attractivite": 50.1,
+   "loyer_studio": 377,
+   "pouvoir_achat_ajuste": 790,
+   "score_attractivite": 48.6,
    "score_detail": {
-    "prestige": 25.5,
+    "prestige": 30,
     "remuneration": 6.7,
-    "missions": 12,
-    "cadre_vie": 5.9
+    "missions": 4,
+    "cadre_vie": 7.9
    },
-   "competences": [
-    "Gestion de projet",
-    "International",
-    "R&D / Innovation"
-   ],
-   "date": "2026-10-17",
-   "url": "https://r.holeest.com/redirect?jd_token=yz51SH&o=1&from=https%3A%2F%2Fwww.hellowork.com%2Ffr-fr%2Femplois%2F84548250.html%3Futm_source%3Dbonnealternance%26utm_medium%3Dmetamoteurs-free%26utm_campaign%3Dalternance%2B-%2Bproduction%26utm_content%3Dfluxbonnealternance%26utm_term%3D84548250"
+   "competences": [],
+   "date": "2026-10-05",
+   "url": "https://rhalternance.com/jobs/batiment-et-travaux-publics-btp/cornebarrieu/ingénieure-ingénieur-projet-aéronautique-alternance-997908480"
   },
   {
-   "id": "6a7263831e39cbba1ed2a2c2",
-   "source": "Hellowork",
-   "titre": "Animateur Qualité en Alternance H/F",
-   "entreprise": "ARKEMA FRANCE",
-   "siret": "31963279000857",
-   "categorie": "Grand Groupe",
+   "id": "6acffb820bdf06aea298239f",
+   "source": "RH Alternance",
+   "titre": "Ingénieure / Ingénieur Projet Aéronautique - Alternance",
+   "entreprise": "CAPGEMINI TECHNOLOGY SERVICES",
+   "siret": "47976684200724",
+   "categorie": "CAC 40",
    "categorie_methode": "nom",
-   "taille": "5 000 à 9 999 salariés",
-   "taille_min": 5,
-   "naf": "Activités des sièges sociaux",
-   "idcc": 44,
-   "convention": "Chimie",
+   "taille": "10 000 salariés et plus",
+   "taille_min": 10000,
+   "naf": "Conseil en systèmes et logiciels informatiques",
+   "idcc": 1486,
+   "convention": "Syntec (bureaux d'études)",
+   "theme": "rd",
+   "rome": [
+    "H1206"
+   ],
+   "ville": "Cornebarrieu",
+   "departement": "31",
+   "region": "76",
+   "lat": 43.649903,
+   "lon": 1.315701,
+   "bassin": "Toulouse",
+   "contrat": [
+    "Apprentissage",
+    "Professionnalisation"
+   ],
+   "duree_mois": null,
+   "niveau": null,
+   "teletravail": "Non précisé",
+   "salaire_brut_mensuel": 1167,
+   "salaire_source": "minimum légal",
+   "loyer_studio": 377,
+   "pouvoir_achat_ajuste": 790,
+   "score_attractivite": 48.6,
+   "score_detail": {
+    "prestige": 30,
+    "remuneration": 6.7,
+    "missions": 4,
+    "cadre_vie": 7.9
+   },
+   "competences": [],
+   "date": "2026-10-14",
+   "url": "https://rhalternance.com/jobs/batiment-et-travaux-publics-btp/cornebarrieu/ingénieure-ingénieur-projet-aéronautique-alternance-811623520"
+  },
+  {
+   "id": "6ab44be368233dbb8f69997c",
+   "source": "RH Alternance",
+   "titre": "ALTERNANCE - Chargé(e) de projets HSE (F/H) - LES MANUFACTURES D'AUVERGNE",
+   "entreprise": "HERMES SELLIER",
+   "siret": "69652041000023",
+   "categorie": "CAC 40",
+   "categorie_methode": "nom",
+   "taille": "2 000 à 4 999 salariés",
+   "taille_min": 2000,
+   "naf": "Fabrication d'articles de voyage, de maroquinerie et de sellerie",
+   "idcc": 2528,
+   "convention": "IDCC 2528",
    "theme": "qualite",
    "rome": [
-    "H1524"
+    "H1302"
    ],
-   "ville": "Pierre-De-Bresse",
+   "ville": "Sayat",
+   "departement": "63",
+   "region": "84",
+   "lat": 45.836372,
+   "lon": 3.044613,
+   "bassin": "Clermont-Ferrand",
+   "contrat": [
+    "Apprentissage",
+    "Professionnalisation"
+   ],
+   "duree_mois": null,
+   "niveau": null,
+   "teletravail": "Non précisé",
+   "salaire_brut_mensuel": 1167,
+   "salaire_source": "minimum légal",
+   "loyer_studio": 320,
+   "pouvoir_achat_ajuste": 847,
+   "score_attractivite": 48.2,
+   "score_detail": {
+    "prestige": 29.0,
+    "remuneration": 6.7,
+    "missions": 4,
+    "cadre_vie": 8.5
+   },
+   "competences": [],
+   "date": "2026-09-22",
+   "url": "https://rhalternance.com/jobs/informatique-internet-et-telecommunication/sayat/alternance-chargé-e-de-projets-hse-f-h-les-manufactures-d-auvergne-982014924"
+  },
+  {
+   "id": "6acfa885eb1fb948b46abb2d",
+   "source": "Direct Emploi",
+   "titre": "Alternance - Conducteur.trice travaux/Pilote de contrat F/H",
+   "entreprise": "ELECTRICITE DE FRANCE",
+   "siret": "55208131766522",
+   "categorie": "Grand Groupe",
+   "categorie_methode": "nom",
+   "taille": "10 000 salariés et plus",
+   "taille_min": 10000,
+   "naf": "Production d'électricité",
+   "idcc": 5001,
+   "convention": "IDCC 5001",
+   "theme": "btp",
+   "rome": [
+    "F1117"
+   ],
+   "ville": "Fragnes-La Loyère",
    "departement": "71",
    "region": "27",
-   "lat": 46.877955,
-   "lon": 5.252328,
+   "lat": 46.831753,
+   "lon": 4.840327,
    "bassin": null,
+   "contrat": [
+    "Apprentissage",
+    "Professionnalisation"
+   ],
+   "duree_mois": null,
+   "niveau": null,
+   "teletravail": "Non précisé",
+   "salaire_brut_mensuel": 1167,
+   "salaire_source": "minimum légal",
+   "loyer_studio": 261,
+   "pouvoir_achat_ajuste": 906,
+   "score_attractivite": 47.8,
+   "score_detail": {
+    "prestige": 25,
+    "remuneration": 6.7,
+    "missions": 7,
+    "cadre_vie": 9.1
+   },
+   "competences": [
+    "Gestion de projet"
+   ],
+   "date": "2026-10-14",
+   "url": "https://www.directemploi.com/candidatOffre/55822155?utm_source=labonnealternance&utm_medium=referral&utm_campaign=La-bonne-alternance"
+  },
+  {
+   "id": "6acffb820bdf06aea298239b",
+   "source": "RH Alternance",
+   "titre": "Développeuse / Développeur logiciel - Alternance",
+   "entreprise": "CAPGEMINI TECHNOLOGY SERVICES",
+   "siret": "47976684200724",
+   "categorie": "CAC 40",
+   "categorie_methode": "nom",
+   "taille": "10 000 salariés et plus",
+   "taille_min": 10000,
+   "naf": "Conseil en systèmes et logiciels informatiques",
+   "idcc": 1486,
+   "convention": "Syntec (bureaux d'études)",
+   "theme": "data",
+   "rome": [
+    "M1805"
+   ],
+   "ville": "Lyon 7E Arrondissement",
+   "departement": "69",
+   "region": "84",
+   "lat": 45.733631,
+   "lon": 4.840586,
+   "bassin": "Lyon",
+   "contrat": [
+    "Apprentissage",
+    "Professionnalisation"
+   ],
+   "duree_mois": null,
+   "niveau": null,
+   "teletravail": "Non précisé",
+   "salaire_brut_mensuel": 1167,
+   "salaire_source": "minimum légal",
+   "loyer_studio": 454,
+   "pouvoir_achat_ajuste": 713,
+   "score_attractivite": 47.8,
+   "score_detail": {
+    "prestige": 30,
+    "remuneration": 6.7,
+    "missions": 4,
+    "cadre_vie": 7.1
+   },
+   "competences": [],
+   "date": "2026-10-14",
+   "url": "https://rhalternance.com/jobs/informatique-internet-et-telecommunication/lyon/développeuse-développeur-logiciel-alternance-936255857"
+  },
+  {
+   "id": "6aa8faa11734e71a67c7c26e",
+   "source": "iquesta",
+   "titre": "Alternance - Technicien Projeteur / Technicienne Projeteuse BIM CVC - Lyon",
+   "entreprise": "ARTELIA",
+   "siret": "44452352600804",
+   "categorie": "Grand Groupe",
+   "categorie_methode": "nom",
+   "taille": "2 000 à 4 999 salariés",
+   "taille_min": 2000,
+   "naf": "Activités des sièges sociaux",
+   "idcc": 1486,
+   "convention": "Syntec (bureaux d'études)",
+   "theme": "btp",
+   "rome": [
+    "F1117"
+   ],
+   "ville": "Saint-Ouen-Sur-Seine",
+   "departement": "93",
+   "region": "11",
+   "lat": 48.911696,
+   "lon": 2.33334,
+   "bassin": "Paris / Saclay",
    "contrat": [
     "Apprentissage",
     "Professionnalisation"
    ],
    "duree_mois": 12,
    "niveau": "7",
-   "teletravail": "Non précisé",
+   "teletravail": "Présentiel",
    "salaire_brut_mensuel": 1167,
    "salaire_source": "minimum légal",
-   "loyer_studio": 286,
-   "pouvoir_achat_ajuste": 881,
-   "score_attractivite": 47.7,
+   "loyer_studio": 639,
+   "pouvoir_achat_ajuste": 528,
+   "score_attractivite": 47.8,
    "score_detail": {
-    "prestige": 19.2,
+    "prestige": 23.8,
     "remuneration": 6.7,
-    "missions": 13,
-    "cadre_vie": 8.8
+    "missions": 14,
+    "cadre_vie": 3.3
    },
    "competences": [
     "Gestion de projet",
-    "Amélioration continue",
-    "R&D / Innovation",
+    "International",
+    "CAO",
     "Management"
    ],
-   "date": "2026-10-04",
-   "url": "https://r.holeest.com/redirect?jd_token=pKTDOB&o=1&from=https%3A%2F%2Fwww.hellowork.com%2Ffr-fr%2Femplois%2F82027714.html%3Futm_source%3Dbonnealternance%26utm_medium%3Dmetamoteurs-free%26utm_campaign%3Dalternance%2B-%2B%7Bseo_domain%7D%26utm_content%3Dfluxbonnealternance%26utm_term%3D82027714"
+   "date": "2026-09-15",
+   "url": "https://www.iquesta.com/offer/index/346882"
   },
   {
    "id": "6ab5a2427caaafd3f597830e",
@@ -588,6 +909,292 @@
    "url": "https://www.leboncoin.fr/offres_d_emploi/3237913612.htm"
   },
   {
+   "id": "6ad87e4604d39aae9b877f67",
+   "source": "Veritone",
+   "titre": "Ingénieur Méthodes F/H",
+   "entreprise": "IDEX ENERGIES",
+   "siret": "31587164001769",
+   "categorie": "Grand Groupe",
+   "categorie_methode": "effectif",
+   "taille": "2 000 à 4 999 salariés",
+   "taille_min": 2000,
+   "naf": "Production d'électricité",
+   "idcc": 998,
+   "convention": "IDCC 998",
+   "theme": "production",
+   "rome": [
+    "H1402"
+   ],
+   "ville": "Bouguenais",
+   "departement": "44",
+   "region": "52",
+   "lat": 47.169966,
+   "lon": -1.615103,
+   "bassin": "Nantes / Saint-Nazaire",
+   "contrat": [
+    "Apprentissage",
+    "Professionnalisation"
+   ],
+   "duree_mois": 0,
+   "niveau": null,
+   "teletravail": "Non précisé",
+   "salaire_brut_mensuel": 1167,
+   "salaire_source": "minimum légal",
+   "loyer_studio": 401,
+   "pouvoir_achat_ajuste": 766,
+   "score_attractivite": 47.2,
+   "score_detail": {
+    "prestige": 23.8,
+    "remuneration": 6.7,
+    "missions": 9,
+    "cadre_vie": 7.7
+   },
+   "competences": [
+    "Gestion de projet",
+    "Amélioration continue"
+   ],
+   "date": "2026-10-21",
+   "url": "https://www.aplitrak.com/?adid=SW5lcy5CZXJ0aGF1bHQuMTAyNDguMTM2ODBAaWRleGZyLmFwbGl0cmFrLmNvbQ"
+  },
+  {
+   "id": "6ab44dcb68233dbb8f6a0886",
+   "source": "ATS_Hellowork",
+   "titre": "Apprenti(e) QHSE",
+   "entreprise": "ENTREPRISE GUY CHALLANCIN",
+   "siret": "57205383300107",
+   "categorie": "Grand Groupe",
+   "categorie_methode": "effectif",
+   "taille": "5 000 à 9 999 salariés",
+   "taille_min": 5000,
+   "naf": "Nettoyage courant des bâtiments",
+   "idcc": 538,
+   "convention": "IDCC 538",
+   "theme": "qualite",
+   "rome": [
+    "F1204"
+   ],
+   "ville": "Sochaux",
+   "departement": "25",
+   "region": "27",
+   "lat": 47.515475,
+   "lon": 6.828345,
+   "bassin": null,
+   "contrat": [
+    "Apprentissage",
+    "Professionnalisation"
+   ],
+   "duree_mois": null,
+   "niveau": null,
+   "teletravail": "Non précisé",
+   "salaire_brut_mensuel": 1167,
+   "salaire_source": "minimum légal",
+   "loyer_studio": 305,
+   "pouvoir_achat_ajuste": 862,
+   "score_attractivite": 46.8,
+   "score_detail": {
+    "prestige": 24.5,
+    "remuneration": 6.7,
+    "missions": 7,
+    "cadre_vie": 8.6
+   },
+   "competences": [
+    "Gestion de projet"
+   ],
+   "date": "2026-09-22",
+   "url": "https://labonnealternance.apprentissage.beta.gouv.fr/emploi/offres_emploi_partenaires/6ab44dcb68233dbb8f6a0886/apprenti-e-qhse"
+  },
+  {
+   "id": "6aab12ad9dceff7dd4b9efac",
+   "source": "Hellowork",
+   "titre": "Alternance Master Pitet Services d'Exploitations Eau et Assainissement H/F",
+   "entreprise": "VEOLIA EAU - COMPAGNIE GENERALE DES EAUX",
+   "siret": "57202552610945",
+   "categorie": "CAC 40",
+   "categorie_methode": "nom",
+   "taille": "5 000 à 9 999 salariés",
+   "taille_min": 5000,
+   "naf": "Captage, traitement et distribution d'eau",
+   "idcc": null,
+   "convention": null,
+   "theme": "qualite",
+   "rome": [
+    "H1302"
+   ],
+   "ville": "Château-Thierry",
+   "departement": "02",
+   "region": "32",
+   "lat": 49.050003,
+   "lon": 3.383835,
+   "bassin": null,
+   "contrat": [
+    "Apprentissage",
+    "Professionnalisation"
+   ],
+   "duree_mois": null,
+   "niveau": "6",
+   "teletravail": "Présentiel",
+   "salaire_brut_mensuel": 1039,
+   "salaire_source": "minimum légal",
+   "loyer_studio": 376,
+   "pouvoir_achat_ajuste": 663,
+   "score_attractivite": 46.6,
+   "score_detail": {
+    "prestige": 29.5,
+    "remuneration": 3.5,
+    "missions": 9,
+    "cadre_vie": 4.6
+   },
+   "competences": [
+    "Gestion de projet",
+    "Management"
+   ],
+   "date": "2026-10-18",
+   "url": "https://r.holeest.com/redirect?jd_token=pJbIgk&o=1&from=https%3A%2F%2Fwww.hellowork.com%2Ffr-fr%2Femplois%2F79105337.html%3Futm_source%3Dbonnealternance%26utm_medium%3Dmetamoteurs-free%26utm_campaign%3Dalternance%2B-%2Benvironnement%26utm_content%3Dfluxbonnealternance%26utm_term%3D79105337"
+  },
+  {
+   "id": "6abd880fd46e986892b9e217",
+   "source": "Hellowork",
+   "titre": "Technicien Préparateur en Alternance H/F",
+   "entreprise": "KILOUTOU",
+   "siret": "31768606105166",
+   "categorie": "Grand Groupe",
+   "categorie_methode": "effectif",
+   "taille": "2 000 à 4 999 salariés",
+   "taille_min": 2000,
+   "naf": "Location et location-bail d'autres biens personnels et domestiques",
+   "idcc": 1606,
+   "convention": "IDCC 1606",
+   "theme": "production",
+   "rome": [
+    "H1404"
+   ],
+   "ville": "Périgueux",
+   "departement": "24",
+   "region": "75",
+   "lat": 45.19334,
+   "lon": 0.711299,
+   "bassin": null,
+   "contrat": [
+    "Apprentissage",
+    "Professionnalisation"
+   ],
+   "duree_mois": null,
+   "niveau": "3",
+   "teletravail": "Non précisé",
+   "salaire_brut_mensuel": 1167,
+   "salaire_source": "minimum légal",
+   "loyer_studio": 357,
+   "pouvoir_achat_ajuste": 810,
+   "score_attractivite": 46.6,
+   "score_detail": {
+    "prestige": 23.8,
+    "remuneration": 6.7,
+    "missions": 8,
+    "cadre_vie": 8.1
+   },
+   "competences": [
+    "R&D / Innovation",
+    "Management"
+   ],
+   "date": "2026-09-29",
+   "url": "https://r.holeest.com/redirect?jd_token=qwwhVz&o=1&from=https%3A%2F%2Fwww.hellowork.com%2Ffr-fr%2Femplois%2F83900257.html%3Futm_source%3Dbonnealternance%26utm_medium%3Dmetamoteurs-free%26utm_campaign%3Dalternance%2B-%2Bindustrie%252Cagroalimentaire%26utm_content%3Dfluxbonnealternance%26utm_term%3D83900257"
+  },
+  {
+   "id": "6ad29fb675ec98a5c1145227",
+   "source": "Hellowork",
+   "titre": "Alternance QSE H/F",
+   "entreprise": "VEOLIA EAU - COMPAGNIE GENERALE DES EAUX",
+   "siret": "57202552610945",
+   "categorie": "CAC 40",
+   "categorie_methode": "nom",
+   "taille": "5 000 à 9 999 salariés",
+   "taille_min": 5000,
+   "naf": "Captage, traitement et distribution d'eau",
+   "idcc": null,
+   "convention": null,
+   "theme": "qualite",
+   "rome": [
+    "H1302"
+   ],
+   "ville": "Antibes",
+   "departement": "06",
+   "region": "93",
+   "lat": 43.582206,
+   "lon": 7.103245,
+   "bassin": "Nice / Sophia-Antipolis",
+   "contrat": [
+    "Apprentissage",
+    "Professionnalisation"
+   ],
+   "duree_mois": null,
+   "niveau": "7",
+   "teletravail": "Présentiel",
+   "salaire_brut_mensuel": 1167,
+   "salaire_source": "minimum légal",
+   "loyer_studio": 569,
+   "pouvoir_achat_ajuste": 598,
+   "score_attractivite": 46.2,
+   "score_detail": {
+    "prestige": 29.5,
+    "remuneration": 6.7,
+    "missions": 6,
+    "cadre_vie": 4.0
+   },
+   "competences": [
+    "R&D / Innovation"
+   ],
+   "date": "2026-10-16",
+   "url": "https://r.holeest.com/redirect?jd_token=yb9NaY&o=1&from=https%3A%2F%2Fwww.hellowork.com%2Ffr-fr%2Femplois%2F84523778.html%3Futm_source%3Dbonnealternance%26utm_medium%3Dmetamoteurs-free%26utm_campaign%3Dalternance%2B-%2B%7Bseo_domain%7D%26utm_content%3Dfluxbonnealternance%26utm_term%3D84523778"
+  },
+  {
+   "id": "6ad88b5904d39aae9b878ed3",
+   "source": "Veritone",
+   "titre": "Technicien d'études F/H",
+   "entreprise": "IDEX ENERGIES",
+   "siret": "31587164001769",
+   "categorie": "Grand Groupe",
+   "categorie_methode": "effectif",
+   "taille": "2 000 à 4 999 salariés",
+   "taille_min": 2000,
+   "naf": "Production d'électricité",
+   "idcc": 998,
+   "convention": "IDCC 998",
+   "theme": "btp",
+   "rome": [
+    "F1117"
+   ],
+   "ville": "Nantes",
+   "departement": "44",
+   "region": "52",
+   "lat": 47.257683,
+   "lon": -1.529492,
+   "bassin": "Nantes / Saint-Nazaire",
+   "contrat": [
+    "Apprentissage",
+    "Professionnalisation"
+   ],
+   "duree_mois": 0,
+   "niveau": null,
+   "teletravail": "Non précisé",
+   "salaire_brut_mensuel": 1167,
+   "salaire_source": "minimum légal",
+   "loyer_studio": 414,
+   "pouvoir_achat_ajuste": 753,
+   "score_attractivite": 46.0,
+   "score_detail": {
+    "prestige": 23.8,
+    "remuneration": 6.7,
+    "missions": 8,
+    "cadre_vie": 7.5
+   },
+   "competences": [
+    "CAO",
+    "Automatisme"
+   ],
+   "date": "2026-10-21",
+   "url": "https://www.aplitrak.com/?adid=SW5lcy5CZXJ0aGF1bHQuNTAxMzUuMTM2ODBAaWRleGZyLmFwbGl0cmFrLmNvbQ"
+  },
+  {
    "id": "6ad69728e2d92300cfde6971",
    "source": "France Travail",
    "titre": "ALTERNANT(E) QUALITÉ (H/F)",
@@ -636,6 +1243,53 @@
    "url": "https://candidat.francetravail.fr/offres/recherche/detail/215KBMH"
   },
   {
+   "id": "6acfa77622ce23a2ad44433e",
+   "source": "Direct Emploi",
+   "titre": "Ingénieur d'Etudes en alternance - Toulouse H/F",
+   "entreprise": "ELECTRICITE DE FRANCE",
+   "siret": "55208131766522",
+   "categorie": "Grand Groupe",
+   "categorie_methode": "nom",
+   "taille": "10 000 salariés et plus",
+   "taille_min": 10000,
+   "naf": "Production d'électricité",
+   "idcc": 5001,
+   "convention": "IDCC 5001",
+   "theme": "btp",
+   "rome": [
+    "F1117"
+   ],
+   "ville": "Toulouse",
+   "departement": "31",
+   "region": "76",
+   "lat": 43.604082,
+   "lon": 1.433805,
+   "bassin": "Toulouse",
+   "contrat": [
+    "Apprentissage",
+    "Professionnalisation"
+   ],
+   "duree_mois": null,
+   "niveau": null,
+   "teletravail": "Non précisé",
+   "salaire_brut_mensuel": 1167,
+   "salaire_source": "minimum légal",
+   "loyer_studio": 408,
+   "pouvoir_achat_ajuste": 759,
+   "score_attractivite": 45.3,
+   "score_detail": {
+    "prestige": 25,
+    "remuneration": 6.7,
+    "missions": 6,
+    "cadre_vie": 7.6
+   },
+   "competences": [
+    "Amélioration continue"
+   ],
+   "date": "2026-10-14",
+   "url": "https://www.directemploi.com/candidatOffre/54491560?utm_source=labonnealternance&utm_medium=referral&utm_campaign=La-bonne-alternance"
+  },
+  {
    "id": "6a346e487f27726a04970c65",
    "source": "Hellowork",
    "titre": "Animateur Qualité Prévention Environnement en Alternance H/F",
@@ -682,53 +1336,6 @@
    ],
    "date": "2026-10-15",
    "url": "https://r.holeest.com/redirect?jd_token=pJ2wyb&o=1&from=https%3A%2F%2Fwww.hellowork.com%2Ffr-fr%2Femplois%2F80185959.html%3Futm_source%3Dbonnealternance%26utm_medium%3Dmetamoteurs-free%26utm_campaign%3Dalternance%2B-%2B%7Bseo_domain%7D%26utm_content%3Dfluxbonnealternance%26utm_term%3D80185959"
-  },
-  {
-   "id": "6a877b3241552768b60d3c19",
-   "source": "Hellowork",
-   "titre": "Apprenti Bac Pro Mécanique Automobiles H/F",
-   "entreprise": "RENAULT SAS",
-   "siret": "78012998703591",
-   "categorie": "CAC 40",
-   "categorie_methode": "nom",
-   "taille": "10 000 salariés et plus",
-   "taille_min": 10,
-   "naf": "Construction de véhicules automobiles",
-   "idcc": 54,
-   "convention": "IDCC 54",
-   "theme": "rd",
-   "rome": [
-    "H1206"
-   ],
-   "ville": "Gignac-La-Nerthe",
-   "departement": "13",
-   "region": "93",
-   "lat": 43.390716,
-   "lon": 5.233885,
-   "bassin": "Aix-Marseille",
-   "contrat": [
-    "Apprentissage",
-    "Professionnalisation"
-   ],
-   "duree_mois": 36,
-   "niveau": "7",
-   "teletravail": "Non précisé",
-   "salaire_brut_mensuel": 1167,
-   "salaire_source": "minimum légal",
-   "loyer_studio": 480,
-   "pouvoir_achat_ajuste": 687,
-   "score_attractivite": 45.1,
-   "score_detail": {
-    "prestige": 25.5,
-    "remuneration": 6.7,
-    "missions": 6,
-    "cadre_vie": 6.9
-   },
-   "competences": [
-    "R&D / Innovation"
-   ],
-   "date": "2026-10-19",
-   "url": "https://r.holeest.com/redirect?jd_token=pJ64MC&o=1&from=https%3A%2F%2Fwww.hellowork.com%2Ffr-fr%2Femplois%2F82503279.html%3Futm_source%3Dbonnealternance%26utm_medium%3Dmetamoteurs-free%26utm_campaign%3Dalternance%2B-%2Bautomobile%26utm_content%3Dfluxbonnealternance%26utm_term%3D82503279"
   },
   {
    "id": "69d979335f615d8918dbc3f7",
@@ -829,325 +1436,150 @@
    "url": "https://careers.werecruit.io/fr/sileane/offres/alternance---charge-dachats-industriels-4fb84f?utm_source=francetravail&utm_medium=job-board"
   },
   {
-   "id": "6ac41dee1778092e497ef0bf",
-   "source": "RH Alternance",
-   "titre": "Ingénieure / Ingénieur Projet Aéronautique - Alternance",
-   "entreprise": "CAPGEMINI TECHNOLOGY SERVICES",
-   "siret": "47976684200724",
-   "categorie": "CAC 40",
-   "categorie_methode": "nom",
-   "taille": "10 000 salariés et plus",
-   "taille_min": 10,
-   "naf": "Conseil en systèmes et logiciels informatiques",
-   "idcc": 1486,
-   "convention": "Syntec (bureaux d'études)",
-   "theme": "rd",
-   "rome": [
-    "H1206"
-   ],
-   "ville": "Cornebarrieu",
-   "departement": "31",
-   "region": "76",
-   "lat": 43.649903,
-   "lon": 1.315701,
-   "bassin": "Toulouse",
-   "contrat": [
-    "Apprentissage",
-    "Professionnalisation"
-   ],
-   "duree_mois": null,
-   "niveau": null,
-   "teletravail": "Non précisé",
-   "salaire_brut_mensuel": 1167,
-   "salaire_source": "minimum légal",
-   "loyer_studio": 377,
-   "pouvoir_achat_ajuste": 790,
-   "score_attractivite": 44.1,
-   "score_detail": {
-    "prestige": 25.5,
-    "remuneration": 6.7,
-    "missions": 4,
-    "cadre_vie": 7.9
-   },
-   "competences": [],
-   "date": "2026-10-05",
-   "url": "https://rhalternance.com/jobs/batiment-et-travaux-publics-btp/cornebarrieu/ingénieure-ingénieur-projet-aéronautique-alternance-997908480"
-  },
-  {
-   "id": "6acffb820bdf06aea298239f",
-   "source": "RH Alternance",
-   "titre": "Ingénieure / Ingénieur Projet Aéronautique - Alternance",
-   "entreprise": "CAPGEMINI TECHNOLOGY SERVICES",
-   "siret": "47976684200724",
-   "categorie": "CAC 40",
-   "categorie_methode": "nom",
-   "taille": "10 000 salariés et plus",
-   "taille_min": 10,
-   "naf": "Conseil en systèmes et logiciels informatiques",
-   "idcc": 1486,
-   "convention": "Syntec (bureaux d'études)",
-   "theme": "rd",
-   "rome": [
-    "H1206"
-   ],
-   "ville": "Cornebarrieu",
-   "departement": "31",
-   "region": "76",
-   "lat": 43.649903,
-   "lon": 1.315701,
-   "bassin": "Toulouse",
-   "contrat": [
-    "Apprentissage",
-    "Professionnalisation"
-   ],
-   "duree_mois": null,
-   "niveau": null,
-   "teletravail": "Non précisé",
-   "salaire_brut_mensuel": 1167,
-   "salaire_source": "minimum légal",
-   "loyer_studio": 377,
-   "pouvoir_achat_ajuste": 790,
-   "score_attractivite": 44.1,
-   "score_detail": {
-    "prestige": 25.5,
-    "remuneration": 6.7,
-    "missions": 4,
-    "cadre_vie": 7.9
-   },
-   "competences": [],
-   "date": "2026-10-14",
-   "url": "https://rhalternance.com/jobs/batiment-et-travaux-publics-btp/cornebarrieu/ingénieure-ingénieur-projet-aéronautique-alternance-811623520"
-  },
-  {
-   "id": "6ab44be368233dbb8f69997c",
-   "source": "RH Alternance",
-   "titre": "ALTERNANCE - Chargé(e) de projets HSE (F/H) - LES MANUFACTURES D'AUVERGNE",
-   "entreprise": "HERMES SELLIER",
-   "siret": "69652041000023",
-   "categorie": "CAC 40",
-   "categorie_methode": "nom",
+   "id": "6ac813ea9b5d06564c4684f3",
+   "source": "Hellowork",
+   "titre": "Technicien Support de Proximité en Alternance H/F",
+   "entreprise": "EXPERIS FRANCE",
+   "siret": "39402693400536",
+   "categorie": "Grand Groupe",
+   "categorie_methode": "effectif",
    "taille": "2 000 à 4 999 salariés",
-   "taille_min": 2,
-   "naf": "Fabrication d'articles de voyage, de maroquinerie et de sellerie",
-   "idcc": 2528,
-   "convention": "IDCC 2528",
-   "theme": "qualite",
-   "rome": [
-    "H1302"
-   ],
-   "ville": "Sayat",
-   "departement": "63",
-   "region": "84",
-   "lat": 45.836372,
-   "lon": 3.044613,
-   "bassin": "Clermont-Ferrand",
-   "contrat": [
-    "Apprentissage",
-    "Professionnalisation"
-   ],
-   "duree_mois": null,
-   "niveau": null,
-   "teletravail": "Non précisé",
-   "salaire_brut_mensuel": 1167,
-   "salaire_source": "minimum légal",
-   "loyer_studio": 320,
-   "pouvoir_achat_ajuste": 847,
-   "score_attractivite": 43.7,
-   "score_detail": {
-    "prestige": 24.5,
-    "remuneration": 6.7,
-    "missions": 4,
-    "cadre_vie": 8.5
-   },
-   "competences": [],
-   "date": "2026-09-22",
-   "url": "https://rhalternance.com/jobs/informatique-internet-et-telecommunication/sayat/alternance-chargé-e-de-projets-hse-f-h-les-manufactures-d-auvergne-982014924"
-  },
-  {
-   "id": "6acffb820bdf06aea298239b",
-   "source": "RH Alternance",
-   "titre": "Développeuse / Développeur logiciel - Alternance",
-   "entreprise": "CAPGEMINI TECHNOLOGY SERVICES",
-   "siret": "47976684200724",
-   "categorie": "CAC 40",
-   "categorie_methode": "nom",
-   "taille": "10 000 salariés et plus",
-   "taille_min": 10,
-   "naf": "Conseil en systèmes et logiciels informatiques",
+   "taille_min": 2000,
+   "naf": "Gestion d'installations informatiques",
    "idcc": 1486,
    "convention": "Syntec (bureaux d'études)",
    "theme": "data",
    "rome": [
-    "M1805"
+    "M1810"
    ],
-   "ville": "Lyon 7E Arrondissement",
-   "departement": "69",
-   "region": "84",
-   "lat": 45.733631,
-   "lon": 4.840586,
-   "bassin": "Lyon",
+   "ville": "Cherbourg-En-Cotentin",
+   "departement": "50",
+   "region": "28",
+   "lat": 49.628684,
+   "lon": -1.626864,
+   "bassin": null,
    "contrat": [
     "Apprentissage",
     "Professionnalisation"
    ],
    "duree_mois": null,
-   "niveau": null,
+   "niveau": "3",
+   "teletravail": "Présentiel",
+   "salaire_brut_mensuel": 1167,
+   "salaire_source": "minimum légal",
+   "loyer_studio": 355,
+   "pouvoir_achat_ajuste": 812,
+   "score_attractivite": 44.6,
+   "score_detail": {
+    "prestige": 23.8,
+    "remuneration": 6.7,
+    "missions": 8,
+    "cadre_vie": 6.1
+   },
+   "competences": [
+    "R&D / Innovation",
+    "Management"
+   ],
+   "date": "2026-10-08",
+   "url": "https://r.holeest.com/redirect?jd_token=uBETXC&o=1&from=https%3A%2F%2Fwww.hellowork.com%2Ffr-fr%2Femplois%2F84212213.html%3Futm_source%3Dbonnealternance%26utm_medium%3Dmetamoteurs-free%26utm_campaign%3Dalternance%2B-%2Binformatique%26utm_content%3Dfluxbonnealternance%26utm_term%3D84212213"
+  },
+  {
+   "id": "6a5e9da59e972c0713e4a2fd",
+   "source": "Hellowork",
+   "titre": "Alternance - Chargé de Pilotage et Reporting H/F",
+   "entreprise": "ASSOCIATION DE PROTECTION SOCIALE DU BATIMENT ET DES TRAVAUX PUBLICS PRO BTP",
+   "siret": "39416496600019",
+   "categorie": "Grand Groupe",
+   "categorie_methode": "effectif",
+   "taille": "2 000 à 4 999 salariés",
+   "taille_min": 2000,
+   "naf": "Autre mise à disposition de ressources humaines",
+   "idcc": 2511,
+   "convention": "IDCC 2511",
+   "theme": "supply",
+   "rome": [
+    "H1401"
+   ],
+   "ville": "Vanves",
+   "departement": "92",
+   "region": "11",
+   "lat": 48.820966,
+   "lon": 2.286369,
+   "bassin": "Paris / Saclay",
+   "contrat": [
+    "Apprentissage",
+    "Professionnalisation"
+   ],
+   "duree_mois": null,
+   "niveau": "6",
+   "teletravail": "Non précisé",
+   "salaire_brut_mensuel": 1039,
+   "salaire_source": "minimum légal",
+   "loyer_studio": 706,
+   "pouvoir_achat_ajuste": 333,
+   "score_attractivite": 44.3,
+   "score_detail": {
+    "prestige": 23.8,
+    "remuneration": 3.5,
+    "missions": 13,
+    "cadre_vie": 4
+   },
+   "competences": [
+    "Gestion de projet",
+    "Data / IA",
+    "R&D / Innovation",
+    "Management"
+   ],
+   "date": "2026-10-19",
+   "url": "https://r.holeest.com/redirect?jd_token=z4Bqbq&o=1&from=https%3A%2F%2Fwww.hellowork.com%2Ffr-fr%2Femplois%2F81466559.html%3Futm_source%3Dbonnealternance%26utm_medium%3Dmetamoteurs-free%26utm_campaign%3Dalternance%2B-%2Bproduction%26utm_content%3Dfluxbonnealternance%26utm_term%3D81466559"
+  },
+  {
+   "id": "6ac02a8f0d871689a663b028",
+   "source": "Hellowork",
+   "titre": "Alternant Ingénieur Méthodes & Process H/F",
+   "entreprise": "ONET SERVICES",
+   "siret": "06780042503681",
+   "categorie": "Grand Groupe",
+   "categorie_methode": "effectif",
+   "taille": "10 000 salariés et plus",
+   "taille_min": 10000,
+   "naf": "Nettoyage courant des bâtiments",
+   "idcc": null,
+   "convention": null,
+   "theme": "production",
+   "rome": [
+    "H1402"
+   ],
+   "ville": "Courbevoie",
+   "departement": "92",
+   "region": "11",
+   "lat": 48.897974,
+   "lon": 2.257057,
+   "bassin": "Paris / Saclay",
+   "contrat": [
+    "Apprentissage",
+    "Professionnalisation"
+   ],
+   "duree_mois": null,
+   "niveau": "7",
    "teletravail": "Non précisé",
    "salaire_brut_mensuel": 1167,
    "salaire_source": "minimum légal",
-   "loyer_studio": 454,
-   "pouvoir_achat_ajuste": 713,
-   "score_attractivite": 43.3,
+   "loyer_studio": 764,
+   "pouvoir_achat_ajuste": 403,
+   "score_attractivite": 43.7,
    "score_detail": {
-    "prestige": 25.5,
+    "prestige": 25,
     "remuneration": 6.7,
-    "missions": 4,
-    "cadre_vie": 7.1
-   },
-   "competences": [],
-   "date": "2026-10-14",
-   "url": "https://rhalternance.com/jobs/informatique-internet-et-telecommunication/lyon/développeuse-développeur-logiciel-alternance-936255857"
-  },
-  {
-   "id": "6a90b5b3e075d4e1ad8178fa",
-   "source": "Hellowork",
-   "titre": "Apprenti Préparateur Salé &amp; Sucré - Contrat d'Apprentissage H/F",
-   "entreprise": "SLFAMILY",
-   "siret": "79491190900024",
-   "categorie": "ETI / PME",
-   "categorie_methode": "nom",
-   "taille": "250 à 499 salariés",
-   "taille_min": 250,
-   "naf": "Boulangerie et boulangerie-pâtisserie",
-   "idcc": null,
-   "convention": null,
-   "theme": "production",
-   "rome": [
-    "H1404"
-   ],
-   "ville": "Ruoms",
-   "departement": "07",
-   "region": "84",
-   "lat": 44.450406,
-   "lon": 4.349541,
-   "bassin": null,
-   "contrat": [
-    "Apprentissage",
-    "Professionnalisation"
-   ],
-   "duree_mois": null,
-   "niveau": "5",
-   "teletravail": "Présentiel",
-   "salaire_brut_mensuel": 1456,
-   "salaire_source": "annoncé",
-   "loyer_studio": 325,
-   "pouvoir_achat_ajuste": 1131,
-   "score_attractivite": 43.2,
-   "score_detail": {
-    "prestige": 14.0,
-    "remuneration": 13.9,
-    "missions": 6,
-    "cadre_vie": 9.3
+    "missions": 8,
+    "cadre_vie": 4.0
    },
    "competences": [
-    "R&D / Innovation"
+    "Amélioration continue",
+    "Management"
    ],
-   "date": "2026-09-26",
-   "url": "https://r.holeest.com/redirect?jd_token=pJ8B7c&o=1&from=https%3A%2F%2Fwww.hellowork.com%2Ffr-fr%2Femplois%2F82746179.html%3Futm_source%3Dbonnealternance%26utm_medium%3Dmetamoteurs-free%26utm_campaign%3Dalternance%2B-%2B%7Bseo_domain%7D%26utm_content%3Dfluxbonnealternance%26utm_term%3D82746179"
-  },
-  {
-   "id": "6abd8807d46e986892b9e068",
-   "source": "Hellowork",
-   "titre": "Apprenti Préparateur Salé &amp; Sucré H/F",
-   "entreprise": "SLFAMILY",
-   "siret": "79491190900024",
-   "categorie": "ETI / PME",
-   "categorie_methode": "nom",
-   "taille": "250 à 499 salariés",
-   "taille_min": 250,
-   "naf": "Boulangerie et boulangerie-pâtisserie",
-   "idcc": null,
-   "convention": null,
-   "theme": "production",
-   "rome": [
-    "H1404"
-   ],
-   "ville": "Coulogne",
-   "departement": "62",
-   "region": "32",
-   "lat": 50.913785,
-   "lon": 1.884798,
-   "bassin": null,
-   "contrat": [
-    "Apprentissage",
-    "Professionnalisation"
-   ],
-   "duree_mois": null,
-   "niveau": "3",
-   "teletravail": "Présentiel",
-   "salaire_brut_mensuel": 1456,
-   "salaire_source": "annoncé",
-   "loyer_studio": 322,
-   "pouvoir_achat_ajuste": 1134,
-   "score_attractivite": 43.2,
-   "score_detail": {
-    "prestige": 14.0,
-    "remuneration": 13.9,
-    "missions": 6,
-    "cadre_vie": 9.3
-   },
-   "competences": [
-    "R&D / Innovation"
-   ],
-   "date": "2026-09-29",
-   "url": "https://r.holeest.com/redirect?jd_token=qI4lfB&o=1&from=https%3A%2F%2Fwww.hellowork.com%2Ffr-fr%2Femplois%2F83914720.html%3Futm_source%3Dbonnealternance%26utm_medium%3Dmetamoteurs-free%26utm_campaign%3Dalternance%2B-%2B%7Bseo_domain%7D%26utm_content%3Dfluxbonnealternance%26utm_term%3D83914720"
-  },
-  {
-   "id": "6ac17c6a0d871689a664a2d9",
-   "source": "Hellowork",
-   "titre": "Apprenti Préparateur Salé &amp; Sucré H/F",
-   "entreprise": "SLFAMILY",
-   "siret": "79491190900024",
-   "categorie": "ETI / PME",
-   "categorie_methode": "nom",
-   "taille": "250 à 499 salariés",
-   "taille_min": 250,
-   "naf": "Boulangerie et boulangerie-pâtisserie",
-   "idcc": null,
-   "convention": null,
-   "theme": "production",
-   "rome": [
-    "H1404"
-   ],
-   "ville": "Marck",
-   "departement": "62",
-   "region": "32",
-   "lat": 50.94992,
-   "lon": 1.944342,
-   "bassin": null,
-   "contrat": [
-    "Apprentissage",
-    "Professionnalisation"
-   ],
-   "duree_mois": null,
-   "niveau": "3",
-   "teletravail": "Présentiel",
-   "salaire_brut_mensuel": 1456,
-   "salaire_source": "annoncé",
-   "loyer_studio": 322,
-   "pouvoir_achat_ajuste": 1134,
-   "score_attractivite": 43.2,
-   "score_detail": {
-    "prestige": 14.0,
-    "remuneration": 13.9,
-    "missions": 6,
-    "cadre_vie": 9.3
-   },
-   "competences": [
-    "R&D / Innovation"
-   ],
-   "date": "2026-10-02",
-   "url": "https://r.holeest.com/redirect?jd_token=seiDJV&o=1&from=https%3A%2F%2Fwww.hellowork.com%2Ffr-fr%2Femplois%2F84030420.html%3Futm_source%3Dbonnealternance%26utm_medium%3Dmetamoteurs-free%26utm_campaign%3Dalternance%2B-%2B%7Bseo_domain%7D%26utm_content%3Dfluxbonnealternance%26utm_term%3D84030420"
+   "date": "2026-09-30",
+   "url": "https://r.holeest.com/redirect?jd_token=raGIHW&o=1&from=https%3A%2F%2Fwww.hellowork.com%2Ffr-fr%2Femplois%2F83948372.html%3Futm_source%3Dbonnealternance%26utm_medium%3Dmetamoteurs-free%26utm_campaign%3Dalternance%2B-%2Bproduction%26utm_content%3Dfluxbonnealternance%26utm_term%3D83948372"
   },
   {
    "id": "6ad7672204d39aae9b86fd1c",
@@ -1198,192 +1630,51 @@
    "url": "https://www.aplitrak.com/?adid=QWdhdGhlLkJSRUlTUy4wNDU5NS4xMzY4MEBlaWZmYWdlLmFwbGl0cmFrLmNvbQ"
   },
   {
-   "id": "6a90b5b3e075d4e1ad817909",
+   "id": "6a5fef159e972c0713e5e802",
    "source": "Hellowork",
-   "titre": "Apprenti Préparateur Salé &amp; Sucré - Contrat d'Apprentissage H/F",
-   "entreprise": "SLFAMILY",
-   "siret": "79491190900024",
-   "categorie": "ETI / PME",
-   "categorie_methode": "nom",
-   "taille": "250 à 499 salariés",
-   "taille_min": 250,
-   "naf": "Boulangerie et boulangerie-pâtisserie",
-   "idcc": null,
-   "convention": null,
-   "theme": "production",
-   "rome": [
-    "H1404"
-   ],
-   "ville": "Rives",
-   "departement": "38",
-   "region": "84",
-   "lat": 45.35391,
-   "lon": 5.501321,
-   "bassin": "Grenoble",
-   "contrat": [
-    "Apprentissage",
-    "Professionnalisation"
-   ],
-   "duree_mois": null,
-   "niveau": "5",
-   "teletravail": "Présentiel",
-   "salaire_brut_mensuel": 1456,
-   "salaire_source": "annoncé",
-   "loyer_studio": 346,
-   "pouvoir_achat_ajuste": 1110,
-   "score_attractivite": 43.0,
-   "score_detail": {
-    "prestige": 14.0,
-    "remuneration": 13.9,
-    "missions": 6,
-    "cadre_vie": 9.1
-   },
-   "competences": [
-    "R&D / Innovation"
-   ],
-   "date": "2026-09-26",
-   "url": "https://r.holeest.com/redirect?jd_token=pJ4gIN&o=1&from=https%3A%2F%2Fwww.hellowork.com%2Ffr-fr%2Femplois%2F82746698.html%3Futm_source%3Dbonnealternance%26utm_medium%3Dmetamoteurs-free%26utm_campaign%3Dalternance%2B-%2B%7Bseo_domain%7D%26utm_content%3Dfluxbonnealternance%26utm_term%3D82746698"
-  },
-  {
-   "id": "6a90b5b3e075d4e1ad8178f8",
-   "source": "Hellowork",
-   "titre": "Apprenti Préparateur Salé &amp; Sucré - Contrat d'Apprentissage H/F",
-   "entreprise": "SLFAMILY",
-   "siret": "79491190900024",
-   "categorie": "ETI / PME",
-   "categorie_methode": "nom",
-   "taille": "250 à 499 salariés",
-   "taille_min": 250,
-   "naf": "Boulangerie et boulangerie-pâtisserie",
-   "idcc": null,
-   "convention": null,
-   "theme": "production",
-   "rome": [
-    "H1404"
-   ],
-   "ville": "Gap",
-   "departement": "05",
-   "region": "93",
-   "lat": 44.55045,
-   "lon": 6.077925,
-   "bassin": null,
-   "contrat": [
-    "Apprentissage",
-    "Professionnalisation"
-   ],
-   "duree_mois": null,
-   "niveau": "5",
-   "teletravail": "Présentiel",
-   "salaire_brut_mensuel": 1456,
-   "salaire_source": "annoncé",
-   "loyer_studio": 366,
-   "pouvoir_achat_ajuste": 1090,
-   "score_attractivite": 42.8,
-   "score_detail": {
-    "prestige": 14.0,
-    "remuneration": 13.9,
-    "missions": 6,
-    "cadre_vie": 8.9
-   },
-   "competences": [
-    "R&D / Innovation"
-   ],
-   "date": "2026-09-26",
-   "url": "https://r.holeest.com/redirect?jd_token=pGWF7D&o=1&from=https%3A%2F%2Fwww.hellowork.com%2Ffr-fr%2Femplois%2F82746143.html%3Futm_source%3Dbonnealternance%26utm_medium%3Dmetamoteurs-free%26utm_campaign%3Dalternance%2B-%2B%7Bseo_domain%7D%26utm_content%3Dfluxbonnealternance%26utm_term%3D82746143"
-  },
-  {
-   "id": "6a90b5b3e075d4e1ad8178fc",
-   "source": "Hellowork",
-   "titre": "Apprenti Préparateur Salé &amp; Sucré - Contrat d'Apprentissage H/F",
-   "entreprise": "SLFAMILY",
-   "siret": "79491190900024",
-   "categorie": "ETI / PME",
-   "categorie_methode": "nom",
-   "taille": "250 à 499 salariés",
-   "taille_min": 250,
-   "naf": "Boulangerie et boulangerie-pâtisserie",
-   "idcc": null,
-   "convention": null,
-   "theme": "production",
-   "rome": [
-    "H1404"
-   ],
-   "ville": "Saint-Rémy",
-   "departement": "71",
-   "region": "27",
-   "lat": 46.759413,
-   "lon": 4.829623,
-   "bassin": null,
-   "contrat": [
-    "Apprentissage",
-    "Professionnalisation"
-   ],
-   "duree_mois": null,
-   "niveau": "5",
-   "teletravail": "Présentiel",
-   "salaire_brut_mensuel": 1456,
-   "salaire_source": "annoncé",
-   "loyer_studio": 365,
-   "pouvoir_achat_ajuste": 1091,
-   "score_attractivite": 42.8,
-   "score_detail": {
-    "prestige": 14.0,
-    "remuneration": 13.9,
-    "missions": 6,
-    "cadre_vie": 8.9
-   },
-   "competences": [
-    "R&D / Innovation"
-   ],
-   "date": "2026-09-26",
-   "url": "https://r.holeest.com/redirect?jd_token=pJ4gAj&o=1&from=https%3A%2F%2Fwww.hellowork.com%2Ffr-fr%2Femplois%2F82746223.html%3Futm_source%3Dbonnealternance%26utm_medium%3Dmetamoteurs-free%26utm_campaign%3Dalternance%2B-%2B%7Bseo_domain%7D%26utm_content%3Dfluxbonnealternance%26utm_term%3D82746223"
-  },
-  {
-   "id": "6acfa885eb1fb948b46abb2d",
-   "source": "Direct Emploi",
-   "titre": "Alternance - Conducteur.trice travaux/Pilote de contrat F/H",
-   "entreprise": "ELECTRICITE DE FRANCE",
-   "siret": "55208131766522",
+   "titre": "Paso - Charge Qualite en Alternance H/F",
+   "entreprise": "FLEURY MICHON LS",
+   "siret": "34054544100016",
    "categorie": "Grand Groupe",
-   "categorie_methode": "nom",
-   "taille": "10 000 salariés et plus",
-   "taille_min": 10,
-   "naf": "Production d'électricité",
-   "idcc": 5001,
-   "convention": "IDCC 5001",
-   "theme": "btp",
+   "categorie_methode": "effectif",
+   "taille": "2 000 à 4 999 salariés",
+   "taille_min": 2000,
+   "naf": "Fabrication de plats préparés",
+   "idcc": 1586,
+   "convention": "IDCC 1586",
+   "theme": "qualite",
    "rome": [
-    "F1117"
+    "H1528"
    ],
-   "ville": "Fragnes-La Loyère",
-   "departement": "71",
-   "region": "27",
-   "lat": 46.831753,
-   "lon": 4.840327,
+   "ville": "Les Achards",
+   "departement": "85",
+   "region": "52",
+   "lat": 46.592752,
+   "lon": -1.664523,
    "bassin": null,
    "contrat": [
     "Apprentissage",
     "Professionnalisation"
    ],
    "duree_mois": null,
-   "niveau": null,
-   "teletravail": "Non précisé",
+   "niveau": "7",
+   "teletravail": "Présentiel",
    "salaire_brut_mensuel": 1167,
    "salaire_source": "minimum légal",
-   "loyer_studio": 261,
-   "pouvoir_achat_ajuste": 906,
-   "score_attractivite": 42.6,
+   "loyer_studio": 337,
+   "pouvoir_achat_ajuste": 830,
+   "score_attractivite": 42.8,
    "score_detail": {
-    "prestige": 19.8,
+    "prestige": 23.8,
     "remuneration": 6.7,
-    "missions": 7,
-    "cadre_vie": 9.1
+    "missions": 6,
+    "cadre_vie": 6.3
    },
    "competences": [
-    "Gestion de projet"
+    "R&D / Innovation"
    ],
-   "date": "2026-10-14",
-   "url": "https://www.directemploi.com/candidatOffre/55822155?utm_source=labonnealternance&utm_medium=referral&utm_campaign=La-bonne-alternance"
+   "date": "2026-10-20",
+   "url": "https://r.holeest.com/redirect?jd_token=pKTDST&o=1&from=https%3A%2F%2Fwww.hellowork.com%2Ffr-fr%2Femplois%2F81509483.html%3Futm_source%3Dbonnealternance%26utm_medium%3Dmetamoteurs-free%26utm_campaign%3Dalternance%2B-%2B%7Bseo_domain%7D%26utm_content%3Dfluxbonnealternance%26utm_term%3D81509483"
   },
   {
    "id": "6a877b3241552768b60d3c18",
@@ -1434,200 +1725,9 @@
    "url": "https://r.holeest.com/redirect?jd_token=pJ4gHA&o=1&from=https%3A%2F%2Fwww.hellowork.com%2Ffr-fr%2Femplois%2F82503267.html%3Futm_source%3Dbonnealternance%26utm_medium%3Dmetamoteurs-free%26utm_campaign%3Dalternance%2B-%2B%7Bseo_domain%7D%26utm_content%3Dfluxbonnealternance%26utm_term%3D82503267"
   },
   {
-   "id": "6a90b5b3e075d4e1ad817907",
-   "source": "Hellowork",
-   "titre": "Apprenti Préparateur Salé &amp; Sucré - Contrat d'Apprentissage H/F",
-   "entreprise": "SLFAMILY",
-   "siret": "79491190900024",
-   "categorie": "ETI / PME",
-   "categorie_methode": "nom",
-   "taille": "250 à 499 salariés",
-   "taille_min": 250,
-   "naf": "Boulangerie et boulangerie-pâtisserie",
-   "idcc": null,
-   "convention": null,
-   "theme": "production",
-   "rome": [
-    "H1404"
-   ],
-   "ville": "Le Muy",
-   "departement": "83",
-   "region": "93",
-   "lat": 43.462584,
-   "lon": 6.555645,
-   "bassin": null,
-   "contrat": [
-    "Apprentissage",
-    "Professionnalisation"
-   ],
-   "duree_mois": null,
-   "niveau": "5",
-   "teletravail": "Présentiel",
-   "salaire_brut_mensuel": 1456,
-   "salaire_source": "annoncé",
-   "loyer_studio": 392,
-   "pouvoir_achat_ajuste": 1064,
-   "score_attractivite": 42.5,
-   "score_detail": {
-    "prestige": 14.0,
-    "remuneration": 13.9,
-    "missions": 6,
-    "cadre_vie": 8.6
-   },
-   "competences": [
-    "R&D / Innovation"
-   ],
-   "date": "2026-09-26",
-   "url": "https://r.holeest.com/redirect?jd_token=pGWF8s&o=1&from=https%3A%2F%2Fwww.hellowork.com%2Ffr-fr%2Femplois%2F82746668.html%3Futm_source%3Dbonnealternance%26utm_medium%3Dmetamoteurs-free%26utm_campaign%3Dalternance%2B-%2B%7Bseo_domain%7D%26utm_content%3Dfluxbonnealternance%26utm_term%3D82746668"
-  },
-  {
-   "id": "6a90b5b3e075d4e1ad8178fe",
-   "source": "Hellowork",
-   "titre": "Apprenti Préparateur Salé &amp; Sucré - Contrat d'Apprentissage H/F",
-   "entreprise": "SLFAMILY",
-   "siret": "79491190900024",
-   "categorie": "ETI / PME",
-   "categorie_methode": "nom",
-   "taille": "250 à 499 salariés",
-   "taille_min": 250,
-   "naf": "Boulangerie et boulangerie-pâtisserie",
-   "idcc": null,
-   "convention": null,
-   "theme": "production",
-   "rome": [
-    "H1404"
-   ],
-   "ville": "Échirolles",
-   "departement": "38",
-   "region": "84",
-   "lat": 45.146125,
-   "lon": 5.715042,
-   "bassin": "Grenoble",
-   "contrat": [
-    "Apprentissage",
-    "Professionnalisation"
-   ],
-   "duree_mois": null,
-   "niveau": "5",
-   "teletravail": "Présentiel",
-   "salaire_brut_mensuel": 1456,
-   "salaire_source": "annoncé",
-   "loyer_studio": 395,
-   "pouvoir_achat_ajuste": 1061,
-   "score_attractivite": 42.5,
-   "score_detail": {
-    "prestige": 14.0,
-    "remuneration": 13.9,
-    "missions": 6,
-    "cadre_vie": 8.6
-   },
-   "competences": [
-    "R&D / Innovation"
-   ],
-   "date": "2026-09-26",
-   "url": "https://r.holeest.com/redirect?jd_token=pJ8Bbd&o=1&from=https%3A%2F%2Fwww.hellowork.com%2Ffr-fr%2Femplois%2F82746260.html%3Futm_source%3Dbonnealternance%26utm_medium%3Dmetamoteurs-free%26utm_campaign%3Dalternance%2B-%2B%7Bseo_domain%7D%26utm_content%3Dfluxbonnealternance%26utm_term%3D82746260"
-  },
-  {
-   "id": "6aa8faa11734e71a67c7c26e",
-   "source": "iquesta",
-   "titre": "Alternance - Technicien Projeteur / Technicienne Projeteuse BIM CVC - Lyon",
-   "entreprise": "ARTELIA",
-   "siret": "44452352600804",
-   "categorie": "Grand Groupe",
-   "categorie_methode": "nom",
-   "taille": "2 000 à 4 999 salariés",
-   "taille_min": 2,
-   "naf": "Activités des sièges sociaux",
-   "idcc": 1486,
-   "convention": "Syntec (bureaux d'études)",
-   "theme": "btp",
-   "rome": [
-    "F1117"
-   ],
-   "ville": "Saint-Ouen-Sur-Seine",
-   "departement": "93",
-   "region": "11",
-   "lat": 48.911696,
-   "lon": 2.33334,
-   "bassin": "Paris / Saclay",
-   "contrat": [
-    "Apprentissage",
-    "Professionnalisation"
-   ],
-   "duree_mois": 12,
-   "niveau": "7",
-   "teletravail": "Présentiel",
-   "salaire_brut_mensuel": 1167,
-   "salaire_source": "minimum légal",
-   "loyer_studio": 639,
-   "pouvoir_achat_ajuste": 528,
-   "score_attractivite": 42.5,
-   "score_detail": {
-    "prestige": 18.5,
-    "remuneration": 6.7,
-    "missions": 14,
-    "cadre_vie": 3.3
-   },
-   "competences": [
-    "Gestion de projet",
-    "International",
-    "CAO",
-    "Management"
-   ],
-   "date": "2026-09-15",
-   "url": "https://www.iquesta.com/offer/index/346882"
-  },
-  {
-   "id": "6a90b5b3e075d4e1ad8178f7",
-   "source": "Hellowork",
-   "titre": "Apprenti Préparateur Salé &amp; Sucré - Contrat d'Apprentissage H/F",
-   "entreprise": "SLFAMILY",
-   "siret": "79491190900024",
-   "categorie": "ETI / PME",
-   "categorie_methode": "nom",
-   "taille": "250 à 499 salariés",
-   "taille_min": 250,
-   "naf": "Boulangerie et boulangerie-pâtisserie",
-   "idcc": null,
-   "convention": null,
-   "theme": "production",
-   "rome": [
-    "H1404"
-   ],
-   "ville": "Briançon",
-   "departement": "05",
-   "region": "93",
-   "lat": 44.896187,
-   "lon": 6.637472,
-   "bassin": null,
-   "contrat": [
-    "Apprentissage",
-    "Professionnalisation"
-   ],
-   "duree_mois": null,
-   "niveau": "5",
-   "teletravail": "Présentiel",
-   "salaire_brut_mensuel": 1456,
-   "salaire_source": "annoncé",
-   "loyer_studio": 408,
-   "pouvoir_achat_ajuste": 1048,
-   "score_attractivite": 42.4,
-   "score_detail": {
-    "prestige": 14.0,
-    "remuneration": 13.9,
-    "missions": 6,
-    "cadre_vie": 8.5
-   },
-   "competences": [
-    "R&D / Innovation"
-   ],
-   "date": "2026-09-26",
-   "url": "https://r.holeest.com/redirect?jd_token=pJ2x0Y&o=1&from=https%3A%2F%2Fwww.hellowork.com%2Ffr-fr%2Femplois%2F82746111.html%3Futm_source%3Dbonnealternance%26utm_medium%3Dmetamoteurs-free%26utm_campaign%3Dalternance%2B-%2B%7Bseo_domain%7D%26utm_content%3Dfluxbonnealternance%26utm_term%3D82746111"
-  },
-  {
    "id": "6ad7e47e76e8f92c0ea4e02d",
    "source": "RH Alternance",
-   "titre": "Assistant qualité/R&amp;D  (F/H) - Alternance",
+   "titre": "Assistant qualité/R&D  (F/H) - Alternance",
    "entreprise": "CARREFOUR",
    "siret": "65201405100732",
    "categorie": "CAC 40",
@@ -1668,54 +1768,6 @@
    "competences": [],
    "date": "2026-10-09",
    "url": "https://rhalternance.com/jobs/recherche/bordeaux/assistant-qualité-r-d-f-h-alternance-941646163"
-  },
-  {
-   "id": "6aab12ad9dceff7dd4b9efac",
-   "source": "Hellowork",
-   "titre": "Alternance Master Pitet Services d'Exploitations Eau et Assainissement H/F",
-   "entreprise": "VEOLIA EAU - COMPAGNIE GENERALE DES EAUX",
-   "siret": "57202552610945",
-   "categorie": "CAC 40",
-   "categorie_methode": "nom",
-   "taille": "5 000 à 9 999 salariés",
-   "taille_min": 5,
-   "naf": "Captage, traitement et distribution d'eau",
-   "idcc": null,
-   "convention": null,
-   "theme": "qualite",
-   "rome": [
-    "H1302"
-   ],
-   "ville": "Château-Thierry",
-   "departement": "02",
-   "region": "32",
-   "lat": 49.050003,
-   "lon": 3.383835,
-   "bassin": null,
-   "contrat": [
-    "Apprentissage",
-    "Professionnalisation"
-   ],
-   "duree_mois": null,
-   "niveau": "6",
-   "teletravail": "Présentiel",
-   "salaire_brut_mensuel": 1039,
-   "salaire_source": "minimum légal",
-   "loyer_studio": 376,
-   "pouvoir_achat_ajuste": 663,
-   "score_attractivite": 42.1,
-   "score_detail": {
-    "prestige": 25.0,
-    "remuneration": 3.5,
-    "missions": 9,
-    "cadre_vie": 4.6
-   },
-   "competences": [
-    "Gestion de projet",
-    "Management"
-   ],
-   "date": "2026-10-18",
-   "url": "https://r.holeest.com/redirect?jd_token=pJbIgk&o=1&from=https%3A%2F%2Fwww.hellowork.com%2Ffr-fr%2Femplois%2F79105337.html%3Futm_source%3Dbonnealternance%26utm_medium%3Dmetamoteurs-free%26utm_campaign%3Dalternance%2B-%2Benvironnement%26utm_content%3Dfluxbonnealternance%26utm_term%3D79105337"
   },
   {
    "id": "6ac573db32e88690a892292f",
@@ -1765,51 +1817,49 @@
    "url": "https://jobaffinity.fr/apply/iherty86iz6mdyppz1?src=FranceTravail%20API"
   },
   {
-   "id": "6ad29fb675ec98a5c1145227",
+   "id": "6ab841f6e1510c104cc354cd",
    "source": "Hellowork",
-   "titre": "Alternance QSE H/F",
-   "entreprise": "VEOLIA EAU - COMPAGNIE GENERALE DES EAUX",
-   "siret": "57202552610945",
-   "categorie": "CAC 40",
+   "titre": "Stagiaire QSE H/F",
+   "entreprise": "COLAS RAIL",
+   "siret": "63204912800754",
+   "categorie": "Grand Groupe",
    "categorie_methode": "nom",
-   "taille": "5 000 à 9 999 salariés",
-   "taille_min": 5,
-   "naf": "Captage, traitement et distribution d'eau",
-   "idcc": null,
-   "convention": null,
+   "taille": "1 000 à 1 999 salariés",
+   "taille_min": 1000,
+   "naf": "Construction de voies ferrées de surface et souterraines",
+   "idcc": 1702,
+   "convention": "Travaux publics ouvriers",
    "theme": "qualite",
    "rome": [
     "H1302"
    ],
-   "ville": "Antibes",
-   "departement": "06",
-   "region": "93",
-   "lat": 43.582206,
-   "lon": 7.103245,
-   "bassin": "Nice / Sophia-Antipolis",
+   "ville": "Indre-et-Loire",
+   "departement": "37",
+   "region": "24",
+   "lat": 47.3942690111384,
+   "lon": 0.69494255580954,
+   "bassin": null,
    "contrat": [
     "Apprentissage",
     "Professionnalisation"
    ],
    "duree_mois": null,
    "niveau": "7",
-   "teletravail": "Présentiel",
+   "teletravail": "Non précisé",
    "salaire_brut_mensuel": 1167,
    "salaire_source": "minimum légal",
-   "loyer_studio": 569,
-   "pouvoir_achat_ajuste": 598,
-   "score_attractivite": 41.7,
+   "loyer_studio": 371,
+   "pouvoir_achat_ajuste": 796,
+   "score_attractivite": 41.9,
    "score_detail": {
-    "prestige": 25.0,
+    "prestige": 23.2,
     "remuneration": 6.7,
-    "missions": 6,
-    "cadre_vie": 4.0
+    "missions": 4,
+    "cadre_vie": 8.0
    },
-   "competences": [
-    "R&D / Innovation"
-   ],
-   "date": "2026-10-16",
-   "url": "https://r.holeest.com/redirect?jd_token=yb9NaY&o=1&from=https%3A%2F%2Fwww.hellowork.com%2Ffr-fr%2Femplois%2F84523778.html%3Futm_source%3Dbonnealternance%26utm_medium%3Dmetamoteurs-free%26utm_campaign%3Dalternance%2B-%2B%7Bseo_domain%7D%26utm_content%3Dfluxbonnealternance%26utm_term%3D84523778"
+   "competences": [],
+   "date": "2026-09-25",
+   "url": "https://r.holeest.com/redirect?jd_token=pHKO5h&o=1&from=https%3A%2F%2Fwww.hellowork.com%2Ffr-fr%2Femplois%2F83779784.html%3Futm_source%3Dbonnealternance%26utm_medium%3Dmetamoteurs-free%26utm_campaign%3Dalternance%2B-%2B%7Bseo_domain%7D%26utm_content%3Dfluxbonnealternance%26utm_term%3D83779784"
   },
   {
    "id": "6acfff94fcd49a2239d8361e",
@@ -1912,6 +1962,103 @@
    "url": "https://taleez.com/apply/charge-e-de-mission-processus-et-amelioration-continue-le-mesnil-saint-denis-dbf-audit/applying"
   },
   {
+   "id": "6ad14e4618139f73ced8aaa6",
+   "source": "Hellowork",
+   "titre": "Apprenti Chargé de Mission Santé et Sécurité au Travail H/F",
+   "entreprise": "ANSAMBLE",
+   "siret": "33415947200458",
+   "categorie": "Grand Groupe",
+   "categorie_methode": "effectif",
+   "taille": "2 000 à 4 999 salariés",
+   "taille_min": 2000,
+   "naf": "Autres services de restauration n.c.a.",
+   "idcc": 1266,
+   "convention": "IDCC 1266",
+   "theme": "qualite",
+   "rome": [
+    "H1302"
+   ],
+   "ville": "Nantes",
+   "departement": "44",
+   "region": "52",
+   "lat": 47.239367,
+   "lon": -1.555335,
+   "bassin": "Nantes / Saint-Nazaire",
+   "contrat": [
+    "Apprentissage",
+    "Professionnalisation"
+   ],
+   "duree_mois": 12,
+   "niveau": "6",
+   "teletravail": "Non précisé",
+   "salaire_brut_mensuel": 1039,
+   "salaire_source": "minimum légal",
+   "loyer_studio": 414,
+   "pouvoir_achat_ajuste": 625,
+   "score_attractivite": 41.5,
+   "score_detail": {
+    "prestige": 23.8,
+    "remuneration": 3.5,
+    "missions": 8,
+    "cadre_vie": 6.2
+   },
+   "competences": [
+    "R&D / Innovation",
+    "Management"
+   ],
+   "date": "2026-10-15",
+   "url": "https://r.holeest.com/redirect?jd_token=xtAZNE&o=1&from=https%3A%2F%2Fwww.hellowork.com%2Ffr-fr%2Femplois%2F84471331.html%3Futm_source%3Dbonnealternance%26utm_medium%3Dmetamoteurs-free%26utm_campaign%3Dalternance%2B-%2B%7Bseo_domain%7D%26utm_content%3Dfluxbonnealternance%26utm_term%3D84471331"
+  },
+  {
+   "id": "6a12248a2561b976da1f03fc",
+   "source": "Hellowork",
+   "titre": "Alternant Ingénieur Risques Industriels H/F",
+   "entreprise": "KEM ONE",
+   "siret": "53869504000120",
+   "categorie": "ETI / PME",
+   "categorie_methode": "nom",
+   "taille": "1 000 à 1 999 salariés",
+   "taille_min": 1000,
+   "naf": "Fabrication de matières plastiques de base",
+   "idcc": 44,
+   "convention": "Chimie",
+   "theme": "qualite",
+   "rome": [
+    "H1302"
+   ],
+   "ville": "Fos-Sur-Mer",
+   "departement": "13",
+   "region": "93",
+   "lat": 43.451226,
+   "lon": 4.933732,
+   "bassin": null,
+   "contrat": [
+    "Apprentissage",
+    "Professionnalisation"
+   ],
+   "duree_mois": 24,
+   "niveau": "7",
+   "teletravail": "Non précisé",
+   "salaire_brut_mensuel": 1167,
+   "salaire_source": "minimum légal",
+   "loyer_studio": 449,
+   "pouvoir_achat_ajuste": 718,
+   "score_attractivite": 41.4,
+   "score_detail": {
+    "prestige": 15.5,
+    "remuneration": 6.7,
+    "missions": 12,
+    "cadre_vie": 7.2
+   },
+   "competences": [
+    "Gestion de projet",
+    "International",
+    "Management"
+   ],
+   "date": "2026-09-21",
+   "url": "https://r.holeest.com/redirect?jd_token=pJ4gso&o=1&from=https%3A%2F%2Fwww.hellowork.com%2Ffr-fr%2Femplois%2F79302071.html%3Futm_source%3Dbonnealternance%26utm_medium%3Dmetamoteurs-free%26utm_campaign%3Dalternance%2B-%2B%7Bseo_domain%7D%26utm_content%3Dfluxbonnealternance%26utm_term%3D79302071"
+  },
+  {
    "id": "6aceae320226c9bf000934bd",
    "source": "France Travail",
    "titre": "Contrôleur qualité à former (H/F)",
@@ -2007,7 +2154,7 @@
   {
    "id": "6abd8811d46e986892b9e2b0",
    "source": "Hellowork",
-   "titre": "Ingénieur R&amp;D H/F",
+   "titre": "Ingénieur R&D H/F",
    "entreprise": "ORANO",
    "siret": "33095687100066",
    "categorie": "Grand Groupe",
@@ -2053,6 +2200,56 @@
    "url": "https://r.holeest.com/redirect?jd_token=qpstNW&o=1&from=https%3A%2F%2Fwww.hellowork.com%2Ffr-fr%2Femplois%2F83886816.html%3Futm_source%3Dbonnealternance%26utm_medium%3Dmetamoteurs-free%26utm_campaign%3Dalternance%2B-%2Brecherche%26utm_content%3Dfluxbonnealternance%26utm_term%3D83886816"
   },
   {
+   "id": "6aa32a530d35903fc26895c6",
+   "source": "Hellowork",
+   "titre": "Alt - Technicien Informatique H/F",
+   "entreprise": "GENERALI VIE",
+   "siret": "60206248102212",
+   "categorie": "Grand Groupe",
+   "categorie_methode": "effectif",
+   "taille": "2 000 à 4 999 salariés",
+   "taille_min": 2000,
+   "naf": "Assurance vie",
+   "idcc": 1672,
+   "convention": "Sociétés d'assurances",
+   "theme": "data",
+   "rome": [
+    "M1810"
+   ],
+   "ville": "Saint-Denis",
+   "departement": "93",
+   "region": "11",
+   "lat": 48.927213,
+   "lon": 2.361465,
+   "bassin": "Paris / Saclay",
+   "contrat": [
+    "Apprentissage",
+    "Professionnalisation"
+   ],
+   "duree_mois": 18,
+   "niveau": "5",
+   "teletravail": "Non précisé",
+   "salaire_brut_mensuel": 857,
+   "salaire_source": "minimum légal",
+   "loyer_studio": 601,
+   "pouvoir_achat_ajuste": 256,
+   "score_attractivite": 40.8,
+   "score_detail": {
+    "prestige": 23.8,
+    "remuneration": 0,
+    "missions": 13,
+    "cadre_vie": 4
+   },
+   "competences": [
+    "Gestion de projet",
+    "Amélioration continue",
+    "Data / IA",
+    "R&D / Innovation"
+   ],
+   "date": "2026-10-10",
+   "url": "https://r.holeest.com/redirect?jd_token=pGWF0M&o=1&from=https%3A%2F%2Fwww.hellowork.com%2Ffr-fr%2Femplois%2F83255720.html%3Futm_source%3Dbonnealternance%26utm_medium%3Dmetamoteurs-free%26utm_campaign%3Dalternance%2B-%2Binformatique%26utm_content%3Dfluxbonnealternance%26utm_term%3D83255720"
+  },
+  {
    "id": "6ac96578e2ab790b62ec9b5f",
    "source": "Hellowork",
    "titre": "Ingénieur Simulation - Modélisation - Alternance H/F",
@@ -2096,53 +2293,6 @@
    "competences": [],
    "date": "2026-10-09",
    "url": "https://r.holeest.com/redirect?jd_token=vdDLOj&o=1&from=https%3A%2F%2Fwww.hellowork.com%2Ffr-fr%2Femplois%2F84266554.html%3Futm_source%3Dbonnealternance%26utm_medium%3Dmetamoteurs-free%26utm_campaign%3Dalternance%2B-%2Blogistique%26utm_content%3Dfluxbonnealternance%26utm_term%3D84266554"
-  },
-  {
-   "id": "6acfa77622ce23a2ad44433e",
-   "source": "Direct Emploi",
-   "titre": "Ingénieur d'Etudes en alternance - Toulouse H/F",
-   "entreprise": "ELECTRICITE DE FRANCE",
-   "siret": "55208131766522",
-   "categorie": "Grand Groupe",
-   "categorie_methode": "nom",
-   "taille": "10 000 salariés et plus",
-   "taille_min": 10,
-   "naf": "Production d'électricité",
-   "idcc": 5001,
-   "convention": "IDCC 5001",
-   "theme": "btp",
-   "rome": [
-    "F1117"
-   ],
-   "ville": "Toulouse",
-   "departement": "31",
-   "region": "76",
-   "lat": 43.604082,
-   "lon": 1.433805,
-   "bassin": "Toulouse",
-   "contrat": [
-    "Apprentissage",
-    "Professionnalisation"
-   ],
-   "duree_mois": null,
-   "niveau": null,
-   "teletravail": "Non précisé",
-   "salaire_brut_mensuel": 1167,
-   "salaire_source": "minimum légal",
-   "loyer_studio": 408,
-   "pouvoir_achat_ajuste": 759,
-   "score_attractivite": 40.1,
-   "score_detail": {
-    "prestige": 19.8,
-    "remuneration": 6.7,
-    "missions": 6,
-    "cadre_vie": 7.6
-   },
-   "competences": [
-    "Amélioration continue"
-   ],
-   "date": "2026-10-14",
-   "url": "https://www.directemploi.com/candidatOffre/54491560?utm_source=labonnealternance&utm_medium=referral&utm_campaign=La-bonne-alternance"
   },
   {
    "id": "6ad15124b846587f82fa5b2c",
@@ -2235,6 +2385,103 @@
    ],
    "date": "2026-10-15",
    "url": "https://app.beetween.com/WeaselWeb/p/#/apply/job/zrwvrbp2im8/agent-de-maintenance-h-f"
+  },
+  {
+   "id": "6acfb3f922ce23a2ad444f71",
+   "source": "Direct Emploi",
+   "titre": "Alternance Développeur Full Stack & IA",
+   "entreprise": "SOLOCAL",
+   "siret": "44421295500496",
+   "categorie": "ETI / PME",
+   "categorie_methode": "nom",
+   "taille": "1 000 à 1 999 salariés",
+   "taille_min": 1000,
+   "naf": "Régie publicitaire de médias",
+   "idcc": 86,
+   "convention": "IDCC 86",
+   "theme": "data",
+   "rome": [
+    "M1805"
+   ],
+   "ville": "Le Haillan",
+   "departement": "33",
+   "region": "75",
+   "lat": 44.86943,
+   "lon": -0.690404,
+   "bassin": "Bordeaux",
+   "contrat": [
+    "Apprentissage",
+    "Professionnalisation"
+   ],
+   "duree_mois": null,
+   "niveau": null,
+   "teletravail": "Non précisé",
+   "salaire_brut_mensuel": 1167,
+   "salaire_source": "minimum légal",
+   "loyer_studio": 409,
+   "pouvoir_achat_ajuste": 758,
+   "score_attractivite": 39.8,
+   "score_detail": {
+    "prestige": 15.5,
+    "remuneration": 6.7,
+    "missions": 10,
+    "cadre_vie": 7.6
+   },
+   "competences": [
+    "Python",
+    "Data / IA",
+    "R&D / Innovation"
+   ],
+   "date": "2026-10-14",
+   "url": "https://www.directemploi.com/candidatOffre/56666912?utm_source=labonnealternance&utm_medium=referral&utm_campaign=La-bonne-alternance"
+  },
+  {
+   "id": "6ac41f541778092e497f42c2",
+   "source": "Hellowork",
+   "titre": "Chargé Hygiène Sécurité Environnement HSE en Alternance H/F",
+   "entreprise": "SOCIETE ENTRETIEN NETTOYAGE INDUSTRIEL",
+   "siret": "66203223400061",
+   "categorie": "Grand Groupe",
+   "categorie_methode": "effectif",
+   "taille": "2 000 à 4 999 salariés",
+   "taille_min": 2000,
+   "naf": "Activités des sièges sociaux",
+   "idcc": 3043,
+   "convention": "Entreprises de propreté",
+   "theme": "qualite",
+   "rome": [
+    "H1302"
+   ],
+   "ville": "Créteil",
+   "departement": "94",
+   "region": "11",
+   "lat": 48.784506,
+   "lon": 2.452976,
+   "bassin": "Paris / Saclay",
+   "contrat": [
+    "Apprentissage",
+    "Professionnalisation"
+   ],
+   "duree_mois": 24,
+   "niveau": "6",
+   "teletravail": "Non précisé",
+   "salaire_brut_mensuel": 1039,
+   "salaire_source": "minimum légal",
+   "loyer_studio": 624,
+   "pouvoir_achat_ajuste": 415,
+   "score_attractivite": 39.5,
+   "score_detail": {
+    "prestige": 23.8,
+    "remuneration": 3.5,
+    "missions": 8,
+    "cadre_vie": 4.2
+   },
+   "competences": [
+    "Amélioration continue",
+    "R&D / Innovation"
+   ],
+   "date": "2026-10-05",
+   "url": "https://r.holeest.com/redirect?jd_token=tayHAE&o=1&from=https%3A%2F%2Fwww.hellowork.com%2Ffr-fr%2Femplois%2F84096236.html%3Futm_source%3Dbonnealternance%26utm_medium%3Dmetamoteurs-free%26utm_campaign%3Dalternance%2B-%2B%7Bseo_domain%7D%26utm_content%3Dfluxbonnealternance%26utm_term%3D84096236"
   },
   {
    "id": "6a99f33085d4232b2a91a4ca",
@@ -2333,6 +2580,100 @@
    "url": "https://jobaffinity.fr/apply/99iv9abgiglgk4wves?src=FranceTravail%20API"
   },
   {
+   "id": "6a6292319e972c0713e87986",
+   "source": "Hellowork",
+   "titre": "Alternant Ingénieur Procédés - Génie Chimique H/F",
+   "entreprise": "CRISTAL UNION",
+   "siret": "42134336900037",
+   "categorie": "Grand Groupe",
+   "categorie_methode": "effectif",
+   "taille": "2 000 à 4 999 salariés",
+   "taille_min": 2000,
+   "naf": "Fabrication de sucre",
+   "idcc": 2728,
+   "convention": "IDCC 2728",
+   "theme": "production",
+   "rome": [
+    "H1402"
+   ],
+   "ville": "Buchères",
+   "departement": "10",
+   "region": "44",
+   "lat": 48.237167,
+   "lon": 4.11557,
+   "bassin": null,
+   "contrat": [
+    "Apprentissage",
+    "Professionnalisation"
+   ],
+   "duree_mois": 24,
+   "niveau": "6",
+   "teletravail": "Non précisé",
+   "salaire_brut_mensuel": 1039,
+   "salaire_source": "minimum légal",
+   "loyer_studio": 290,
+   "pouvoir_achat_ajuste": 749,
+   "score_attractivite": 38.8,
+   "score_detail": {
+    "prestige": 23.8,
+    "remuneration": 3.5,
+    "missions": 4,
+    "cadre_vie": 7.5
+   },
+   "competences": [],
+   "date": "2026-09-22",
+   "url": "https://r.holeest.com/redirect?jd_token=pJ4gt1&o=1&from=https%3A%2F%2Fwww.hellowork.com%2Ffr-fr%2Femplois%2F81620079.html%3Futm_source%3Dbonnealternance%26utm_medium%3Dmetamoteurs-free%26utm_campaign%3Dalternance%2B-%2Bproduction%26utm_content%3Dfluxbonnealternance%26utm_term%3D81620079"
+  },
+  {
+   "id": "6abd8814d46e986892b9e363",
+   "source": "Hellowork",
+   "titre": "Reporting Projets Eh&S Groupe HSE F - M - X - Issy-Les-Moulineaux 92 H/F",
+   "entreprise": "SAUR",
+   "siret": "33937998405975",
+   "categorie": "Grand Groupe",
+   "categorie_methode": "effectif",
+   "taille": "5 000 à 9 999 salariés",
+   "taille_min": 5000,
+   "naf": "Captage, traitement et distribution d'eau",
+   "idcc": null,
+   "convention": null,
+   "theme": "qualite",
+   "rome": [
+    "H1302"
+   ],
+   "ville": "Issy-Les-Moulineaux",
+   "departement": "92",
+   "region": "11",
+   "lat": 48.823903,
+   "lon": 2.262888,
+   "bassin": "Paris / Saclay",
+   "contrat": [
+    "Apprentissage",
+    "Professionnalisation"
+   ],
+   "duree_mois": null,
+   "niveau": "7",
+   "teletravail": "Présentiel",
+   "salaire_brut_mensuel": 700,
+   "salaire_source": "annoncé",
+   "loyer_studio": 752,
+   "pouvoir_achat_ajuste": -52,
+   "score_attractivite": 38.5,
+   "score_detail": {
+    "prestige": 24.5,
+    "remuneration": 0,
+    "missions": 12,
+    "cadre_vie": 2
+   },
+   "competences": [
+    "Gestion de projet",
+    "International",
+    "R&D / Innovation"
+   ],
+   "date": "2026-09-29",
+   "url": "https://r.holeest.com/redirect?jd_token=qBcEmo&o=1&from=https%3A%2F%2Fwww.hellowork.com%2Ffr-fr%2Femplois%2F83904000.html%3Futm_source%3Dbonnealternance%26utm_medium%3Dmetamoteurs-free%26utm_campaign%3Dalternance%2B-%2B%7Bseo_domain%7D%26utm_content%3Dfluxbonnealternance%26utm_term%3D83904000"
+  },
+  {
    "id": "6acc08c400af3511ff44b66a",
    "source": "ATS_Hellowork",
    "titre": "Chargée Qualité Agroalimentaire en Alternance",
@@ -2381,50 +2722,6 @@
    ],
    "date": "2026-10-09",
    "url": "https://labonnealternance.apprentissage.beta.gouv.fr/emploi/offres_emploi_partenaires/6acc08c400af3511ff44b66a/chargée-qualité-agroalimentaire-en-alternance"
-  },
-  {
-   "id": "6ad7e8b1697d75a5c9fd22a7",
-   "source": "France Travail",
-   "titre": "Technicien qualité (H/F)",
-   "entreprise": "MANPOWER FRANCE",
-   "siret": "42995529712201",
-   "categorie": "ETI / PME",
-   "categorie_methode": "nom",
-   "taille": "2 000 à 4 999 salariés",
-   "taille_min": 2,
-   "naf": "Activités des agences de travail temporaire",
-   "idcc": 1090,
-   "convention": "Services de l'automobile",
-   "theme": "qualite",
-   "rome": [
-    "H1528"
-   ],
-   "ville": "Rochefort",
-   "departement": "17",
-   "region": "75",
-   "lat": 45.94403,
-   "lon": -0.967748,
-   "bassin": null,
-   "contrat": [
-    "Professionnalisation"
-   ],
-   "duree_mois": 6,
-   "niveau": null,
-   "teletravail": "Non précisé",
-   "salaire_brut_mensuel": 1458,
-   "salaire_source": "minimum légal",
-   "loyer_studio": 371,
-   "pouvoir_achat_ajuste": 1087,
-   "score_attractivite": 37.7,
-   "score_detail": {
-    "prestige": 8.8,
-    "remuneration": 14.0,
-    "missions": 4,
-    "cadre_vie": 10.9
-   },
-   "competences": [],
-   "date": "2026-10-20",
-   "url": "https://www.manpower.fr/offers/details/1101506979?partenaire=FRANCE_TRAVAIL"
   },
   {
    "id": "6ad93a12715e4cba3924e331",
@@ -2568,48 +2865,52 @@
    "url": "https://r.holeest.com/redirect?jd_token=z6YkxI&o=1&from=https%3A%2F%2Fwww.hellowork.com%2Ffr-fr%2Femplois%2F84567672.html%3Futm_source%3Dbonnealternance%26utm_medium%3Dmetamoteurs-free%26utm_campaign%3Dalternance%2B-%2B%7Bseo_domain%7D%26utm_content%3Dfluxbonnealternance%26utm_term%3D84567672"
   },
   {
-   "id": "6ad2a2990ae368bc8d5b72a5",
-   "source": "France Travail",
-   "titre": "Opérateur/trice de production (H/F)",
-   "entreprise": "GEIQ INDUSTRIE SAVOIE",
-   "siret": null,
+   "id": "6acfa8d622ce23a2ad4444e5",
+   "source": "Direct Emploi",
+   "titre": "Technicien de maintenance CVC ( alternance )H/F",
+   "entreprise": "ELECTRICITE INDUSTRIELLE J. P. FAUCHE",
+   "siret": "30825057001087",
    "categorie": "ETI / PME",
    "categorie_methode": "nom",
-   "taille": null,
-   "taille_min": null,
-   "naf": null,
-   "idcc": null,
-   "convention": null,
-   "theme": "production",
+   "taille": "1 000 à 1 999 salariés",
+   "taille_min": 1000,
+   "naf": "Travaux d'installation électrique dans tous locaux",
+   "idcc": 2630,
+   "convention": "IDCC 2630",
+   "theme": "btp",
    "rome": [
-    "H1404"
+    "F1117"
    ],
-   "ville": "Ugine",
-   "departement": "73",
-   "region": "84",
-   "lat": 45.757041,
-   "lon": 6.428945,
-   "bassin": null,
+   "ville": "Marseille",
+   "departement": "13",
+   "region": "93",
+   "lat": 43.282,
+   "lon": 5.405,
+   "bassin": "Aix-Marseille",
    "contrat": [
+    "Apprentissage",
     "Professionnalisation"
    ],
-   "duree_mois": 11,
+   "duree_mois": null,
    "niveau": null,
    "teletravail": "Non précisé",
-   "salaire_brut_mensuel": 1458,
+   "salaire_brut_mensuel": 1167,
    "salaire_source": "minimum légal",
-   "loyer_studio": 344,
-   "pouvoir_achat_ajuste": 1114,
-   "score_attractivite": 37.1,
+   "loyer_studio": 465,
+   "pouvoir_achat_ajuste": 702,
+   "score_attractivite": 37.2,
    "score_detail": {
-    "prestige": 8,
-    "remuneration": 14.0,
-    "missions": 4,
-    "cadre_vie": 11.1
+    "prestige": 15.5,
+    "remuneration": 6.7,
+    "missions": 8,
+    "cadre_vie": 7.0
    },
-   "competences": [],
-   "date": "2026-10-16",
-   "url": "https://app.beetween.com/WeaselWeb/p/#/apply/job/34viilpt7e8/operateur-trice-de-production"
+   "competences": [
+    "R&D / Innovation",
+    "Management"
+   ],
+   "date": "2026-10-14",
+   "url": "https://www.directemploi.com/candidatOffre/56157993?utm_source=labonnealternance&utm_medium=referral&utm_campaign=La-bonne-alternance"
   },
   {
    "id": "6acffcd00bdf06aea2986f29",
@@ -2663,7 +2964,7 @@
   {
    "id": "6a7cef80f2e1abe5e5328b78",
    "source": "Hellowork",
-   "titre": "Alternant Chef de Projet R&amp;D H/F",
+   "titre": "Alternant Chef de Projet R&D H/F",
    "entreprise": "SAS FRIAL",
    "siret": "31980597400064",
    "categorie": "ETI / PME",
@@ -2759,51 +3060,6 @@
    ],
    "date": "2026-10-16",
    "url": "https://r.holeest.com/redirect?jd_token=pGWF1n&o=1&from=https%3A%2F%2Fwww.hellowork.com%2Ffr-fr%2Femplois%2F83421219.html%3Futm_source%3Dbonnealternance%26utm_medium%3Dmetamoteurs-free%26utm_campaign%3Dalternance%2B-%2B%7Bseo_domain%7D%26utm_content%3Dfluxbonnealternance%26utm_term%3D83421219"
-  },
-  {
-   "id": "6ab841f6e1510c104cc354cd",
-   "source": "Hellowork",
-   "titre": "Stagiaire QSE H/F",
-   "entreprise": "COLAS RAIL",
-   "siret": "63204912800754",
-   "categorie": "Grand Groupe",
-   "categorie_methode": "nom",
-   "taille": "1 000 à 1 999 salariés",
-   "taille_min": 1,
-   "naf": "Construction de voies ferrées de surface et souterraines",
-   "idcc": 1702,
-   "convention": "Travaux publics ouvriers",
-   "theme": "qualite",
-   "rome": [
-    "H1302"
-   ],
-   "ville": "Indre-et-Loire",
-   "departement": "37",
-   "region": "24",
-   "lat": 47.3942690111384,
-   "lon": 0.69494255580954,
-   "bassin": null,
-   "contrat": [
-    "Apprentissage",
-    "Professionnalisation"
-   ],
-   "duree_mois": null,
-   "niveau": "7",
-   "teletravail": "Non précisé",
-   "salaire_brut_mensuel": 1167,
-   "salaire_source": "minimum légal",
-   "loyer_studio": 371,
-   "pouvoir_achat_ajuste": 796,
-   "score_attractivite": 36.7,
-   "score_detail": {
-    "prestige": 18,
-    "remuneration": 6.7,
-    "missions": 4,
-    "cadre_vie": 8.0
-   },
-   "competences": [],
-   "date": "2026-09-25",
-   "url": "https://r.holeest.com/redirect?jd_token=pHKO5h&o=1&from=https%3A%2F%2Fwww.hellowork.com%2Ffr-fr%2Femplois%2F83779784.html%3Futm_source%3Dbonnealternance%26utm_medium%3Dmetamoteurs-free%26utm_campaign%3Dalternance%2B-%2B%7Bseo_domain%7D%26utm_content%3Dfluxbonnealternance%26utm_term%3D83779784"
   },
   {
    "id": "6aba63dfd796bd0c3847a0d3",
@@ -3141,7 +3397,7 @@
   {
    "id": "6ab2ff287caaafd3f596a596",
    "source": "France Travail",
-   "titre": "Stage de fin d'études / Alternance - Sujet de stage : Finance &amp; Achats - Accompagner les transformations de ces métiers en s'appuyant sur la Data et les Systèmes d'Informations les plus performants  (H/F)",
+   "titre": "Stage de fin d'études / Alternance - Sujet de stage : Finance & Achats - Accompagner les transformations de ces métiers en s'appuyant sur la Data et les Systèmes d'Informations les plus performants  (H/F)",
    "entreprise": "",
    "siret": null,
    "categorie": "ETI / PME",
@@ -3239,53 +3495,6 @@
    "url": "https://r.holeest.com/redirect?jd_token=pJ8B3h&o=1&from=https%3A%2F%2Fwww.hellowork.com%2Ffr-fr%2Femplois%2F81389919.html%3Futm_source%3Dbonnealternance%26utm_medium%3Dmetamoteurs-free%26utm_campaign%3Dalternance%2B-%2B%7Bseo_domain%7D%26utm_content%3Dfluxbonnealternance%26utm_term%3D81389919"
   },
   {
-   "id": "6ad3f11ccc1761c8ae02d786",
-   "source": "Hellowork",
-   "titre": "Apprentissage-Installateurs Thermiques H/F",
-   "entreprise": "HELLOWORK",
-   "siret": "42884313000140",
-   "categorie": "ETI / PME",
-   "categorie_methode": "nom",
-   "taille": "250 à 499 salariés",
-   "taille_min": 250,
-   "naf": "Traitement de données, hébergement et activités connexes",
-   "idcc": 1486,
-   "convention": "Syntec (bureaux d'études)",
-   "theme": "btp",
-   "rome": [
-    "F1117"
-   ],
-   "ville": "Pavie",
-   "departement": "32",
-   "region": "76",
-   "lat": 43.60492,
-   "lon": 0.589194,
-   "bassin": null,
-   "contrat": [
-    "Apprentissage",
-    "Professionnalisation"
-   ],
-   "duree_mois": null,
-   "niveau": "3",
-   "teletravail": "Non précisé",
-   "salaire_brut_mensuel": 1167,
-   "salaire_source": "minimum légal",
-   "loyer_studio": 289,
-   "pouvoir_achat_ajuste": 878,
-   "score_attractivite": 35.5,
-   "score_detail": {
-    "prestige": 14.0,
-    "remuneration": 6.7,
-    "missions": 6,
-    "cadre_vie": 8.8
-   },
-   "competences": [
-    "R&D / Innovation"
-   ],
-   "date": "2026-10-16",
-   "url": "https://r.holeest.com/redirect?jd_token=yiFkNl&o=1&from=https%3A%2F%2Fwww.hellowork.com%2Ffr-fr%2Femplois%2F84531435.html%3Futm_source%3Dbonnealternance%26utm_medium%3Dmetamoteurs-free%26utm_campaign%3Dalternance%2B-%2Bproduction%26utm_content%3Dfluxbonnealternance%26utm_term%3D84531435"
-  },
-  {
    "id": "6abd8b08170bf3aae5858713",
    "source": "France Travail",
    "titre": "Assistant(e) Qualité H/F",
@@ -3376,6 +3585,53 @@
    ],
    "date": "2026-10-21",
    "url": "https://www.lindustrie-recrute.fr/candidat/offre/829865?utm_source=NQ=="
+  },
+  {
+   "id": "6ac41f531778092e497f42be",
+   "source": "Hellowork",
+   "titre": "Alternant QSE H/F",
+   "entreprise": "REEL",
+   "siret": "96250131800076",
+   "categorie": "ETI / PME",
+   "categorie_methode": "nom",
+   "taille": "1 000 à 1 999 salariés",
+   "taille_min": 1000,
+   "naf": "Réparation de machines et équipements mécaniques",
+   "idcc": 878,
+   "convention": "IDCC 878",
+   "theme": "qualite",
+   "rome": [
+    "H1302"
+   ],
+   "ville": "Trignac",
+   "departement": "44",
+   "region": "52",
+   "lat": 47.304636,
+   "lon": -2.203221,
+   "bassin": "Nantes / Saint-Nazaire",
+   "contrat": [
+    "Apprentissage",
+    "Professionnalisation"
+   ],
+   "duree_mois": null,
+   "niveau": null,
+   "teletravail": "Présentiel",
+   "salaire_brut_mensuel": 1167,
+   "salaire_source": "minimum légal",
+   "loyer_studio": 349,
+   "pouvoir_achat_ajuste": 818,
+   "score_attractivite": 35.4,
+   "score_detail": {
+    "prestige": 15.5,
+    "remuneration": 6.7,
+    "missions": 7,
+    "cadre_vie": 6.2
+   },
+   "competences": [
+    "Gestion de projet"
+   ],
+   "date": "2026-10-05",
+   "url": "https://r.holeest.com/redirect?jd_token=temgKt&o=1&from=https%3A%2F%2Fwww.hellowork.com%2Ffr-fr%2Femplois%2F84099693.html%3Futm_source%3Dbonnealternance%26utm_medium%3Dmetamoteurs-free%26utm_campaign%3Dalternance%2B-%2B%7Bseo_domain%7D%26utm_content%3Dfluxbonnealternance%26utm_term%3D84099693"
   },
   {
    "id": "6ab5a2407caaafd3f597827c",
@@ -3565,6 +3821,52 @@
    ],
    "date": "2026-10-15",
    "url": "https://api.mytalentplug.com/job/v1/joboffer/redirect?id=5cd12196-ad39-4c61-839d-79d32a85cfbb"
+  },
+  {
+   "id": "6aa7db26b272299cc427d570",
+   "source": "offres_emploi_lba",
+   "titre": "Assistant technique / Assistante technique d'ingénierie études, recherche et développement en industrie",
+   "entreprise": "CHAMBRE DE COMMERCE ET D'INDUSTRIE DE LA REUNION",
+   "siret": "18974211700071",
+   "categorie": "Grand Groupe",
+   "categorie_methode": "effectif",
+   "taille": "10 000 salariés et plus",
+   "taille_min": 10000,
+   "naf": "Distribution d'électricité",
+   "idcc": null,
+   "convention": null,
+   "theme": "rd",
+   "rome": [
+    "H1206"
+   ],
+   "ville": "Le Port",
+   "departement": "974",
+   "region": "04",
+   "lat": -20.882115,
+   "lon": 55.450233,
+   "bassin": null,
+   "contrat": [
+    "Apprentissage"
+   ],
+   "duree_mois": 24,
+   "niveau": "5",
+   "teletravail": "Non précisé",
+   "salaire_brut_mensuel": 857,
+   "salaire_source": "minimum légal",
+   "loyer_studio": 442,
+   "pouvoir_achat_ajuste": 415,
+   "score_attractivite": 35.2,
+   "score_detail": {
+    "prestige": 25,
+    "remuneration": 0,
+    "missions": 6,
+    "cadre_vie": 4.2
+   },
+   "competences": [
+    "R&D / Innovation"
+   ],
+   "date": "2026-09-14",
+   "url": "https://labonnealternance.apprentissage.beta.gouv.fr/emploi/offres_emploi_lba/6aa7db26b272299cc427d570/assistant-technique-assistante-technique-d-ingénierie-études-recherche-et-développement-en-industrie"
   },
   {
    "id": "6abd252dc5256f3f6f91abc6",
@@ -3762,9 +4064,56 @@
    "url": "https://r.holeest.com/redirect?jd_token=pJbIu2&o=1&from=https%3A%2F%2Fwww.hellowork.com%2Ffr-fr%2Femplois%2F82060937.html%3Futm_source%3Dbonnealternance%26utm_medium%3Dmetamoteurs-free%26utm_campaign%3Dalternance%2B-%2B%7Bseo_domain%7D%26utm_content%3Dfluxbonnealternance%26utm_term%3D82060937"
   },
   {
+   "id": "6ad29fb175ec98a5c1145119",
+   "source": "Hellowork",
+   "titre": "Développeur C++ - Vb.Net H/F",
+   "entreprise": "ADECCO FRANCE",
+   "siret": "99882350431782",
+   "categorie": "Grand Groupe",
+   "categorie_methode": "effectif",
+   "taille": "2 000 à 4 999 salariés",
+   "taille_min": 2000,
+   "naf": "Activités des agences de travail temporaire",
+   "idcc": 1090,
+   "convention": "Services de l'automobile",
+   "theme": "data",
+   "rome": [
+    "M1805"
+   ],
+   "ville": "Villeurbanne",
+   "departement": "69",
+   "region": "84",
+   "lat": 45.768975,
+   "lon": 4.890035,
+   "bassin": "Lyon",
+   "contrat": [
+    "Apprentissage",
+    "Professionnalisation"
+   ],
+   "duree_mois": null,
+   "niveau": "5",
+   "teletravail": "Non précisé",
+   "salaire_brut_mensuel": 857,
+   "salaire_source": "minimum légal",
+   "loyer_studio": 452,
+   "pouvoir_achat_ajuste": 405,
+   "score_attractivite": 34.8,
+   "score_detail": {
+    "prestige": 23.8,
+    "remuneration": 0,
+    "missions": 7,
+    "cadre_vie": 4.0
+   },
+   "competences": [
+    "Gestion de projet"
+   ],
+   "date": "2026-10-16",
+   "url": "https://r.holeest.com/redirect?jd_token=yf6EP2&o=1&from=https%3A%2F%2Fwww.hellowork.com%2Ffr-fr%2Femplois%2F84527125.html%3Futm_source%3Dbonnealternance%26utm_medium%3Dmetamoteurs-free%26utm_campaign%3Dalternance%2B-%2Binformatique%26utm_content%3Dfluxbonnealternance%26utm_term%3D84527125"
+  },
+  {
    "id": "6acab9c68f42c2bb1db1fe3b",
    "source": "France Travail",
-   "titre": "Ingénieur / Ingénieure R&amp;D en industrie (404441) (H/F)",
+   "titre": "Ingénieur / Ingénieure R&D en industrie (404441) (H/F)",
    "entreprise": "CLAYENS IZERNORE",
    "siret": null,
    "categorie": "ETI / PME",
@@ -3808,6 +4157,51 @@
    ],
    "date": "2026-10-10",
    "url": "https://clayens-np.contactrh.com/jobs/6469/44495778"
+  },
+  {
+   "id": "6ab2fc1068233dbb8f693f20",
+   "source": "Hellowork",
+   "titre": "BTS Msef Option Systèmes Énergétiques et Fluidiques -Guer H/F",
+   "entreprise": "DALKIA",
+   "siret": "45650053700018",
+   "categorie": "Grand Groupe",
+   "categorie_methode": "effectif",
+   "taille": "10 000 salariés et plus",
+   "taille_min": 10000,
+   "naf": "Production et distribution de vapeur et d'air conditionné",
+   "idcc": 998,
+   "convention": "IDCC 998",
+   "theme": "btp",
+   "rome": [
+    "F1117"
+   ],
+   "ville": "Guer",
+   "departement": "56",
+   "region": "53",
+   "lat": 47.905015,
+   "lon": -2.128326,
+   "bassin": null,
+   "contrat": [
+    "Apprentissage",
+    "Professionnalisation"
+   ],
+   "duree_mois": null,
+   "niveau": "5",
+   "teletravail": "Non précisé",
+   "salaire_brut_mensuel": 857,
+   "salaire_source": "minimum légal",
+   "loyer_studio": 303,
+   "pouvoir_achat_ajuste": 554,
+   "score_attractivite": 34.5,
+   "score_detail": {
+    "prestige": 25,
+    "remuneration": 0,
+    "missions": 4,
+    "cadre_vie": 5.5
+   },
+   "competences": [],
+   "date": "2026-09-21",
+   "url": "https://r.holeest.com/redirect?jd_token=pJ4gEU&o=1&from=https%3A%2F%2Fwww.hellowork.com%2Ffr-fr%2Femplois%2F83599768.html%3Futm_source%3Dbonnealternance%26utm_medium%3Dmetamoteurs-free%26utm_campaign%3Dalternance%2B-%2B%7Bseo_domain%7D%26utm_content%3Dfluxbonnealternance%26utm_term%3D83599768"
   },
   {
    "id": "6ad2a01d75ec98a5c1146a54",
@@ -3857,6 +4251,55 @@
    ],
    "date": "2026-10-14",
    "url": "https://labonnealternance.apprentissage.beta.gouv.fr/emploi/offres_emploi_partenaires/6ad2a01d75ec98a5c1146a54/alternant-e-qsse-qualité-sécurité-santé-et-environnement"
+  },
+  {
+   "id": "6aadb61d375ebabde2e08539",
+   "source": "Hellowork",
+   "titre": "Ingénieur Méthode en Alternance H/F",
+   "entreprise": "PRYSMIAN CABLES ET SYSTEMES FRANCE",
+   "siret": "09575031100805",
+   "categorie": "ETI / PME",
+   "categorie_methode": "nom",
+   "taille": "1 000 à 1 999 salariés",
+   "taille_min": 1000,
+   "naf": "Activités des sièges sociaux",
+   "idcc": null,
+   "convention": null,
+   "theme": "production",
+   "rome": [
+    "H1402"
+   ],
+   "ville": "Chavanoz",
+   "departement": "38",
+   "region": "84",
+   "lat": 45.767581,
+   "lon": 5.177465,
+   "bassin": "Lyon",
+   "contrat": [
+    "Apprentissage",
+    "Professionnalisation"
+   ],
+   "duree_mois": 12,
+   "niveau": "6",
+   "teletravail": "Présentiel",
+   "salaire_brut_mensuel": 1039,
+   "salaire_source": "minimum légal",
+   "loyer_studio": 415,
+   "pouvoir_achat_ajuste": 624,
+   "score_attractivite": 34.2,
+   "score_detail": {
+    "prestige": 15.5,
+    "remuneration": 3.5,
+    "missions": 11,
+    "cadre_vie": 4.2
+   },
+   "competences": [
+    "Gestion de projet",
+    "SAP",
+    "Amélioration continue"
+   ],
+   "date": "2026-10-18",
+   "url": "https://r.holeest.com/redirect?jd_token=pJ2wPe&o=1&from=https%3A%2F%2Fwww.hellowork.com%2Ffr-fr%2Femplois%2F83525134.html%3Futm_source%3Dbonnealternance%26utm_medium%3Dmetamoteurs-free%26utm_campaign%3Dalternance%2B-%2Bproduction%26utm_content%3Dfluxbonnealternance%26utm_term%3D83525134"
   },
   {
    "id": "6acab5851703dc6103fc82b7",
@@ -3998,55 +4441,6 @@
    "url": "https://candidat.francetravail.fr/offres/recherche/detail/215CHYS"
   },
   {
-   "id": "6a12248a2561b976da1f03fc",
-   "source": "Hellowork",
-   "titre": "Alternant Ingénieur Risques Industriels H/F",
-   "entreprise": "KEM ONE",
-   "siret": "53869504000120",
-   "categorie": "ETI / PME",
-   "categorie_methode": "nom",
-   "taille": "1 000 à 1 999 salariés",
-   "taille_min": 1,
-   "naf": "Fabrication de matières plastiques de base",
-   "idcc": 44,
-   "convention": "Chimie",
-   "theme": "qualite",
-   "rome": [
-    "H1302"
-   ],
-   "ville": "Fos-Sur-Mer",
-   "departement": "13",
-   "region": "93",
-   "lat": 43.451226,
-   "lon": 4.933732,
-   "bassin": null,
-   "contrat": [
-    "Apprentissage",
-    "Professionnalisation"
-   ],
-   "duree_mois": 24,
-   "niveau": "7",
-   "teletravail": "Non précisé",
-   "salaire_brut_mensuel": 1167,
-   "salaire_source": "minimum légal",
-   "loyer_studio": 449,
-   "pouvoir_achat_ajuste": 718,
-   "score_attractivite": 33.9,
-   "score_detail": {
-    "prestige": 8,
-    "remuneration": 6.7,
-    "missions": 12,
-    "cadre_vie": 7.2
-   },
-   "competences": [
-    "Gestion de projet",
-    "International",
-    "Management"
-   ],
-   "date": "2026-09-21",
-   "url": "https://r.holeest.com/redirect?jd_token=pJ4gso&o=1&from=https%3A%2F%2Fwww.hellowork.com%2Ffr-fr%2Femplois%2F79302071.html%3Futm_source%3Dbonnealternance%26utm_medium%3Dmetamoteurs-free%26utm_campaign%3Dalternance%2B-%2B%7Bseo_domain%7D%26utm_content%3Dfluxbonnealternance%26utm_term%3D79302071"
-  },
-  {
    "id": "6ac813f49b5d06564c468705",
    "source": "Hellowork",
    "titre": "Chargé de Missions QSE - RSE en Alternance H/F",
@@ -4142,6 +4536,51 @@
    ],
    "date": "2026-10-05",
    "url": "https://labonnealternance.apprentissage.beta.gouv.fr/emploi/offres_emploi_partenaires/6ac5713f1778092e4980055b/alternant-hse-h-f"
+  },
+  {
+   "id": "6ab2fc0b68233dbb8f693e23",
+   "source": "Hellowork",
+   "titre": "BTS Msef Option Systèmes Énergétiques et Fluidiques -Guer H/F",
+   "entreprise": "DALKIA",
+   "siret": "45650053700018",
+   "categorie": "Grand Groupe",
+   "categorie_methode": "effectif",
+   "taille": "10 000 salariés et plus",
+   "taille_min": 10000,
+   "naf": "Production et distribution de vapeur et d'air conditionné",
+   "idcc": 998,
+   "convention": "IDCC 998",
+   "theme": "btp",
+   "rome": [
+    "F1117"
+   ],
+   "ville": "Rennes",
+   "departement": "35",
+   "region": "53",
+   "lat": 48.110899,
+   "lon": -1.68365,
+   "bassin": "Rennes",
+   "contrat": [
+    "Apprentissage",
+    "Professionnalisation"
+   ],
+   "duree_mois": null,
+   "niveau": "5",
+   "teletravail": "Non précisé",
+   "salaire_brut_mensuel": 857,
+   "salaire_source": "minimum légal",
+   "loyer_studio": 430,
+   "pouvoir_achat_ajuste": 427,
+   "score_attractivite": 33.3,
+   "score_detail": {
+    "prestige": 25,
+    "remuneration": 0,
+    "missions": 4,
+    "cadre_vie": 4.3
+   },
+   "competences": [],
+   "date": "2026-09-21",
+   "url": "https://r.holeest.com/redirect?jd_token=pJbIoT&o=1&from=https%3A%2F%2Fwww.hellowork.com%2Ffr-fr%2Femplois%2F83599757.html%3Futm_source%3Dbonnealternance%26utm_medium%3Dmetamoteurs-free%26utm_campaign%3Dalternance%2B-%2B%7Bseo_domain%7D%26utm_content%3Dfluxbonnealternance%26utm_term%3D83599757"
   },
   {
    "id": "6ac6c531f1f38f567279243b",
@@ -4376,6 +4815,51 @@
    ],
    "date": "2026-09-25",
    "url": "https://candidat.francetravail.fr/offres/recherche/detail/214KRTS"
+  },
+  {
+   "id": "6968b84c2fd23d7ccdf72bff",
+   "source": "Hellowork",
+   "titre": "Futurs Compagnons Aeronautique H/F",
+   "entreprise": "ADECCO FRANCE",
+   "siret": "99882350431782",
+   "categorie": "Grand Groupe",
+   "categorie_methode": "effectif",
+   "taille": "2 000 à 4 999 salariés",
+   "taille_min": 2000,
+   "naf": "Activités des agences de travail temporaire",
+   "idcc": 1090,
+   "convention": "Services de l'automobile",
+   "theme": "production",
+   "rome": [
+    "H1404"
+   ],
+   "ville": "Montoir-De-Bretagne",
+   "departement": "44",
+   "region": "52",
+   "lat": 47.319879,
+   "lon": -2.150234,
+   "bassin": "Nantes / Saint-Nazaire",
+   "contrat": [
+    "Apprentissage",
+    "Professionnalisation"
+   ],
+   "duree_mois": null,
+   "niveau": "5",
+   "teletravail": "Non précisé",
+   "salaire_brut_mensuel": 857,
+   "salaire_source": "minimum légal",
+   "loyer_studio": 350,
+   "pouvoir_achat_ajuste": 507,
+   "score_attractivite": 32.9,
+   "score_detail": {
+    "prestige": 23.8,
+    "remuneration": 0,
+    "missions": 4,
+    "cadre_vie": 5.1
+   },
+   "competences": [],
+   "date": "2026-10-16",
+   "url": "https://r.holeest.com/redirect?jd_token=yfcwR4&o=1&from=https%3A%2F%2Fwww.hellowork.com%2Ffr-fr%2Femplois%2F74472653.html%3Futm_source%3Dbonnealternance%26utm_medium%3Dmetamoteurs-free%26utm_campaign%3Dalternance%2B-%2Bingenierie%252Cchimie%252Cbiotechnologie%252Cnautisme%252Caeronautique%26utm_content%3Dfluxbonnealternance%26utm_term%3D74472653"
   },
   {
    "id": "6ad25deef04f8557e444ad84",
@@ -4669,7 +5153,7 @@
   {
    "id": "6a974d07db6c731160e43398",
    "source": "Hellowork",
-   "titre": "Ingénieur Méthodes &amp; Performance Opérationnelle - Alternance H/F",
+   "titre": "Ingénieur Méthodes & Performance Opérationnelle - Alternance H/F",
    "entreprise": "ELIOR PARTICIPATIONS",
    "siret": "38054367800029",
    "categorie": "ETI / PME",
@@ -4813,103 +5297,6 @@
    "url": "https://labonnealternance.apprentissage.beta.gouv.fr/emploi/offres_emploi_lba/6ad7648976f66547ccc0d7a3/assistant-assistante-qualité-en-industrie"
   },
   {
-   "id": "6acfb3f922ce23a2ad444f71",
-   "source": "Direct Emploi",
-   "titre": "Alternance Développeur Full Stack &amp; IA",
-   "entreprise": "SOLOCAL",
-   "siret": "44421295500496",
-   "categorie": "ETI / PME",
-   "categorie_methode": "nom",
-   "taille": "1 000 à 1 999 salariés",
-   "taille_min": 1,
-   "naf": "Régie publicitaire de médias",
-   "idcc": 86,
-   "convention": "IDCC 86",
-   "theme": "data",
-   "rome": [
-    "M1805"
-   ],
-   "ville": "Le Haillan",
-   "departement": "33",
-   "region": "75",
-   "lat": 44.86943,
-   "lon": -0.690404,
-   "bassin": "Bordeaux",
-   "contrat": [
-    "Apprentissage",
-    "Professionnalisation"
-   ],
-   "duree_mois": null,
-   "niveau": null,
-   "teletravail": "Non précisé",
-   "salaire_brut_mensuel": 1167,
-   "salaire_source": "minimum légal",
-   "loyer_studio": 409,
-   "pouvoir_achat_ajuste": 758,
-   "score_attractivite": 32.3,
-   "score_detail": {
-    "prestige": 8,
-    "remuneration": 6.7,
-    "missions": 10,
-    "cadre_vie": 7.6
-   },
-   "competences": [
-    "Python",
-    "Data / IA",
-    "R&D / Innovation"
-   ],
-   "date": "2026-10-14",
-   "url": "https://www.directemploi.com/candidatOffre/56666912?utm_source=labonnealternance&utm_medium=referral&utm_campaign=La-bonne-alternance"
-  },
-  {
-   "id": "6ad87e4604d39aae9b877f67",
-   "source": "Veritone",
-   "titre": "Ingénieur Méthodes F/H",
-   "entreprise": "IDEX ENERGIES",
-   "siret": "31587164001769",
-   "categorie": "ETI / PME",
-   "categorie_methode": "nom",
-   "taille": "2 000 à 4 999 salariés",
-   "taille_min": 2,
-   "naf": "Production d'électricité",
-   "idcc": 998,
-   "convention": "IDCC 998",
-   "theme": "production",
-   "rome": [
-    "H1402"
-   ],
-   "ville": "Bouguenais",
-   "departement": "44",
-   "region": "52",
-   "lat": 47.169966,
-   "lon": -1.615103,
-   "bassin": "Nantes / Saint-Nazaire",
-   "contrat": [
-    "Apprentissage",
-    "Professionnalisation"
-   ],
-   "duree_mois": 0,
-   "niveau": null,
-   "teletravail": "Non précisé",
-   "salaire_brut_mensuel": 1167,
-   "salaire_source": "minimum légal",
-   "loyer_studio": 401,
-   "pouvoir_achat_ajuste": 766,
-   "score_attractivite": 32.2,
-   "score_detail": {
-    "prestige": 8.8,
-    "remuneration": 6.7,
-    "missions": 9,
-    "cadre_vie": 7.7
-   },
-   "competences": [
-    "Gestion de projet",
-    "Amélioration continue"
-   ],
-   "date": "2026-10-21",
-   "url": "https://www.aplitrak.com/?adid=SW5lcy5CZXJ0aGF1bHQuMTAyNDguMTM2ODBAaWRleGZyLmFwbGl0cmFrLmNvbQ"
-  },
-  {
    "id": "6ad7e497fcd8db4ee3ec3d5a",
    "source": "APEC",
    "titre": "Alternant Contrôleur qualité produit F/H",
@@ -4957,51 +5344,50 @@
    "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179605288W?xtor=#at_medium=affiliate&at_campaign=Export_offres_la_bonne_alternance&at_type=partenaire_export"
   },
   {
-   "id": "6ab44dcb68233dbb8f6a0886",
-   "source": "ATS_Hellowork",
-   "titre": "Apprenti(e) QHSE",
-   "entreprise": "ENTREPRISE GUY CHALLANCIN",
-   "siret": "57205383300107",
+   "id": "6ac8ed10f994c6815745dee7",
+   "source": "offres_emploi_lba",
+   "titre": "Chargé de missions Sécurité Sûreté Environnement H/F",
+   "entreprise": "CHAMBRE DE COMMERCE ET D'INDUSTRIE DE REGION HAUTS-DE-FRANCE",
+   "siret": "13002271800451",
    "categorie": "ETI / PME",
    "categorie_methode": "nom",
-   "taille": "5 000 à 9 999 salariés",
-   "taille_min": 5,
-   "naf": "Nettoyage courant des bâtiments",
-   "idcc": 538,
-   "convention": "IDCC 538",
+   "taille": "1 000 à 1 999 salariés",
+   "taille_min": 1000,
+   "naf": "Services auxiliaires des transports par eau",
+   "idcc": null,
+   "convention": null,
    "theme": "qualite",
    "rome": [
     "F1204"
    ],
-   "ville": "Sochaux",
-   "departement": "25",
-   "region": "27",
-   "lat": 47.515475,
-   "lon": 6.828345,
-   "bassin": null,
+   "ville": "Lille",
+   "departement": "59",
+   "region": "32",
+   "lat": 50.630213,
+   "lon": 3.035685,
+   "bassin": "Lille",
    "contrat": [
-    "Apprentissage",
-    "Professionnalisation"
+    "Apprentissage"
    ],
-   "duree_mois": null,
-   "niveau": null,
+   "duree_mois": 12,
+   "niveau": "6",
    "teletravail": "Non précisé",
-   "salaire_brut_mensuel": 1167,
+   "salaire_brut_mensuel": 1039,
    "salaire_source": "minimum légal",
-   "loyer_studio": 305,
-   "pouvoir_achat_ajuste": 862,
-   "score_attractivite": 32.0,
+   "loyer_studio": 452,
+   "pouvoir_achat_ajuste": 587,
+   "score_attractivite": 31.9,
    "score_detail": {
-    "prestige": 9.7,
-    "remuneration": 6.7,
+    "prestige": 15.5,
+    "remuneration": 3.5,
     "missions": 7,
-    "cadre_vie": 8.6
+    "cadre_vie": 5.9
    },
    "competences": [
     "Gestion de projet"
    ],
-   "date": "2026-09-22",
-   "url": "https://labonnealternance.apprentissage.beta.gouv.fr/emploi/offres_emploi_partenaires/6ab44dcb68233dbb8f6a0886/apprenti-e-qhse"
+   "date": "2026-10-09",
+   "url": "https://labonnealternance.apprentissage.beta.gouv.fr/emploi/offres_emploi_lba/6ac8ed10f994c6815745dee7/chargé-de-missions-sécurité-sûreté-environnement-h-f"
   },
   {
    "id": "6a8e129b4b5bbabffa34b0be",
@@ -5097,54 +5483,6 @@
    "url": "https://r.holeest.com/redirect?jd_token=sfYAO4&o=1&from=https%3A%2F%2Fwww.hellowork.com%2Ffr-fr%2Femplois%2F84032785.html%3Futm_source%3Dbonnealternance%26utm_medium%3Dmetamoteurs-free%26utm_campaign%3Dalternance%2B-%2B%7Bseo_domain%7D%26utm_content%3Dfluxbonnealternance%26utm_term%3D84032785"
   },
   {
-   "id": "6abd880fd46e986892b9e217",
-   "source": "Hellowork",
-   "titre": "Technicien Préparateur en Alternance H/F",
-   "entreprise": "KILOUTOU",
-   "siret": "31768606105166",
-   "categorie": "ETI / PME",
-   "categorie_methode": "nom",
-   "taille": "2 000 à 4 999 salariés",
-   "taille_min": 2,
-   "naf": "Location et location-bail d'autres biens personnels et domestiques",
-   "idcc": 1606,
-   "convention": "IDCC 1606",
-   "theme": "production",
-   "rome": [
-    "H1404"
-   ],
-   "ville": "Périgueux",
-   "departement": "24",
-   "region": "75",
-   "lat": 45.19334,
-   "lon": 0.711299,
-   "bassin": null,
-   "contrat": [
-    "Apprentissage",
-    "Professionnalisation"
-   ],
-   "duree_mois": null,
-   "niveau": "3",
-   "teletravail": "Non précisé",
-   "salaire_brut_mensuel": 1167,
-   "salaire_source": "minimum légal",
-   "loyer_studio": 357,
-   "pouvoir_achat_ajuste": 810,
-   "score_attractivite": 31.6,
-   "score_detail": {
-    "prestige": 8.8,
-    "remuneration": 6.7,
-    "missions": 8,
-    "cadre_vie": 8.1
-   },
-   "competences": [
-    "R&D / Innovation",
-    "Management"
-   ],
-   "date": "2026-09-29",
-   "url": "https://r.holeest.com/redirect?jd_token=qwwhVz&o=1&from=https%3A%2F%2Fwww.hellowork.com%2Ffr-fr%2Femplois%2F83900257.html%3Futm_source%3Dbonnealternance%26utm_medium%3Dmetamoteurs-free%26utm_campaign%3Dalternance%2B-%2Bindustrie%252Cagroalimentaire%26utm_content%3Dfluxbonnealternance%26utm_term%3D83900257"
-  },
-  {
    "id": "6a9a7f583d397359dc349b69",
    "source": "offres_emploi_lba",
    "titre": "Qualiticien agro-alimentaire",
@@ -5237,54 +5575,6 @@
    ],
    "date": "2026-09-18",
    "url": "https://candidat.francetravail.fr/offres/recherche/detail/214BNRH"
-  },
-  {
-   "id": "6ad88b5904d39aae9b878ed3",
-   "source": "Veritone",
-   "titre": "Technicien d'études F/H",
-   "entreprise": "IDEX ENERGIES",
-   "siret": "31587164001769",
-   "categorie": "ETI / PME",
-   "categorie_methode": "nom",
-   "taille": "2 000 à 4 999 salariés",
-   "taille_min": 2,
-   "naf": "Production d'électricité",
-   "idcc": 998,
-   "convention": "IDCC 998",
-   "theme": "btp",
-   "rome": [
-    "F1117"
-   ],
-   "ville": "Nantes",
-   "departement": "44",
-   "region": "52",
-   "lat": 47.257683,
-   "lon": -1.529492,
-   "bassin": "Nantes / Saint-Nazaire",
-   "contrat": [
-    "Apprentissage",
-    "Professionnalisation"
-   ],
-   "duree_mois": 0,
-   "niveau": null,
-   "teletravail": "Non précisé",
-   "salaire_brut_mensuel": 1167,
-   "salaire_source": "minimum légal",
-   "loyer_studio": 414,
-   "pouvoir_achat_ajuste": 753,
-   "score_attractivite": 31.0,
-   "score_detail": {
-    "prestige": 8.8,
-    "remuneration": 6.7,
-    "missions": 8,
-    "cadre_vie": 7.5
-   },
-   "competences": [
-    "CAO",
-    "Automatisme"
-   ],
-   "date": "2026-10-21",
-   "url": "https://www.aplitrak.com/?adid=SW5lcy5CZXJ0aGF1bHQuNTAxMzUuMTM2ODBAaWRleGZyLmFwbGl0cmFrLmNvbQ"
   },
   {
    "id": "6a86e29adc67ee321f636664",
@@ -5474,53 +5764,6 @@
    "url": "https://app.beetween.com/WeaselWeb/p/#/apply/job/ulw21jen0p8/assistant-e-qualite-en-alternance"
   },
   {
-   "id": "6aa9c1739dceff7dd4b948f6",
-   "source": "Hellowork",
-   "titre": "Opérateur de Fabrication H/F",
-   "entreprise": "GROUPEMENT D'EMPLOYEURS PLUS",
-   "siret": "82102768700010",
-   "categorie": "ETI / PME",
-   "categorie_methode": "nom",
-   "taille": "20 à 49 salariés",
-   "taille_min": 20,
-   "naf": "Autre mise à disposition de ressources humaines",
-   "idcc": null,
-   "convention": null,
-   "theme": "production",
-   "rome": [
-    "H1404"
-   ],
-   "ville": "Macaye",
-   "departement": "64",
-   "region": "75",
-   "lat": 43.324989,
-   "lon": -1.324464,
-   "bassin": null,
-   "contrat": [
-    "Apprentissage",
-    "Professionnalisation"
-   ],
-   "duree_mois": 8,
-   "niveau": null,
-   "teletravail": "Présentiel",
-   "salaire_brut_mensuel": 1167,
-   "salaire_source": "minimum légal",
-   "loyer_studio": 318,
-   "pouvoir_achat_ajuste": 849,
-   "score_attractivite": 30.5,
-   "score_detail": {
-    "prestige": 11.3,
-    "remuneration": 6.7,
-    "missions": 6,
-    "cadre_vie": 6.5
-   },
-   "competences": [
-    "R&D / Innovation"
-   ],
-   "date": "2026-10-15",
-   "url": "https://r.holeest.com/redirect?jd_token=pJbIvZ&o=1&from=https%3A%2F%2Fwww.hellowork.com%2Ffr-fr%2Femplois%2F83354569.html%3Futm_source%3Dbonnealternance%26utm_medium%3Dmetamoteurs-free%26utm_campaign%3Dalternance%2B-%2Bproduction%26utm_content%3Dfluxbonnealternance%26utm_term%3D83354569"
-  },
-  {
    "id": "6a8e12a14b5bbabffa34b214",
    "source": "Hellowork",
    "titre": "Apprenti QSE H/F",
@@ -5667,7 +5910,7 @@
   {
    "id": "6ab2ff287caaafd3f596a59a",
    "source": "France Travail",
-   "titre": "Stage de fin d'études / Alternance - Sujet de stage : Financement de l'innovation et de la R&amp;D (H/F)",
+   "titre": "Stage de fin d'études / Alternance - Sujet de stage : Financement de l'innovation et de la R&D (H/F)",
    "entreprise": "",
    "siret": null,
    "categorie": "ETI / PME",
@@ -5858,102 +6101,6 @@
    "url": "https://www.meteojob.com/jobs/56740783?utm_source=labonnealternance&utm_medium=aggregator-free&utm_campaign=alternance"
   },
   {
-   "id": "6acfa8d622ce23a2ad4444e5",
-   "source": "Direct Emploi",
-   "titre": "Technicien de maintenance CVC ( alternance )H/F",
-   "entreprise": "ELECTRICITE INDUSTRIELLE J. P. FAUCHE",
-   "siret": "30825057001087",
-   "categorie": "ETI / PME",
-   "categorie_methode": "nom",
-   "taille": "1 000 à 1 999 salariés",
-   "taille_min": 1,
-   "naf": "Travaux d'installation électrique dans tous locaux",
-   "idcc": 2630,
-   "convention": "IDCC 2630",
-   "theme": "btp",
-   "rome": [
-    "F1117"
-   ],
-   "ville": "Marseille",
-   "departement": "13",
-   "region": "93",
-   "lat": 43.282,
-   "lon": 5.405,
-   "bassin": "Aix-Marseille",
-   "contrat": [
-    "Apprentissage",
-    "Professionnalisation"
-   ],
-   "duree_mois": null,
-   "niveau": null,
-   "teletravail": "Non précisé",
-   "salaire_brut_mensuel": 1167,
-   "salaire_source": "minimum légal",
-   "loyer_studio": 465,
-   "pouvoir_achat_ajuste": 702,
-   "score_attractivite": 29.7,
-   "score_detail": {
-    "prestige": 8,
-    "remuneration": 6.7,
-    "missions": 8,
-    "cadre_vie": 7.0
-   },
-   "competences": [
-    "R&D / Innovation",
-    "Management"
-   ],
-   "date": "2026-10-14",
-   "url": "https://www.directemploi.com/candidatOffre/56157993?utm_source=labonnealternance&utm_medium=referral&utm_campaign=La-bonne-alternance"
-  },
-  {
-   "id": "6ac813ea9b5d06564c4684f3",
-   "source": "Hellowork",
-   "titre": "Technicien Support de Proximité en Alternance H/F",
-   "entreprise": "EXPERIS FRANCE",
-   "siret": "39402693400536",
-   "categorie": "ETI / PME",
-   "categorie_methode": "nom",
-   "taille": "2 000 à 4 999 salariés",
-   "taille_min": 2,
-   "naf": "Gestion d'installations informatiques",
-   "idcc": 1486,
-   "convention": "Syntec (bureaux d'études)",
-   "theme": "data",
-   "rome": [
-    "M1810"
-   ],
-   "ville": "Cherbourg-En-Cotentin",
-   "departement": "50",
-   "region": "28",
-   "lat": 49.628684,
-   "lon": -1.626864,
-   "bassin": null,
-   "contrat": [
-    "Apprentissage",
-    "Professionnalisation"
-   ],
-   "duree_mois": null,
-   "niveau": "3",
-   "teletravail": "Présentiel",
-   "salaire_brut_mensuel": 1167,
-   "salaire_source": "minimum légal",
-   "loyer_studio": 355,
-   "pouvoir_achat_ajuste": 812,
-   "score_attractivite": 29.6,
-   "score_detail": {
-    "prestige": 8.8,
-    "remuneration": 6.7,
-    "missions": 8,
-    "cadre_vie": 6.1
-   },
-   "competences": [
-    "R&D / Innovation",
-    "Management"
-   ],
-   "date": "2026-10-08",
-   "url": "https://r.holeest.com/redirect?jd_token=uBETXC&o=1&from=https%3A%2F%2Fwww.hellowork.com%2Ffr-fr%2Femplois%2F84212213.html%3Futm_source%3Dbonnealternance%26utm_medium%3Dmetamoteurs-free%26utm_campaign%3Dalternance%2B-%2Binformatique%26utm_content%3Dfluxbonnealternance%26utm_term%3D84212213"
-  },
-  {
    "id": "6ac02ac40d871689a663bc1e",
    "source": "Hellowork",
    "titre": "Recrutement Alternant - BTS Maintenance des Matériels de Construction et de Manutention Mmcm H/F",
@@ -6139,56 +6286,6 @@
    "url": "https://rhalternance.com/jobs/defense-et-securite/vincennes/chargé-de-missions-hse-h-f-623631496"
   },
   {
-   "id": "6a5e9da59e972c0713e4a2fd",
-   "source": "Hellowork",
-   "titre": "Alternance - Chargé de Pilotage et Reporting H/F",
-   "entreprise": "ASSOCIATION DE PROTECTION SOCIALE DU BATIMENT ET DES TRAVAUX PUBLICS PRO BTP",
-   "siret": "39416496600019",
-   "categorie": "ETI / PME",
-   "categorie_methode": "nom",
-   "taille": "2 000 à 4 999 salariés",
-   "taille_min": 2,
-   "naf": "Autre mise à disposition de ressources humaines",
-   "idcc": 2511,
-   "convention": "IDCC 2511",
-   "theme": "supply",
-   "rome": [
-    "H1401"
-   ],
-   "ville": "Vanves",
-   "departement": "92",
-   "region": "11",
-   "lat": 48.820966,
-   "lon": 2.286369,
-   "bassin": "Paris / Saclay",
-   "contrat": [
-    "Apprentissage",
-    "Professionnalisation"
-   ],
-   "duree_mois": null,
-   "niveau": "6",
-   "teletravail": "Non précisé",
-   "salaire_brut_mensuel": 1039,
-   "salaire_source": "minimum légal",
-   "loyer_studio": 706,
-   "pouvoir_achat_ajuste": 333,
-   "score_attractivite": 29.3,
-   "score_detail": {
-    "prestige": 8.8,
-    "remuneration": 3.5,
-    "missions": 13,
-    "cadre_vie": 4
-   },
-   "competences": [
-    "Gestion de projet",
-    "Data / IA",
-    "R&D / Innovation",
-    "Management"
-   ],
-   "date": "2026-10-19",
-   "url": "https://r.holeest.com/redirect?jd_token=z4Bqbq&o=1&from=https%3A%2F%2Fwww.hellowork.com%2Ffr-fr%2Femplois%2F81466559.html%3Futm_source%3Dbonnealternance%26utm_medium%3Dmetamoteurs-free%26utm_campaign%3Dalternance%2B-%2Bproduction%26utm_content%3Dfluxbonnealternance%26utm_term%3D81466559"
-  },
-  {
    "id": "6a5aa93d9e972c0713e0b21f",
    "source": "Hellowork",
    "titre": "Alternance QSE H/F",
@@ -6237,54 +6334,6 @@
    ],
    "date": "2026-10-17",
    "url": "https://r.holeest.com/redirect?jd_token=pJbIk1&o=1&from=https%3A%2F%2Fwww.hellowork.com%2Ffr-fr%2Femplois%2F81395247.html%3Futm_source%3Dbonnealternance%26utm_medium%3Dmetamoteurs-free%26utm_campaign%3Dalternance%2B-%2B%7Bseo_domain%7D%26utm_content%3Dfluxbonnealternance%26utm_term%3D81395247"
-  },
-  {
-   "id": "6ac02a8f0d871689a663b028",
-   "source": "Hellowork",
-   "titre": "Alternant Ingénieur Méthodes &amp; Process H/F",
-   "entreprise": "ONET SERVICES",
-   "siret": "06780042503681",
-   "categorie": "ETI / PME",
-   "categorie_methode": "nom",
-   "taille": "10 000 salariés et plus",
-   "taille_min": 10,
-   "naf": "Nettoyage courant des bâtiments",
-   "idcc": null,
-   "convention": null,
-   "theme": "production",
-   "rome": [
-    "H1402"
-   ],
-   "ville": "Courbevoie",
-   "departement": "92",
-   "region": "11",
-   "lat": 48.897974,
-   "lon": 2.257057,
-   "bassin": "Paris / Saclay",
-   "contrat": [
-    "Apprentissage",
-    "Professionnalisation"
-   ],
-   "duree_mois": null,
-   "niveau": "7",
-   "teletravail": "Non précisé",
-   "salaire_brut_mensuel": 1167,
-   "salaire_source": "minimum légal",
-   "loyer_studio": 764,
-   "pouvoir_achat_ajuste": 403,
-   "score_attractivite": 29.2,
-   "score_detail": {
-    "prestige": 10.5,
-    "remuneration": 6.7,
-    "missions": 8,
-    "cadre_vie": 4.0
-   },
-   "competences": [
-    "Amélioration continue",
-    "Management"
-   ],
-   "date": "2026-09-30",
-   "url": "https://r.holeest.com/redirect?jd_token=raGIHW&o=1&from=https%3A%2F%2Fwww.hellowork.com%2Ffr-fr%2Femplois%2F83948372.html%3Futm_source%3Dbonnealternance%26utm_medium%3Dmetamoteurs-free%26utm_campaign%3Dalternance%2B-%2Bproduction%26utm_content%3Dfluxbonnealternance%26utm_term%3D83948372"
   },
   {
    "id": "6ad14e4a18139f73ced8ab79",
@@ -6846,100 +6895,6 @@
    "url": "https://r.holeest.com/redirect?jd_token=pGWF9Q&o=1&from=https%3A%2F%2Fwww.hellowork.com%2Ffr-fr%2Femplois%2F78887775.html%3Futm_source%3Dbonnealternance%26utm_medium%3Dmetamoteurs-free%26utm_campaign%3Dalternance%2B-%2B%7Bseo_domain%7D%26utm_content%3Dfluxbonnealternance%26utm_term%3D78887775"
   },
   {
-   "id": "6ac41f531778092e497f42be",
-   "source": "Hellowork",
-   "titre": "Alternant QSE H/F",
-   "entreprise": "REEL",
-   "siret": "96250131800076",
-   "categorie": "ETI / PME",
-   "categorie_methode": "nom",
-   "taille": "1 000 à 1 999 salariés",
-   "taille_min": 1,
-   "naf": "Réparation de machines et équipements mécaniques",
-   "idcc": 878,
-   "convention": "IDCC 878",
-   "theme": "qualite",
-   "rome": [
-    "H1302"
-   ],
-   "ville": "Trignac",
-   "departement": "44",
-   "region": "52",
-   "lat": 47.304636,
-   "lon": -2.203221,
-   "bassin": "Nantes / Saint-Nazaire",
-   "contrat": [
-    "Apprentissage",
-    "Professionnalisation"
-   ],
-   "duree_mois": null,
-   "niveau": null,
-   "teletravail": "Présentiel",
-   "salaire_brut_mensuel": 1167,
-   "salaire_source": "minimum légal",
-   "loyer_studio": 349,
-   "pouvoir_achat_ajuste": 818,
-   "score_attractivite": 27.9,
-   "score_detail": {
-    "prestige": 8,
-    "remuneration": 6.7,
-    "missions": 7,
-    "cadre_vie": 6.2
-   },
-   "competences": [
-    "Gestion de projet"
-   ],
-   "date": "2026-10-05",
-   "url": "https://r.holeest.com/redirect?jd_token=temgKt&o=1&from=https%3A%2F%2Fwww.hellowork.com%2Ffr-fr%2Femplois%2F84099693.html%3Futm_source%3Dbonnealternance%26utm_medium%3Dmetamoteurs-free%26utm_campaign%3Dalternance%2B-%2B%7Bseo_domain%7D%26utm_content%3Dfluxbonnealternance%26utm_term%3D84099693"
-  },
-  {
-   "id": "6a5fef159e972c0713e5e802",
-   "source": "Hellowork",
-   "titre": "Paso - Charge Qualite en Alternance H/F",
-   "entreprise": "FLEURY MICHON LS",
-   "siret": "34054544100016",
-   "categorie": "ETI / PME",
-   "categorie_methode": "nom",
-   "taille": "2 000 à 4 999 salariés",
-   "taille_min": 2,
-   "naf": "Fabrication de plats préparés",
-   "idcc": 1586,
-   "convention": "IDCC 1586",
-   "theme": "qualite",
-   "rome": [
-    "H1528"
-   ],
-   "ville": "Les Achards",
-   "departement": "85",
-   "region": "52",
-   "lat": 46.592752,
-   "lon": -1.664523,
-   "bassin": null,
-   "contrat": [
-    "Apprentissage",
-    "Professionnalisation"
-   ],
-   "duree_mois": null,
-   "niveau": "7",
-   "teletravail": "Présentiel",
-   "salaire_brut_mensuel": 1167,
-   "salaire_source": "minimum légal",
-   "loyer_studio": 337,
-   "pouvoir_achat_ajuste": 830,
-   "score_attractivite": 27.8,
-   "score_detail": {
-    "prestige": 8.8,
-    "remuneration": 6.7,
-    "missions": 6,
-    "cadre_vie": 6.3
-   },
-   "competences": [
-    "R&D / Innovation"
-   ],
-   "date": "2026-10-20",
-   "url": "https://r.holeest.com/redirect?jd_token=pKTDST&o=1&from=https%3A%2F%2Fwww.hellowork.com%2Ffr-fr%2Femplois%2F81509483.html%3Futm_source%3Dbonnealternance%26utm_medium%3Dmetamoteurs-free%26utm_campaign%3Dalternance%2B-%2B%7Bseo_domain%7D%26utm_content%3Dfluxbonnealternance%26utm_term%3D81509483"
-  },
-  {
    "id": "6ad7e5b876e8f92c0ea525e3",
    "source": "Hellowork",
    "titre": "Alternance - Chargé de Missions Hsse Groupe H/F",
@@ -7036,51 +6991,6 @@
    ],
    "date": "2026-09-30",
    "url": "https://r.holeest.com/redirect?jd_token=pJ2x3h&o=1&from=https%3A%2F%2Fwww.hellowork.com%2Ffr-fr%2Femplois%2F81910437.html%3Futm_source%3Dbonnealternance%26utm_medium%3Dmetamoteurs-free%26utm_campaign%3Dalternance%2B-%2B%7Bseo_domain%7D%26utm_content%3Dfluxbonnealternance%26utm_term%3D81910437"
-  },
-  {
-   "id": "6a5957f86a281b681b4984b3",
-   "source": "Hellowork",
-   "titre": "Agent de Fabrication - Filaire H/F",
-   "entreprise": "GROUPEMENT D'EMPLOYEURS PLUS",
-   "siret": "82102768700010",
-   "categorie": "ETI / PME",
-   "categorie_methode": "nom",
-   "taille": "20 à 49 salariés",
-   "taille_min": 20,
-   "naf": "Autre mise à disposition de ressources humaines",
-   "idcc": null,
-   "convention": null,
-   "theme": "production",
-   "rome": [
-    "H1404"
-   ],
-   "ville": "Pessac",
-   "departement": "33",
-   "region": "75",
-   "lat": 44.787469,
-   "lon": -0.675933,
-   "bassin": "Bordeaux",
-   "contrat": [
-    "Apprentissage",
-    "Professionnalisation"
-   ],
-   "duree_mois": 12,
-   "niveau": null,
-   "teletravail": "Présentiel",
-   "salaire_brut_mensuel": 1167,
-   "salaire_source": "minimum légal",
-   "loyer_studio": 440,
-   "pouvoir_achat_ajuste": 727,
-   "score_attractivite": 27.3,
-   "score_detail": {
-    "prestige": 11.3,
-    "remuneration": 6.7,
-    "missions": 4,
-    "cadre_vie": 5.3
-   },
-   "competences": [],
-   "date": "2026-10-15",
-   "url": "https://r.holeest.com/redirect?jd_token=pJ8Ba0&o=1&from=https%3A%2F%2Fwww.hellowork.com%2Ffr-fr%2Femplois%2F81357147.html%3Futm_source%3Dbonnealternance%26utm_medium%3Dmetamoteurs-free%26utm_campaign%3Dalternance%2B-%2Bproduction%26utm_content%3Dfluxbonnealternance%26utm_term%3D81357147"
   },
   {
    "id": "6acffc800bdf06aea2985d2a",
@@ -7263,147 +7173,6 @@
    "competences": [],
    "date": "2026-10-18",
    "url": "https://www.meteojob.com/jobs/54973119?utm_source=labonnealternance&utm_medium=aggregator-free&utm_campaign=alternance"
-  },
-  {
-   "id": "6aadb61d375ebabde2e08539",
-   "source": "Hellowork",
-   "titre": "Ingénieur Méthode en Alternance H/F",
-   "entreprise": "PRYSMIAN CABLES ET SYSTEMES FRANCE",
-   "siret": "09575031100805",
-   "categorie": "ETI / PME",
-   "categorie_methode": "nom",
-   "taille": "1 000 à 1 999 salariés",
-   "taille_min": 1,
-   "naf": "Activités des sièges sociaux",
-   "idcc": null,
-   "convention": null,
-   "theme": "production",
-   "rome": [
-    "H1402"
-   ],
-   "ville": "Chavanoz",
-   "departement": "38",
-   "region": "84",
-   "lat": 45.767581,
-   "lon": 5.177465,
-   "bassin": "Lyon",
-   "contrat": [
-    "Apprentissage",
-    "Professionnalisation"
-   ],
-   "duree_mois": 12,
-   "niveau": "6",
-   "teletravail": "Présentiel",
-   "salaire_brut_mensuel": 1039,
-   "salaire_source": "minimum légal",
-   "loyer_studio": 415,
-   "pouvoir_achat_ajuste": 624,
-   "score_attractivite": 26.7,
-   "score_detail": {
-    "prestige": 8,
-    "remuneration": 3.5,
-    "missions": 11,
-    "cadre_vie": 4.2
-   },
-   "competences": [
-    "Gestion de projet",
-    "SAP",
-    "Amélioration continue"
-   ],
-   "date": "2026-10-18",
-   "url": "https://r.holeest.com/redirect?jd_token=pJ2wPe&o=1&from=https%3A%2F%2Fwww.hellowork.com%2Ffr-fr%2Femplois%2F83525134.html%3Futm_source%3Dbonnealternance%26utm_medium%3Dmetamoteurs-free%26utm_campaign%3Dalternance%2B-%2Bproduction%26utm_content%3Dfluxbonnealternance%26utm_term%3D83525134"
-  },
-  {
-   "id": "6ab4509a7caaafd3f59714c0",
-   "source": "France Travail",
-   "titre": "Opérateur de production (H/F)",
-   "entreprise": "GEIQ INTERPRO DES DEUX SAVOIE",
-   "siret": null,
-   "categorie": "ETI / PME",
-   "categorie_methode": "nom",
-   "taille": null,
-   "taille_min": null,
-   "naf": null,
-   "idcc": null,
-   "convention": null,
-   "theme": "production",
-   "rome": [
-    "H1404"
-   ],
-   "ville": "Alby-Sur-Chéran",
-   "departement": "74",
-   "region": "84",
-   "lat": 45.81503,
-   "lon": 6.017944,
-   "bassin": null,
-   "contrat": [
-    "Apprentissage"
-   ],
-   "duree_mois": 12,
-   "niveau": null,
-   "teletravail": "Non précisé",
-   "salaire_brut_mensuel": 1167,
-   "salaire_source": "minimum légal",
-   "loyer_studio": 374,
-   "pouvoir_achat_ajuste": 793,
-   "score_attractivite": 26.6,
-   "score_detail": {
-    "prestige": 8,
-    "remuneration": 6.7,
-    "missions": 4,
-    "cadre_vie": 7.9
-   },
-   "competences": [],
-   "date": "2026-09-23",
-   "url": "https://app.beetween.com/WeaselWeb/p/#/apply/job/ts50hwndkm8/operateur-de-production"
-  },
-  {
-   "id": "6ad14e4618139f73ced8aaa6",
-   "source": "Hellowork",
-   "titre": "Apprenti Chargé de Mission Santé et Sécurité au Travail H/F",
-   "entreprise": "ANSAMBLE",
-   "siret": "33415947200458",
-   "categorie": "ETI / PME",
-   "categorie_methode": "nom",
-   "taille": "2 000 à 4 999 salariés",
-   "taille_min": 2,
-   "naf": "Autres services de restauration n.c.a.",
-   "idcc": 1266,
-   "convention": "IDCC 1266",
-   "theme": "qualite",
-   "rome": [
-    "H1302"
-   ],
-   "ville": "Nantes",
-   "departement": "44",
-   "region": "52",
-   "lat": 47.239367,
-   "lon": -1.555335,
-   "bassin": "Nantes / Saint-Nazaire",
-   "contrat": [
-    "Apprentissage",
-    "Professionnalisation"
-   ],
-   "duree_mois": 12,
-   "niveau": "6",
-   "teletravail": "Non précisé",
-   "salaire_brut_mensuel": 1039,
-   "salaire_source": "minimum légal",
-   "loyer_studio": 414,
-   "pouvoir_achat_ajuste": 625,
-   "score_attractivite": 26.5,
-   "score_detail": {
-    "prestige": 8.8,
-    "remuneration": 3.5,
-    "missions": 8,
-    "cadre_vie": 6.2
-   },
-   "competences": [
-    "R&D / Innovation",
-    "Management"
-   ],
-   "date": "2026-10-15",
-   "url": "https://r.holeest.com/redirect?jd_token=xtAZNE&o=1&from=https%3A%2F%2Fwww.hellowork.com%2Ffr-fr%2Femplois%2F84471331.html%3Futm_source%3Dbonnealternance%26utm_medium%3Dmetamoteurs-free%26utm_campaign%3Dalternance%2B-%2B%7Bseo_domain%7D%26utm_content%3Dfluxbonnealternance%26utm_term%3D84471331"
   },
   {
    "id": "6ac96573e2ab790b62ec9a42",
@@ -7727,100 +7496,6 @@
    "url": "https://www.lindustrie-recrute.fr/candidat/offre/818409?utm_source=NQ=="
   },
   {
-   "id": "6abae7e6f1ddb5796bb3b321",
-   "source": "France Travail",
-   "titre": "VENDEUR(SE) PREPARATEUR EN PIZZERIA #RUN5846 (H/F)",
-   "entreprise": "RUNAPP",
-   "siret": null,
-   "categorie": "ETI / PME",
-   "categorie_methode": "nom",
-   "taille": null,
-   "taille_min": null,
-   "naf": null,
-   "idcc": null,
-   "convention": null,
-   "theme": "production",
-   "rome": [
-    "H1404"
-   ],
-   "ville": "L'Étang-Salé",
-   "departement": "974",
-   "region": "04",
-   "lat": -21.254601,
-   "lon": 55.362398,
-   "bassin": null,
-   "contrat": [
-    "Apprentissage"
-   ],
-   "duree_mois": 18,
-   "niveau": null,
-   "teletravail": "Non précisé",
-   "salaire_brut_mensuel": 1167,
-   "salaire_source": "minimum légal",
-   "loyer_studio": 451,
-   "pouvoir_achat_ajuste": 716,
-   "score_attractivite": 25.9,
-   "score_detail": {
-    "prestige": 8,
-    "remuneration": 6.7,
-    "missions": 4,
-    "cadre_vie": 7.2
-   },
-   "competences": [],
-   "date": "2026-09-28",
-   "url": "https://www.jobposting.pro/emploi-2710321-120"
-  },
-  {
-   "id": "6aa32a530d35903fc26895c6",
-   "source": "Hellowork",
-   "titre": "Alt - Technicien Informatique H/F",
-   "entreprise": "GENERALI VIE",
-   "siret": "60206248102212",
-   "categorie": "ETI / PME",
-   "categorie_methode": "nom",
-   "taille": "2 000 à 4 999 salariés",
-   "taille_min": 2,
-   "naf": "Assurance vie",
-   "idcc": 1672,
-   "convention": "Sociétés d'assurances",
-   "theme": "data",
-   "rome": [
-    "M1810"
-   ],
-   "ville": "Saint-Denis",
-   "departement": "93",
-   "region": "11",
-   "lat": 48.927213,
-   "lon": 2.361465,
-   "bassin": "Paris / Saclay",
-   "contrat": [
-    "Apprentissage",
-    "Professionnalisation"
-   ],
-   "duree_mois": 18,
-   "niveau": "5",
-   "teletravail": "Non précisé",
-   "salaire_brut_mensuel": 857,
-   "salaire_source": "minimum légal",
-   "loyer_studio": 601,
-   "pouvoir_achat_ajuste": 256,
-   "score_attractivite": 25.8,
-   "score_detail": {
-    "prestige": 8.8,
-    "remuneration": 0,
-    "missions": 13,
-    "cadre_vie": 4
-   },
-   "competences": [
-    "Gestion de projet",
-    "Amélioration continue",
-    "Data / IA",
-    "R&D / Innovation"
-   ],
-   "date": "2026-10-10",
-   "url": "https://r.holeest.com/redirect?jd_token=pGWF0M&o=1&from=https%3A%2F%2Fwww.hellowork.com%2Ffr-fr%2Femplois%2F83255720.html%3Futm_source%3Dbonnealternance%26utm_medium%3Dmetamoteurs-free%26utm_campaign%3Dalternance%2B-%2Binformatique%26utm_content%3Dfluxbonnealternance%26utm_term%3D83255720"
-  },
-  {
    "id": "6ad3f11ecc1761c8ae02d816",
    "source": "Hellowork",
    "titre": "Apprentissage-Maintenance des Matériels de Construction et de Manutention Mmcm H/F",
@@ -8101,100 +7776,6 @@
    "url": "https://r.holeest.com/redirect?jd_token=pJbIDE&o=1&from=https%3A%2F%2Fwww.hellowork.com%2Ffr-fr%2Femplois%2F83383856.html%3Futm_source%3Dbonnealternance%26utm_medium%3Dmetamoteurs-free%26utm_campaign%3Dalternance%2B-%2Blogistique%26utm_content%3Dfluxbonnealternance%26utm_term%3D83383856"
   },
   {
-   "id": "6ac41f541778092e497f42c2",
-   "source": "Hellowork",
-   "titre": "Chargé Hygiène Sécurité Environnement HSE en Alternance H/F",
-   "entreprise": "SOCIETE ENTRETIEN NETTOYAGE INDUSTRIEL",
-   "siret": "66203223400061",
-   "categorie": "ETI / PME",
-   "categorie_methode": "nom",
-   "taille": "2 000 à 4 999 salariés",
-   "taille_min": 2,
-   "naf": "Activités des sièges sociaux",
-   "idcc": 3043,
-   "convention": "Entreprises de propreté",
-   "theme": "qualite",
-   "rome": [
-    "H1302"
-   ],
-   "ville": "Créteil",
-   "departement": "94",
-   "region": "11",
-   "lat": 48.784506,
-   "lon": 2.452976,
-   "bassin": "Paris / Saclay",
-   "contrat": [
-    "Apprentissage",
-    "Professionnalisation"
-   ],
-   "duree_mois": 24,
-   "niveau": "6",
-   "teletravail": "Non précisé",
-   "salaire_brut_mensuel": 1039,
-   "salaire_source": "minimum légal",
-   "loyer_studio": 624,
-   "pouvoir_achat_ajuste": 415,
-   "score_attractivite": 24.5,
-   "score_detail": {
-    "prestige": 8.8,
-    "remuneration": 3.5,
-    "missions": 8,
-    "cadre_vie": 4.2
-   },
-   "competences": [
-    "Amélioration continue",
-    "R&D / Innovation"
-   ],
-   "date": "2026-10-05",
-   "url": "https://r.holeest.com/redirect?jd_token=tayHAE&o=1&from=https%3A%2F%2Fwww.hellowork.com%2Ffr-fr%2Femplois%2F84096236.html%3Futm_source%3Dbonnealternance%26utm_medium%3Dmetamoteurs-free%26utm_campaign%3Dalternance%2B-%2B%7Bseo_domain%7D%26utm_content%3Dfluxbonnealternance%26utm_term%3D84096236"
-  },
-  {
-   "id": "6ac8ed10f994c6815745dee7",
-   "source": "offres_emploi_lba",
-   "titre": "Chargé de missions Sécurité Sûreté Environnement H/F",
-   "entreprise": "CHAMBRE DE COMMERCE ET D'INDUSTRIE DE REGION HAUTS-DE-FRANCE",
-   "siret": "13002271800451",
-   "categorie": "ETI / PME",
-   "categorie_methode": "nom",
-   "taille": "1 000 à 1 999 salariés",
-   "taille_min": 1,
-   "naf": "Services auxiliaires des transports par eau",
-   "idcc": null,
-   "convention": null,
-   "theme": "qualite",
-   "rome": [
-    "F1204"
-   ],
-   "ville": "Lille",
-   "departement": "59",
-   "region": "32",
-   "lat": 50.630213,
-   "lon": 3.035685,
-   "bassin": "Lille",
-   "contrat": [
-    "Apprentissage"
-   ],
-   "duree_mois": 12,
-   "niveau": "6",
-   "teletravail": "Non précisé",
-   "salaire_brut_mensuel": 1039,
-   "salaire_source": "minimum légal",
-   "loyer_studio": 452,
-   "pouvoir_achat_ajuste": 587,
-   "score_attractivite": 24.4,
-   "score_detail": {
-    "prestige": 8,
-    "remuneration": 3.5,
-    "missions": 7,
-    "cadre_vie": 5.9
-   },
-   "competences": [
-    "Gestion de projet"
-   ],
-   "date": "2026-10-09",
-   "url": "https://labonnealternance.apprentissage.beta.gouv.fr/emploi/offres_emploi_lba/6ac8ed10f994c6815745dee7/chargé-de-missions-sécurité-sûreté-environnement-h-f"
-  },
-  {
    "id": "6ad889dd76f66547ccc169e5",
    "source": "offres_emploi_lba",
    "titre": "Technicien / Technicienne méthodes atelier industriel",
@@ -8284,103 +7865,9 @@
    "url": "https://r.holeest.com/redirect?jd_token=pJbIrk&o=1&from=https%3A%2F%2Fwww.hellowork.com%2Ffr-fr%2Femplois%2F79561869.html%3Futm_source%3Dbonnealternance%26utm_medium%3Dmetamoteurs-free%26utm_campaign%3Dalternance%2B-%2Brecherche%26utm_content%3Dfluxbonnealternance%26utm_term%3D79561869"
   },
   {
-   "id": "6a6292319e972c0713e87986",
-   "source": "Hellowork",
-   "titre": "Alternant Ingénieur Procédés - Génie Chimique H/F",
-   "entreprise": "CRISTAL UNION",
-   "siret": "42134336900037",
-   "categorie": "ETI / PME",
-   "categorie_methode": "nom",
-   "taille": "2 000 à 4 999 salariés",
-   "taille_min": 2,
-   "naf": "Fabrication de sucre",
-   "idcc": 2728,
-   "convention": "IDCC 2728",
-   "theme": "production",
-   "rome": [
-    "H1402"
-   ],
-   "ville": "Buchères",
-   "departement": "10",
-   "region": "44",
-   "lat": 48.237167,
-   "lon": 4.11557,
-   "bassin": null,
-   "contrat": [
-    "Apprentissage",
-    "Professionnalisation"
-   ],
-   "duree_mois": 24,
-   "niveau": "6",
-   "teletravail": "Non précisé",
-   "salaire_brut_mensuel": 1039,
-   "salaire_source": "minimum légal",
-   "loyer_studio": 290,
-   "pouvoir_achat_ajuste": 749,
-   "score_attractivite": 23.8,
-   "score_detail": {
-    "prestige": 8.8,
-    "remuneration": 3.5,
-    "missions": 4,
-    "cadre_vie": 7.5
-   },
-   "competences": [],
-   "date": "2026-09-22",
-   "url": "https://r.holeest.com/redirect?jd_token=pJ4gt1&o=1&from=https%3A%2F%2Fwww.hellowork.com%2Ffr-fr%2Femplois%2F81620079.html%3Futm_source%3Dbonnealternance%26utm_medium%3Dmetamoteurs-free%26utm_campaign%3Dalternance%2B-%2Bproduction%26utm_content%3Dfluxbonnealternance%26utm_term%3D81620079"
-  },
-  {
-   "id": "6abd8814d46e986892b9e363",
-   "source": "Hellowork",
-   "titre": "Reporting Projets Eh&amp;S Groupe HSE F - M - X - Issy-Les-Moulineaux 92 H/F",
-   "entreprise": "SAUR",
-   "siret": "33937998405975",
-   "categorie": "ETI / PME",
-   "categorie_methode": "nom",
-   "taille": "5 000 à 9 999 salariés",
-   "taille_min": 5,
-   "naf": "Captage, traitement et distribution d'eau",
-   "idcc": null,
-   "convention": null,
-   "theme": "qualite",
-   "rome": [
-    "H1302"
-   ],
-   "ville": "Issy-Les-Moulineaux",
-   "departement": "92",
-   "region": "11",
-   "lat": 48.823903,
-   "lon": 2.262888,
-   "bassin": "Paris / Saclay",
-   "contrat": [
-    "Apprentissage",
-    "Professionnalisation"
-   ],
-   "duree_mois": null,
-   "niveau": "7",
-   "teletravail": "Présentiel",
-   "salaire_brut_mensuel": 700,
-   "salaire_source": "annoncé",
-   "loyer_studio": 752,
-   "pouvoir_achat_ajuste": -52,
-   "score_attractivite": 23.7,
-   "score_detail": {
-    "prestige": 9.7,
-    "remuneration": 0,
-    "missions": 12,
-    "cadre_vie": 2
-   },
-   "competences": [
-    "Gestion de projet",
-    "International",
-    "R&D / Innovation"
-   ],
-   "date": "2026-09-29",
-   "url": "https://r.holeest.com/redirect?jd_token=qBcEmo&o=1&from=https%3A%2F%2Fwww.hellowork.com%2Ffr-fr%2Femplois%2F83904000.html%3Futm_source%3Dbonnealternance%26utm_medium%3Dmetamoteurs-free%26utm_campaign%3Dalternance%2B-%2B%7Bseo_domain%7D%26utm_content%3Dfluxbonnealternance%26utm_term%3D83904000"
-  },
-  {
    "id": "6acfff94fcd49a2239d8363e",
    "source": "France Travail",
-   "titre": "STAGE DE FIN D'ETUDES - Ingénieur Systèmes &amp; fluides H/F",
+   "titre": "STAGE DE FIN D'ETUDES - Ingénieur Systèmes & fluides H/F",
    "entreprise": "NGE",
    "siret": null,
    "categorie": "ETI / PME",
@@ -8744,52 +8231,6 @@
    "url": "https://labonnealternance.apprentissage.beta.gouv.fr/emploi/offres_emploi_lba/6aa3d3d9744920529feb867f/assistant-assistante-qualité-en-industrie"
   },
   {
-   "id": "6aa7db26b272299cc427d570",
-   "source": "offres_emploi_lba",
-   "titre": "Assistant technique / Assistante technique d'ingénierie études, recherche et développement en industrie",
-   "entreprise": "CHAMBRE DE COMMERCE ET D'INDUSTRIE DE LA REUNION",
-   "siret": "18974211700071",
-   "categorie": "ETI / PME",
-   "categorie_methode": "nom",
-   "taille": "10 000 salariés et plus",
-   "taille_min": 10,
-   "naf": "Distribution d'électricité",
-   "idcc": null,
-   "convention": null,
-   "theme": "rd",
-   "rome": [
-    "H1206"
-   ],
-   "ville": "Le Port",
-   "departement": "974",
-   "region": "04",
-   "lat": -20.882115,
-   "lon": 55.450233,
-   "bassin": null,
-   "contrat": [
-    "Apprentissage"
-   ],
-   "duree_mois": 24,
-   "niveau": "5",
-   "teletravail": "Non précisé",
-   "salaire_brut_mensuel": 857,
-   "salaire_source": "minimum légal",
-   "loyer_studio": 442,
-   "pouvoir_achat_ajuste": 415,
-   "score_attractivite": 20.7,
-   "score_detail": {
-    "prestige": 10.5,
-    "remuneration": 0,
-    "missions": 6,
-    "cadre_vie": 4.2
-   },
-   "competences": [
-    "R&D / Innovation"
-   ],
-   "date": "2026-09-14",
-   "url": "https://labonnealternance.apprentissage.beta.gouv.fr/emploi/offres_emploi_lba/6aa7db26b272299cc427d570/assistant-technique-assistante-technique-d-ingénierie-études-recherche-et-développement-en-industrie"
-  },
-  {
    "id": "6a9207295f2fd127163bf07f",
    "source": "Hellowork",
    "titre": "Développeur - Webmaster Alternance H/F",
@@ -8835,98 +8276,6 @@
    ],
    "date": "2026-10-02",
    "url": "https://r.holeest.com/redirect?jd_token=sbUelg&o=1&from=https%3A%2F%2Fwww.hellowork.com%2Ffr-fr%2Femplois%2F82791417.html%3Futm_source%3Dbonnealternance%26utm_medium%3Dmetamoteurs-free%26utm_campaign%3Dalternance%2B-%2Binformatique%26utm_content%3Dfluxbonnealternance%26utm_term%3D82791417"
-  },
-  {
-   "id": "6ab2fc1068233dbb8f693f20",
-   "source": "Hellowork",
-   "titre": "BTS Msef Option Systèmes Énergétiques et Fluidiques -Guer H/F",
-   "entreprise": "DALKIA",
-   "siret": "45650053700018",
-   "categorie": "ETI / PME",
-   "categorie_methode": "nom",
-   "taille": "10 000 salariés et plus",
-   "taille_min": 10,
-   "naf": "Production et distribution de vapeur et d'air conditionné",
-   "idcc": 998,
-   "convention": "IDCC 998",
-   "theme": "btp",
-   "rome": [
-    "F1117"
-   ],
-   "ville": "Guer",
-   "departement": "56",
-   "region": "53",
-   "lat": 47.905015,
-   "lon": -2.128326,
-   "bassin": null,
-   "contrat": [
-    "Apprentissage",
-    "Professionnalisation"
-   ],
-   "duree_mois": null,
-   "niveau": "5",
-   "teletravail": "Non précisé",
-   "salaire_brut_mensuel": 857,
-   "salaire_source": "minimum légal",
-   "loyer_studio": 303,
-   "pouvoir_achat_ajuste": 554,
-   "score_attractivite": 20.0,
-   "score_detail": {
-    "prestige": 10.5,
-    "remuneration": 0,
-    "missions": 4,
-    "cadre_vie": 5.5
-   },
-   "competences": [],
-   "date": "2026-09-21",
-   "url": "https://r.holeest.com/redirect?jd_token=pJ4gEU&o=1&from=https%3A%2F%2Fwww.hellowork.com%2Ffr-fr%2Femplois%2F83599768.html%3Futm_source%3Dbonnealternance%26utm_medium%3Dmetamoteurs-free%26utm_campaign%3Dalternance%2B-%2B%7Bseo_domain%7D%26utm_content%3Dfluxbonnealternance%26utm_term%3D83599768"
-  },
-  {
-   "id": "6ad29fb175ec98a5c1145119",
-   "source": "Hellowork",
-   "titre": "Développeur C++ - Vb.Net H/F",
-   "entreprise": "ADECCO FRANCE",
-   "siret": "99882350431782",
-   "categorie": "ETI / PME",
-   "categorie_methode": "nom",
-   "taille": "2 000 à 4 999 salariés",
-   "taille_min": 2,
-   "naf": "Activités des agences de travail temporaire",
-   "idcc": 1090,
-   "convention": "Services de l'automobile",
-   "theme": "data",
-   "rome": [
-    "M1805"
-   ],
-   "ville": "Villeurbanne",
-   "departement": "69",
-   "region": "84",
-   "lat": 45.768975,
-   "lon": 4.890035,
-   "bassin": "Lyon",
-   "contrat": [
-    "Apprentissage",
-    "Professionnalisation"
-   ],
-   "duree_mois": null,
-   "niveau": "5",
-   "teletravail": "Non précisé",
-   "salaire_brut_mensuel": 857,
-   "salaire_source": "minimum légal",
-   "loyer_studio": 452,
-   "pouvoir_achat_ajuste": 405,
-   "score_attractivite": 19.8,
-   "score_detail": {
-    "prestige": 8.8,
-    "remuneration": 0,
-    "missions": 7,
-    "cadre_vie": 4.0
-   },
-   "competences": [
-    "Gestion de projet"
-   ],
-   "date": "2026-10-16",
-   "url": "https://r.holeest.com/redirect?jd_token=yf6EP2&o=1&from=https%3A%2F%2Fwww.hellowork.com%2Ffr-fr%2Femplois%2F84527125.html%3Futm_source%3Dbonnealternance%26utm_medium%3Dmetamoteurs-free%26utm_campaign%3Dalternance%2B-%2Binformatique%26utm_content%3Dfluxbonnealternance%26utm_term%3D84527125"
   },
   {
    "id": "6ac96579e2ab790b62ec9b7c",
@@ -9021,51 +8370,6 @@
    ],
    "date": "2026-10-02",
    "url": "https://www.meteojob.com/jobs/57234840?utm_source=labonnealternance&utm_medium=aggregator-free&utm_campaign=alternance"
-  },
-  {
-   "id": "6ab2fc0b68233dbb8f693e23",
-   "source": "Hellowork",
-   "titre": "BTS Msef Option Systèmes Énergétiques et Fluidiques -Guer H/F",
-   "entreprise": "DALKIA",
-   "siret": "45650053700018",
-   "categorie": "ETI / PME",
-   "categorie_methode": "nom",
-   "taille": "10 000 salariés et plus",
-   "taille_min": 10,
-   "naf": "Production et distribution de vapeur et d'air conditionné",
-   "idcc": 998,
-   "convention": "IDCC 998",
-   "theme": "btp",
-   "rome": [
-    "F1117"
-   ],
-   "ville": "Rennes",
-   "departement": "35",
-   "region": "53",
-   "lat": 48.110899,
-   "lon": -1.68365,
-   "bassin": "Rennes",
-   "contrat": [
-    "Apprentissage",
-    "Professionnalisation"
-   ],
-   "duree_mois": null,
-   "niveau": "5",
-   "teletravail": "Non précisé",
-   "salaire_brut_mensuel": 857,
-   "salaire_source": "minimum légal",
-   "loyer_studio": 430,
-   "pouvoir_achat_ajuste": 427,
-   "score_attractivite": 18.8,
-   "score_detail": {
-    "prestige": 10.5,
-    "remuneration": 0,
-    "missions": 4,
-    "cadre_vie": 4.3
-   },
-   "competences": [],
-   "date": "2026-09-21",
-   "url": "https://r.holeest.com/redirect?jd_token=pJbIoT&o=1&from=https%3A%2F%2Fwww.hellowork.com%2Ffr-fr%2Femplois%2F83599757.html%3Futm_source%3Dbonnealternance%26utm_medium%3Dmetamoteurs-free%26utm_campaign%3Dalternance%2B-%2B%7Bseo_domain%7D%26utm_content%3Dfluxbonnealternance%26utm_term%3D83599757"
   },
   {
    "id": "6a974d02db6c731160e4328c",
@@ -9205,51 +8509,6 @@
    ],
    "date": "2026-09-21",
    "url": "https://r.holeest.com/redirect?jd_token=pJ64MW&o=1&from=https%3A%2F%2Fwww.hellowork.com%2Ffr-fr%2Femplois%2F71678995.html%3Futm_source%3Dbonnealternance%26utm_medium%3Dmetamoteurs-free%26utm_campaign%3Dalternance%2B-%2B%7Bseo_domain%7D%26utm_content%3Dfluxbonnealternance%26utm_term%3D71678995"
-  },
-  {
-   "id": "6968b84c2fd23d7ccdf72bff",
-   "source": "Hellowork",
-   "titre": "Futurs Compagnons Aeronautique H/F",
-   "entreprise": "ADECCO FRANCE",
-   "siret": "99882350431782",
-   "categorie": "ETI / PME",
-   "categorie_methode": "nom",
-   "taille": "2 000 à 4 999 salariés",
-   "taille_min": 2,
-   "naf": "Activités des agences de travail temporaire",
-   "idcc": 1090,
-   "convention": "Services de l'automobile",
-   "theme": "production",
-   "rome": [
-    "H1404"
-   ],
-   "ville": "Montoir-De-Bretagne",
-   "departement": "44",
-   "region": "52",
-   "lat": 47.319879,
-   "lon": -2.150234,
-   "bassin": "Nantes / Saint-Nazaire",
-   "contrat": [
-    "Apprentissage",
-    "Professionnalisation"
-   ],
-   "duree_mois": null,
-   "niveau": "5",
-   "teletravail": "Non précisé",
-   "salaire_brut_mensuel": 857,
-   "salaire_source": "minimum légal",
-   "loyer_studio": 350,
-   "pouvoir_achat_ajuste": 507,
-   "score_attractivite": 17.9,
-   "score_detail": {
-    "prestige": 8.8,
-    "remuneration": 0,
-    "missions": 4,
-    "cadre_vie": 5.1
-   },
-   "competences": [],
-   "date": "2026-10-16",
-   "url": "https://r.holeest.com/redirect?jd_token=yfcwR4&o=1&from=https%3A%2F%2Fwww.hellowork.com%2Ffr-fr%2Femplois%2F74472653.html%3Futm_source%3Dbonnealternance%26utm_medium%3Dmetamoteurs-free%26utm_campaign%3Dalternance%2B-%2Bingenierie%252Cchimie%252Cbiotechnologie%252Cnautisme%252Caeronautique%26utm_content%3Dfluxbonnealternance%26utm_term%3D74472653"
   },
   {
    "id": "6ac813f19b5d06564c468641",
