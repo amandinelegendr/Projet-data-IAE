@@ -401,7 +401,7 @@ def main():
         },
         "offres": resultats,
     }
-    SORTIE.write_text(json.dumps(donnees, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+    SORTIE.write_text(json.dumps(donnees, ensure_ascii=False, indent=1), encoding="utf-8")
     annonces = sum(r["salaire_source"] == "annoncé" for r in resultats)
     print(f"{len(resultats)} offres d'ingénierie ({annonces} avec salaire annoncé, {ignorees} sans département) → {SORTIE}")
     if not resultats:
