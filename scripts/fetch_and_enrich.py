@@ -1,7 +1,7 @@
-"""Observatoire des alternances en ingénierie : extraction et enrichissement des offres.
+"""Observatoire des alternances : extraction et enrichissement des offres (ingénierie, commerce, management).
 
 1. Télécharge l'export quotidien des offres de La bonne alternance (clé dans LBA_API_KEY).
-2. Garde les vraies offres (pas les « recruteurs » à démarcher) des métiers d'ingénierie suivis.
+2. Garde les vraies offres (pas les « recruteurs » à démarcher) des métiers suivis dans les trois filières.
 3. Enrichit chaque offre avec des champs réels (télétravail, taille, convention collective, niveau,
    durée, coordonnées) et des champs calculés, tous documentés dans docs/data/alternances_enrichies.json :
    bassin d'emploi, catégorie d'entreprise, salaire (annoncé ou minimum légal), reste à vivre après loyer,
@@ -34,20 +34,36 @@ URL_LOYERS = ("https://static.data.gouv.fr/resources/carte-des-loyers-indicateur
 
 # --- Référentiels -------------------------------------------------------------------------------
 
-# Thèmes d'ingénierie et codes ROME (cahier des charges + codes relevés dans les vraies offres)
-THEMES = [
-    ("supply", "Supply Chain & Logistique", ["H1401"]),
-    ("production", "Production, Méthodes & Lean", ["H1402", "H1404", "I1302"]),
-    ("rd", "R&D, Études & Matériaux", ["H1206"]),
-    ("qualite", "Qualité & HSE", ["H1502", "H1302", "H1528", "H1524", "F1204"]),
-    ("data", "Data, IT & Cyber", ["M1805", "M1810"]),
-    ("btp", "Ingénierie BTP", ["F1117"]),
-]
-THEME_DU_ROME = {rome: cle for cle, _, romes in THEMES for rome in romes}
+FILIERES = [("ingenierie", "Ingénierie"), ("commerce", "Commerce & Marketing"), ("management", "Management & Gestion")]
 
-# Certains codes ROME (H1404 surtout) couvrent aussi des postes d'exécution : on écarte les intitulés hors ingénierie
-HORS_INGENIERIE = re.compile(r"pr[ée]parateur sal[ée]|pizz|vendeu|op[ée]rat(eur|rice|eur/trice)[^,]{0,6} de (production|fabrication)|"
-                             r"agent de fabrication|bac pro|m[ée]canique automobile|installateurs? thermique", re.IGNORECASE)
+# Thèmes et codes ROME, choisis d'après les intitulés réels des offres de l'export
+THEMES = [
+    ("supply", "Supply Chain & Logistique", "ingenierie", ["H1401"]),
+    ("production", "Production, Méthodes & Lean", "ingenierie", ["H1402", "H1404", "I1302"]),
+    ("rd", "R&D, Études & Matériaux", "ingenierie", ["H1206"]),
+    ("qualite", "Qualité & HSE", "ingenierie", ["H1502", "H1302", "H1528", "H1524", "F1204"]),
+    ("data", "Data, IT & Cyber", "ingenierie", ["M1805", "M1810"]),
+    ("btp", "Ingénierie BTP", "ingenierie", ["F1117"]),
+    ("b2b", "Développement commercial B2B", "commerce", ["D1402", "D1407", "D1416", "D1113", "M1707"]),
+    ("relation_client", "Relation client & ADV", "commerce", ["D1401", "D1403", "D1409", "D1410", "D1408"]),
+    ("marketing", "Marketing & Produit", "commerce", ["M1705", "M1711", "M1718", "M1620"]),
+    ("achats", "Achats", "commerce", ["D1431", "M1101"]),
+    ("distribution", "Management de la distribution", "commerce", ["D1502", "D1503", "D1509", "D1302"]),
+    ("rh", "Ressources humaines", "management", ["M1501", "M1502", "M1507", "M1510"]),
+    ("finance", "Finance, comptabilité & contrôle", "management", ["M1203", "M1204", "M1202", "M1213", "M1406"]),
+    ("direction", "Direction & gestion d'entreprise", "management", ["M1604", "M1302", "M1621"]),
+    ("juridique", "Juridique & RSE", "management", ["M1612", "M1413"]),
+]
+THEME_DU_ROME = {rome: cle for cle, _, _, romes in THEMES for rome in romes}
+FILIERE_DU_THEME = {cle: filiere for cle, _, filiere, _ in THEMES}
+
+# Certains codes ROME couvrent aussi des postes d'exécution ou d'autres métiers : on écarte les intitulés hors sujet
+HORS_SUJET = {
+    "ingenierie": re.compile(r"pr[ée]parateur sal[ée]|pizz|vendeu|op[ée]rat(eur|rice|eur/trice)[^,]{0,6} de (production|fabrication)|"
+                             r"agent de fabrication|bac pro|m[ée]canique automobile|installateurs? thermique", re.IGNORECASE),
+    "autres": re.compile(r"boulang|bouch[eè]r|p[âa]tissi|charcut|poissonn|fromag|coiff|esth[ée]tic|caisse|facteur|fleurist|"
+                         r"employ[ée]e? polyvalent|libre.?service|\bcap\b|\bbp\b|bac pro|[ée]quipier", re.IGNORECASE),
+}
 
 # Bassins industriels et technologiques : une offre en fait partie si elle est à moins de 30 km d'un des centres
 BASSINS = [
@@ -137,6 +153,13 @@ MOTS_MISSIONS = [  # (motif, points, étiquette)
     (r"catia|solidworks|\bcao\b|autocad|revit", 2, "CAO"),
     (r"automatisme|automate|\bplc\b|siemens", 2, "Automatisme"),
     (r"manag", 2, "Management"),
+    (r"\bcrm\b|salesforce|hubspot", 2, "CRM"),
+    (r"n[ée]goci|prospect", 2, "Négociation / prospection"),
+    (r"grands? comptes?|\bb2b\b", 2, "Grands comptes / B2B"),
+    (r"marketing digital|\bseo\b|r[ée]seaux sociaux|e-?commerce", 2, "Marketing digital"),
+    (r"excel|\bvba\b", 2, "Excel"),
+    (r"\bsirh\b|\bpaie\b", 2, "SIRH / paie"),
+    (r"consolidation|reporting|contr[ôo]le de gestion", 2, "Reporting / contrôle"),
 ]
 NOTE_MISSION_BASE = 4
 
@@ -314,25 +337,8 @@ def notes(cat, taille_min, salaire, texte, teletravail, reste_a_vivre):
     return round(sum(detail.values()), 1), detail, mots
 
 
-def analyser_romes(offres):
-    """Temporaire : codes ROME des familles commerce (D) et support à l'entreprise (M), pour choisir les métiers à ajouter."""
-    from collections import Counter, defaultdict
-    total, niveaux, exemples = Counter(), defaultdict(Counter), defaultdict(list)
-    for o in offres:
-        offre = o.get("offer", {})
-        for r in offre.get("rome_codes") or []:
-            if r[:1] in "DM":
-                total[r] += 1
-                niveaux[r][(offre.get("target_diploma") or {}).get("european") or "?"] += 1
-                if len(exemples[r]) < 5:
-                    exemples[r].append(html.unescape(offre.get("title", "")))
-    analyse = [{"rome": r, "offres": n, "niveaux": dict(niveaux[r]), "exemples": exemples[r]} for r, n in total.most_common(90)]
-    (SORTIE.parent / "analyse_romes.json").write_text(json.dumps(analyse, ensure_ascii=False, indent=1), encoding="utf-8")
-
-
 def main():
     date_export, offres = charger_offres()
-    analyser_romes(offres)
     loyers_communes, loyers_deps, region_du_dep = charger_loyers()
     noms_deps, polygones = charger_contours()
     teletravail_libelle = {"onsite": "Présentiel", "hybrid": "Hybride", "remote": "Télétravail complet"}
@@ -342,7 +348,8 @@ def main():
         offre, lieu = o.get("offer", {}), (o.get("workplace", {}).get("location") or {})
         theme = next((THEME_DU_ROME[r] for r in offre.get("rome_codes") or [] if r in THEME_DU_ROME), None)
         titre = html.unescape(offre.get("title", ""))
-        if not theme or HORS_INGENIERIE.search(titre):
+        filiere = FILIERE_DU_THEME.get(theme)
+        if not theme or HORS_SUJET["ingenierie" if filiere == "ingenierie" else "autres"].search(titre):
             continue
         dep, ville = localiser(lieu, polygones)
         if dep not in noms_deps:
@@ -382,6 +389,7 @@ def main():
             "naf": naf.get("label"),
             "idcc": idcc,
             "convention": CONVENTIONS.get(idcc, f"IDCC {idcc}") if idcc else None,
+            "filiere": filiere,
             "theme": theme,
             "rome": [r for r in offre.get("rome_codes") or [] if r in THEME_DU_ROME],
             "ville": ville.title() if ville else noms_deps[dep],
@@ -412,7 +420,8 @@ def main():
             "date_export": date_export,
             "nb_offres_export": len(offres),
             "source": "La bonne alternance (offres collectées par La bonne alternance, France Travail et leurs partenaires)",
-            "themes": [{"id": cle, "nom": nom, "romes": romes} for cle, nom, romes in THEMES],
+            "filieres": [{"id": cle, "nom": nom} for cle, nom in FILIERES],
+            "themes": [{"id": cle, "nom": nom, "filiere": filiere, "romes": romes} for cle, nom, filiere, romes in THEMES],
             "bassins": [{"nom": nom, "centres": centres} for nom, centres in BASSINS],
             "rayon_bassin_km": RAYON_BASSIN_KM,
             "regions": REGIONS,
@@ -427,9 +436,9 @@ def main():
     }
     SORTIE.write_text(json.dumps(donnees, ensure_ascii=False, indent=1), encoding="utf-8")
     annonces = sum(r["salaire_source"] == "annoncé" for r in resultats)
-    print(f"{len(resultats)} offres d'ingénierie ({annonces} avec salaire annoncé, {ignorees} sans département) → {SORTIE}")
+    print(f"{len(resultats)} offres retenues ({annonces} avec salaire annoncé, {ignorees} sans département) → {SORTIE}")
     if not resultats:
-        sys.exit("Aucune offre d'ingénierie trouvée : format de l'export à vérifier.")
+        sys.exit("Aucune offre retenue : format de l'export à vérifier.")
 
 
 if __name__ == "__main__":
