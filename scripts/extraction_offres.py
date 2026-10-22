@@ -96,9 +96,32 @@ def departement(lieu, polygones):
     return None
 
 
+def analyser_romes(offres):
+    """Temporaire : codes ROME des offres dont l'intitulé évoque l'ingénierie, pour choisir les métiers à compter."""
+    from collections import Counter, defaultdict
+    motif = re.compile(r"ing[ée]nieur|engineer|bureau d.?[ée]tudes|r&d|recherche|technicien|m[ée]thodes|automati|"
+                       r"[ée]lectroni|[ée]lectrotech|m[ée]cani|g[ée]nie|industriali|conception|projeteur|dessinat|"
+                       r"data|d[ée]veloppeu|informati|cyber|r[ée]seau|syst[eè]me|qualit|hse|maintenance|production|"
+                       r"chimi|mat[ée]riau|[ée]nergi|environnement|a[ée]ro|nucl[ée]aire|ferroviaire|travaux|chef de projet",
+                       re.IGNORECASE)
+    tous, inge, exemples = Counter(), Counter(), defaultdict(list)
+    for o in offres:
+        titre = o.get("offer", {}).get("title", "")
+        for r in o.get("offer", {}).get("rome_codes") or []:
+            tous[r] += 1
+            if motif.search(titre):
+                inge[r] += 1
+                if len(exemples[r]) < 4:
+                    exemples[r].append(titre)
+    analyse = [{"rome": r, "offres_inge": n, "offres_total": tous[r], "deja_compte": r in DOMAINE_DU_ROME, "exemples": exemples[r]}
+               for r, n in inge.most_common(80)]
+    (SORTIE.parent / "analyse_romes.json").write_text(json.dumps(analyse, ensure_ascii=False, indent=1), encoding="utf-8")
+
+
 def main():
     date_export, offres = telecharger()
     noms, polygones = charger_contours()
+    analyser_romes(offres)
 
     comptes = {code: {"nom": nom, "domaines": {c: 0 for c, _, _ in DOMAINES}, "bac5": {c: 0 for c, _, _ in DOMAINES}}
                for code, nom in noms.items()}
