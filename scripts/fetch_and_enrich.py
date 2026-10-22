@@ -314,8 +314,25 @@ def notes(cat, taille_min, salaire, texte, teletravail, reste_a_vivre):
     return round(sum(detail.values()), 1), detail, mots
 
 
+def analyser_romes(offres):
+    """Temporaire : codes ROME des familles commerce (D) et support à l'entreprise (M), pour choisir les métiers à ajouter."""
+    from collections import Counter, defaultdict
+    total, niveaux, exemples = Counter(), defaultdict(Counter), defaultdict(list)
+    for o in offres:
+        offre = o.get("offer", {})
+        for r in offre.get("rome_codes") or []:
+            if r[:1] in "DM":
+                total[r] += 1
+                niveaux[r][(offre.get("target_diploma") or {}).get("european") or "?"] += 1
+                if len(exemples[r]) < 5:
+                    exemples[r].append(html.unescape(offre.get("title", "")))
+    analyse = [{"rome": r, "offres": n, "niveaux": dict(niveaux[r]), "exemples": exemples[r]} for r, n in total.most_common(90)]
+    (SORTIE.parent / "analyse_romes.json").write_text(json.dumps(analyse, ensure_ascii=False, indent=1), encoding="utf-8")
+
+
 def main():
     date_export, offres = charger_offres()
+    analyser_romes(offres)
     loyers_communes, loyers_deps, region_du_dep = charger_loyers()
     noms_deps, polygones = charger_contours()
     teletravail_libelle = {"onsite": "Présentiel", "hybrid": "Hybride", "remote": "Télétravail complet"}
