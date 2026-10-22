@@ -6,7 +6,7 @@ Site : nombre d'offres d'alternance (apprentissage et professionnalisation) dans
 
 | Dossier | Contenu |
 | --- | --- |
-| `scripts/extraction_offres.py` | Interroge l'API Offres d'emploi v2 de France Travail et compte les offres en alternance par département et par domaine |
+| `scripts/extraction_offres.py` | Télécharge l'export quotidien des offres de La bonne alternance et compte les offres d'ingénierie par département, par domaine et pour le niveau Bac+5 |
 | `docs/data/offres.json` | Données produites par le script, lues par le site (créé à la première extraction) |
 | `docs/data/departements.geojson` | Contours des départements métropolitains ([france-geojson](https://github.com/gregoiredavid/france-geojson), données IGN/INSEE) |
 | `docs/index.html` | Site publié par GitHub Pages |
@@ -27,21 +27,23 @@ Tant que `docs/data/offres.json` n'existe pas, le site affiche des **données d'
 
 La liste se modifie dans `DOMAINES`, en tête du script. Elle inclut des postes de technicien supérieur (dessin, intervention technique) souvent ouverts aux alternants en école d'ingénieurs.
 
-## Clé d'accès France Travail
+## Source et clé d'accès
 
-1. Créer un compte sur [francetravail.io](https://francetravail.io), puis une application abonnée à l'API **« Offres d'emploi v2 »** (gratuit).
-2. Dans le dépôt GitHub : *Settings → Secrets and variables → Actions*, ajouter `FT_CLIENT_ID` et `FT_CLIENT_SECRET`.
+Les offres viennent de [La bonne alternance](https://labonnealternance.apprentissage.beta.gouv.fr) (offres collectées par La bonne alternance, France Travail et leurs partenaires), via la route d'export de l'[API apprentissage](https://api.apprentissage.beta.gouv.fr), mise à jour chaque nuit. Le département est déduit du code postal de l'adresse, ou à défaut des coordonnées GPS. Le niveau « Bac+5 » correspond aux offres dont le diplôme visé est de niveau européen 7.
+
+1. Créer un compte sur [api.apprentissage.beta.gouv.fr](https://api.apprentissage.beta.gouv.fr) et générer une clé **production** (lecture seule, valable un an).
+2. Dans le dépôt GitHub : *Settings → Secrets and variables → Actions*, ajouter le secret `LBA_API_KEY`.
 3. Lancer l'Action « Mise à jour des offres » depuis l'onglet *Actions*.
 
-Les identifiants ne sont jamais écrits dans le code.
+La clé n'est jamais écrite dans le code. Penser à la renouveler avant son expiration.
 
 ## Lancer l'extraction à la main
 
 ```bash
-FT_CLIENT_ID=... FT_CLIENT_SECRET=... python scripts/extraction_offres.py
+LBA_API_KEY=... python scripts/extraction_offres.py
 ```
 
-Aucune dépendance n'est nécessaire (Python 3 standard). Environ 620 appels, quelques minutes.
+Aucune dépendance n'est nécessaire (Python 3 standard). Un seul appel à l'API (limite : 2 par minute).
 
 ## Publication
 

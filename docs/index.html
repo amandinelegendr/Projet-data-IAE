@@ -92,6 +92,7 @@ footer a { color: var(--accent); }
     <div class="card kpi"><div class="v" id="k-deps">–</div><div class="l">départements avec au moins une offre</div></div>
   </div>
 
+  <div class="chips" id="niveau" role="group" aria-label="Niveau de diplôme visé"></div>
   <div class="chips" id="chips" role="group" aria-label="Domaine"></div>
 
   <div class="grid">
@@ -122,10 +123,10 @@ const fmt = n => n.toLocaleString("fr-FR");
 const pct = x => (x * 100).toLocaleString("fr-FR", { maximumFractionDigits: 1 }) + " %";
 const css = v => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
 const IDF = ["75", "77", "78", "91", "92", "93", "94", "95"];
-const state = { domaine: "tous", dep: null, q: "" };
+const state = { domaine: "tous", bac5: false, dep: null, q: "" };
 let D, geo;
 
-// Données d'exemple, utilisées tant que l'extraction France Travail n'a pas tourné
+// Données d'exemple, utilisées tant que l'extraction n'a pas tourné
 function donneesExemple(geo) {
   let s = 42; const rnd = () => (s = (s * 16807) % 2147483647) / 2147483647;
   const domaines = [
@@ -140,33 +141,41 @@ function donneesExemple(geo) {
   for (const [code, nom] of deps) {
     const w = (poids[code] ?? 0.4 + rnd()) * (code.length === 3 ? 0.3 : 1);
     const dom = Object.fromEntries(domaines.map(d => [d.id, Math.round(w * (4 + rnd() * 18))]));
-    departements[code] = { nom, domaines: dom, total: d3.sum(Object.values(dom)) };
+    const bac5 = Object.fromEntries(domaines.map(d => [d.id, Math.round(dom[d.id] * (0.3 + rnd() * 0.3))]));
+    departements[code] = { nom, domaines: dom, bac5, total: d3.sum(Object.values(dom)), total_bac5: d3.sum(Object.values(bac5)) };
   }
   const postes = { informatique: "Développeur logiciel", etudes: "Ingénieur études et conception", production: "Ingénieur méthodes industrialisation", qualite: "Ingénieur qualité", btp: "Ingénieur travaux", affaires: "Ingénieur d'affaires" };
   const offres = d3.range(60).map(i => {
     const d = domaines[i % 6].id, [code, nom] = deps[Math.floor(rnd() * 96)];
-    return { id: "ex" + i, intitule: postes[d] + " en alternance (H/F)", entreprise: "Entreprise d'exemple", lieu: `${code} - ${nom}`, departement: code, domaine: d, contrat: i % 3 ? "Contrat apprentissage" : "Contrat de professionnalisation", date: "", url: "" };
+    return { id: "ex" + i, intitule: postes[d] + " en alternance (H/F)", entreprise: "Entreprise d'exemple", lieu: `${code} - ${nom}`, departement: code, domaine: d, bac5: i % 2 === 0, contrat: i % 3 ? "Contrat apprentissage" : "Contrat de professionnalisation", date: "", url: "" };
   });
   return { exemple: true, mise_a_jour: "", source: "", domaines, departements, offres };
 }
 
+// Nombre d'offres d'un département pour un domaine, selon le niveau visé
+const parDomaine = (d, id) => (state.bac5 ? d.bac5 : d.domaines)[id] ?? 0;
 const valeur = code => {
   const d = D.departements[code];
   if (!d) return 0;
-  return state.domaine === "tous" ? d.total : d.domaines[state.domaine] ?? 0;
+  if (state.domaine !== "tous") return parDomaine(d, state.domaine);
+  return state.bac5 ? d.total_bac5 : d.total;
 };
 const nomDomaine = id => D.domaines.find(d => d.id === id)?.nom ?? id;
 
 function chips() {
   const el = document.getElementById("chips");
   el.innerHTML = "";
-  for (const [id, nom] of [["tous", "Tous les domaines"], ...D.domaines.map(d => [d.id, d.nom])]) {
+  const groupe = (options, actif, choix) => options.map(([id, nom]) => {
     const b = document.createElement("button");
     b.className = "chip"; b.textContent = nom;
-    b.setAttribute("aria-pressed", state.domaine === id);
-    b.onclick = () => { state.domaine = id; rendre(); };
-    el.append(b);
-  }
+    b.setAttribute("aria-pressed", actif === id);
+    b.onclick = () => { choix(id); rendre(); };
+    return b;
+  });
+  el.append(...groupe([["tous", "Tous les domaines"], ...D.domaines.map(d => [d.id, d.nom])], state.domaine, id => state.domaine = id));
+  const niv = document.getElementById("niveau");
+  niv.innerHTML = "<span>Niveau visé :</span>";
+  niv.append(...groupe([[false, "Tous niveaux"], [true, "Bac+5 (ingénieur)"]], state.bac5, v => state.bac5 = v));
 }
 
 function kpis() {
@@ -240,13 +249,13 @@ function panneau() {
     return;
   }
   const d = D.departements[state.dep];
-  const max = d3.max(D.domaines, x => d.domaines[x.id] ?? 0) || 1;
+  const max = d3.max(D.domaines, x => parDomaine(d, x.id)) || 1;
   const rang = Object.keys(D.departements).sort((a, b) => valeur(b) - valeur(a)).indexOf(state.dep) + 1;
   el.innerHTML = `<div class="panel-head"><h2>${d.nom} (${state.dep})</h2><button class="link" id="fermer">Toute la France</button></div>
     <div class="kpi" style="margin-bottom:14px"><div class="v">${fmt(valeur(state.dep))}</div>
     <div class="l">offres${state.domaine === "tous" ? "" : " · " + nomDomaine(state.domaine)} · ${rang}<sup>e</sup> département</div></div>
     <div class="bars">${D.domaines.map(x => {
-      const v = d.domaines[x.id] ?? 0;
+      const v = parDomaine(d, x.id);
       return `<div class="bar"><div class="top"><span>${x.nom}</span><b>${fmt(v)}</b></div>
         <div class="track"><div class="fill" style="width:${v / max * 100}%;${state.domaine !== "tous" && state.domaine !== x.id ? "opacity:.35" : ""}"></div></div></div>`;
     }).join("")}</div>`;
@@ -257,6 +266,7 @@ function liste() {
   const q = state.q.toLowerCase();
   const res = D.offres.filter(o =>
     (state.domaine === "tous" || o.domaine === state.domaine) &&
+    (!state.bac5 || o.bac5) &&
     (!state.dep || o.departement === state.dep) &&
     (!q || `${o.intitule} ${o.entreprise} ${o.lieu}`.toLowerCase().includes(q)));
   document.getElementById("offres-title").textContent = state.dep ? `Dernières offres · ${D.departements[state.dep].nom}` : "Dernières offres";
@@ -276,11 +286,11 @@ function rendre() { chips(); kpis(); carte(); panneau(); liste(); }
   if (D.exemple) {
     const b = document.getElementById("banner");
     b.hidden = false;
-    b.textContent = "Données d'exemple : les chiffres affichés sont fictifs. Ils seront remplacés par les offres réelles de France Travail dès la première extraction.";
+    b.textContent = "Données d'exemple : les chiffres affichés sont fictifs. Ils seront remplacés par les offres réelles de La bonne alternance dès la première extraction.";
   }
   document.getElementById("footer").innerHTML = D.exemple
-    ? "Source prévue : France Travail, API Offres d'emploi v2."
-    : `Source : ${D.source}. Mise à jour le ${new Date(D.mise_a_jour).toLocaleDateString("fr-FR")}. Contours : <a href="https://github.com/gregoiredavid/france-geojson">france-geojson</a> (IGN/INSEE).`;
+    ? "Source prévue : La bonne alternance (api.apprentissage.beta.gouv.fr)."
+    : `Source : <a href="https://labonnealternance.apprentissage.beta.gouv.fr">${D.source}</a>, export du ${new Date(D.date_export).toLocaleDateString("fr-FR")}. Niveau « Bac+5 » : offres dont le diplôme visé est de niveau 7. Contours : <a href="https://github.com/gregoiredavid/france-geojson">france-geojson</a> (IGN/INSEE).`;
   document.getElementById("q").oninput = e => { state.q = e.target.value; liste(); };
   rendre();
 })();

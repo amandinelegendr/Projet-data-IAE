@@ -1,7 +1,7 @@
-"""Compte les offres d'alternance en ingénierie par département (API Offres d'emploi v2 de France Travail).
+"""Compte les offres d'alternance en ingénierie par département (API La bonne alternance).
 
-Identifiants lus dans les variables d'environnement FT_CLIENT_ID et FT_CLIENT_SECRET
-(application créée sur https://francetravail.io, API « Offres d'emploi v2 »).
+Clé d'API lue dans la variable d'environnement LBA_API_KEY
+(compte sur https://api.apprentissage.beta.gouv.fr, clé « production » en lecture seule).
 Écrit docs/data/offres.json, lu par le site.
 """
 
@@ -9,19 +9,16 @@ import datetime
 import json
 import os
 import pathlib
+import re
 import sys
-import time
 import urllib.error
-import urllib.parse
 import urllib.request
 
 RACINE = pathlib.Path(__file__).resolve().parent.parent
 SORTIE = RACINE / "docs" / "data" / "offres.json"
 CONTOURS = RACINE / "docs" / "data" / "departements.geojson"
 
-URL_JETON = "https://entreprise.francetravail.fr/connexion/oauth2/access_token?realm=%2Fpartenaire"
-URL_RECHERCHE = "https://api.francetravail.io/partenaire/offresdemploi/v2/offres/search"
-URL_OFFRE = "https://candidat.francetravail.fr/offres/recherche/detail/{}"
+URL_EXPORT = "https://api.apprentissage.beta.gouv.fr/api/job/v1/export"
 
 # Métiers de l'ingénierie regroupés par domaine (codes ROME)
 DOMAINES = [
@@ -32,103 +29,121 @@ DOMAINES = [
     ("btp", "BTP et génie civil", ["F1103", "F1104", "F1106", "F1201"]),
     ("affaires", "Ingénierie d'affaires et technico-commercial", ["D1407", "H1102"]),
 ]
+DOMAINE_DU_ROME = {rome: cle for cle, _, romes in DOMAINES for rome in romes}
 
 OUTRE_MER = {"971": "Guadeloupe", "972": "Martinique", "973": "Guyane", "974": "La Réunion", "976": "Mayotte"}
 
-OFFRES_PAR_DOMAINE = 150  # maximum autorisé par appel
+OFFRES_DETAILLEES = 1000  # offres les plus récentes gardées pour la liste du site
 
 
-def lire_jeton():
-    identifiant = os.environ.get("FT_CLIENT_ID")
-    secret = os.environ.get("FT_CLIENT_SECRET")
-    if not identifiant or not secret:
-        sys.exit("FT_CLIENT_ID et FT_CLIENT_SECRET doivent être définis (voir README).")
-    corps = urllib.parse.urlencode({
-        "grant_type": "client_credentials",
-        "client_id": identifiant,
-        "client_secret": secret,
-        "scope": "api_offresdemploiv2 o2dsoffre",
-    }).encode()
-    requete = urllib.request.Request(URL_JETON, data=corps, headers={"Content-Type": "application/x-www-form-urlencoded"})
+def telecharger():
+    cle = os.environ.get("LBA_API_KEY")
+    if not cle:
+        sys.exit("LBA_API_KEY doit être définie (voir README).")
+    requete = urllib.request.Request(URL_EXPORT, headers={"Authorization": f"Bearer {cle}", "Accept": "application/json"})
     try:
-        with urllib.request.urlopen(requete, timeout=30) as reponse:
-            return json.load(reponse)["access_token"]
+        with urllib.request.urlopen(requete, timeout=60) as reponse:
+            export = json.load(reponse)
     except urllib.error.HTTPError as erreur:
-        # La réponse explique le refus (ex. invalid_client, invalid_scope) sans contenir d'identifiant
-        sys.exit(f"Jeton refusé par France Travail ({erreur.code}) : {erreur.read().decode(errors='replace')}")
+        sys.exit(f"Export refusé par La bonne alternance ({erreur.code}) : {erreur.read().decode(errors='replace')[:500]}")
+    print(f"Export du {export['lastUpdate']}, téléchargement…")
+    # L'URL du fichier est signée et valable 2 minutes : pas d'en-tête d'authentification
+    with urllib.request.urlopen(export["url"], timeout=600) as reponse:
+        donnees = json.load(reponse)
+    offres = donnees.get("jobs", []) if isinstance(donnees, dict) else donnees
+    return export["lastUpdate"][:10], offres
 
 
-def rechercher(jeton, **parametres):
-    """Renvoie (nombre total d'offres, liste des offres de la plage demandée)."""
-    url = URL_RECHERCHE + "?" + urllib.parse.urlencode(parametres)
-    requete = urllib.request.Request(url, headers={"Authorization": f"Bearer {jeton}", "Accept": "application/json"})
-    for essai in range(5):
-        time.sleep(0.15)  # l'API limite à 10 appels par seconde
-        try:
-            with urllib.request.urlopen(requete, timeout=60) as reponse:
-                if reponse.status == 204:
-                    return 0, []
-                plage = reponse.headers.get("Content-Range", "")  # ex. « offres 0-0/1234 »
-                total = int(plage.rsplit("/", 1)[1]) if "/" in plage else 0
-                return total, json.load(reponse).get("resultats", [])
-        except urllib.error.HTTPError as erreur:
-            if erreur.code in (429, 500, 502, 503) and essai < 4:
-                time.sleep(float(erreur.headers.get("Retry-After") or 2 ** essai))
-                continue
-            raise
-    raise RuntimeError("API indisponible")
-
-
-def lister_departements():
+def charger_contours():
     contours = json.loads(CONTOURS.read_text(encoding="utf-8"))
-    departements = {f["properties"]["code"]: f["properties"]["nom"] for f in contours["features"]}
-    departements.update(OUTRE_MER)
-    return dict(sorted(departements.items()))
+    noms = {f["properties"]["code"]: f["properties"]["nom"] for f in contours["features"]}
+    noms.update(OUTRE_MER)
+    polygones = []
+    for f in contours["features"]:
+        g = f["geometry"]
+        for poly in (g["coordinates"] if g["type"] == "MultiPolygon" else [g["coordinates"]]):
+            polygones.append((f["properties"]["code"], poly[0]))
+    return dict(sorted(noms.items())), polygones
 
 
-def resumer(offre, domaine):
-    lieu = offre.get("lieuTravail", {}).get("libelle", "")
-    code = lieu.split(" - ", 1)[0].strip() if " - " in lieu else ""
-    return {
-        "id": offre["id"],
-        "intitule": offre.get("intitule", ""),
-        "entreprise": offre.get("entreprise", {}).get("nom", ""),
-        "lieu": lieu,
-        "departement": code,
-        "domaine": domaine,
-        "contrat": offre.get("natureContrat", ""),
-        "date": offre.get("dateCreation", "")[:10],
-        "url": URL_OFFRE.format(offre["id"]),
-    }
+def dans_polygone(x, y, anneau):
+    dedans = False
+    for (x1, y1), (x2, y2) in zip(anneau, anneau[1:] + anneau[:1]):
+        if (y1 > y) != (y2 > y) and x < (x2 - x1) * (y - y1) / (y2 - y1) + x1:
+            dedans = not dedans
+    return dedans
+
+
+def departement(lieu, polygones):
+    """Département d'après le code postal de l'adresse, sinon d'après les coordonnées GPS."""
+    cp = re.findall(r"\b(\d{5})\b", lieu.get("address") or "")
+    if cp:
+        cp = cp[-1]
+        if cp.startswith("97"):
+            return cp[:3]
+        if cp.startswith("20"):
+            return "2A" if int(cp) < 20200 else "2B"
+        return cp[:2]
+    coords = (lieu.get("geopoint") or {}).get("coordinates")
+    if coords:
+        for code, anneau in polygones:
+            if dans_polygone(coords[0], coords[1], anneau):
+                return code
+    return None
 
 
 def main():
-    jeton = lire_jeton()
-    departements = lister_departements()
+    date_export, offres = telecharger()
+    noms, polygones = charger_contours()
 
-    comptes = {code: {"nom": nom, "domaines": {}} for code, nom in departements.items()}
-    offres = []
-    for cle, nom, romes in DOMAINES:
-        codes = ",".join(romes)
-        print(f"{nom}…")
-        for code in departements:
-            total, _ = rechercher(jeton, codeROME=codes, departement=code, alternance="true", range="0-0")
-            comptes[code]["domaines"][cle] = total
-        _, dernieres = rechercher(jeton, codeROME=codes, alternance="true", sort=1, range=f"0-{OFFRES_PAR_DOMAINE - 1}")
-        offres += [resumer(o, cle) for o in dernieres]
+    comptes = {code: {"nom": nom, "domaines": {c: 0 for c, _, _ in DOMAINES}, "bac5": {c: 0 for c, _, _ in DOMAINES}}
+               for code, nom in noms.items()}
+    retenues, hors_departement = [], 0
+    for o in offres:
+        offre = o.get("offer", {})
+        domaine = next((DOMAINE_DU_ROME[r] for r in offre.get("rome_codes") or [] if r in DOMAINE_DU_ROME), None)
+        if not domaine:
+            continue
+        lieu = o.get("workplace", {}).get("location") or {}
+        code = departement(lieu, polygones)
+        if code not in comptes:
+            hors_departement += 1
+            continue
+        bac5 = (offre.get("target_diploma") or {}).get("european") == "7"
+        comptes[code]["domaines"][domaine] += 1
+        comptes[code]["bac5"][domaine] += bac5
+        lieu_texte = re.sub(r"^.*?\b\d{5}\s*", "", lieu.get("address") or "").strip() or noms[code]
+        retenues.append({
+            "id": o.get("identifier", {}).get("id") or o.get("identifier", {}).get("partner_job_id"),
+            "intitule": offre.get("title", ""),
+            "entreprise": o.get("workplace", {}).get("name") or "",
+            "lieu": f"{code} - {lieu_texte}",
+            "departement": code,
+            "domaine": domaine,
+            "bac5": bac5,
+            "contrat": " / ".join(o.get("contract", {}).get("type") or []),
+            "date": ((offre.get("publication") or {}).get("creation") or "")[:10],
+            "url": o.get("apply", {}).get("url", ""),
+        })
 
     for compte in comptes.values():
         compte["total"] = sum(compte["domaines"].values())
+        compte["total_bac5"] = sum(compte["bac5"].values())
 
+    retenues.sort(key=lambda o: o["date"], reverse=True)
     donnees = {
         "mise_a_jour": datetime.date.today().isoformat(),
-        "source": "France Travail, API Offres d'emploi v2 (offres en alternance)",
+        "date_export": date_export,
+        "source": "La bonne alternance (offres collectées par La bonne alternance, France Travail et leurs partenaires)",
         "domaines": [{"id": cle, "nom": nom, "romes": romes} for cle, nom, romes in DOMAINES],
         "departements": comptes,
-        "offres": sorted(offres, key=lambda o: o["date"], reverse=True),
+        "offres": retenues[:OFFRES_DETAILLEES],
     }
     SORTIE.write_text(json.dumps(donnees, ensure_ascii=False, indent=1), encoding="utf-8")
-    print(f"{sum(c['total'] for c in comptes.values())} offres, {len(offres)} offres détaillées → {SORTIE}")
+    total = sum(c["total"] for c in comptes.values())
+    print(f"{len(offres)} offres dans l'export, {total} en ingénierie ({hors_departement} sans département reconnu) → {SORTIE}")
+    if total == 0:
+        sys.exit("Aucune offre d'ingénierie trouvée : format de l'export à vérifier.")
 
 
 if __name__ == "__main__":

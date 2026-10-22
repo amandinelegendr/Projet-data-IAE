@@ -21,10 +21,9 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Extraire les offres d'alternance (France Travail)
+      - name: Extraire les offres d'alternance (La bonne alternance)
         env:
-          FT_CLIENT_ID: ${{ secrets.FT_CLIENT_ID }}
-          FT_CLIENT_SECRET: ${{ secrets.FT_CLIENT_SECRET }}
+          LBA_API_KEY: ${{ secrets.LBA_API_KEY }}
         run: python scripts/extraction_offres.py
 
       - name: Enregistrer les nouvelles données
