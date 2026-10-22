@@ -10,6 +10,8 @@ const DUELS = {
   A: { nom: "CAC 40 vs ETI / PME", g1: ["CAC 40", o => o.categorie === "CAC 40"], g2: ["ETI / PME", o => o.categorie === "ETI / PME"] },
   B: { nom: "Grands groupes (CAC 40 + autres) vs ETI / PME", g1: ["Grands groupes", o => o.categorie !== "ETI / PME"], g2: ["ETI / PME", o => o.categorie === "ETI / PME"] },
   C: { nom: "Avec télétravail vs 100 % présentiel", g1: ["Avec télétravail", avecTeletravail], g2: ["Présentiel", o => o.teletravail === "Présentiel"] },
+  D: { nom: "Ingénierie vs Commerce & Marketing", g1: ["Ingénierie", o => o.filiere === "ingenierie"], g2: ["Commerce & Marketing", o => o.filiere === "commerce"] },
+  E: { nom: "Ingénierie vs Management & Gestion", g1: ["Ingénierie", o => o.filiere === "ingenierie"], g2: ["Management & Gestion", o => o.filiere === "management"] },
 };
 const reglages = { duel: "B", variable: "salaire" };
 

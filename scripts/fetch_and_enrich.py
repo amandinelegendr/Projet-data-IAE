@@ -62,7 +62,10 @@ HORS_SUJET = {
     "ingenierie": re.compile(r"pr[ée]parateur sal[ée]|pizz|vendeu|op[ée]rat(eur|rice|eur/trice)[^,]{0,6} de (production|fabrication)|"
                              r"agent de fabrication|bac pro|m[ée]canique automobile|installateurs? thermique", re.IGNORECASE),
     "autres": re.compile(r"boulang|bouch[eè]r|p[âa]tissi|charcut|poissonn|fromag|coiff|esth[ée]tic|caisse|facteur|fleurist|"
-                         r"employ[ée]e? polyvalent|libre.?service|\bcap\b|\bbp\b|bac pro|[ée]quipier", re.IGNORECASE),
+                         r"employ[ée]e? polyvalent|libre.?service|\bcap\b|\bbp\b|bac pro|[ée]quipier|"
+                         # vente en magasin, écartée de la filière commerce
+                         r"vendeu|conseill[eè]re?s?\W{0,3}(\(e\)|\(i?[eè]re\))? de vente|employ[ée]e?s?\W{0,3}(\(e\))? (de |du )?rayon|h[ôo]tes",
+                         re.IGNORECASE),
 }
 
 # Bassins industriels et technologiques : une offre en fait partie si elle est à moins de 30 km d'un des centres

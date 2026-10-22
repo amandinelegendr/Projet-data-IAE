@@ -3,7 +3,7 @@
 export const state = {
   offres: [],
   meta: null,
-  filtres: { q: "", themes: new Set(), categories: new Set(), teletravail: new Set(), regions: new Set(), scoreMin: 0 },
+  filtres: { q: "", filieres: new Set(), themes: new Set(), categories: new Set(), teletravail: new Set(), regions: new Set(), scoreMin: 0 },
   mode: "brut", // "brut" : salaire brut facial ; "pa" : reste à vivre après loyer d'un studio
   zone: null, // { type: "region" | "departement" | "ville" | "bassin", code, nom }
   tri: "score",
@@ -21,6 +21,8 @@ export const TELETRAVAIL = ["Hybride", "Télétravail complet", "Présentiel", "
 export const avecTeletravail = o => o.teletravail === "Hybride" || o.teletravail === "Télétravail complet";
 
 export const nomTheme = id => state.meta.themes.find(t => t.id === id)?.nom ?? id;
+export const nomFiliere = id => state.meta.filieres.find(f => f.id === id)?.nom ?? id;
+export const FILTRES_LISTES = ["filieres", "themes", "categories", "teletravail", "regions"];
 export const nomRegion = code => state.meta.regions[code] ?? code;
 
 /** Variables quantitatives proposées dans les vues et le laboratoire. */
@@ -36,6 +38,7 @@ export const nomSalaire = () => (state.mode === "pa" ? "Reste à vivre" : "Salai
 export function offresFiltrees() {
   const f = state.filtres, q = f.q.trim().toLowerCase();
   return state.offres.filter(o =>
+    (!f.filieres.size || f.filieres.has(o.filiere)) &&
     (!f.themes.size || f.themes.has(o.theme)) &&
     (!f.categories.size || f.categories.has(o.categorie)) &&
     (!f.teletravail.size || f.teletravail.has(o.teletravail)) &&

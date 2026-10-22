@@ -12,15 +12,18 @@ export function rendreMethodo() {
     <div><h3>Source des offres</h3>
       <p>${esc(m.source)}, export quotidien de l'API publique <a href="https://api.apprentissage.beta.gouv.fr">api.apprentissage.beta.gouv.fr</a>
       du ${new Date(m.date_export).toLocaleDateString("fr-FR")}. Sur ${num(m.nb_offres_export)} offres publiées en France, <b>${num(o.length)}</b>
-      relèvent des métiers d'ingénierie suivis. Les « recruteurs » de l'export (entreprises à démarcher sans offre publiée) sont écartés,
-      ainsi que les intitulés manifestement hors ingénierie (opérateur de fabrication, préparateur, vendeur…). <b>Aucune offre n'est simulée.</b></p></div>
-    <div><h3>Thèmes et codes ROME</h3><ul>${m.themes.map(t => `<li><b>${esc(t.nom)}</b> : ${t.romes.join(", ")}</li>`).join("")}</ul></div>
+      relèvent des métiers suivis dans trois filières : ingénierie, commerce & marketing, management & gestion.
+      Les « recruteurs » de l'export (entreprises à démarcher sans offre publiée) sont écartés, ainsi que les intitulés hors sujet
+      rangés sous les mêmes codes métiers : postes d'exécution en ingénierie (opérateur de fabrication, préparateur…), vente en magasin,
+      métiers de bouche, coiffure, caisse et diplômes de niveau CAP / BP en commerce et gestion. <b>Aucune offre n'est simulée.</b></p></div>
+    <div><h3>Filières, thèmes et codes ROME</h3>${m.filieres.map(f => `<p style="margin:6px 0 2px"><b>${esc(f.nom)}</b> (${num(o.filter(x => x.filiere === f.id).length)} offres)</p>
+      <ul>${m.themes.filter(t => t.filiere === f.id).map(t => `<li>${esc(t.nom)} : ${t.romes.join(", ")}</li>`).join("")}</ul>`).join("")}</div>
     <div><h3>Localisation</h3>
       <p>Département d'après le code postal de l'adresse (sinon les coordonnées GPS), région d'après le code officiel géographique.
       Bassin d'emploi : offre située à moins de ${m.rayon_bassin_km} km d'un des centres des ${m.bassins.length} bassins industriels retenus
       (${pct(bassin / o.length, 0)} des offres).</p></div>
     <div><h3>Catégorie d'entreprise</h3>
-      <p>Reconnaissance du nom de l'établissement dans une liste du CAC 40 et une liste de grands groupes industriels et d'ingénierie
+      <p>Reconnaissance du nom de l'établissement dans une liste du CAC 40 et une liste de grands groupes industriels, de services et d'ingénierie
       (SBF 120 et équivalents) ; à défaut, un établissement d'au moins ${num(m.seuil_grand_groupe)} salariés est classé « Grand Groupe ».
       Le reste est classé « ETI / PME ».</p></div>
     <div><h3>Salaire</h3>
@@ -38,7 +41,7 @@ export function rendreMethodo() {
       <ul>
         <li><b>Prestige /30</b> : CAC 40 de 24 à 30, grand groupe de 18 à 25, ETI / PME de 8 à 18, selon l'effectif (échelle logarithmique).</li>
         <li><b>Rémunération /30</b> : linéaire entre 900 € (0) et 2 100 € (30).</li>
-        <li><b>Missions /20</b> : 4 points de base + mots-clés repérés dans l'offre (gestion de projet, international, SAP, Power BI, Python, Lean, CAO, automatisme…).</li>
+        <li><b>Missions /20</b> : 4 points de base + mots-clés repérés dans l'offre (gestion de projet, international, SAP, Power BI, Python, Lean, CAO, CRM, négociation, marketing digital, SIRH, reporting…).</li>
         <li><b>Cadre de vie /20</b> : télétravail (complet 10, hybride 7, non précisé 4, présentiel 2) + reste à vivre entre 400 € (0) et 1 400 € (10).</li>
       </ul></div>
     <div><h3>Limites</h3>

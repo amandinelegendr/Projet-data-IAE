@@ -1,6 +1,6 @@
 // Barre de contrôle globale : recherche, filtres à choix multiples, seuil de score, mode de salaire, actualisation
 
-import { state, maj, CATEGORIES, TELETRAVAIL, nomTheme, nomRegion } from "../state.js";
+import { state, maj, CATEGORIES, TELETRAVAIL, FILTRES_LISTES, nomRegion } from "../state.js";
 import { esc } from "../utils/format.js";
 
 const DEPOT = "https://github.com/amandinelegendr/Projet-data-IAE";
@@ -12,7 +12,8 @@ function multiSelect(titre, cle, options) {
   el.dataset.actif = choisis.size > 0;
   const libelle = choisis.size ? `${titre} (${choisis.size})` : titre;
   el.innerHTML = `<summary>${esc(libelle)}</summary><div class="menu">
-    ${options.map(([val, nom, n]) => `<label><input type="checkbox" value="${esc(val)}" ${choisis.has(val) ? "checked" : ""}>
+    ${options.map(([val, nom, n]) => val === null ? `<div class="small muted" style="padding:6px 6px 2px;font-weight:600">${esc(nom)}</div>`
+      : `<label><input type="checkbox" value="${esc(val)}" ${choisis.has(val) ? "checked" : ""}>
       <span>${esc(nom)}</span><span class="n">${n}</span></label>`).join("")}
     <button class="btn link small" data-vider style="margin:6px 6px 2px">Tout effacer</button></div>`;
   el.querySelectorAll("input").forEach(cb => cb.onchange = () => {
@@ -48,8 +49,12 @@ export function initControles() {
     if (focus) { q.focus(); q.setSelectionRange(curseur, curseur); }
 
     const regions = [...new Set(state.offres.map(o => o.region))].sort((a, b) => nomRegion(a).localeCompare(nomRegion(b), "fr"));
+    // Thèmes regroupés par filière ; si des filières sont choisies, seuls leurs thèmes sont proposés
+    const filieres = state.meta.filieres.filter(f => !state.filtres.filieres.size || state.filtres.filieres.has(f.id));
+    const themes = filieres.flatMap(f => [[null, f.nom], ...state.meta.themes.filter(t => t.filiere === f.id).map(t => [t.id, t.nom, compter("theme", t.id)])]);
     const menus = [
-      multiSelect("Thème", "themes", state.meta.themes.map(t => [t.id, t.nom, compter("theme", t.id)])),
+      multiSelect("Filière", "filieres", state.meta.filieres.map(f => [f.id, f.nom, compter("filiere", f.id)])),
+      multiSelect("Thème", "themes", themes),
       multiSelect("Entreprise", "categories", CATEGORIES.map(c => [c, c, compter("categorie", c)])),
       multiSelect("Télétravail", "teletravail", TELETRAVAIL.map(t => [t, t, compter("teletravail", t)])),
       multiSelect("Région", "regions", regions.map(r => [r, nomRegion(r), compter("region", r)])),
@@ -82,14 +87,14 @@ export function initControles() {
     }
     el.append(sw);
 
-    const actifs = state.filtres.q || state.filtres.scoreMin || ["themes", "categories", "teletravail", "regions"].some(k => state.filtres[k].size);
+    const actifs = state.filtres.q || state.filtres.scoreMin || FILTRES_LISTES.some(k => state.filtres[k].size);
     if (actifs) {
       const r = document.createElement("button");
       r.className = "btn link";
       r.textContent = "Réinitialiser";
       r.onclick = () => {
         state.filtres.q = ""; state.filtres.scoreMin = 0;
-        ["themes", "categories", "teletravail", "regions"].forEach(k => state.filtres[k].clear());
+        FILTRES_LISTES.forEach(k => state.filtres[k].clear());
         maj({ zone: null });
       };
       el.append(r);

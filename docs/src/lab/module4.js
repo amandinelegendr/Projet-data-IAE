@@ -1,6 +1,6 @@
 // Module 4 — Croiser deux variables qualitatives : test du khi-deux d'indépendance
 
-import { state, nomTheme, nomRegion, CATEGORIES, avecTeletravail } from "../state.js";
+import { nomTheme, nomFiliere, nomRegion, CATEGORIES, avecTeletravail } from "../state.js";
 import { chi2Independence } from "../utils/statsEngine.js";
 import { num, pval, intensite, pct, esc, cssVar } from "../utils/format.js";
 import { barres100 } from "../components/charts.js";
@@ -13,8 +13,12 @@ const regionPrincipale = offres => {
   return o => (top.includes(o.region) ? nomRegion(o.region) : "Autres régions");
 };
 const CROISEMENTS = {
-  A: { nom: "Télétravail × thème d'ingénierie", ligne: () => o => nomTheme(o.theme), col: () => teletravail, tt: true,
-    q: "L'accès au télétravail dépend-il du métier d'ingénierie ?" },
+  A: { nom: "Télétravail × thème", ligne: () => o => nomTheme(o.theme), col: () => teletravail, tt: true,
+    q: "L'accès au télétravail dépend-il du métier ?" },
+  D: { nom: "Télétravail × filière", ligne: () => o => nomFiliere(o.filiere), col: () => teletravail, tt: true,
+    q: "L'accès au télétravail diffère-t-il entre ingénierie, commerce et management ?" },
+  E: { nom: "Catégorie d'entreprise × filière", ligne: () => o => nomFiliere(o.filiere), col: () => o => o.categorie, ordreC: CATEGORIES,
+    q: "Les grandes entreprises recrutent-elles des alternants dans les mêmes filières que les PME ?" },
   B: { nom: "Télétravail × catégorie d'entreprise", ligne: () => o => o.categorie, col: () => teletravail, tt: true, ordreL: CATEGORIES,
     q: "L'accès au télétravail dépend-il de la taille ou du prestige de l'entreprise ?" },
   C: { nom: "Catégorie d'entreprise × région", ligne: regionPrincipale, col: () => o => o.categorie, ordreC: CATEGORIES,
@@ -36,7 +40,7 @@ export function rendre(el, offres) {
 
   let html = `${question(C.q)}
     <div class="controls">
-      <label>Croisement ${select("croisement", Object.entries(CROISEMENTS).map(([k, c]) => [k, `${k} · ${c.nom}`]), reglages.croisement)}</label>
+      <label>Croisement ${select("croisement", Object.entries(CROISEMENTS).sort(([a], [b]) => a.localeCompare(b)).map(([k, c]) => [k, `${k} · ${c.nom}`]), reglages.croisement)}</label>
       ${C.tt ? `<label><input type="checkbox" data-ctl="nonPrecise" ${reglages.nonPrecise ? "checked" : ""}> inclure « non précisé »</label>` : ""}
       <label>Tableau ${select("vue", [["O", "Effectifs observés Oᵢⱼ"], ["E", "Effectifs théoriques Eᵢⱼ"], ["X", "Contributions au χ²"], ["P", "Pourcentages en ligne"]], reglages.vue)}</label>
     </div>

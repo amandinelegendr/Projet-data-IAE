@@ -1,18 +1,19 @@
 // Module 3 — Comparer plus de deux moyennes : ANOVA à un facteur + test post-hoc de Tukey-Kramer
 
-import { VARIABLES, nomTheme, nomRegion, CATEGORIES } from "../state.js";
+import { VARIABLES, nomTheme, nomFiliere, nomRegion, CATEGORIES } from "../state.js";
 import { anova, tukeyKramer, describe } from "../utils/statsEngine.js";
 import { num, pval, intensite, signe, esc } from "../utils/format.js";
 import { boites } from "../components/charts.js";
 import { select, brancher, question, hypotheses, verdict, cours, alerte, noteSalaire, noteScore, tex } from "./commun.js";
 
 const FACTEURS = {
-  theme: { nom: "Thème d'ingénierie", cle: o => o.theme, libelle: nomTheme },
+  filiere: { nom: "Filière", cle: o => o.filiere, libelle: nomFiliere },
+  theme: { nom: "Thème", cle: o => o.theme, libelle: nomTheme },
   categorie: { nom: "Catégorie d'entreprise", cle: o => o.categorie, libelle: c => c, ordre: CATEGORIES },
   region: { nom: "Région", cle: o => o.region, libelle: nomRegion },
 };
 const N_MIN = 3;
-const reglages = { facteur: "theme", variable: "score" };
+const reglages = { facteur: "filiere", variable: "salaire" };
 
 export const titre = "3 · ANOVA + Tukey";
 

@@ -21,7 +21,7 @@ export function rendreKpis() {
   const precises = o.filter(x => x.teletravail !== "Non précisé");
 
   const cartes = [
-    ["Offres actives", num(n), `<b>${pct(n / total)}</b> des ${num(total)} offres d'ingénierie suivies`],
+    ["Offres actives", num(n), `<b>${pct(n / total)}</b> des ${num(total)} offres suivies`],
     ["CAC 40 & grands groupes", pct(grands.length / n), `<b>${num(grands.length)}</b> offres, dont <b>${num(cac.length)}</b> du CAC 40`],
     [`${nomSalaire()} : moyenne / médiane`, `${eur(m)} / ${eur(me)}`,
       `écart <b>${signe(m - me, 0, " €")}</b> · σ = <b>${eur(sd(sal))}</b> · ${annonces ? `${num(annonces)} annoncé${annonces > 1 ? "s" : ""}, ` : ""}reste estimé`],
