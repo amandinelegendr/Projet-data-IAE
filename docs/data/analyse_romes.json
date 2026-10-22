@@ -1,0 +1,1518 @@
+[
+ {
+  "rome": "D1507",
+  "offres": 347,
+  "niveaux": {
+   "?": 211,
+   "5": 30,
+   "4": 20,
+   "3": 86
+  },
+  "exemples": [
+   "Employé polyvalent GMS H/F",
+   "Employé polyvalent / Employée polyvalente de libre-service",
+   "Employé polyvalent / Employée polyvalente de libre-service",
+   "E.Leclerc - EMPLOYE COMMERCIAL - Secteur Non Alimentaire en alternance - H/F",
+   "Super U - Employé / Employée de rayon (H/F)"
+  ]
+ },
+ {
+  "rome": "D1102",
+  "offres": 248,
+  "niveaux": {
+   "?": 104,
+   "4": 10,
+   "3": 134
+  },
+  "exemples": [
+   "Apprenti boulanger H/F",
+   "Apprenti boulanger H/F",
+   "E.Leclerc - Boulanger (apprentissage ) - H/F",
+   "E.Leclerc - Apprenti(e) Boulangerie - H/F",
+   "Boulanger  APPRENTISSAGE BP Boulangerie (H/F)"
+  ]
+ },
+ {
+  "rome": "D1106",
+  "offres": 239,
+  "niveaux": {
+   "?": 90,
+   "3": 77,
+   "4": 36,
+   "5": 36
+  },
+  "exemples": [
+   "Apprenti Vendeur",
+   "Vendeur / Vendeuse en boulangerie-pâtisserie",
+   "ALTERNANCE vendeur(se) en fromagerie/ fromager fromagère (H/F)",
+   "Apprenti(e) vendeur/vendeuse en boulangerie (H/F)",
+   "Vendeur(se) en boulangerie-pâtisserie - contrat d'apprentissage (H/F)"
+  ]
+ },
+ {
+  "rome": "D1202",
+  "offres": 233,
+  "niveaux": {
+   "3": 69,
+   "?": 131,
+   "4": 33
+  },
+  "exemples": [
+   "Coiffeur/coiffeuse en apprentissage (H/F)",
+   "APPRENTI(E) BP COIFFEUR(SE) H/F (H/F)",
+   "Coiffeur / Coiffeuse mixte",
+   "Apprenti coiffeur (H/F)",
+   "Recherche Apprentis CAP COIFFURE (H/F)"
+  ]
+ },
+ {
+  "rome": "D1101",
+  "offres": 185,
+  "niveaux": {
+   "?": 60,
+   "3": 117,
+   "4": 8
+  },
+  "exemples": [
+   "Boucher",
+   "Super U - Boucher / Bouchère (H/F)",
+   "Apprentie boucher (H/F)",
+   "E.Leclerc - BOUCHER / BOUCHÈRE - CONTRAT ALTERNANCE - H/F",
+   "E.Leclerc - Boucher traditionnel en apprentissage/contrat pro - H/F"
+  ]
+ },
+ {
+  "rome": "D1403",
+  "offres": 184,
+  "niveaux": {
+   "?": 104,
+   "5": 15,
+   "3": 53,
+   "6": 3,
+   "4": 9
+  },
+  "exemples": [
+   "Conseiller Clientèle - Alternant F/H",
+   "CHARGÉ(E) DE CLIENTÈLE - BTS MCO EN ALTERNANCE - Vente d'accessoires de mise en beauté / REF95 (H/F)",
+   "CONSEILLER(E) CLIENTÈLE EN ALTERNANCE - BTS MCO EN ALTERNANCE - COUTELLERIE LUXE / REF988 #AGE (H/F)",
+   "Conseiller(ère) de vente en apprentissage en solutions de géolocalisation GPS de véhicules #RUN15474 (H/F)",
+   "Conseiller(ère) Clientèle en Assurance en Alternance au sein d'une Société de Courtage / REF00 (H/F)"
+  ]
+ },
+ {
+  "rome": "D1104",
+  "offres": 175,
+  "niveaux": {
+   "?": 108,
+   "3": 65,
+   "4": 2
+  },
+  "exemples": [
+   "Apprenti pâtissier H/F",
+   "Apprenti Pâtissier H/F",
+   "CAP PATISSIER",
+   "CAP PATISSIER",
+   "CAP PATISSIER"
+  ]
+ },
+ {
+  "rome": "M1604",
+  "offres": 168,
+  "niveaux": {
+   "?": 117,
+   "5": 40,
+   "6": 3,
+   "7": 4,
+   "3": 1,
+   "4": 3
+  },
+  "exemples": [
+   "Alternant Assistant de Direction (H/F)",
+   "Alternant de direction H/F (H/F)",
+   "Assistant(e) de direction en alternance - Startup Digital - BTS GPME / ref0012 #AGE8399 (H/F)",
+   "Assistant(e) de direction en alternance - Startup Digital - BTS GPME / ref0012 #AGE8399 (H/F)",
+   "Assistant / Assistante de direction (H/F)"
+  ]
+ },
+ {
+  "rome": "D1108",
+  "offres": 163,
+  "niveaux": {
+   "?": 161,
+   "3": 2
+  },
+  "exemples": [
+   "CAP EQUIPIER POLYVALENT DU COMMERCE",
+   "CERTIFICAT DE SPE TECHN TOUR BOUL PAT",
+   "CERTIFICAT DE SPE BOUL SPE",
+   "CAP BOULANGER",
+   "CAP BOULANGER"
+  ]
+ },
+ {
+  "rome": "M1607",
+  "offres": 139,
+  "niveaux": {
+   "?": 50,
+   "6": 3,
+   "3": 11,
+   "4": 5,
+   "5": 70
+  },
+  "exemples": [
+   "Secrétaire administratif en alternance",
+   "E.Leclerc - Alternance Assistant Administratif - H/F",
+   "Alternant(e) Assistant Responsable Projets F/H",
+   "Assistant(e) Administratif(ve) Polyvalent(e)  - Société de Plomberie - BTS GPME en Alternance / REF0 (H/F)",
+   "Assistant(e) Administratif(ve) Polyvalent(e)  - Société de Plomberie - BTS GPME en Alternance / REF0 (H/F)"
+  ]
+ },
+ {
+  "rome": "M1502",
+  "offres": 125,
+  "niveaux": {
+   "?": 38,
+   "4": 2,
+   "6": 38,
+   "7": 16,
+   "5": 24,
+   "3": 7
+  },
+  "exemples": [
+   "Chargé de recrutement F/H",
+   "Attaché de recrutement H/F",
+   "Chargé de recrutement H/F (alternance)",
+   "Consultant en recrutement H/F (alternance)",
+   "chargé de re"
+  ]
+ },
+ {
+  "rome": "D1214",
+  "offres": 125,
+  "niveaux": {
+   "?": 44,
+   "4": 11,
+   "3": 10,
+   "5": 60
+  },
+  "exemples": [
+   "Vendeur/se Alternant/e",
+   "Vendeur/se Alternant/e",
+   "Vendeur/se Alternant/e",
+   "Vendeur en produits de luxe (H/F)",
+   "Vendeur / Vendeuse en prêt-à-porter (H/F)"
+  ]
+ },
+ {
+  "rome": "M1501",
+  "offres": 123,
+  "niveaux": {
+   "?": 41,
+   "4": 5,
+   "6": 22,
+   "5": 44,
+   "3": 4,
+   "7": 7
+  },
+  "exemples": [
+   "Chargé (e) de Ressources Humaines F/H",
+   "Assistant(e) de Manager - 92 - IGF F/H",
+   "Stage - Assistant Chargé de Recrutement F/H",
+   "Talent Acquisition F/H",
+   "Alternance - Assistant R.H - Juridique et Social F/H"
+  ]
+ },
+ {
+  "rome": "D1410",
+  "offres": 121,
+  "niveaux": {
+   "?": 35,
+   "4": 9,
+   "3": 8,
+   "7": 9,
+   "5": 50,
+   "6": 10
+  },
+  "exemples": [
+   "Conseiller(ère) de vente - MCO - 92 - AYME TRAITEUR F/H",
+   "Assistant en Prospection Commerciale F/H",
+   "Assistant(e) commercial F/H",
+   "Alternant INGÉNIEUR COMMERCIAL - INGÉNIEUR D'AFFAIRES F/H",
+   "Employé(e) Commercial(e) en apprentissage (H/F)"
+  ]
+ },
+ {
+  "rome": "D1401",
+  "offres": 119,
+  "niveaux": {
+   "?": 48,
+   "4": 6,
+   "6": 8,
+   "3": 11,
+   "5": 45,
+   "7": 1
+  },
+  "exemples": [
+   "Alternant Assistant Commercial Sédentaire H/F",
+   "Assistant commercial ADV (Assistant ADV)",
+   "Assistant Administratif en Alternance H/F",
+   "Assistant commercial et adm",
+   "BAC PRO METIERS DU COMMERCE ET VENTE"
+  ]
+ },
+ {
+  "rome": "M1213",
+  "offres": 107,
+  "niveaux": {
+   "?": 13,
+   "4": 6,
+   "3": 4,
+   "6": 36,
+   "5": 28,
+   "7": 20
+  },
+  "exemples": [
+   "Apprenti(e) assistant(e) comptabilité F/H",
+   "Assistant(e) comptable - BTS CG - REFLET IMMOBILIER - IGF F/H",
+   "Apprenti collaborateur comptable F/H",
+   "Alternant assistant comptable F/H",
+   "comptable investissement"
+  ]
+ },
+ {
+  "rome": "D1404",
+  "offres": 100,
+  "niveaux": {
+   "?": 78,
+   "5": 16,
+   "3": 2,
+   "7": 2,
+   "6": 1,
+   "4": 1
+  },
+  "exemples": [
+   "Vendeur Automobile en Alternance (H/F)",
+   "Cherche vendeur se et apprenti boulanger ère",
+   "Conseiller Commercial en magasin de pièces automobiles #DIS11833 (H/F)",
+   "Conseiller Client Après-Vente Automobile (RAV) : formation + alternance F/H",
+   "Alternance - CQP Vendeur Automobile (H/F)"
+  ]
+ },
+ {
+  "rome": "D1208",
+  "offres": 91,
+  "niveaux": {
+   "3": 42,
+   "?": 23,
+   "4": 21,
+   "5": 5
+  },
+  "exemples": [
+   "CONSEILLERE ESTHETICIENNE POLYVALENTE EN ALTERNANCE - H/F (H/F)",
+   "CONSEILLERE ESTHETICIENNE POLYVALENTE EN ALTERNANCE (H/F)",
+   "CONSEILLERE ESTHETICIENNE POLYVALENTE EN ALTERNANCE (H/F)",
+   "CONSEILLERE ESTHETICIENNE POLYVALENTE EN ALTERNANCE (H/F)",
+   "CONSEILLERE ESTHETICIENNE POLYVALENTE EN ALTERNANCE (H/F)"
+  ]
+ },
+ {
+  "rome": "D1505",
+  "offres": 71,
+  "niveaux": {
+   "?": 37,
+   "3": 27,
+   "4": 3,
+   "5": 4
+  },
+  "exemples": [
+   "Hôte(sse) de Caisse (Contrat de Professionnalisation) H/F",
+   "Hôte / Hôtesse de caisse (H/F)",
+   "Hôte / Hôtesse de caisse  (H/F)",
+   "Hôte / Hôtesse de caisse - contrat professionnalisation (H/F)",
+   "Caissier / Caissière en libre-service (H/F)"
+  ]
+ },
+ {
+  "rome": "D1502",
+  "offres": 66,
+  "niveaux": {
+   "4": 5,
+   "?": 37,
+   "3": 12,
+   "7": 3,
+   "6": 2,
+   "5": 7
+  },
+  "exemples": [
+   "Manager Rayon Grande Distribution (H/F)",
+   "Manager Rayon Grande Distribution (H/F)",
+   "Apprenti chef de rayon fruits et légumes (H/F)",
+   "APPRENTISSAGE Responsable de rayon produits alimentaires h/f (H/F)",
+   "Apprenti(e) polyvalent(e) fruits, légumes et poissonnerie (H/F)"
+  ]
+ },
+ {
+  "rome": "D1109",
+  "offres": 61,
+  "niveaux": {
+   "?": 60,
+   "3": 1
+  },
+  "exemples": [
+   "Boucher H/F",
+   "CAP BOUCHER",
+   "BP BOUCHER",
+   "BP BOUCHER",
+   "CAP BOUCHER"
+  ]
+ },
+ {
+  "rome": "D1212",
+  "offres": 50,
+  "niveaux": {
+   "?": 27,
+   "7": 1,
+   "4": 4,
+   "5": 15,
+   "3": 3
+  },
+  "exemples": [
+   "Apprenti vendeur sédentaire (H/F)",
+   "- Employé Polyvalent - Quincaillerie - Apprentissage - Le Tampon / Petite-Île #FOR14067 (H/F)",
+   "Conseiller Vendeur en meubles/appareils électro-ménager #DIS9793 (H/F)",
+   "Conseiller Commercial en magasin de carrelage #DIS12701 (H/F)",
+   "Vendeur - Magasin Bazar #DIS12692 (H/F)"
+  ]
+ },
+ {
+  "rome": "D1209",
+  "offres": 45,
+  "niveaux": {
+   "3": 17,
+   "?": 23,
+   "4": 5
+  },
+  "exemples": [
+   "BP FLEURISTE (H/F)",
+   "Apprenti(e) Fleuriste (H/F)",
+   "Apprenti(e) Fleuriste (H/F)",
+   "Apprenti conseiller de vente et communication H/F",
+   "Apprenti(e) Fleuriste (H/F)"
+  ]
+ },
+ {
+  "rome": "M1621",
+  "offres": 41,
+  "niveaux": {
+   "?": 15,
+   "5": 19,
+   "4": 5,
+   "6": 1,
+   "3": 1
+  },
+  "exemples": [
+   "Assistant(e) de gestion - 93 - CH FORMATION F/H",
+   "Assistant d’agence  en alternance IDF Projets F/H",
+   "Assistant(e) de gestion - AGENORA - 75 - Groupe IGF F/H",
+   "Assistant(e) de gestion - CAR DATA SA - 92 - IGF F/H",
+   "Assistant(e) de gestion - BTS GPME - CELESTRA - 94 - Groupe IGF F/H"
+  ]
+ },
+ {
+  "rome": "M1203",
+  "offres": 40,
+  "niveaux": {
+   "?": 10,
+   "5": 17,
+   "3": 5,
+   "6": 8
+  },
+  "exemples": [
+   "Comptable junior - SUNSTICE - 92 - IGF F/H",
+   "Comptable confirme - DSCG - BOURRELIER GROUP - 94 - Groupe IGF F/H",
+   "Alternant comptabilité F/H",
+   "Contrat d'Alternance Comptabilité",
+   "Alternance - Comptable trésorerie F/H"
+  ]
+ },
+ {
+  "rome": "M1603",
+  "offres": 40,
+  "niveaux": {
+   "?": 40
+  },
+  "exemples": [
+   "Alternance Facteur F/H",
+   "Alternance Facteur F/H",
+   "Alternance Facteur F/H",
+   "Alternance Facteur F/H",
+   "Alternance Facteur F/H"
+  ]
+ },
+ {
+  "rome": "M1707",
+  "offres": 39,
+  "niveaux": {
+   "?": 8,
+   "4": 1,
+   "7": 9,
+   "5": 9,
+   "6": 11,
+   "3": 1
+  },
+  "exemples": [
+   "Gestion d'entreprise - Bac+5 - Alternance 12 mois F/H",
+   "Responsable des ventes en alternance (Bac+2/3) F/H",
+   "Chargé d'affaires Grands comptes Nationaux H/F en alternance / Stage",
+   "Commercial - Alternance - Master 2 H/F",
+   "Chargé de développement commercial et de clientèle (H/F)"
+  ]
+ },
+ {
+  "rome": "D1103",
+  "offres": 39,
+  "niveaux": {
+   "?": 26,
+   "3": 12,
+   "4": 1
+  },
+  "exemples": [
+   "CAP CHARCUTIER TRAITEUR",
+   "CAP CHARCUTIER TRAITEUR",
+   "CAP CHARCUTIER TRAITEUR",
+   "CAP CHARCUTIER TRAITEUR",
+   "Apprenti aide laboratoire charcutier/boucher (H/F)"
+  ]
+ },
+ {
+  "rome": "D1407",
+  "offres": 38,
+  "niveaux": {
+   "?": 15,
+   "4": 1,
+   "6": 5,
+   "5": 13,
+   "7": 3,
+   "3": 1
+  },
+  "exemples": [
+   "Promoteur des ventes en alternance H/F",
+   "Négociateur Technico Commercial dans l'Importation/distribution de matériaux(H/F) #DIS12474",
+   "Apprenti technico-commercial (H/F)",
+   "Négociateur Technico Commercial en Energie #DIS15494 (H/F)",
+   "Négociateur Technico Commercial en Energie #DIS15494 (H/F)"
+  ]
+ },
+ {
+  "rome": "D1415",
+  "offres": 36,
+  "niveaux": {
+   "?": 35,
+   "6": 1
+  },
+  "exemples": [
+   "Conseiller de vente (H/F)",
+   "Conseiller de vente (H/F)",
+   "Conseiller de vente (H/F)",
+   "Conseiller de vente (H/F)",
+   "Conseiller de vente (H/F)"
+  ]
+ },
+ {
+  "rome": "D1438",
+  "offres": 35,
+  "niveaux": {
+   "?": 25,
+   "3": 4,
+   "5": 2,
+   "6": 2,
+   "4": 1,
+   "7": 1
+  },
+  "exemples": [
+   "Assistant⸱e Eshop et Marketing Digital F/H",
+   "EMPLOYE(E) DE MAGASIN EN ALTERNANCE",
+   "CAP EQUIPIER POLYVALENT DU COMMERCE",
+   "CAP EQUIPIER POLYVALENT DU COMMERCE",
+   "VENDEUR CONSEIL OMNICANAL"
+  ]
+ },
+ {
+  "rome": "M1704",
+  "offres": 31,
+  "niveaux": {
+   "?": 12,
+   "6": 10,
+   "7": 3,
+   "3": 1,
+   "5": 5
+  },
+  "exemples": [
+   "Chargé(e) de Clientèle Front Office en Alternance au sein d'une Société de Courtage / REF00385 (H/F)",
+   "Chargé(e) de Clientèle Front Office en Alternance au sein d'une Société de Courtage / REF00385 (H/F)",
+   "Chargé(e) de Clientèle Front Office en Alternance au sein d'une Société de Courtage / REF00383 (H/F)",
+   "Chargé(e) de Clientèle Front Office en Alternance au sein d'une Société de Courtage / REF00384 (H/F)",
+   "Chargé(e) de Clientèle Front Office en Alternance au sein d'une Société de Courtage / REF00384 (H/F)"
+  ]
+ },
+ {
+  "rome": "D1409",
+  "offres": 30,
+  "niveaux": {
+   "4": 4,
+   "?": 4,
+   "5": 20,
+   "6": 2
+  },
+  "exemples": [
+   "Assistant(e) Administration des ventes en alternance (H/F)",
+   "Alternant(e) Administration des Ventes / ADV (H/F)",
+   "Alternant(e) Gestion PME / Administration des ventes (H/F)",
+   "Assistant ADV (H/F)",
+   "APPRENTI (E) ASSISTANT(E) DES VENTES (H/F)"
+  ]
+ },
+ {
+  "rome": "D1402",
+  "offres": 27,
+  "niveaux": {
+   "?": 6,
+   "5": 13,
+   "3": 4,
+   "6": 2,
+   "7": 1,
+   "4": 1
+  },
+  "exemples": [
+   "Business Developer - Alternance",
+   "Assistant(e) Commercial(e) en Optique - BTS MCO en Alternance au sein d'une Entreprise d'Optiq (H/F)",
+   "Directeur Commercial Lille NB/F/H",
+   "Attaché commercial / Attachée commerciale grandes et moyennes sur (H/F)",
+   "Commercial biens de consommation aux entreprises (H/F)"
+  ]
+ },
+ {
+  "rome": "M1718",
+  "offres": 26,
+  "niveaux": {
+   "?": 15,
+   "6": 4,
+   "5": 3,
+   "4": 1,
+   "7": 3
+  },
+  "exemples": [
+   "chargé(e) de Marketing & Communication (B2B, Tech) F/H",
+   "Chargé(e) d'études et projets marketing Groupe en alternance",
+   "Alternance Digital marketing & IA",
+   "Chargé(e) de marketing digital & animation de communauté H/F",
+   "Alternant(e) Chargé(e) de communication digitale"
+  ]
+ },
+ {
+  "rome": "M1609",
+  "offres": 26,
+  "niveaux": {
+   "?": 13,
+   "3": 4,
+   "4": 8,
+   "5": 1
+  },
+  "exemples": [
+   "Alternant secrétaire H/F",
+   "Apprenti secrétaire médical / médicale (H/F)",
+   "Secrétaire médicale en alternance (H/F)",
+   "ALTERNANCE - BAC PRO - Secrétaire médicale (H/F)",
+   "Secrétaire médicale - alternance H/F"
+  ]
+ },
+ {
+  "rome": "D1107",
+  "offres": 26,
+  "niveaux": {
+   "?": 8,
+   "4": 2,
+   "3": 3,
+   "5": 13
+  },
+  "exemples": [
+   "BAC PRO METIERS DU COMMERCE ET VENTE",
+   "Aide vendeur / Aide vendeuse de produits frais en gros (H/F)",
+   "Aide vendeur / Aide vendeuse de produits frais en gros (H/F)",
+   "ALTERNANT Acheteur frais généraux (H/F)",
+   "Alternant vendeur(se) en produits frais et épicerie fine (H/F)"
+  ]
+ },
+ {
+  "rome": "D1105",
+  "offres": 25,
+  "niveaux": {
+   "?": 7,
+   "3": 18
+  },
+  "exemples": [
+   "BAC PRO METIERS DU COMMERCE ET VENTE",
+   "CAP EQUIPIER POLYVALENT DU COMMERCE",
+   "Apprenti(e) Poissonnier/Poissonniere",
+   "Employé(e) de poissonnerie en apprentissage (H/F)",
+   "Intermarché Recrute ses Futurs Apprentis Poissonniers-Écaillers H/F"
+  ]
+ },
+ {
+  "rome": "D1211",
+  "offres": 24,
+  "niveaux": {
+   "?": 2,
+   "3": 1,
+   "5": 17,
+   "4": 4
+  },
+  "exemples": [
+   "Vendeur Sport & Nutrition en Alternance (H/F)",
+   "Vendeur Sport & Nutrition en Alternance H/F",
+   "Conseiller de vente (H/F)",
+   "Conseille clientèle vendeur spécialisé",
+   "Conseiller(e) de vente - Conseiller(e) sportif(ve) H/F"
+  ]
+ },
+ {
+  "rome": "M1507",
+  "offres": 21,
+  "niveaux": {
+   "?": 7,
+   "3": 3,
+   "5": 6,
+   "6": 5
+  },
+  "exemples": [
+   "Gestionnaire de paie en alternance F/H",
+   "Alternant(e) Gestionnaire paie et SIRH F/H",
+   "Gestionnaire de Paie et Gestion Administrative du Personnel H/F",
+   "Gestionnaire de paie en apprentissage (H/F)",
+   "Alternant(e) Gestionnaire de paie - Paris 8ème H/F - GMBA Walter Allinial"
+  ]
+ },
+ {
+  "rome": "M1601",
+  "offres": 21,
+  "niveaux": {
+   "?": 8,
+   "3": 5,
+   "4": 5,
+   "5": 3
+  },
+  "exemples": [
+   "Chargé / Chargée d'accueil (H/F)",
+   "Secrétaire / Agent d'Accueil - BTS GPME EN ALTERNANCE - ENTREPRISE DE TRANSPORT / REF9661 #AGE (H/F)",
+   "Secrétaire / Agent d'Accueil - BTS GPME EN ALTERNANCE - ENTREPRISE DE TRANSPORT / REF9661 #AGE (H/F)",
+   "Chargé / Chargée d'accueil",
+   "Vendeur / Vendeuse en articles de sport (H/F)"
+  ]
+ },
+ {
+  "rome": "D1213",
+  "offres": 20,
+  "niveaux": {
+   "?": 2,
+   "5": 13,
+   "4": 4,
+   "6": 1
+  },
+  "exemples": [
+   "Magasinier Vendeur-Conseil H/F en alternance",
+   "alternance vendeur libre service (h/f) (H/F)",
+   "Vendeur / Vendeuse comptoir de matériels et équipements",
+   "Vendeur / Vendeuse comptoir de matériels et équipements",
+   "Vendeur en magasin / Assistant Manager H/F"
+  ]
+ },
+ {
+  "rome": "D1217",
+  "offres": 19,
+  "niveaux": {
+   "?": 17,
+   "3": 2
+  },
+  "exemples": [
+   "Coiffeur apprenti BP H/F",
+   "CAP METIERS DE LA COIFFURE",
+   "CS COIFFURE COUPE COULEUR",
+   "CAP METIERS DE LA COIFFURE",
+   "CS COIFFURE COUPE COULEUR"
+  ]
+ },
+ {
+  "rome": "M1705",
+  "offres": 19,
+  "niveaux": {
+   "?": 4,
+   "7": 8,
+   "5": 3,
+   "6": 3,
+   "3": 1
+  },
+  "exemples": [
+   "Chargé de mission marketing (H/F)",
+   "Alternant Marketing Produit (F/H) (H/F)",
+   "Alternant Master Marketing F/H - Panaget",
+   "Responsable Marketing en Alternance H/F",
+   "Alternance Bid Management & Marketing des Offres H/F"
+  ]
+ },
+ {
+  "rome": "D1223",
+  "offres": 18,
+  "niveaux": {
+   "?": 14,
+   "3": 1,
+   "5": 3
+  },
+  "exemples": [
+   "Apprenti Magasinier Pièces Détachées (H/F)",
+   "Apprenti Employé de commerce en pièces détachées auto (H/F)",
+   "Vendeur / Vendeuse en accessoires automobile (H/F)",
+   "Commercial itinérant d'outils automobiles en B to B (H/F)",
+   "Conseiller Client Vente Pièces de Rechange et Accessoires F/H"
+  ]
+ },
+ {
+  "rome": "M1101",
+  "offres": 18,
+  "niveaux": {
+   "?": 10,
+   "5": 2,
+   "7": 4,
+   "6": 2
+  },
+  "exemples": [
+   "Acheteur Indirect pour Finance, RH, LEGAL H/F",
+   "Alternant Service achat  H/F",
+   "Alternance - Chargé(e) de Logistique Internationale H/F",
+   "Alternant ADV/APPRO H/F",
+   "Alternant achats H/F"
+  ]
+ },
+ {
+  "rome": "M1805",
+  "offres": 18,
+  "niveaux": {
+   "?": 14,
+   "5": 3,
+   "6": 1
+  },
+  "exemples": [
+   "Alternance Développeur Full Stack & IA",
+   "Stage de fin d'études / Alternance - Sujet de stage : Financement de l'innovation et de la R&D (H/F)",
+   "Stage de fin d'études / Alternance - Sujet de stage : Performance et digitalisation de l'ingénierie (H/F)",
+   "Stage de fin d'études / Alternance - Sujet de stage : Transformation SI : transformer les SI pour répondre aux nouveaux enjeux du monde industriel et énergétique  (H/F)",
+   "Stage de fin d'études / Alternance - Sujet de stage : Management des directions Recherche et Innovation (H/F)"
+  ]
+ },
+ {
+  "rome": "D1503",
+  "offres": 18,
+  "niveaux": {
+   "?": 11,
+   "5": 3,
+   "6": 2,
+   "4": 1,
+   "7": 1
+  },
+  "exemples": [
+   "Chef de rayon produits non alimentaires (H/F)",
+   "Chef de rayon produits non alimentaires (H/F)",
+   "Adjoint Chef de Rayon Alternance H/F",
+   "Chef de Secteur Junior GSA - Contrat d'Alternance H/F",
+   "Alternance - Chef de Département Mode Beauté Bac+3 H/F"
+  ]
+ },
+ {
+  "rome": "D1416",
+  "offres": 17,
+  "niveaux": {
+   "?": 9,
+   "4": 2,
+   "6": 2,
+   "5": 3,
+   "7": 1
+  },
+  "exemples": [
+   "Commercial(e) BtoB en Alternance",
+   "Commercial(e) Développement Partenariats Sportifs (H/F)",
+   "Assistant (e) Business developper - Alternance (H/F)",
+   "Commercial itinérant (H/F)",
+   "Commercial(e) Développement Partenariats Sportifs (H/F)"
+  ]
+ },
+ {
+  "rome": "D1219",
+  "offres": 17,
+  "niveaux": {
+   "?": 14,
+   "4": 1,
+   "3": 1,
+   "5": 1
+  },
+  "exemples": [
+   "VENDEUR CONSEIL OMNICANAL",
+   "Vendeur (se) CBD",
+   "VENDEUR CONSEIL OMNICANAL",
+   "VENDEUR CONSEIL OMNICANAL",
+   "VENDEUR CONSEIL OMNICANAL"
+  ]
+ },
+ {
+  "rome": "D1424",
+  "offres": 17,
+  "niveaux": {
+   "?": 17
+  },
+  "exemples": [
+   "Vendeur conseil (H/F)",
+   "Vendeur conseil (H/F)",
+   "Vendeur conseil (H/F)",
+   "Vendeur conseil (H/F)",
+   "Vendeur conseil (H/F)"
+  ]
+ },
+ {
+  "rome": "D1501",
+  "offres": 17,
+  "niveaux": {
+   "?": 9,
+   "6": 1,
+   "3": 1,
+   "5": 5,
+   "4": 1
+  },
+  "exemples": [
+   "Vendeur conseil en alternance (H/F)",
+   "Animateur Commercial Beauté - Alternance - l'Oréal Luxe - Velizy H/F",
+   "Alternance en Vente H/F",
+   "Apprentissage Vente CAP / VCO OU BTS BOULANGERIE ANGE BEZIERS CENTRE VILLE H/F",
+   "Animateur / Animatrice de réseau"
+  ]
+ },
+ {
+  "rome": "M1302",
+  "offres": 16,
+  "niveaux": {
+   "?": 10,
+   "5": 6
+  },
+  "exemples": [
+   "Directeur adjoint (H/F)",
+   "ASSISTANT(E) GESTION COMMERCIALE - BTS MCO EN ALTERNANCE - AGENCE DE PUBLICITÉ / REF967 #AGE59 (H/F)",
+   "ASSISTANT(E) GESTION COMMERCIALE - BTS MCO EN ALTERNANCE - AGENCE DE PUBLICITÉ / REF967 #AGE59 (H/F)",
+   "ASSISTANT(E) GESTION COMMERCIALE - BTS MCO EN ALTERNANCE - AGENCE DE PUBLICITÉ / REF967 #AGE59 (H/F)",
+   "ASSISTANT(E) GESTION COMMERCIALE - BTS MCO EN ALTERNANCE - AGENCE DE PUBLICITÉ / REF967 #AGE59 (H/F)"
+  ]
+ },
+ {
+  "rome": "M1711",
+  "offres": 16,
+  "niveaux": {
+   "?": 1,
+   "7": 7,
+   "6": 6,
+   "3": 1,
+   "5": 1
+  },
+  "exemples": [
+   "ALTERNANCE ASSISTANT CHEF DE PRODUIT PROBIOLOG - H/F",
+   "Assistant Chef de Produit - Alternance H/F",
+   "Chargé de Marketing H/F",
+   "Chargé de Marketing et Communication en Alternance H/F",
+   "Chargé de Projets Marketing RH et Acquisition - Alternance H/F"
+  ]
+ },
+ {
+  "rome": "M1406",
+  "offres": 15,
+  "niveaux": {
+   "?": 10,
+   "5": 2,
+   "6": 1,
+   "7": 2
+  },
+  "exemples": [
+   "Alternance - Trésorier(ère) F/H",
+   "Assistant Administratif Junior | Lille | Alternance | F/H",
+   "Assistant(e) Recrutement en Alternance",
+   "ALTERNANT CHARGÉ DE MISSION SECTIONS SOCIALES F/H",
+   "Assistant administratif / Assistante administrative"
+  ]
+ },
+ {
+  "rome": "M1413",
+  "offres": 15,
+  "niveaux": {
+   "?": 10,
+   "7": 4,
+   "6": 1
+  },
+  "exemples": [
+   "Alternance Assistant RSE F/H",
+   "Alternance - Contrôleur interne F/H",
+   "ALTERNANCE - Chargé ou chargée de missions communication F/H",
+   "Alternance BTS SP3S - Vallet",
+   "Alternance Chargé(e) de mission - enjeux institutionnels, organisationnels, humains et financiers"
+  ]
+ },
+ {
+  "rome": "D1113",
+  "offres": 15,
+  "niveaux": {
+   "?": 12,
+   "4": 1,
+   "6": 1,
+   "5": 1
+  },
+  "exemples": [
+   "Alternant(e) Commercial(e) Itinérant(e) H/F",
+   "Alternant(e) Commercial(e) Itinérant(e) H/F",
+   "Alternant(e) Commercial(e) Itinérant(e) H/F",
+   "Alternant(e) Commercial(e) Itinérant(e) H/F",
+   "Commercial en produits de tabac #DIS12703 (H/F)"
+  ]
+ },
+ {
+  "rome": "M1202",
+  "offres": 15,
+  "niveaux": {
+   "?": 1,
+   "7": 13,
+   "6": 1
+  },
+  "exemples": [
+   "Alternance - Chargé(e) de Contrôle Interne (H/F)",
+   "Auditeur - Analyse de la Valeur Janvier 2027 - Lyon H/F",
+   "Alternance - Contrôleur Interne H/F",
+   "Controleur Interne H/F",
+   "Consultant en Financement de l'Innovation en Alternance - Paris H/F"
+  ]
+ },
+ {
+  "rome": "D1204",
+  "offres": 14,
+  "niveaux": {
+   "?": 6,
+   "4": 1,
+   "3": 4,
+   "7": 1,
+   "5": 2
+  },
+  "exemples": [
+   "Technicien préparateur ALT - 93 -Kiloutou F/H",
+   "Commercial comptoir ALT - 68 - Kiloutou F/H",
+   "Commercial comptoir ALT - 40 - Kiloutou F/H",
+   "Technicien préparateur ALT - 24 -Kiloutou F/H",
+   "Apprenti(e) en BTS Maintenance des Véhicules"
+  ]
+ },
+ {
+  "rome": "M1510",
+  "offres": 14,
+  "niveaux": {
+   "?": 11,
+   "7": 2,
+   "6": 1
+  },
+  "exemples": [
+   "Alternant(e) Chargé(e) de mission RH /X F/H",
+   "Chargé de pilotage d'activité F/H - Alternance Bezannes",
+   "Junior Project Manager HR & Data - Apprenticeship (f/m/d)",
+   "Alternance - Appui management F/H",
+   "[Alternance] Chargé de Projet & Développement RH H/F"
+  ]
+ },
+ {
+  "rome": "M1204",
+  "offres": 14,
+  "niveaux": {
+   "?": 7,
+   "4": 1,
+   "6": 2,
+   "7": 4
+  },
+  "exemples": [
+   "Contrôleur de Gestion Social en alternance F/H",
+   "Cost Controller Hôtel 4* (H/F)",
+   "Contrôleur de gestion en alternance F/H",
+   "Contrôleur de gestion H/F",
+   "Contrôleur(se) de Gestion holding H/F"
+  ]
+ },
+ {
+  "rome": "M1620",
+  "offres": 14,
+  "niveaux": {
+   "?": 7,
+   "4": 1,
+   "7": 3,
+   "6": 3
+  },
+  "exemples": [
+   "E.Leclerc - Assistant Marketing (alternance) - H/F",
+   "Assist. Chargé(e) campagnes markt digital - Altern (H/F)",
+   "ASSISTANT MARKETING OPERATIONNEL (ALTERNANCE) H/F",
+   "Assistant(e) Marketing en alternance (H/F)",
+   "Assistant(e) Marketing et Communication (H/F)"
+  ]
+ },
+ {
+  "rome": "D1221",
+  "offres": 13,
+  "niveaux": {
+   "?": 4,
+   "3": 3,
+   "5": 4,
+   "4": 2
+  },
+  "exemples": [
+   "Vendeur / Commercial Fnac en alternance ( BTS NDRC ) F/H",
+   "Vendeur Polyvalent F/H Alternance",
+   "Vendeur Polyvalent F/H - Alternance",
+   "Vendeur / Vendeuse de produits culturels et ludiques (H/F)",
+   "Vendeur polyvalent en alternance H/F"
+  ]
+ },
+ {
+  "rome": "D1431",
+  "offres": 13,
+  "niveaux": {
+   "?": 9,
+   "4": 1,
+   "7": 2,
+   "5": 1
+  },
+  "exemples": [
+   "Alternance - Acheteur Indirects F/H",
+   "Assistant (e) Achat en alternance",
+   "Alternance Assistant(e) Achats et Services Généraux",
+   "ACHETEUR EN ALTERNANCE F/H",
+   "#SALONDEMANDELIEU2026 - Assistant / Assistante achat et logistiqu (H/F)"
+  ]
+ },
+ {
+  "rome": "D1509",
+  "offres": 13,
+  "niveaux": {
+   "?": 7,
+   "6": 2,
+   "5": 2,
+   "7": 1,
+   "3": 1
+  },
+  "exemples": [
+   "Manager de secteur en alternance (Bac+2/3) F/H",
+   "Merchandiser en Grande Distribution  - BTS MCO en alternance / REF00481 #AGE9590 (H/F)",
+   "Employé.e commercial.e polyvalent.e en grande distribution en apprentissage #SUC13345 (H/F)",
+   "Employé.e commercial.e polyvalent.e en grande distribution en apprentissage #SUC13345 (H/F)",
+   "Technicien Logistique en grande distribution en apprentissage #SUC13422 (H/F)"
+  ]
+ },
+ {
+  "rome": "D1302",
+  "offres": 13,
+  "niveaux": {
+   "?": 1,
+   "3": 3,
+   "4": 1,
+   "5": 7,
+   "6": 1
+  },
+  "exemples": [
+   "Apprenti Vente",
+   "Alternant(e) Assistant Responsable de Magasin (H/F)",
+   "Adjoint Responsable de magasin de détail (H/F) en apprentissage",
+   "Apprenti Manager H/F",
+   "Apprenti Manager H/F"
+  ]
+ },
+ {
+  "rome": "D1408",
+  "offres": 12,
+  "niveaux": {
+   "?": 8,
+   "4": 1,
+   "6": 1,
+   "5": 2
+  },
+  "exemples": [
+   "Conseiller(è¨re) cliente¨le - NDRC - MEGATEC - 91 - IGF F/H",
+   "Conseiller(ère) clientèle - 95 - DK TECHNOLOGIES - ALT F/H",
+   "Téléconseiller / Téléconseillère (H/F)",
+   "Téléconseiller / Téléconseillère (H/F)",
+   "Téléconseiller / Téléconseillère"
+  ]
+ },
+ {
+  "rome": "M1612",
+  "offres": 12,
+  "niveaux": {
+   "?": 8,
+   "6": 2,
+   "7": 2
+  },
+  "exemples": [
+   "Alternance - Juriste droit des affaires et contentieux F/H",
+   "Assistant juridique",
+   "Assistant Juridique",
+   "Assistant(e) administratif(ve) - BTS GPME en Alternance dans un cabinet d'avocat / REF0019 #AG (H/F)",
+   "Assistant(e) administratif(ve) - BTS GPME en Alternance dans un cabinet d'avocat / REF0019 #AG (H/F)"
+  ]
+ },
+ {
+  "rome": "D1216",
+  "offres": 12,
+  "niveaux": {
+   "?": 8,
+   "3": 4
+  },
+  "exemples": [
+   "BP COIFFURE",
+   "BP COIFFURE",
+   "BP COIFFURE",
+   "BP COIFFURE",
+   "D1216 - Coiffeur barbier / Coiffeuse barbière en apprentissage (H/F)"
+  ]
+ },
+ {
+  "rome": "D1218",
+  "offres": 12,
+  "niveaux": {
+   "?": 6,
+   "3": 2,
+   "4": 4
+  },
+  "exemples": [
+   "BTS METIERS DE LA COIFFURE",
+   "BP COIFFURE",
+   "BP COIFFURE",
+   "BP COIFFURE",
+   "APPRENTI COIFFEUR (H/F)"
+  ]
+ },
+ {
+  "rome": "D1303",
+  "offres": 12,
+  "niveaux": {
+   "?": 12
+  },
+  "exemples": [
+   "EMPLOYE POLYVALENT DE STATION SERVICE EN APPRENTISSAGE #ARE11854 (H/F)",
+   "EMPLOYE POLYVALENT DE STATION SERVICE EN APPRENTISSAGE #ARE11854 (H/F)",
+   "EMPLOYE POLYVALENT DE STATION SERVICE EN APPRENTISSAGE #ARE11854 (H/F)",
+   "Employé polyvalent en station service #DIS9789 (H/F)",
+   "EMPLOYE POLYVALENT DE STATION SERVICE EN APPRENTISSAGE #ARE11854 (H/F)"
+  ]
+ },
+ {
+  "rome": "D1504",
+  "offres": 12,
+  "niveaux": {
+   "?": 10,
+   "7": 1,
+   "6": 1
+  },
+  "exemples": [
+   "Employé(e) Libre-Service  - BTS MCO en alternance dans une Grande Surface / REF00605 #AGE9589 (H/F)",
+   "Employé(e) Libre-Service  - BTS MCO en alternance dans une Grande Surface / REF00605 #AGE9589 (H/F)",
+   "Agent(e) Polyvalent(e) Commerce - BTS MCO en alternance dans une Grande Surface / REF00604 #AG (H/F)",
+   "Employé(e) Polyvalent(e) en Grande Surface - BTS MCO en alternance dans une Grande Surface / R (H/F)",
+   "Assistant(e) Polyvalent(e) en Magasin - BTS MCO en alternance dans une Grande Surface / REF006 (H/F)"
+  ]
+ },
+ {
+  "rome": "M1211",
+  "offres": 12,
+  "niveaux": {
+   "?": 3,
+   "3": 2,
+   "7": 2,
+   "5": 3,
+   "6": 2
+  },
+  "exemples": [
+   "Alternant(e) DCG / DSCG - Expertise comptable (H/F)",
+   "ASSISTANT COMPTABLE - H/F",
+   "Collaborateur Comptable Confirmé - Pôle International H/F",
+   "Alternant Collaborateur Comptable Cabinet H/F",
+   "Apprenti Collaborateur Comptable H/F"
+  ]
+ },
+ {
+  "rome": "M1851",
+  "offres": 11,
+  "niveaux": {
+   "?": 6,
+   "5": 3,
+   "7": 2
+  },
+  "exemples": [
+   "ANALYSTE FONCTIONNEL EN ALTERNANCE",
+   "Business Analyst SAP Retail - Alternance F/H",
+   "[Alternance] Data Analyst",
+   "ALTERNANCE BUSINESS ANALYSTE - H/F",
+   "Chargé Power Bi - Alternance H/F"
+  ]
+ },
+ {
+  "rome": "D1246",
+  "offres": 11,
+  "niveaux": {
+   "?": 10,
+   "3": 1
+  },
+  "exemples": [
+   "Vendeur en prêt à porter, maroquinerie et accessoires #DIS12127 (H/F)",
+   "Vendeur / Vendeuse en horlogerie (H/F)",
+   "APPRENTISSAGE : Vendeur / Vendeuse en chaussures (H/F)",
+   "Vendeur en prêt à porter, maroquinerie et accessoires #DIS12127 (H/F)",
+   "Vendeur en prêt à porter, maroquinerie et accessoires #DIS12127 (H/F)"
+  ]
+ },
+ {
+  "rome": "D1432",
+  "offres": 10,
+  "niveaux": {
+   "?": 4,
+   "7": 2,
+   "6": 2,
+   "5": 2
+  },
+  "exemples": [
+   "Chargé(e) de Clientèle en alternance",
+   "Alternance - appui management F/H",
+   "Chargé de Compte Clients en Alternance H/F",
+   "Chargé de Compte Clients en Alternance H/F",
+   "Assistante d'accueil / Assistante d'agence"
+  ]
+ },
+ {
+  "rome": "M1858",
+  "offres": 9,
+  "niveaux": {
+   "?": 5,
+   "6": 1,
+   "7": 3
+  },
+  "exemples": [
+   "Alternant assistant chef de projet crm F/H",
+   "Assistant ERP & Support Opérationnel H/F",
+   "Junior Project Manager - Apprenticeship",
+   "Alternant Chef de Projet H/F",
+   "Stagiaire / Alternant(e) Chief of Staff H/F"
+  ]
+ },
+ {
+  "rome": "D1420",
+  "offres": 9,
+  "niveaux": {
+   "?": 4,
+   "6": 3,
+   "7": 1,
+   "5": 1
+  },
+  "exemples": [
+   "Technico-commercial sédentaire ENR H/F - CONTRAT APPRENTISSAGE",
+   "Technico-commercial sédentaire ENR H/F - CONTRAT APPRENTISSAGE",
+   "Vendeur Technique - Alternance H/F",
+   "Alternant Ingénieur Commercial H/F",
+   "Ingénieur Commercial - Ingénieur d'Affaires H/F"
+  ]
+ },
+ {
+  "rome": "D1510",
+  "offres": 9,
+  "niveaux": {
+   "?": 5,
+   "6": 1,
+   "5": 1,
+   "3": 1,
+   "7": 1
+  },
+  "exemples": [
+   "Chef de secteur en Alternance H/F Secteur de Nice",
+   "CERTIFICAT DE SPE BOUL SPE",
+   "Apprenti(e) Manager du Développement Commercial en Alternance (F/H)",
+   "Manager Commercial Opérationnel en Alternance (F/H)",
+   "Chef d'équipe en magasin H/F"
+  ]
+ },
+ {
+  "rome": "M1828",
+  "offres": 9,
+  "niveaux": {
+   "?": 5,
+   "7": 3,
+   "6": 1
+  },
+  "exemples": [
+   "Funecap - Alternant Chargé de Projets - H/F",
+   "Chef de projets Bureau d'Etudes (H/F)",
+   "Alternant Pmo Project Management Officer H/F",
+   "Alternant·e HR Project Management Officer H/F",
+   "Pmo Transformation & Performance H/F"
+  ]
+ },
+ {
+  "rome": "M1402",
+  "offres": 9,
+  "niveaux": {
+   "6": 4,
+   "7": 2,
+   "5": 3
+  },
+  "exemples": [
+   "Alternant·e Qualité H/F",
+   "Consultant Alternant Procurement Strategy & Transformation H/F",
+   "Alternant - Gestion des Organisations Administration Comptabilité et Pilotage - Nantes H/F",
+   "Alternance Chargé de Mission Qualité All Gender H/F",
+   "Alternance - Consultant en Développement des Entreprises H/F"
+  ]
+ },
+ {
+  "rome": "M1889",
+  "offres": 8,
+  "niveaux": {
+   "?": 3,
+   "6": 2,
+   "7": 2,
+   "5": 1
+  },
+  "exemples": [
+   "Apprenti Développeur IA et Automatisation SAV /N F/H",
+   "Alternance Développement Cloud / IA / DevOps (H/F)",
+   "Chef de Projet IA & Product Builder (F/H) (H/F)",
+   "Alternance - Chef de Projet Transformation IA & Processus H/F",
+   "Stagiaire en Apprentissage Automatique - été 2027 H/F"
+  ]
+ },
+ {
+  "rome": "D1430",
+  "offres": 8,
+  "niveaux": {
+   "?": 8
+  },
+  "exemples": [
+   "Vendeur Magasinier",
+   "Conseiller vendeur en cosmétique #DIS14722 (H/F)",
+   "Alternance - Conseiller de Vente Pièces de Rechange et Accessoires (Alternance + Formation) F/H",
+   "Alternance - Conseiller de Vente Pièces de Rechange et Accessoires (Alternance + Formation) F/H",
+   "Alternance - Conseiller de Vente Pièces de Rechange et Accessoires (Alternance + Formation) F/H"
+  ]
+ },
+ {
+  "rome": "M1225",
+  "offres": 8,
+  "niveaux": {
+   "?": 1,
+   "7": 2,
+   "6": 3,
+   "5": 2
+  },
+  "exemples": [
+   "Candidature spontanée ALTERNANCE/STAGE (H/F)",
+   "Aide-comptable facturier / Aide-comptable facturière",
+   "Aide-comptable facturier / Aide-comptable facturière",
+   "Aide-comptable facturier / Aide-comptable facturière",
+   "Aide-comptable facturier / Aide-comptable facturière"
+  ]
+ },
+ {
+  "rome": "M1508",
+  "offres": 8,
+  "niveaux": {
+   "?": 4,
+   "6": 2,
+   "7": 1,
+   "5": 1
+  },
+  "exemples": [
+   "E.Leclerc - Apprenti(e) Chargé(e) Ressources Humaines - H/F",
+   "Stage - Chargé de Développement RH - Tous genres (H/F)",
+   "Consultant en ressources humaines (RH) (H/F)",
+   "Alternance - Chargé(e) Ressources Humaines Généraliste (H/F)",
+   "Alternance Chargé de Projet & Développement RH H/F"
+  ]
+ },
+ {
+  "rome": "M1886",
+  "offres": 8,
+  "niveaux": {
+   "?": 2,
+   "5": 1,
+   "6": 3,
+   "7": 2
+  },
+  "exemples": [
+   "Assistant Chef de Projet Web & Contenu International (F/H) en alternance",
+   "Chef de Projet Digital Learning - EdTech (H/F)",
+   "Jr SourcingChefsFes de Projet Digital Trust Alternance H/F",
+   "Alternance - Chargé de Projet Digital H/F",
+   "Alternance Assistant Chef de Projet Digital & Produit H/F"
+  ]
+ },
+ {
+  "rome": "D1241",
+  "offres": 8,
+  "niveaux": {
+   "3": 8
+  },
+  "exemples": [
+   "Conseiller·e de Beauté - Conseiller·e de Beauté Esthéticienne en Alternance - Yves Rocher Grenoble H/F",
+   "Conseiller·e de Beauté - Conseiller·e de Beauté Esthéticienne en Alternance - Boutique Yves Rocher ***** H/F",
+   "Conseiller·e de Beauté Esthéticien·ne en Alternance H/F",
+   "Conseiller·e de Beauté - Conseiller·e de Beauté Esthéticienne en Alternance H/F",
+   "Conseiller·e de Beauté - Conseiller·e de Beauté en Alternance - Boutique Yves Rocher Villeneuve la Garenne H/F"
+  ]
+ },
+ {
+  "rome": "M1801",
+  "offres": 7,
+  "niveaux": {
+   "?": 3,
+   "5": 1,
+   "6": 3
+  },
+  "exemples": [
+   "Alternance Finance System Specialist Tax",
+   "APPRENTI(E) Administrateur/Administratrice Réseaux (H/F)",
+   "Administrateur.rice Systèmes et Réseaux H/F (H/F)",
+   "Administrateur - Administratrice Réseaux Telecom H/F",
+   "Alternance Supervision & Observabilité des Si H/F"
+  ]
+ },
+ {
+  "rome": "D1210",
+  "offres": 7,
+  "niveaux": {
+   "?": 5,
+   "3": 2
+  },
+  "exemples": [
+   "Vendeur / Vendeuse - BTS MCO EN ALTERNANCE - Produits high-tech / REF8303 #AGE9583 (H/F)",
+   "Vendeur / Vendeuse - BTS MCO EN ALTERNANCE - Produits high-tech / REF8303 #AGE9583 (H/F)",
+   "Vendeur / Vendeuse - BTS MCO EN ALTERNANCE - Produits high-tech / REF8303 #AGE9583 (H/F)",
+   "Vendeur en animalerie (H/F)",
+   "Apprenti Animalerie Apprentissage H/F"
+  ]
+ },
+ {
+  "rome": "D1231",
+  "offres": 7,
+  "niveaux": {
+   "?": 4,
+   "3": 3
+  },
+  "exemples": [
+   "Alternance Spa praticien H/F (H/F)",
+   "Praticien(ne) SPA en alternance (H/F)",
+   "Alternance Spa praticien(n)e (H/F)",
+   "Praticien(ne) spa en alternance F/H - Océanthal",
+   "Praticien Spa en Alternance H/F"
+  ]
+ }
+]
