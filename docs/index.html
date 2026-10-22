@@ -282,7 +282,8 @@ function rendre() { chips(); kpis(); carte(); panneau(); liste(); }
 
 (async () => {
   geo = await d3.json("data/departements.geojson");
-  try { D = await d3.json("data/offres.json"); } catch { D = donneesExemple(geo); }
+  // no-cache : le navigateur revérifie le fichier, mis à jour chaque jour, au lieu de garder une copie ancienne
+  try { D = await d3.json("data/offres.json", { cache: "no-cache" }); } catch { D = donneesExemple(geo); }
   if (D.exemple) {
     const b = document.getElementById("banner");
     b.hidden = false;
