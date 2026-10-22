@@ -50,23 +50,12 @@ def telecharger():
     # L'URL du fichier est signée et valable 2 minutes : pas d'en-tête d'authentification
     with urllib.request.urlopen(export["url"], timeout=600) as reponse:
         donnees = json.load(reponse)
-    offres = donnees.get("jobs", []) if isinstance(donnees, dict) else donnees
-    diagnostic(donnees, offres)
+    elements = donnees.get("jobs", []) if isinstance(donnees, dict) else donnees
+    # L'export mêle de vraies offres et des « recruteurs » (entreprises à démarcher en candidature
+    # spontanée, sans offre publiée, chacune rattachée à une dizaine de métiers) : on ne garde que les offres
+    offres = [o for o in elements if o.get("identifier", {}).get("partner_label") != "recruteurs_lba"]
+    print(f"{len(elements)} éléments, dont {len(offres)} offres publiées")
     return export["lastUpdate"][:10], offres
-
-
-def diagnostic(donnees, offres):
-    """Affiche la structure de l'export dans le journal de l'Action (aucune donnée personnelle)."""
-    from collections import Counter
-    if isinstance(donnees, dict):
-        print("Clés de l'export :", {k: len(v) if isinstance(v, list) else type(v).__name__ for k, v in donnees.items()})
-    print("Nombre d'éléments :", len(offres))
-    print("Clés d'un élément :", sorted(offres[0].keys()) if offres else None)
-    print("Sources :", Counter(o.get("identifier", {}).get("partner_label") for o in offres).most_common(15))
-    print("Types de contrat :", Counter(tuple(o.get("contract", {}).get("type") or []) for o in offres).most_common(8))
-    print("Niveaux visés :", Counter(repr((o.get("offer", {}).get("target_diploma") or {}).get("european")) for o in offres).most_common(10))
-    print("Statuts :", Counter(o.get("offer", {}).get("status") for o in offres).most_common(5))
-    print("Nombre de codes ROME par offre :", Counter(len(o.get("offer", {}).get("rome_codes") or []) for o in offres).most_common(6))
 
 
 def charger_contours():

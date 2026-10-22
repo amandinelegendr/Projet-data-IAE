@@ -29,7 +29,7 @@ La liste se modifie dans `DOMAINES`, en tête du script. Elle inclut des postes 
 
 ## Source et clé d'accès
 
-Les offres viennent de [La bonne alternance](https://labonnealternance.apprentissage.beta.gouv.fr) (offres collectées par La bonne alternance, France Travail et leurs partenaires), via la route d'export de l'[API apprentissage](https://api.apprentissage.beta.gouv.fr), mise à jour chaque nuit. Le département est déduit du code postal de l'adresse, ou à défaut des coordonnées GPS. Le niveau « Bac+5 » correspond aux offres dont le diplôme visé est de niveau européen 7.
+Les offres viennent de [La bonne alternance](https://labonnealternance.apprentissage.beta.gouv.fr) (offres collectées par La bonne alternance, France Travail et leurs partenaires), via la route d'export de l'[API apprentissage](https://api.apprentissage.beta.gouv.fr), mise à jour chaque nuit. Le département est déduit du code postal de l'adresse, ou à défaut des coordonnées GPS. Seules les offres publiées sont comptées : les « recruteurs » de l'export (entreprises à démarcher en candidature spontanée) sont écartés. Le niveau « Bac+5 » correspond aux offres dont le diplôme visé est précisé et de niveau européen 7 (environ un tiers des offres seulement indique un niveau).
 
 1. Créer un compte sur [api.apprentissage.beta.gouv.fr](https://api.apprentissage.beta.gouv.fr) et générer une clé **production** (lecture seule, valable un an).
 2. Dans le dépôt GitHub : *Settings → Secrets and variables → Actions*, ajouter le secret `LBA_API_KEY`.

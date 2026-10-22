@@ -290,7 +290,7 @@ function rendre() { chips(); kpis(); carte(); panneau(); liste(); }
   }
   document.getElementById("footer").innerHTML = D.exemple
     ? "Source prévue : La bonne alternance (api.apprentissage.beta.gouv.fr)."
-    : `Source : <a href="https://labonnealternance.apprentissage.beta.gouv.fr">${D.source}</a>, export du ${new Date(D.date_export).toLocaleDateString("fr-FR")}. Niveau « Bac+5 » : offres dont le diplôme visé est de niveau 7. Contours : <a href="https://github.com/gregoiredavid/france-geojson">france-geojson</a> (IGN/INSEE).`;
+    : `Source : <a href="https://labonnealternance.apprentissage.beta.gouv.fr">${D.source}</a>, export du ${new Date(D.date_export).toLocaleDateString("fr-FR")}. Niveau « Bac+5 » : offres dont le diplôme visé est précisé et de niveau 7 (le niveau n'est indiqué que pour une partie des offres). Les entreprises à démarcher en candidature spontanée ne sont pas comptées. Contours : <a href="https://github.com/gregoiredavid/france-geojson">france-geojson</a> (IGN/INSEE).`;
   document.getElementById("q").oninput = e => { state.q = e.target.value; liste(); };
   rendre();
 })();
