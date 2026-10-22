@@ -21,10 +21,10 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Extraire les offres d'alternance (La bonne alternance)
+      - name: Extraire et enrichir les offres (La bonne alternance)
         env:
           LBA_API_KEY: ${{ secrets.LBA_API_KEY }}
-        run: python scripts/extraction_offres.py
+        run: python scripts/fetch_and_enrich.py
 
       - name: Enregistrer les nouvelles données
         run: |
