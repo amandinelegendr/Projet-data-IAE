@@ -3,298 +3,232 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Alternance en ingénierie</title>
-<meta name="description" content="Nombre d'offres d'alternance dans les métiers de l'ingénierie, par département, avec une carte de France.">
+<title>Observatoire des alternances en ingénierie</title>
+<meta name="description" content="Observatoire et laboratoire statistique des offres d'alternance en ingénierie en France : carte, indicateurs et tests d'hypothèses sur les offres réelles de La bonne alternance.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/katex.min.css">
 <style>
 :root {
-  --bg: #f6f7f9; --surface: #ffffff; --text: #18202b; --muted: #5d6877; --line: #e2e6ec;
-  --accent: #1f5fbf; --accent-soft: #e6eefb; --warn-bg: #fff4d6; --warn-text: #6b4e00;
+  --bg: #f4f6f9; --surface: #ffffff; --surface-2: #f8f9fb; --text: #141b26; --muted: #5b6676; --line: #e1e5eb;
+  --accent: #1f5fbf; --accent-soft: #e5eefb; --ok: #1b7f4b; --ok-soft: #e3f4ea; --ko: #b3261e; --ko-soft: #fbe9e7;
+  --warn-bg: #fff4d6; --warn-text: #6b4e00;
   --s0: #eef3fb; --s1: #c7d8f2; --s2: #8fb3e6; --s3: #4f86d4; --s4: #1f5fbf; --s5: #123d80;
   --empty: #e9ecf0; --stroke: #ffffff; --sel: #e8710a;
+  --cac: #b8860b; --cac-soft: #fbf1d6; --gg: #1f5fbf; --gg-soft: #e5eefb; --pme: #6b7685; --pme-soft: #eef0f3;
+  --c1: #1f5fbf; --c2: #e8710a; --c3: #1b7f4b; --c4: #8e44ad; --c5: #c0392b; --c6: #16a0b5;
+  --p-prestige: #b8860b; --p-remu: #1f5fbf; --p-mission: #1b7f4b; --p-cadre: #8e44ad;
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --bg: #11151b; --surface: #1a2029; --text: #e7ebf0; --muted: #9aa5b3; --line: #2c3440;
-    --accent: #7fa9ec; --accent-soft: #22324a; --warn-bg: #3a3014; --warn-text: #f3d68a;
+    --bg: #0f1318; --surface: #181e26; --surface-2: #1d2430; --text: #e6eaf0; --muted: #98a3b2; --line: #2b3440;
+    --accent: #7fa9ec; --accent-soft: #22324a; --ok: #5cc98d; --ok-soft: #173326; --ko: #f08a80; --ko-soft: #3b1f1c;
+    --warn-bg: #3a3014; --warn-text: #f3d68a;
     --s0: #1e2a3b; --s1: #23406a; --s2: #2c5899; --s3: #4277c6; --s4: #6f9be0; --s5: #a9c6f2;
-    --empty: #252c36; --stroke: #11151b; --sel: #ff9a3d;
+    --empty: #232a34; --stroke: #0f1318; --sel: #ff9a3d;
+    --cac: #e0b84a; --cac-soft: #3a3018; --gg: #7fa9ec; --gg-soft: #22324a; --pme: #a3adbb; --pme-soft: #262d37;
+    --c1: #7fa9ec; --c2: #ff9a3d; --c3: #5cc98d; --c4: #c39be0; --c5: #f08a80; --c6: #5fd0e0;
+    --p-prestige: #e0b84a; --p-remu: #7fa9ec; --p-mission: #5cc98d; --p-cadre: #c39be0;
   }
 }
 :root[data-theme="dark"] {
-  --bg: #11151b; --surface: #1a2029; --text: #e7ebf0; --muted: #9aa5b3; --line: #2c3440;
-  --accent: #7fa9ec; --accent-soft: #22324a; --warn-bg: #3a3014; --warn-text: #f3d68a;
+  --bg: #0f1318; --surface: #181e26; --surface-2: #1d2430; --text: #e6eaf0; --muted: #98a3b2; --line: #2b3440;
+  --accent: #7fa9ec; --accent-soft: #22324a; --ok: #5cc98d; --ok-soft: #173326; --ko: #f08a80; --ko-soft: #3b1f1c;
+  --warn-bg: #3a3014; --warn-text: #f3d68a;
   --s0: #1e2a3b; --s1: #23406a; --s2: #2c5899; --s3: #4277c6; --s4: #6f9be0; --s5: #a9c6f2;
-  --empty: #252c36; --stroke: #11151b; --sel: #ff9a3d;
+  --empty: #232a34; --stroke: #0f1318; --sel: #ff9a3d;
+  --cac: #e0b84a; --cac-soft: #3a3018; --gg: #7fa9ec; --gg-soft: #22324a; --pme: #a3adbb; --pme-soft: #262d37;
+  --c1: #7fa9ec; --c2: #ff9a3d; --c3: #5cc98d; --c4: #c39be0; --c5: #f08a80; --c6: #5fd0e0;
+  --p-prestige: #e0b84a; --p-remu: #7fa9ec; --p-mission: #5cc98d; --p-cadre: #c39be0;
 }
 * { box-sizing: border-box; }
-body { margin: 0; background: var(--bg); color: var(--text); font: 15px/1.5 Inter, system-ui, sans-serif; }
-.wrap { max-width: 1180px; margin: 0 auto; padding: 24px 16px 48px; }
-h1 { font-size: 28px; margin: 0 0 4px; letter-spacing: -0.01em; }
-h2 { font-size: 17px; margin: 0 0 12px; }
-.sub { color: var(--muted); margin: 0 0 20px; }
-.banner { background: var(--warn-bg); color: var(--warn-text); border-radius: 8px; padding: 10px 14px; margin-bottom: 16px; }
-.card { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 18px; }
-.kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 12px; margin-bottom: 16px; }
-.kpi .v { font-size: 26px; font-weight: 700; font-variant-numeric: tabular-nums; }
-.kpi .l { color: var(--muted); font-size: 13px; }
-.chips { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 16px; }
-.chip { border: 1px solid var(--line); background: var(--surface); color: var(--text); border-radius: 999px; padding: 6px 12px; font: inherit; font-size: 13px; cursor: pointer; }
-.chip[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: #fff; }
-:root[data-theme="dark"] .chip[aria-pressed="true"] { color: #0d1420; }
-@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .chip[aria-pressed="true"] { color: #0d1420; } }
-.grid { display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr); gap: 16px; }
-@media (max-width: 860px) { .grid { grid-template-columns: 1fr; } }
-#map { width: 100%; height: auto; display: block; }
-#map path.dep { stroke: var(--stroke); stroke-width: 0.7; cursor: pointer; }
-#map path.dep:hover { stroke: var(--text); stroke-width: 1.2; }
-#map path.dep.sel { stroke: var(--sel); stroke-width: 2.2; }
-.legend { display: flex; align-items: center; gap: 6px; font-size: 12px; color: var(--muted); margin-top: 8px; flex-wrap: wrap; }
-.legend span.sw { width: 26px; height: 10px; display: inline-block; }
-.dom { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
-.dom button { flex: 1 1 100px; border: 1px solid var(--line); border-radius: 8px; padding: 6px 8px; font: inherit; font-size: 12px; text-align: left; cursor: pointer; color: var(--text); }
-.dom button.sel { outline: 2px solid var(--sel); }
-.dom b { display: block; font-size: 15px; }
-.tip { position: fixed; pointer-events: none; background: var(--text); color: var(--bg); padding: 6px 10px; border-radius: 6px; font-size: 13px; opacity: 0; transition: opacity .1s; z-index: 10; }
-.bars { display: grid; gap: 8px; }
-.bar .top { display: flex; justify-content: space-between; gap: 8px; font-size: 13px; }
-.bar .track { height: 8px; background: var(--empty); border-radius: 4px; overflow: hidden; margin-top: 3px; }
-.bar .fill { height: 100%; background: var(--accent); }
-table { width: 100%; border-collapse: collapse; font-size: 14px; }
-td, th { padding: 6px 4px; border-bottom: 1px solid var(--line); text-align: left; }
-td.n, th.n { text-align: right; font-variant-numeric: tabular-nums; }
-tr.clic { cursor: pointer; } tr.clic:hover { background: var(--accent-soft); }
-.panel-head { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; }
-.link { background: none; border: none; color: var(--accent); cursor: pointer; font: inherit; font-size: 13px; padding: 0; }
-.offres { margin-top: 16px; }
-.search { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 12px; }
-.search input { flex: 1 1 220px; padding: 8px 10px; border: 1px solid var(--line); border-radius: 8px; background: var(--bg); color: var(--text); font: inherit; }
-.offre { padding: 10px 0; border-bottom: 1px solid var(--line); }
-.offre a { color: var(--accent); font-weight: 600; text-decoration: none; }
-.offre a:hover { text-decoration: underline; }
-.offre .meta { color: var(--muted); font-size: 13px; }
-.tag { display: inline-block; background: var(--accent-soft); color: var(--accent); border-radius: 4px; padding: 0 6px; font-size: 12px; margin-right: 4px; }
-footer { color: var(--muted); font-size: 13px; margin-top: 24px; }
-footer a { color: var(--accent); }
+html { scroll-behavior: smooth; }
+body { margin: 0; background: var(--bg); color: var(--text); font: 14px/1.5 Inter, system-ui, sans-serif; }
+a { color: var(--accent); }
+h1 { font-size: 20px; margin: 0; letter-spacing: -0.01em; }
+h2 { font-size: 18px; margin: 0 0 4px; }
+h3 { font-size: 15px; margin: 0 0 8px; }
+.wrap { max-width: 1320px; margin: 0 auto; padding: 0 16px; }
+.muted { color: var(--muted); }
+.small { font-size: 12px; }
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 16px; }
+.banner { background: var(--warn-bg); color: var(--warn-text); border-radius: 8px; padding: 10px 14px; margin: 12px 0; font-size: 13px; }
+
+/* En-tête collant et barre de filtres */
+header.top { position: sticky; top: 0; z-index: 20; background: color-mix(in srgb, var(--bg) 92%, transparent); backdrop-filter: blur(8px); border-bottom: 1px solid var(--line); }
+@media (max-width: 720px) { header.top { position: static; } }
+.top-row { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 10px 0 6px; flex-wrap: wrap; }
+.top-row nav { display: flex; gap: 14px; font-size: 13px; }
+.top-row nav a { text-decoration: none; color: var(--muted); }
+.top-row nav a:hover { color: var(--text); }
+.filters { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; padding: 6px 0 10px; }
+.filters input[type="search"] { flex: 1 1 220px; min-width: 180px; padding: 7px 10px; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); color: var(--text); font: inherit; }
+details.ms { position: relative; }
+details.ms > summary { list-style: none; cursor: pointer; padding: 7px 10px; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); font-size: 13px; white-space: nowrap; }
+details.ms > summary::-webkit-details-marker { display: none; }
+details.ms > summary::after { content: " ▾"; color: var(--muted); }
+details.ms[data-actif="true"] > summary { border-color: var(--accent); color: var(--accent); background: var(--accent-soft); }
+details.ms .menu { position: absolute; top: calc(100% + 4px); left: 0; z-index: 30; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 8px; min-width: 240px; max-height: 320px; overflow: auto; box-shadow: 0 8px 24px rgba(0,0,0,.12); }
+details.ms label { display: flex; gap: 8px; align-items: center; padding: 4px 6px; border-radius: 6px; cursor: pointer; font-size: 13px; }
+details.ms label:hover { background: var(--surface-2); }
+details.ms .menu .n { margin-left: auto; color: var(--muted); font-variant-numeric: tabular-nums; }
+.slider { display: flex; align-items: center; gap: 6px; font-size: 13px; padding: 4px 8px; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); }
+.slider input { width: 110px; accent-color: var(--accent); }
+.switch { display: inline-flex; border: 1px solid var(--line); border-radius: 8px; overflow: hidden; background: var(--surface); }
+.switch button { border: 0; background: none; color: var(--muted); font: inherit; font-size: 13px; padding: 7px 10px; cursor: pointer; }
+.switch button[aria-pressed="true"] { background: var(--accent); color: #fff; }
+:root[data-theme="dark"] .switch button[aria-pressed="true"] { color: #0d1420; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .switch button[aria-pressed="true"] { color: #0d1420; } }
+.btn { border: 1px solid var(--line); background: var(--surface); color: var(--text); border-radius: 8px; padding: 7px 10px; font: inherit; font-size: 13px; cursor: pointer; text-decoration: none; white-space: nowrap; }
+.btn:hover { border-color: var(--accent); }
+.btn.link { border: 0; background: none; color: var(--accent); padding: 0; }
+
+/* Indicateurs */
+.kpis { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 12px; margin: 16px 0; }
+@media (max-width: 1100px) { .kpis { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 520px) { .kpis { grid-template-columns: 1fr; } }
+.kpi .l { color: var(--muted); font-size: 12px; text-transform: uppercase; letter-spacing: .04em; }
+.kpi .v { font-size: 26px; font-weight: 700; font-variant-numeric: tabular-nums; line-height: 1.2; margin: 4px 0; }
+.kpi .s { font-size: 12px; color: var(--muted); }
+.kpi .s b { color: var(--text); font-weight: 600; }
+
+/* Carte et panneau */
+.explorer { display: grid; grid-template-columns: minmax(0, 3fr) minmax(0, 2fr); gap: 16px; }
+@media (max-width: 960px) { .explorer { grid-template-columns: 1fr; } }
+.map-tools { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-bottom: 8px; }
+.map-tools select, .lab select { padding: 6px 8px; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); color: var(--text); font: inherit; font-size: 13px; }
+.map-box { position: relative; }
+#map { width: 100%; height: auto; display: block; touch-action: none; }
+#map path.zone { stroke: var(--stroke); stroke-width: .6; cursor: pointer; vector-effect: non-scaling-stroke; }
+#map path.zone:hover { stroke: var(--text); stroke-width: 1.4; }
+#map path.zone.sel { stroke: var(--sel); stroke-width: 2.5; }
+#map circle.bulle { fill: var(--c2); fill-opacity: .55; stroke: var(--surface); cursor: pointer; vector-effect: non-scaling-stroke; }
+#map circle.bulle:hover, #map circle.bulle.sel { fill-opacity: .9; stroke: var(--text); }
+.map-reset { position: absolute; top: 8px; right: 8px; }
+.legend { display: flex; align-items: center; gap: 4px; font-size: 12px; color: var(--muted); margin-top: 6px; flex-wrap: wrap; }
+.legend .sw { width: 28px; height: 10px; display: inline-block; }
+.dom-strip { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
+.dom-strip button { border: 1px solid var(--line); border-radius: 8px; padding: 4px 8px; font: inherit; font-size: 12px; cursor: pointer; color: var(--text); }
+.dom-strip button.sel { outline: 2px solid var(--sel); }
+.tip { position: fixed; pointer-events: none; background: var(--text); color: var(--bg); padding: 6px 10px; border-radius: 6px; font-size: 12px; opacity: 0; transition: opacity .1s; z-index: 50; max-width: 280px; }
+
+.zone-head { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; }
+.zone-stats { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; margin: 10px 0 12px; }
+.zone-stats div { background: var(--surface-2); border-radius: 8px; padding: 8px 10px; }
+.zone-stats .v { font-weight: 700; font-size: 17px; font-variant-numeric: tabular-nums; }
+.delta { font-size: 12px; font-weight: 600; }
+.delta.up { color: var(--ok); } .delta.down { color: var(--ko); } .delta.eq { color: var(--muted); }
+.list-tools { display: flex; justify-content: space-between; align-items: center; gap: 8px; margin-bottom: 6px; }
+.offres { max-height: 760px; overflow: auto; margin: 0 -6px; padding: 0 6px; }
+.offre { border: 1px solid var(--line); border-radius: 10px; padding: 10px 12px; margin-bottom: 8px; background: var(--surface); }
+.offre .t { font-weight: 600; }
+.offre .t a { color: var(--text); text-decoration: none; }
+.offre .t a:hover { color: var(--accent); text-decoration: underline; }
+.offre .meta { color: var(--muted); font-size: 12px; margin: 2px 0 6px; }
+.badges { display: flex; flex-wrap: wrap; gap: 4px; margin-bottom: 6px; }
+.badge { display: inline-block; border-radius: 4px; padding: 0 6px; font-size: 11px; font-weight: 600; line-height: 18px; }
+.badge.cac { background: var(--cac-soft); color: var(--cac); }
+.badge.gg { background: var(--gg-soft); color: var(--gg); }
+.badge.pme { background: var(--pme-soft); color: var(--pme); }
+.badge.tt { background: var(--ok-soft); color: var(--ok); }
+.badge.neutre { background: var(--surface-2); color: var(--muted); }
+.scorebar { display: flex; height: 8px; border-radius: 4px; overflow: hidden; background: var(--empty); margin-top: 4px; }
+.scorebar span { height: 100%; }
+.offre .bas { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; font-size: 12px; }
+.offre .score { font-weight: 700; font-size: 15px; }
+
+/* Laboratoire */
+section.block { margin: 28px 0; }
+.tabs { display: flex; gap: 6px; flex-wrap: wrap; margin: 12px 0; }
+.tabs button { border: 1px solid var(--line); background: var(--surface); color: var(--text); border-radius: 999px; padding: 7px 14px; font: inherit; font-size: 13px; cursor: pointer; }
+.tabs button[aria-selected="true"] { background: var(--accent); border-color: var(--accent); color: #fff; }
+:root[data-theme="dark"] .tabs button[aria-selected="true"] { color: #0d1420; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .tabs button[aria-selected="true"] { color: #0d1420; } }
+.lab-grid { display: grid; grid-template-columns: minmax(0, 3fr) minmax(0, 2fr); gap: 16px; align-items: start; }
+@media (max-width: 960px) { .lab-grid { grid-template-columns: 1fr; } }
+.question { font-size: 15px; font-weight: 600; margin: 4px 0 8px; }
+.hyp { display: grid; grid-template-columns: auto 1fr; gap: 2px 10px; font-size: 13px; background: var(--surface-2); border-radius: 8px; padding: 8px 12px; margin-bottom: 10px; }
+.hyp b { color: var(--accent); }
+.controls { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin-bottom: 10px; font-size: 13px; }
+.controls label { display: flex; gap: 6px; align-items: center; }
+.chart svg { width: 100%; height: auto; display: block; }
+.chart text { fill: var(--muted); font-size: 11px; }
+.chart .axis path, .chart .axis line { stroke: var(--line); }
+.chart .grid line { stroke: var(--line); stroke-dasharray: 2 3; }
+.legend-inline { display: flex; flex-wrap: wrap; gap: 12px; font-size: 12px; color: var(--muted); margin-top: 6px; }
+.legend-inline i { display: inline-block; width: 18px; height: 3px; vertical-align: middle; margin-right: 4px; }
+table.res { width: 100%; border-collapse: collapse; font-size: 13px; font-variant-numeric: tabular-nums; }
+table.res th, table.res td { padding: 5px 6px; border-bottom: 1px solid var(--line); text-align: right; }
+table.res th:first-child, table.res td:first-child { text-align: left; }
+table.res th { color: var(--muted); font-weight: 600; font-size: 12px; }
+.verdict { border-radius: 10px; padding: 10px 12px; margin: 10px 0; font-size: 13px; }
+.verdict.rejet { background: var(--ok-soft); border-left: 4px solid var(--ok); }
+.verdict.garde { background: var(--surface-2); border-left: 4px solid var(--muted); }
+.verdict.limite { background: var(--warn-bg); color: var(--warn-text); border-left: 4px solid var(--warn-text); }
+.cours { background: var(--accent-soft); border-radius: 10px; padding: 10px 14px; font-size: 13px; margin-top: 12px; }
+.cours h4 { margin: 0 0 4px; font-size: 13px; }
+.cours p { margin: 4px 0; }
+.stat-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 6px; }
+.stat-grid div { background: var(--surface-2); border-radius: 8px; padding: 6px 8px; font-size: 12px; }
+.stat-grid b { display: block; font-size: 15px; font-variant-numeric: tabular-nums; }
+.contingence td { cursor: default; }
+.methodo { columns: 2 380px; column-gap: 24px; font-size: 13px; }
+.methodo > div { break-inside: avoid; margin-bottom: 14px; }
+.methodo h3 { margin-bottom: 4px; }
+.methodo ul { margin: 4px 0; padding-left: 18px; }
+footer { color: var(--muted); font-size: 12px; padding: 24px 0 40px; border-top: 1px solid var(--line); }
+.empty { color: var(--muted); padding: 20px; text-align: center; }
 </style>
 </head>
 <body>
-<div class="wrap">
-  <h1>Alternance en ingénierie</h1>
-  <p class="sub">Offres d'apprentissage et de professionnalisation dans les métiers de l'ingénierie, par département.</p>
-  <div id="banner" class="banner" hidden></div>
-
-  <div class="kpis">
-    <div class="card kpi"><div class="v" id="k-total">–</div><div class="l" id="k-total-l">offres en cours</div></div>
-    <div class="card kpi"><div class="v" id="k-top">–</div><div class="l">département le plus fourni</div></div>
-    <div class="card kpi"><div class="v" id="k-idf">–</div><div class="l">part de l'Île-de-France</div></div>
-    <div class="card kpi"><div class="v" id="k-deps">–</div><div class="l">départements avec au moins une offre</div></div>
-  </div>
-
-  <div class="chips" id="niveau" role="group" aria-label="Niveau de diplôme visé"></div>
-  <div class="chips" id="chips" role="group" aria-label="Domaine"></div>
-
-  <div class="grid">
-    <div class="card">
-      <h2 id="map-title">Offres par département</h2>
-      <svg id="map" role="img" aria-label="Carte de France des offres par département"></svg>
-      <div class="legend" id="legend"></div>
-      <div class="dom" id="dom"></div>
+<header class="top">
+  <div class="wrap">
+    <div class="top-row">
+      <div>
+        <h1>Observatoire &amp; Laboratoire statistique des alternances en ingénierie</h1>
+        <div class="muted small" id="sous-titre"></div>
+      </div>
+      <nav><a href="#explorer">Carte</a><a href="#labo">Laboratoire</a><a href="#methodo">Méthodologie</a></nav>
     </div>
+    <div class="filters" id="filtres"></div>
+  </div>
+</header>
+
+<main class="wrap">
+  <div id="alerte" class="banner" hidden></div>
+  <div class="kpis" id="kpis"></div>
+
+  <section id="explorer" class="explorer">
     <div class="card">
-      <div id="panel"></div>
+      <div class="map-tools" id="map-tools"></div>
+      <div class="map-box">
+        <svg id="map" role="img" aria-label="Carte de France des offres d'alternance en ingénierie"></svg>
+        <button class="btn map-reset" id="map-reset" hidden>Toute la France</button>
+      </div>
+      <div class="legend" id="legende"></div>
+      <div class="dom-strip" id="outre-mer"></div>
     </div>
-  </div>
+    <div class="card" id="panneau"></div>
+  </section>
 
-  <div class="card offres">
-    <div class="panel-head"><h2 id="offres-title">Dernières offres</h2><span class="sub" id="offres-count" style="margin:0;font-size:13px"></span></div>
-    <div class="search"><input id="q" type="search" placeholder="Rechercher un intitulé, une entreprise, une ville…" aria-label="Rechercher une offre"></div>
-    <div id="liste"></div>
-  </div>
+  <section id="labo" class="block">
+    <h2>Laboratoire statistique &amp; tests d'hypothèses</h2>
+    <p class="muted" style="margin:0">Chaque test est recalculé en direct sur les offres filtrées en haut de page. Seuil de décision : $\alpha = 5\,\%$.</p>
+    <div class="tabs" role="tablist" id="onglets"></div>
+    <div class="card" id="module"></div>
+  </section>
 
-  <footer id="footer"></footer>
-</div>
+  <section id="methodo" class="block">
+    <h2>Méthodologie et limites</h2>
+    <div class="card methodo" id="methodologie"></div>
+  </section>
+</main>
+<footer><div class="wrap" id="pied"></div></footer>
 <div class="tip" id="tip"></div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
-<script>
-const fmt = n => n.toLocaleString("fr-FR");
-const pct = x => (x * 100).toLocaleString("fr-FR", { maximumFractionDigits: 1 }) + " %";
-const css = v => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
-const IDF = ["75", "77", "78", "91", "92", "93", "94", "95"];
-const state = { domaine: "tous", bac5: false, dep: null, q: "" };
-let D, geo;
-
-// Données d'exemple, utilisées tant que l'extraction n'a pas tourné
-function donneesExemple(geo) {
-  let s = 42; const rnd = () => (s = (s * 16807) % 2147483647) / 2147483647;
-  const domaines = [
-    ["informatique", "Informatique et numérique"], ["etudes", "Études, R&D et conception"],
-    ["production", "Production, méthodes et maintenance"], ["qualite", "Qualité, hygiène, sécurité, environnement"],
-    ["btp", "BTP et génie civil"], ["affaires", "Ingénierie d'affaires et technico-commercial"],
-  ].map(([id, nom]) => ({ id, nom, romes: [] }));
-  const poids = { "75": 14, "92": 10, "69": 7, "31": 6, "13": 5, "59": 5, "33": 4, "44": 4, "38": 4, "67": 3, "35": 3, "34": 3, "78": 4, "91": 4, "94": 3, "93": 3, "95": 2, "06": 2, "63": 2, "76": 2 };
-  const deps = geo.features.map(f => [f.properties.code, f.properties.nom])
-    .concat([["971", "Guadeloupe"], ["972", "Martinique"], ["973", "Guyane"], ["974", "La Réunion"], ["976", "Mayotte"]]);
-  const departements = {};
-  for (const [code, nom] of deps) {
-    const w = (poids[code] ?? 0.4 + rnd()) * (code.length === 3 ? 0.3 : 1);
-    const dom = Object.fromEntries(domaines.map(d => [d.id, Math.round(w * (4 + rnd() * 18))]));
-    const bac5 = Object.fromEntries(domaines.map(d => [d.id, Math.round(dom[d.id] * (0.3 + rnd() * 0.3))]));
-    departements[code] = { nom, domaines: dom, bac5, total: d3.sum(Object.values(dom)), total_bac5: d3.sum(Object.values(bac5)) };
-  }
-  const postes = { informatique: "Développeur logiciel", etudes: "Ingénieur études et conception", production: "Ingénieur méthodes industrialisation", qualite: "Ingénieur qualité", btp: "Ingénieur travaux", affaires: "Ingénieur d'affaires" };
-  const offres = d3.range(60).map(i => {
-    const d = domaines[i % 6].id, [code, nom] = deps[Math.floor(rnd() * 96)];
-    return { id: "ex" + i, intitule: postes[d] + " en alternance (H/F)", entreprise: "Entreprise d'exemple", lieu: `${code} - ${nom}`, departement: code, domaine: d, bac5: i % 2 === 0, contrat: i % 3 ? "Contrat apprentissage" : "Contrat de professionnalisation", date: "", url: "" };
-  });
-  return { exemple: true, mise_a_jour: "", source: "", domaines, departements, offres };
-}
-
-// Nombre d'offres d'un département pour un domaine, selon le niveau visé
-const parDomaine = (d, id) => (state.bac5 ? d.bac5 : d.domaines)[id] ?? 0;
-const valeur = code => {
-  const d = D.departements[code];
-  if (!d) return 0;
-  if (state.domaine !== "tous") return parDomaine(d, state.domaine);
-  return state.bac5 ? d.total_bac5 : d.total;
-};
-const nomDomaine = id => D.domaines.find(d => d.id === id)?.nom ?? id;
-
-function chips() {
-  const el = document.getElementById("chips");
-  el.innerHTML = "";
-  const groupe = (options, actif, choix) => options.map(([id, nom]) => {
-    const b = document.createElement("button");
-    b.className = "chip"; b.textContent = nom;
-    b.setAttribute("aria-pressed", actif === id);
-    b.onclick = () => { choix(id); rendre(); };
-    return b;
-  });
-  el.append(...groupe([["tous", "Tous les domaines"], ...D.domaines.map(d => [d.id, d.nom])], state.domaine, id => state.domaine = id));
-  const niv = document.getElementById("niveau");
-  niv.innerHTML = "<span>Niveau visé :</span>";
-  niv.append(...groupe([[false, "Tous niveaux"], [true, "Bac+5 (ingénieur)"]], state.bac5, v => state.bac5 = v));
-}
-
-function kpis() {
-  const codes = Object.keys(D.departements);
-  const tot = d3.sum(codes, valeur);
-  const top = d3.greatest(codes, valeur);
-  document.getElementById("k-total").textContent = fmt(tot);
-  document.getElementById("k-total-l").textContent = state.domaine === "tous" ? "offres en cours" : "offres en cours · " + nomDomaine(state.domaine);
-  document.getElementById("k-top").textContent = top && valeur(top) ? `${D.departements[top].nom}` : "–";
-  document.getElementById("k-idf").textContent = tot ? pct(d3.sum(IDF, valeur) / tot) : "–";
-  document.getElementById("k-deps").textContent = `${codes.filter(c => valeur(c) > 0).length} / ${codes.length}`;
-}
-
-function echelle() {
-  const vals = Object.keys(D.departements).map(valeur).filter(v => v > 0);
-  const cols = ["--s0", "--s1", "--s2", "--s3", "--s4", "--s5"].map(css);
-  const f = d3.scaleQuantile().domain(vals.length ? vals : [0, 1]).range(cols);
-  return { f: v => v > 0 ? f(v) : css("--empty"), cols, seuils: f.quantiles(), max: d3.max(vals) ?? 0 };
-}
-
-function carte() {
-  const svg = d3.select("#map"), W = 600, H = 600;
-  svg.attr("viewBox", `0 0 ${W} ${H}`);
-  const proj = d3.geoConicConformal().parallels([44, 49]).rotate([-3, 0]).fitSize([W, H], geo);
-  const path = d3.geoPath(proj);
-  const e = echelle(), tip = document.getElementById("tip");
-  svg.selectAll("path.dep").data(geo.features, f => f.properties.code).join("path")
-    .attr("class", f => "dep" + (f.properties.code === state.dep ? " sel" : ""))
-    .attr("d", path)
-    .attr("fill", f => e.f(valeur(f.properties.code)))
-    .on("mousemove", (ev, f) => {
-      tip.innerHTML = `<b>${f.properties.nom}</b> (${f.properties.code})<br>${fmt(valeur(f.properties.code))} offres`;
-      tip.style.left = ev.clientX + 12 + "px"; tip.style.top = ev.clientY + 12 + "px"; tip.style.opacity = 1;
-    })
-    .on("mouseleave", () => tip.style.opacity = 0)
-    .on("click", (ev, f) => choisir(f.properties.code));
-  svg.selectAll("path.sel").raise();
-
-  // Légende
-  const lg = document.getElementById("legend");
-  const bornes = [d3.min(Object.keys(D.departements).map(valeur).filter(v => v > 0)) ?? 0, ...e.seuils.map(Math.round), e.max];
-  lg.innerHTML = `<span>Nombre d'offres :</span>` + e.cols.map((c, i) =>
-    `<span class="sw" style="background:${c}" title="${fmt(bornes[i])} – ${fmt(bornes[i + 1])}"></span>`).join("")
-    + `<span>${fmt(bornes[0])} → ${fmt(e.max)}</span>`;
-
-  // Outre-mer, hors carte
-  const dom = document.getElementById("dom");
-  dom.innerHTML = "";
-  for (const code of Object.keys(D.departements).filter(c => c.length === 3)) {
-    const b = document.createElement("button"), v = valeur(code);
-    b.className = code === state.dep ? "sel" : "";
-    b.style.background = e.f(v);
-    b.style.color = e.cols.indexOf(e.f(v)) >= 3 ? css("--bg") : css("--text");
-    b.innerHTML = `${D.departements[code].nom}<b>${fmt(v)}</b>`;
-    b.onclick = () => choisir(code);
-    dom.append(b);
-  }
-}
-
-function choisir(code) { state.dep = state.dep === code ? null : code; rendre(); }
-
-function panneau() {
-  const el = document.getElementById("panel");
-  if (!state.dep) {
-    const codes = Object.keys(D.departements).sort((a, b) => valeur(b) - valeur(a)).slice(0, 15);
-    el.innerHTML = `<h2>Départements les plus fournis</h2>
-      <table><thead><tr><th>Département</th><th class="n">Offres</th></tr></thead><tbody>
-      ${codes.map(c => `<tr class="clic" data-c="${c}"><td>${D.departements[c].nom} <span class="sub">(${c})</span></td><td class="n">${fmt(valeur(c))}</td></tr>`).join("")}
-      </tbody></table><p class="sub" style="margin:10px 0 0;font-size:13px">Cliquez sur un département pour le détail.</p>`;
-    el.querySelectorAll("tr.clic").forEach(tr => tr.onclick = () => choisir(tr.dataset.c));
-    return;
-  }
-  const d = D.departements[state.dep];
-  const max = d3.max(D.domaines, x => parDomaine(d, x.id)) || 1;
-  const rang = Object.keys(D.departements).sort((a, b) => valeur(b) - valeur(a)).indexOf(state.dep) + 1;
-  el.innerHTML = `<div class="panel-head"><h2>${d.nom} (${state.dep})</h2><button class="link" id="fermer">Toute la France</button></div>
-    <div class="kpi" style="margin-bottom:14px"><div class="v">${fmt(valeur(state.dep))}</div>
-    <div class="l">offres${state.domaine === "tous" ? "" : " · " + nomDomaine(state.domaine)} · ${rang}<sup>e</sup> département</div></div>
-    <div class="bars">${D.domaines.map(x => {
-      const v = parDomaine(d, x.id);
-      return `<div class="bar"><div class="top"><span>${x.nom}</span><b>${fmt(v)}</b></div>
-        <div class="track"><div class="fill" style="width:${v / max * 100}%;${state.domaine !== "tous" && state.domaine !== x.id ? "opacity:.35" : ""}"></div></div></div>`;
-    }).join("")}</div>`;
-  document.getElementById("fermer").onclick = () => choisir(state.dep);
-}
-
-function liste() {
-  const q = state.q.toLowerCase();
-  const res = D.offres.filter(o =>
-    (state.domaine === "tous" || o.domaine === state.domaine) &&
-    (!state.bac5 || o.bac5) &&
-    (!state.dep || o.departement === state.dep) &&
-    (!q || `${o.intitule} ${o.entreprise} ${o.lieu}`.toLowerCase().includes(q)));
-  document.getElementById("offres-title").textContent = state.dep ? `Dernières offres · ${D.departements[state.dep].nom}` : "Dernières offres";
-  document.getElementById("offres-count").textContent = `${fmt(res.length)} sur les ${fmt(D.offres.length)} plus récentes`;
-  const esc = s => String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
-  document.getElementById("liste").innerHTML = res.slice(0, 50).map(o => `<div class="offre">
-      ${o.url ? `<a href="${esc(o.url)}" target="_blank" rel="noopener">${esc(o.intitule)}</a>` : `<b>${esc(o.intitule)}</b>`}
-      <div class="meta"><span class="tag">${esc(nomDomaine(o.domaine))}</span>${esc(o.entreprise || "Entreprise non communiquée")} · ${esc(o.lieu)}${o.contrat ? " · " + esc(o.contrat) : ""}${o.date ? " · publiée le " + new Date(o.date).toLocaleDateString("fr-FR") : ""}</div>
-    </div>`).join("") || `<p class="sub">Aucune offre récente ne correspond.</p>`;
-}
-
-function rendre() { chips(); kpis(); carte(); panneau(); liste(); }
-
-(async () => {
-  geo = await d3.json("data/departements.geojson");
-  // no-cache : le navigateur revérifie le fichier, mis à jour chaque jour, au lieu de garder une copie ancienne
-  try { D = await d3.json("data/offres.json", { cache: "no-cache" }); } catch { D = donneesExemple(geo); }
-  if (D.exemple) {
-    const b = document.getElementById("banner");
-    b.hidden = false;
-    b.textContent = "Données d'exemple : les chiffres affichés sont fictifs. Ils seront remplacés par les offres réelles de La bonne alternance dès la première extraction.";
-  }
-  document.getElementById("footer").innerHTML = D.exemple
-    ? "Source prévue : La bonne alternance (api.apprentissage.beta.gouv.fr)."
-    : `Source : <a href="https://labonnealternance.apprentissage.beta.gouv.fr">${D.source}</a>, export du ${new Date(D.date_export).toLocaleDateString("fr-FR")}. Niveau « Bac+5 » : offres dont le diplôme visé est précisé et de niveau 7 (le niveau n'est indiqué que pour une partie des offres). Les entreprises à démarcher en candidature spontanée ne sont pas comptées. Contours : <a href="https://github.com/gregoiredavid/france-geojson">france-geojson</a> (IGN/INSEE).`;
-  document.getElementById("q").oninput = e => { state.q = e.target.value; liste(); };
-  rendre();
-})();
-</script>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/katex.min.js"></script>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/contrib/auto-render.min.js"></script>
+<script type="module" src="src/app.js"></script>
 </body>
 </html>
