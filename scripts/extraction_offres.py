@@ -51,7 +51,22 @@ def telecharger():
     with urllib.request.urlopen(export["url"], timeout=600) as reponse:
         donnees = json.load(reponse)
     offres = donnees.get("jobs", []) if isinstance(donnees, dict) else donnees
+    diagnostic(donnees, offres)
     return export["lastUpdate"][:10], offres
+
+
+def diagnostic(donnees, offres):
+    """Affiche la structure de l'export dans le journal de l'Action (aucune donnée personnelle)."""
+    from collections import Counter
+    if isinstance(donnees, dict):
+        print("Clés de l'export :", {k: len(v) if isinstance(v, list) else type(v).__name__ for k, v in donnees.items()})
+    print("Nombre d'éléments :", len(offres))
+    print("Clés d'un élément :", sorted(offres[0].keys()) if offres else None)
+    print("Sources :", Counter(o.get("identifier", {}).get("partner_label") for o in offres).most_common(15))
+    print("Types de contrat :", Counter(tuple(o.get("contract", {}).get("type") or []) for o in offres).most_common(8))
+    print("Niveaux visés :", Counter(repr((o.get("offer", {}).get("target_diploma") or {}).get("european")) for o in offres).most_common(10))
+    print("Statuts :", Counter(o.get("offer", {}).get("status") for o in offres).most_common(5))
+    print("Nombre de codes ROME par offre :", Counter(len(o.get("offer", {}).get("rome_codes") or []) for o in offres).most_common(6))
 
 
 def charger_contours():
