@@ -1,8 +1,8 @@
 {
  "meta": {
-  "mise_a_jour": "2026-10-24",
-  "date_export": "2026-10-24",
-  "nb_offres_export": 12887,
+  "mise_a_jour": "2026-10-25",
+  "date_export": "2026-10-25",
+  "nb_offres_export": 12855,
   "source": "La bonne alternance (offres collectées par La bonne alternance, France Travail et leurs partenaires)",
   "filieres": [
    {
@@ -2416,57 +2416,6 @@
    "url": "https://rhalternance.com/jobs/batiment-et-travaux-publics-btp/cornebarrieu/ingénieure-ingénieur-projet-aéronautique-alternance-811623520"
   },
   {
-   "id": "6ab6f0a5debdfaef58848807",
-   "source": "Hellowork",
-   "titre": "Alternance Chargée - Chargé de Support Commercial H/F",
-   "entreprise": "CAPGEMINI",
-   "siret": "33070384400036",
-   "categorie": "CAC 40",
-   "categorie_methode": "nom",
-   "taille": "Non diffusé",
-   "taille_min": null,
-   "naf": "Activités des sièges sociaux",
-   "idcc": 1486,
-   "convention": "Syntec (bureaux d'études)",
-   "filiere": "commerce",
-   "theme": "relation_client",
-   "rome": [
-    "D1401"
-   ],
-   "ville": "Issy-Les-Moulineaux",
-   "departement": "92",
-   "region": "11",
-   "lat": 48.823903,
-   "lon": 2.262888,
-   "bassin": "Paris / Saclay",
-   "contrat": [
-    "Apprentissage",
-    "Professionnalisation"
-   ],
-   "duree_mois": 6,
-   "niveau": "6",
-   "teletravail": "Hybride",
-   "salaire_brut_mensuel": 1039,
-   "salaire_source": "minimum légal",
-   "loyer_studio": 752,
-   "pouvoir_achat_ajuste": 287,
-   "score_attractivite": 48.5,
-   "score_detail": {
-    "prestige": 24,
-    "remuneration": 3.5,
-    "missions": 14,
-    "cadre_vie": 7
-   },
-   "competences": [
-    "Gestion de projet",
-    "International",
-    "Management",
-    "Négociation / prospection"
-   ],
-   "date": "2026-09-24",
-   "url": "https://r.holeest.com/redirect?jd_token=pHKO3g&o=1&from=https%3A%2F%2Fwww.hellowork.com%2Ffr-fr%2Femplois%2F83715362.html%3Futm_source%3Dbonnealternance%26utm_medium%3Dmetamoteurs-free%26utm_campaign%3Dalternance%2B-%2Bcommerce%26utm_content%3Dfluxbonnealternance%26utm_term%3D83715362"
-  },
-  {
    "id": "6ad93a12715e4cba3924e32d",
    "source": "France Travail",
    "titre": "Alternant(e) Assistant(e) Communication / Web Digital H/F F/H",
@@ -3552,6 +3501,57 @@
    ],
    "date": "2026-10-05",
    "url": "https://r.holeest.com/redirect?jd_token=tezn9q&o=1&from=https%3A%2F%2Fwww.hellowork.com%2Ffr-fr%2Femplois%2F84099809.html%3Futm_source%3Dbonnealternance%26utm_medium%3Dmetamoteurs-free%26utm_campaign%3Dalternance%2B-%2Bdistribution%26utm_content%3Dfluxbonnealternance%26utm_term%3D84099809"
+  },
+  {
+   "id": "6add2babec4f5594ab3d860c",
+   "source": "Hellowork",
+   "titre": "Alternant - Planificateur Produits Finis - Matières Premières - Usine de Toulouse Janvier 2027 H/F",
+   "entreprise": "COCA-COLA EUROPACIFIC PARTNERS FRANCE",
+   "siret": "34368801600504",
+   "categorie": "Grand Groupe",
+   "categorie_methode": "effectif",
+   "taille": "2 000 à 4 999 salariés",
+   "taille_min": 2000,
+   "naf": "Production de boissons rafraîchissantes",
+   "idcc": 1513,
+   "convention": "IDCC 1513",
+   "filiere": "ingenierie",
+   "theme": "supply",
+   "rome": [
+    "H1401"
+   ],
+   "ville": "Toulouse",
+   "departement": "31",
+   "region": "76",
+   "lat": 43.604082,
+   "lon": 1.433805,
+   "bassin": "Toulouse",
+   "contrat": [
+    "Apprentissage",
+    "Professionnalisation"
+   ],
+   "duree_mois": null,
+   "niveau": "6",
+   "teletravail": "Non précisé",
+   "salaire_brut_mensuel": 1039,
+   "salaire_source": "minimum légal",
+   "loyer_studio": 408,
+   "pouvoir_achat_ajuste": 631,
+   "score_attractivite": 46.6,
+   "score_detail": {
+    "prestige": 23.8,
+    "remuneration": 3.5,
+    "missions": 13,
+    "cadre_vie": 6.3
+   },
+   "competences": [
+    "Gestion de projet",
+    "SAP",
+    "Management",
+    "Excel"
+   ],
+   "date": "2026-10-23",
+   "url": "https://r.holeest.com/redirect?jd_token=B1PVYy&o=1&from=https%3A%2F%2Fwww.hellowork.com%2Ffr-fr%2Femplois%2F84761248.html%3Futm_source%3Dbonnealternance%26utm_medium%3Dmetamoteurs-free%26utm_campaign%3Dalternance%2B-%2Bproduction%26utm_content%3Dfluxbonnealternance%26utm_term%3D84761248"
   },
   {
    "id": "6abd880fd46e986892b9e217",
@@ -5680,55 +5680,6 @@
    "url": "https://r.holeest.com/redirect?jd_token=pHKO5k&o=1&from=https%3A%2F%2Fwww.hellowork.com%2Ffr-fr%2Femplois%2F83779966.html%3Futm_source%3Dbonnealternance%26utm_medium%3Dmetamoteurs-free%26utm_campaign%3Dalternance%2B-%2Bmarketing%252Cgraphisme%252Caudiovisuel%252Cpub%26utm_content%3Dfluxbonnealternance%26utm_term%3D83779966"
   },
   {
-   "id": "6ad7e8b6697d75a5c9fd23bc",
-   "source": "France Travail",
-   "titre": "ALTERNANCE - Chargé d'Affaires F/H - EPI Normandie",
-   "entreprise": "EPI Normandie",
-   "siret": null,
-   "categorie": "ETI / PME",
-   "categorie_methode": "nom",
-   "taille": null,
-   "taille_min": null,
-   "naf": "Autre mise à disposition de ressources humaines",
-   "idcc": null,
-   "convention": null,
-   "filiere": "commerce",
-   "theme": "b2b",
-   "rome": [
-    "D1416"
-   ],
-   "ville": "Oissel-Sur-Seine",
-   "departement": "76",
-   "region": "28",
-   "lat": 49.342654,
-   "lon": 1.082335,
-   "bassin": "Le Havre / Rouen",
-   "contrat": [
-    "Professionnalisation"
-   ],
-   "duree_mois": 12,
-   "niveau": null,
-   "teletravail": "Non précisé",
-   "salaire_brut_mensuel": 1458,
-   "salaire_source": "minimum légal",
-   "loyer_studio": 361,
-   "pouvoir_achat_ajuste": 1097,
-   "score_attractivite": 44.0,
-   "score_detail": {
-    "prestige": 8,
-    "remuneration": 14.0,
-    "missions": 11,
-    "cadre_vie": 11.0
-   },
-   "competences": [
-    "Gestion de projet",
-    "CAO",
-    "Excel"
-   ],
-   "date": "2026-10-20",
-   "url": "https://recrutement.epi-normandie.fr/fr/offres/alternance---charge-daffaires-6a3e49?utm_source=francetravail&utm_medium=job-board"
-  },
-  {
    "id": "6a8629a8334ed2d599cf8049",
    "source": "Hellowork",
    "titre": "Conseiller Vente et Service Client en Alternance H/F",
@@ -6212,6 +6163,55 @@
    ],
    "date": "2026-10-13",
    "url": "https://r.holeest.com/redirect?jd_token=wIAxLj&o=1&from=https%3A%2F%2Fwww.hellowork.com%2Ffr-fr%2Femplois%2F84387580.html%3Futm_source%3Dbonnealternance%26utm_medium%3Dmetamoteurs-free%26utm_campaign%3Dalternance%2B-%2Bfinance%252Caudit%26utm_content%3Dfluxbonnealternance%26utm_term%3D84387580"
+  },
+  {
+   "id": "6add2baaec4f5594ab3d85cf",
+   "source": "Hellowork",
+   "titre": "Alternance - Assistant Marketing Services H/F",
+   "entreprise": "ALLIANCE HEALTHCARE REPARTITION",
+   "siret": "42121813200296",
+   "categorie": "Grand Groupe",
+   "categorie_methode": "effectif",
+   "taille": "2 000 à 4 999 salariés",
+   "taille_min": 2000,
+   "naf": "Activités des sièges sociaux",
+   "idcc": 1621,
+   "convention": "IDCC 1621",
+   "filiere": "commerce",
+   "theme": "marketing",
+   "rome": [
+    "M1620"
+   ],
+   "ville": "Paris",
+   "departement": "75",
+   "region": "11",
+   "lat": 48.859,
+   "lon": 2.347,
+   "bassin": "Paris / Saclay",
+   "contrat": [
+    "Apprentissage",
+    "Professionnalisation"
+   ],
+   "duree_mois": null,
+   "niveau": null,
+   "teletravail": "Non précisé",
+   "salaire_brut_mensuel": 1167,
+   "salaire_source": "minimum légal",
+   "loyer_studio": 849,
+   "pouvoir_achat_ajuste": 318,
+   "score_attractivite": 43.5,
+   "score_detail": {
+    "prestige": 23.8,
+    "remuneration": 6.7,
+    "missions": 9,
+    "cadre_vie": 4
+   },
+   "competences": [
+    "Gestion de projet",
+    "Excel"
+   ],
+   "date": "2026-10-24",
+   "url": "https://r.holeest.com/redirect?jd_token=B460Gw&o=1&from=https%3A%2F%2Fwww.hellowork.com%2Ffr-fr%2Femplois%2F84773880.html%3Futm_source%3Dbonnealternance%26utm_medium%3Dmetamoteurs-free%26utm_campaign%3Dalternance%2B-%2Bmarketing%252Cgraphisme%252Caudiovisuel%252Cpub%26utm_content%3Dfluxbonnealternance%26utm_term%3D84773880"
   },
   {
    "id": "6ad6972ae2d92300cfde69ce",
@@ -6702,52 +6702,6 @@
    "url": "https://careers.werecruit.io/fr/ctc/offres/apprentie-assistante-marketing--communication-d86f9d?utm_source=francetravail&utm_medium=job-board"
   },
   {
-   "id": "6ab59d8f68233dbb8f6a5085",
-   "source": "RH Alternance",
-   "titre": "Coordonnateur d'équipe en alternance F/H",
-   "entreprise": "AUCHAN HYPERMARCHE",
-   "siret": "41040946000756",
-   "categorie": "Grand Groupe",
-   "categorie_methode": "effectif",
-   "taille": "10 000 salariés et plus",
-   "taille_min": 10000,
-   "naf": "Hypermarchés",
-   "idcc": 2216,
-   "convention": "Commerce de détail alimentaire",
-   "filiere": "commerce",
-   "theme": "distribution",
-   "rome": [
-    "D1502"
-   ],
-   "ville": "Saint-Priest",
-   "departement": "69",
-   "region": "84",
-   "lat": 45.701812,
-   "lon": 4.943979,
-   "bassin": "Lyon",
-   "contrat": [
-    "Apprentissage",
-    "Professionnalisation"
-   ],
-   "duree_mois": null,
-   "niveau": null,
-   "teletravail": "Non précisé",
-   "salaire_brut_mensuel": 1167,
-   "salaire_source": "minimum légal",
-   "loyer_studio": 439,
-   "pouvoir_achat_ajuste": 728,
-   "score_attractivite": 43.0,
-   "score_detail": {
-    "prestige": 25,
-    "remuneration": 6.7,
-    "missions": 4,
-    "cadre_vie": 7.3
-   },
-   "competences": [],
-   "date": "2026-09-24",
-   "url": "https://rhalternance.com/jobs/finance-banque-et-assurance/saint-priest/coordonnateur-d-équipe-en-alternance-f-h-176467969"
-  },
-  {
    "id": "6ac029840d871689a6637354",
    "source": "RH Alternance",
    "titre": "Juriste Droit des affaires en alternance F/H",
@@ -6792,52 +6746,6 @@
    "competences": [],
    "date": "2026-10-02",
    "url": "https://rhalternance.com/jobs/droit-et-justice/villeneuve-d-ascq/juriste-droit-des-affaires-en-alternance-f-h-839930248"
-  },
-  {
-   "id": "6adb0d001c256e6f3bef0515",
-   "source": "Direct Emploi",
-   "titre": "Assistant.e RH en alternance - Schiltigheim (67) H/F",
-   "entreprise": "EMEIS",
-   "siret": "40125156602093",
-   "categorie": "Grand Groupe",
-   "categorie_methode": "effectif",
-   "taille": "10 000 salariés et plus",
-   "taille_min": 10000,
-   "naf": "Activités des sièges sociaux",
-   "idcc": null,
-   "convention": null,
-   "filiere": "management",
-   "theme": "rh",
-   "rome": [
-    "M1501"
-   ],
-   "ville": "Strasbourg",
-   "departement": "67",
-   "region": "44",
-   "lat": 48.579831,
-   "lon": 7.761454,
-   "bassin": "Strasbourg",
-   "contrat": [
-    "Apprentissage",
-    "Professionnalisation"
-   ],
-   "duree_mois": null,
-   "niveau": null,
-   "teletravail": "Non précisé",
-   "salaire_brut_mensuel": 1167,
-   "salaire_source": "minimum légal",
-   "loyer_studio": 455,
-   "pouvoir_achat_ajuste": 712,
-   "score_attractivite": 42.8,
-   "score_detail": {
-    "prestige": 25,
-    "remuneration": 6.7,
-    "missions": 4,
-    "cadre_vie": 7.1
-   },
-   "competences": [],
-   "date": "2026-10-23",
-   "url": "https://www.directemploi.com/candidatOffre/55933564?utm_source=labonnealternance&utm_medium=referral&utm_campaign=La-bonne-alternance"
   },
   {
    "id": "6ad6972ce2d92300cfde6a65",
@@ -8611,7 +8519,7 @@
    "competences": [
     "Excel"
    ],
-   "date": "2026-09-22",
+   "date": "2026-10-23",
    "url": "https://r.holeest.com/redirect?jd_token=pJ4gt1&o=1&from=https%3A%2F%2Fwww.hellowork.com%2Ffr-fr%2Femplois%2F81620079.html%3Futm_source%3Dbonnealternance%26utm_medium%3Dmetamoteurs-free%26utm_campaign%3Dalternance%2B-%2Bproduction%26utm_content%3Dfluxbonnealternance%26utm_term%3D81620079"
   },
   {
@@ -9411,56 +9319,6 @@
    "url": "https://r.holeest.com/redirect?jd_token=pJbIqc&o=1&from=https%3A%2F%2Fwww.hellowork.com%2Ffr-fr%2Femplois%2F82398599.html%3Futm_source%3Dbonnealternance%26utm_medium%3Dmetamoteurs-free%26utm_campaign%3Dalternance%2B-%2B%7Bseo_domain%7D%26utm_content%3Dfluxbonnealternance%26utm_term%3D82398599"
   },
   {
-   "id": "6ac964666b98f662e1beb6c7",
-   "source": "EDF",
-   "titre": "Alternance  - Pilotage communication F/H",
-   "entreprise": "EDF",
-   "siret": null,
-   "categorie": "Grand Groupe",
-   "categorie_methode": "nom",
-   "taille": null,
-   "taille_min": null,
-   "naf": "Production d'électricité",
-   "idcc": null,
-   "convention": null,
-   "filiere": "management",
-   "theme": "finance",
-   "rome": [
-    "M1406"
-   ],
-   "ville": "Le Creusot",
-   "departement": "71",
-   "region": "27",
-   "lat": 46.806421,
-   "lon": 4.426656,
-   "bassin": null,
-   "contrat": [
-    "Apprentissage",
-    "Professionnalisation"
-   ],
-   "duree_mois": null,
-   "niveau": "6",
-   "teletravail": "Non précisé",
-   "salaire_brut_mensuel": 1039,
-   "salaire_source": "minimum légal",
-   "loyer_studio": 268,
-   "pouvoir_achat_ajuste": 771,
-   "score_attractivite": 40.2,
-   "score_detail": {
-    "prestige": 18,
-    "remuneration": 3.5,
-    "missions": 11,
-    "cadre_vie": 7.7
-   },
-   "competences": [
-    "Gestion de projet",
-    "Marketing digital",
-    "Excel"
-   ],
-   "date": "2026-09-19",
-   "url": "https://www.edf.fr/edf-recrute/offre/detail/FRA-REC-2026-27705?idOrigine=502"
-  },
-  {
    "id": "6a98a1cfe09d67ec4f6317d9",
    "source": "France Travail",
    "titre": "Alternant.e RSE H/F - Raja France",
@@ -9790,6 +9648,54 @@
    ],
    "date": "2026-10-21",
    "url": "https://r.holeest.com/redirect?jd_token=AfaGLo&o=1&from=https%3A%2F%2Fwww.hellowork.com%2Ffr-fr%2Femplois%2F84650892.html%3Futm_source%3Dbonnealternance%26utm_medium%3Dmetamoteurs-free%26utm_campaign%3Dalternance%2B-%2B%7Bseo_domain%7D%26utm_content%3Dfluxbonnealternance%26utm_term%3D84650892"
+  },
+  {
+   "id": "6add2babec4f5594ab3d8615",
+   "source": "Hellowork",
+   "titre": "Stagiaire Chargé de Recrutement H/F",
+   "entreprise": "RANDSTAD",
+   "siret": "43399935600028",
+   "categorie": "Grand Groupe",
+   "categorie_methode": "effectif",
+   "taille": "2 000 à 4 999 salariés",
+   "taille_min": 2000,
+   "naf": "Activités des agences de travail temporaire",
+   "idcc": 1090,
+   "convention": "Services de l'automobile",
+   "filiere": "management",
+   "theme": "rh",
+   "rome": [
+    "M1502"
+   ],
+   "ville": "Verrières-En-Anjou",
+   "departement": "49",
+   "region": "52",
+   "lat": 47.517569,
+   "lon": -0.47367,
+   "bassin": null,
+   "contrat": [
+    "Apprentissage",
+    "Professionnalisation"
+   ],
+   "duree_mois": 6,
+   "niveau": "6",
+   "teletravail": "Non précisé",
+   "salaire_brut_mensuel": 1039,
+   "salaire_source": "minimum légal",
+   "loyer_studio": 370,
+   "pouvoir_achat_ajuste": 669,
+   "score_attractivite": 40.0,
+   "score_detail": {
+    "prestige": 23.8,
+    "remuneration": 3.5,
+    "missions": 6,
+    "cadre_vie": 6.7
+   },
+   "competences": [
+    "Management"
+   ],
+   "date": "2026-10-23",
+   "url": "https://r.holeest.com/redirect?jd_token=B3iJwb&o=1&from=https%3A%2F%2Fwww.hellowork.com%2Ffr-fr%2Femplois%2F84764484.html%3Futm_source%3Dbonnealternance%26utm_medium%3Dmetamoteurs-free%26utm_campaign%3Dalternance%2B-%2B%7Bseo_domain%7D%26utm_content%3Dfluxbonnealternance%26utm_term%3D84764484"
   },
   {
    "id": "6ad1eccc07575485f00548a8",
@@ -11685,58 +11591,6 @@
    "url": "https://r.holeest.com/redirect?jd_token=pKTDKe&o=1&from=https%3A%2F%2Fwww.hellowork.com%2Ffr-fr%2Femplois%2F81904630.html%3Futm_source%3Dbonnealternance%26utm_medium%3Dmetamoteurs-free%26utm_campaign%3Dalternance%2B-%2Bcommerce%26utm_content%3Dfluxbonnealternance%26utm_term%3D81904630"
   },
   {
-   "id": "6ab1aa97375ebabde2e2a1ea",
-   "source": "Hellowork",
-   "titre": "Assistant Achat en Alternance H/F",
-   "entreprise": "PRYSMIAN CABLES ET SYSTEMES FRANCE",
-   "siret": "09575031100805",
-   "categorie": "ETI / PME",
-   "categorie_methode": "nom",
-   "taille": "1 000 à 1 999 salariés",
-   "taille_min": 1000,
-   "naf": "Activités des sièges sociaux",
-   "idcc": null,
-   "convention": null,
-   "filiere": "commerce",
-   "theme": "achats",
-   "rome": [
-    "D1431"
-   ],
-   "ville": "Montereau-Fault-Yonne",
-   "departement": "77",
-   "region": "11",
-   "lat": 48.389786,
-   "lon": 2.957396,
-   "bassin": null,
-   "contrat": [
-    "Apprentissage",
-    "Professionnalisation"
-   ],
-   "duree_mois": 12,
-   "niveau": "6",
-   "teletravail": "Présentiel",
-   "salaire_brut_mensuel": 1039,
-   "salaire_source": "minimum légal",
-   "loyer_studio": 412,
-   "pouvoir_achat_ajuste": 627,
-   "score_attractivite": 38.3,
-   "score_detail": {
-    "prestige": 15.5,
-    "remuneration": 3.5,
-    "missions": 15,
-    "cadre_vie": 4.3
-   },
-   "competences": [
-    "International",
-    "SAP",
-    "R&D / Innovation",
-    "Négociation / prospection",
-    "Excel"
-   ],
-   "date": "2026-10-21",
-   "url": "https://r.holeest.com/redirect?jd_token=pJbIsm&o=1&from=https%3A%2F%2Fwww.hellowork.com%2Ffr-fr%2Femplois%2F83589401.html%3Futm_source%3Dbonnealternance%26utm_medium%3Dmetamoteurs-free%26utm_campaign%3Dalternance%2B-%2Bachat%26utm_content%3Dfluxbonnealternance%26utm_term%3D83589401"
-  },
-  {
    "id": "6adbda04ec4f5594ab3ccc70",
    "source": "Hellowork",
    "titre": "Apprenti de Direction - RH H/F",
@@ -12540,7 +12394,7 @@
     "Automatisme",
     "Négociation / prospection"
    ],
-   "date": "2026-09-23",
+   "date": "2026-10-23",
    "url": "https://r.holeest.com/redirect?jd_token=pJ8Bc8&o=1&from=https%3A%2F%2Fwww.hellowork.com%2Ffr-fr%2Femplois%2F83681590.html%3Futm_source%3Dbonnealternance%26utm_medium%3Dmetamoteurs-free%26utm_campaign%3Dalternance%2B-%2Bachat%26utm_content%3Dfluxbonnealternance%26utm_term%3D83681590"
   },
   {
@@ -17444,60 +17298,6 @@
    "url": "https://r.holeest.com/redirect?jd_token=AYJxAJ&o=1&from=https%3A%2F%2Fwww.hellowork.com%2Ffr-fr%2Femplois%2F84750293.html%3Futm_source%3Dbonnealternance%26utm_medium%3Dmetamoteurs-free%26utm_campaign%3Dalternance%2B-%2Bvente%252Csav%26utm_content%3Dfluxbonnealternance%26utm_term%3D84750293"
   },
   {
-   "id": "6adbda05ec4f5594ab3ccc7a",
-   "source": "Hellowork",
-   "titre": "Assistant RH en Alternance H/F",
-   "entreprise": "La Brigade de Buyer",
-   "siret": null,
-   "categorie": "ETI / PME",
-   "categorie_methode": "nom",
-   "taille": null,
-   "taille_min": null,
-   "naf": null,
-   "idcc": null,
-   "convention": null,
-   "filiere": "management",
-   "theme": "rh",
-   "rome": [
-    "M1501"
-   ],
-   "ville": "Le Val-D'Ajol",
-   "departement": "88",
-   "region": "44",
-   "lat": 47.939383,
-   "lon": 6.506731,
-   "bassin": null,
-   "contrat": [
-    "Apprentissage",
-    "Professionnalisation"
-   ],
-   "duree_mois": 12,
-   "niveau": "6",
-   "teletravail": "Présentiel",
-   "salaire_brut_mensuel": 1039,
-   "salaire_source": "minimum légal",
-   "loyer_studio": 253,
-   "pouvoir_achat_ajuste": 786,
-   "score_attractivite": 35.4,
-   "score_detail": {
-    "prestige": 8,
-    "remuneration": 3.5,
-    "missions": 18,
-    "cadre_vie": 5.9
-   },
-   "competences": [
-    "Amélioration continue",
-    "Data / IA",
-    "Automatisme",
-    "Management",
-    "Excel",
-    "SIRH / paie",
-    "Reporting / contrôle"
-   ],
-   "date": "2026-10-23",
-   "url": "https://r.holeest.com/redirect?jd_token=AT18ks&o=1&from=https%3A%2F%2Fwww.hellowork.com%2Ffr-fr%2Femplois%2F84725357.html%3Futm_source%3Dbonnealternance%26utm_medium%3Dmetamoteurs-free%26utm_campaign%3Dalternance%2B-%2B%7Bseo_domain%7D%26utm_content%3Dfluxbonnealternance%26utm_term%3D84725357"
-  },
-  {
    "id": "6ad9c66b89b32213e2c3f645",
    "source": "offres_emploi_lba",
    "titre": "Assistant / Assistante de gestion en ressources humaines",
@@ -17931,56 +17731,6 @@
    ],
    "date": "2026-09-14",
    "url": "https://labonnealternance.apprentissage.beta.gouv.fr/emploi/offres_emploi_lba/6aa7db26b272299cc427d570/assistant-technique-assistante-technique-d-ingénierie-études-recherche-et-développement-en-industrie"
-  },
-  {
-   "id": "6ab59f2268233dbb8f6aabd1",
-   "source": "Hellowork",
-   "titre": "Stagiaire Ressources Humaines H/F",
-   "entreprise": "SAMSIC RH",
-   "siret": "38505261800050",
-   "categorie": "ETI / PME",
-   "categorie_methode": "nom",
-   "taille": "20 à 49 salariés",
-   "taille_min": 20,
-   "naf": "Activités des agences de travail temporaire",
-   "idcc": 1413,
-   "convention": "Travail temporaire",
-   "filiere": "management",
-   "theme": "rh",
-   "rome": [
-    "M1501"
-   ],
-   "ville": "Meylan",
-   "departement": "38",
-   "region": "84",
-   "lat": 45.214974,
-   "lon": 5.780538,
-   "bassin": "Grenoble",
-   "contrat": [
-    "Apprentissage",
-    "Professionnalisation"
-   ],
-   "duree_mois": null,
-   "niveau": "3",
-   "teletravail": "Non précisé",
-   "salaire_brut_mensuel": 1167,
-   "salaire_source": "minimum légal",
-   "loyer_studio": 455,
-   "pouvoir_achat_ajuste": 712,
-   "score_attractivite": 35.1,
-   "score_detail": {
-    "prestige": 11.3,
-    "remuneration": 6.7,
-    "missions": 10,
-    "cadre_vie": 7.1
-   },
-   "competences": [
-    "R&D / Innovation",
-    "Négociation / prospection",
-    "Excel"
-   ],
-   "date": "2026-09-23",
-   "url": "https://r.holeest.com/redirect?jd_token=pKTDVg&o=1&from=https%3A%2F%2Fwww.hellowork.com%2Ffr-fr%2Femplois%2F83694972.html%3Futm_source%3Dbonnealternance%26utm_medium%3Dmetamoteurs-free%26utm_campaign%3Dalternance%2B-%2B%7Bseo_domain%7D%26utm_content%3Dfluxbonnealternance%26utm_term%3D83694972"
   },
   {
    "id": "6acf5aa3d37fcd71a1ead0d5",
@@ -18667,56 +18417,6 @@
    ],
    "date": "2026-10-15",
    "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179597141W?xtor=#at_medium=affiliate&at_campaign=Export_offres_la_bonne_alternance&at_type=partenaire_export"
-  },
-  {
-   "id": "6ad3f18ccc1761c8ae02f160",
-   "source": "ATS_Hellowork",
-   "titre": "Alternant(e) ou Stagiaire QHSSE H/F",
-   "entreprise": "LE JARDIN D'ACCLIMATATION",
-   "siret": "58211099500013",
-   "categorie": "ETI / PME",
-   "categorie_methode": "nom",
-   "taille": "250 à 499 salariés",
-   "taille_min": 250,
-   "naf": "Activités des parcs d'attractions et parcs à thèmes",
-   "idcc": 1790,
-   "convention": "IDCC 1790",
-   "filiere": "ingenierie",
-   "theme": "qualite",
-   "rome": [
-    "F1204"
-   ],
-   "ville": "Paris 16E Arrondissement",
-   "departement": "75",
-   "region": "11",
-   "lat": 48.856305,
-   "lon": 2.267032,
-   "bassin": "Paris / Saclay",
-   "contrat": [
-    "Apprentissage",
-    "Professionnalisation"
-   ],
-   "duree_mois": null,
-   "niveau": null,
-   "teletravail": "Non précisé",
-   "salaire_brut_mensuel": 1167,
-   "salaire_source": "minimum légal",
-   "loyer_studio": 849,
-   "pouvoir_achat_ajuste": 318,
-   "score_attractivite": 34.7,
-   "score_detail": {
-    "prestige": 14.0,
-    "remuneration": 6.7,
-    "missions": 10,
-    "cadre_vie": 4
-   },
-   "competences": [
-    "Amélioration continue",
-    "R&D / Innovation",
-    "Excel"
-   ],
-   "date": "2026-09-23",
-   "url": "https://labonnealternance.apprentissage.beta.gouv.fr/emploi/offres_emploi_partenaires/6ad3f18ccc1761c8ae02f160/alternant-e-ou-stagiaire-qhsse-h-f"
   },
   {
    "id": "6ad54337cc1761c8ae038994",
@@ -20237,7 +19937,7 @@
     "Négociation / prospection",
     "Reporting / contrôle"
    ],
-   "date": "2026-09-23",
+   "date": "2026-10-23",
    "url": "https://r.holeest.com/redirect?jd_token=pJbICH&o=1&from=https%3A%2F%2Fwww.hellowork.com%2Ffr-fr%2Femplois%2F83674623.html%3Futm_source%3Dbonnealternance%26utm_medium%3Dmetamoteurs-free%26utm_campaign%3Dalternance%2B-%2Bcommerce%26utm_content%3Dfluxbonnealternance%26utm_term%3D83674623"
   },
   {
@@ -22111,6 +21811,58 @@
    "url": "https://r.holeest.com/redirect?jd_token=zri7oL&o=1&from=https%3A%2F%2Fwww.hellowork.com%2Ffr-fr%2Femplois%2F84615907.html%3Futm_source%3Dbonnealternance%26utm_medium%3Dmetamoteurs-free%26utm_campaign%3Dalternance%2B-%2Bformation%26utm_content%3Dfluxbonnealternance%26utm_term%3D84615907"
   },
   {
+   "id": "6add2baaec4f5594ab3d85d8",
+   "source": "Hellowork",
+   "titre": "Business Developer Formation & Alternance H/F",
+   "entreprise": "MICHAEL PAGE INTERNATIONAL FRANCE",
+   "siret": "33833870000101",
+   "categorie": "ETI / PME",
+   "categorie_methode": "nom",
+   "taille": "50 à 99 salariés",
+   "taille_min": 50,
+   "naf": "Activités des agences de placement de main-d'œuvre",
+   "idcc": 1486,
+   "convention": "Syntec (bureaux d'études)",
+   "filiere": "commerce",
+   "theme": "b2b",
+   "rome": [
+    "M1707"
+   ],
+   "ville": "Alpes-Maritimes",
+   "departement": "06",
+   "region": "93",
+   "lat": 43.70315758943409,
+   "lon": 7.252811928378465,
+   "bassin": "Nice / Sophia-Antipolis",
+   "contrat": [
+    "Apprentissage",
+    "Professionnalisation"
+   ],
+   "duree_mois": null,
+   "niveau": "6",
+   "teletravail": "Présentiel",
+   "salaire_brut_mensuel": 1039,
+   "salaire_source": "minimum légal",
+   "loyer_studio": 558,
+   "pouvoir_achat_ajuste": 481,
+   "score_attractivite": 33.5,
+   "score_detail": {
+    "prestige": 12.2,
+    "remuneration": 3.5,
+    "missions": 15,
+    "cadre_vie": 2.8
+   },
+   "competences": [
+    "Gestion de projet",
+    "Management",
+    "CRM",
+    "Négociation / prospection",
+    "Reporting / contrôle"
+   ],
+   "date": "2026-10-24",
+   "url": "https://r.holeest.com/redirect?jd_token=B50EnS&o=1&from=https%3A%2F%2Fwww.hellowork.com%2Ffr-fr%2Femplois%2F84774213.html%3Futm_source%3Dbonnealternance%26utm_medium%3Dmetamoteurs-free%26utm_campaign%3Dalternance%2B-%2Bcommerce%26utm_content%3Dfluxbonnealternance%26utm_term%3D84774213"
+  },
+  {
    "id": "6ac422f51778092e497f923c",
    "source": "Meteojob",
    "titre": "Alternant Sécurité - Sureté H/F",
@@ -22162,6 +21914,56 @@
    ],
    "date": "2026-10-05",
    "url": "https://www.meteojob.com/jobs/57279532?utm_source=labonnealternance&utm_medium=aggregator-free&utm_campaign=alternance"
+  },
+  {
+   "id": "6add2eadbfbdb64c1a6869de",
+   "source": "France Travail",
+   "titre": "Apprenti comptable  H/F",
+   "entreprise": "MIRABEAU AEROSPACE",
+   "siret": "93327205600021",
+   "categorie": "ETI / PME",
+   "categorie_methode": "nom",
+   "taille": "Non diffusé",
+   "taille_min": null,
+   "naf": "Mécanique industrielle",
+   "idcc": null,
+   "convention": null,
+   "filiere": "management",
+   "theme": "finance",
+   "rome": [
+    "M1203"
+   ],
+   "ville": "Isles-Lès-Villenoy",
+   "departement": "77",
+   "region": "11",
+   "lat": 48.914086,
+   "lon": 2.825311,
+   "bassin": null,
+   "contrat": [
+    "Apprentissage"
+   ],
+   "duree_mois": 24,
+   "niveau": null,
+   "teletravail": "Non précisé",
+   "salaire_brut_mensuel": 1167,
+   "salaire_source": "minimum légal",
+   "loyer_studio": 497,
+   "pouvoir_achat_ajuste": 670,
+   "score_attractivite": 33.4,
+   "score_detail": {
+    "prestige": 8,
+    "remuneration": 6.7,
+    "missions": 12,
+    "cadre_vie": 6.7
+   },
+   "competences": [
+    "R&D / Innovation",
+    "Excel",
+    "SIRH / paie",
+    "Reporting / contrôle"
+   ],
+   "date": "2026-10-24",
+   "url": "https://www.lindustrie-recrute.fr/candidat/offre/837782?utm_source=NQ=="
   },
   {
    "id": "6ad6972be2d92300cfde6a14",
@@ -22308,6 +22110,56 @@
    ],
    "date": "2026-10-16",
    "url": "https://hub-alternance.opcoep.fr/jeune/je-cherche-un-emploi/offre-emploi/6ad224484bc5282510f8cf6a"
+  },
+  {
+   "id": "6add2eadbfbdb64c1a6869dd",
+   "source": "France Travail",
+   "titre": "Assistant Commercial et Support Client (H/F)",
+   "entreprise": "",
+   "siret": null,
+   "categorie": "ETI / PME",
+   "categorie_methode": "inconnu",
+   "taille": null,
+   "taille_min": null,
+   "naf": null,
+   "idcc": null,
+   "convention": null,
+   "filiere": "commerce",
+   "theme": "relation_client",
+   "rome": [
+    "D1401"
+   ],
+   "ville": "Fontainebleau",
+   "departement": "77",
+   "region": "11",
+   "lat": 48.40781,
+   "lon": 2.70278,
+   "bassin": null,
+   "contrat": [
+    "Apprentissage"
+   ],
+   "duree_mois": 12,
+   "niveau": null,
+   "teletravail": "Non précisé",
+   "salaire_brut_mensuel": 1167,
+   "salaire_source": "minimum légal",
+   "loyer_studio": 505,
+   "pouvoir_achat_ajuste": 662,
+   "score_attractivite": 33.3,
+   "score_detail": {
+    "prestige": 8,
+    "remuneration": 6.7,
+    "missions": 12,
+    "cadre_vie": 6.6
+   },
+   "competences": [
+    "R&D / Innovation",
+    "CRM",
+    "Négociation / prospection",
+    "Excel"
+   ],
+   "date": "2026-10-24",
+   "url": "https://www.meteojob.com/jobs/57668814?utm_source=pole-emploi&utm_medium=aggregator-free"
   },
   {
    "id": "6ad937212b0b33f74bce1a54",
@@ -22904,7 +22756,7 @@
    "url": "https://r.holeest.com/redirect?jd_token=AXb691&o=1&from=https%3A%2F%2Fwww.hellowork.com%2Ffr-fr%2Femplois%2F84744100.html%3Futm_source%3Dbonnealternance%26utm_medium%3Dmetamoteurs-free%26utm_campaign%3Dalternance%2B-%2B%7Bseo_domain%7D%26utm_content%3Dfluxbonnealternance%26utm_term%3D84744100"
   },
   {
-   "id": "6ad3f198cc1761c8ae02f437",
+   "id": "6add2c17ec4f5594ab3d9e46",
    "source": "ATS_Hellowork",
    "titre": "Chargé.e de recrutement et d'insertion-Alternance H/F",
    "entreprise": "TRIDENTT 070",
@@ -22950,8 +22802,8 @@
     "Négociation / prospection",
     "Marketing digital"
    ],
-   "date": "2026-10-16",
-   "url": "https://labonnealternance.apprentissage.beta.gouv.fr/emploi/offres_emploi_partenaires/6ad3f198cc1761c8ae02f437/chargé-e-de-recrutement-et-d-insertion-alternance-h-f"
+   "date": "2026-10-23",
+   "url": "https://labonnealternance.apprentissage.beta.gouv.fr/emploi/offres_emploi_partenaires/6add2c17ec4f5594ab3d9e46/chargé-e-de-recrutement-et-d-insertion-alternance-h-f"
   },
   {
    "id": "6acd5ca10226c9bf0008d329",
@@ -23097,55 +22949,6 @@
    "url": "https://r.holeest.com/redirect?jd_token=zM3594&o=1&from=https%3A%2F%2Fwww.hellowork.com%2Ffr-fr%2Femplois%2F84643808.html%3Futm_source%3Dbonnealternance%26utm_medium%3Dmetamoteurs-free%26utm_campaign%3Dalternance%2B-%2Bcommerce%26utm_content%3Dfluxbonnealternance%26utm_term%3D84643808"
   },
   {
-   "id": "6a99f014b7a03ff3606ecd40",
-   "source": "Hellowork",
-   "titre": "Alternance Business Developer H/F",
-   "entreprise": "KEY POINTS RECRUTEMENT",
-   "siret": "93915916600015",
-   "categorie": "ETI / PME",
-   "categorie_methode": "nom",
-   "taille": "Non diffusé",
-   "taille_min": null,
-   "naf": "Activités des agences de placement de main-d'œuvre",
-   "idcc": null,
-   "convention": null,
-   "filiere": "commerce",
-   "theme": "b2b",
-   "rome": [
-    "M1707"
-   ],
-   "ville": "Rennes",
-   "departement": "35",
-   "region": "53",
-   "lat": 48.110899,
-   "lon": -1.68365,
-   "bassin": "Rennes",
-   "contrat": [
-    "Apprentissage",
-    "Professionnalisation"
-   ],
-   "duree_mois": 12,
-   "niveau": "7",
-   "teletravail": "Hybride",
-   "salaire_brut_mensuel": 1167,
-   "salaire_source": "minimum légal",
-   "loyer_studio": 430,
-   "pouvoir_achat_ajuste": 737,
-   "score_attractivite": 33.1,
-   "score_detail": {
-    "prestige": 8,
-    "remuneration": 6.7,
-    "missions": 8,
-    "cadre_vie": 10.4
-   },
-   "competences": [
-    "R&D / Innovation",
-    "Négociation / prospection"
-   ],
-   "date": "2026-10-03",
-   "url": "https://r.holeest.com/redirect?jd_token=pKTDQr&o=1&from=https%3A%2F%2Fwww.hellowork.com%2Ffr-fr%2Femplois%2F82983304.html%3Futm_source%3Dbonnealternance%26utm_medium%3Dmetamoteurs-free%26utm_campaign%3Dalternance%2B-%2Bcommerce%26utm_content%3Dfluxbonnealternance%26utm_term%3D82983304"
-  },
-  {
    "id": "6ac574aa1778092e49804205",
    "source": "Meteojob",
    "titre": "Alternant Assistant(e) Responsable Grands Comptes F/H",
@@ -23195,53 +22998,6 @@
    ],
    "date": "2026-10-17",
    "url": "https://www.meteojob.com/jobs/57300690?utm_source=labonnealternance&utm_medium=aggregator-free&utm_campaign=alternance"
-  },
-  {
-   "id": "6ab5a2437caaafd3f597835a",
-   "source": "France Travail",
-   "titre": "Alternance Ressources Humaines (H/F)",
-   "entreprise": "ECO CONSEIL",
-   "siret": "79056651700096",
-   "categorie": "ETI / PME",
-   "categorie_methode": "nom",
-   "taille": "20 à 49 salariés",
-   "taille_min": 20,
-   "naf": "Travaux d'installation électrique dans tous locaux",
-   "idcc": 1596,
-   "convention": "IDCC 1596",
-   "filiere": "management",
-   "theme": "rh",
-   "rome": [
-    "M1501"
-   ],
-   "ville": "Cosne-Cours-Sur-Loire",
-   "departement": "58",
-   "region": "27",
-   "lat": 47.407726,
-   "lon": 2.93582,
-   "bassin": null,
-   "contrat": [
-    "Apprentissage"
-   ],
-   "duree_mois": null,
-   "niveau": "4",
-   "teletravail": "Non précisé",
-   "salaire_brut_mensuel": 1167,
-   "salaire_source": "minimum légal",
-   "loyer_studio": 264,
-   "pouvoir_achat_ajuste": 903,
-   "score_attractivite": 33.0,
-   "score_detail": {
-    "prestige": 11.3,
-    "remuneration": 6.7,
-    "missions": 6,
-    "cadre_vie": 9.0
-   },
-   "competences": [
-    "R&D / Innovation"
-   ],
-   "date": "2026-09-24",
-   "url": "https://candidat.francetravail.fr/offres/recherche/detail/214JBMW"
   },
   {
    "id": "6ac96846015572e53e599e3a",
@@ -23340,7 +23096,7 @@
     "Marketing digital",
     "Excel"
    ],
-   "date": "2026-09-23",
+   "date": "2026-10-23",
    "url": "https://r.holeest.com/redirect?jd_token=pKTDTF&o=1&from=https%3A%2F%2Fwww.hellowork.com%2Ffr-fr%2Femplois%2F83684082.html%3Futm_source%3Dbonnealternance%26utm_medium%3Dmetamoteurs-free%26utm_campaign%3Dalternance%2B-%2Bcommerce%26utm_content%3Dfluxbonnealternance%26utm_term%3D83684082"
   },
   {
@@ -24418,6 +24174,56 @@
    "url": "https://r.holeest.com/redirect?jd_token=pKTDPR&o=1&from=https%3A%2F%2Fwww.hellowork.com%2Ffr-fr%2Femplois%2F59336928.html%3Futm_source%3Dbonnealternance%26utm_medium%3Dmetamoteurs-free%26utm_campaign%3Dalternance%2B-%2B%7Bseo_domain%7D%26utm_content%3Dfluxbonnealternance%26utm_term%3D59336928"
   },
   {
+   "id": "6ad14e4518139f73ced8aa66",
+   "source": "Hellowork",
+   "titre": "Alternant ou Stagiaire Qhsse H/F",
+   "entreprise": "LE JARDIN D'ACCLIMATATION",
+   "siret": "58211099500013",
+   "categorie": "ETI / PME",
+   "categorie_methode": "nom",
+   "taille": "250 à 499 salariés",
+   "taille_min": 250,
+   "naf": "Activités des parcs d'attractions et parcs à thèmes",
+   "idcc": 1790,
+   "convention": "IDCC 1790",
+   "filiere": "ingenierie",
+   "theme": "qualite",
+   "rome": [
+    "H1302"
+   ],
+   "ville": "Paris",
+   "departement": "75",
+   "region": "11",
+   "lat": 48.859,
+   "lon": 2.347,
+   "bassin": "Paris / Saclay",
+   "contrat": [
+    "Apprentissage",
+    "Professionnalisation"
+   ],
+   "duree_mois": 24,
+   "niveau": "3",
+   "teletravail": "Présentiel",
+   "salaire_brut_mensuel": 1167,
+   "salaire_source": "minimum légal",
+   "loyer_studio": 849,
+   "pouvoir_achat_ajuste": 318,
+   "score_attractivite": 32.7,
+   "score_detail": {
+    "prestige": 14.0,
+    "remuneration": 6.7,
+    "missions": 10,
+    "cadre_vie": 2
+   },
+   "competences": [
+    "Amélioration continue",
+    "R&D / Innovation",
+    "Excel"
+   ],
+   "date": "2026-10-23",
+   "url": "https://r.holeest.com/redirect?jd_token=xp5ab7&o=1&from=https%3A%2F%2Fwww.hellowork.com%2Ffr-fr%2Femplois%2F83672662.html%3Futm_source%3Dbonnealternance%26utm_medium%3Dmetamoteurs-free%26utm_campaign%3Dalternance%2B-%2B%7Bseo_domain%7D%26utm_content%3Dfluxbonnealternance%26utm_term%3D83672662"
+  },
+  {
    "id": "6ac02ab50d871689a663b8be",
    "source": "Hellowork",
    "titre": "Assistant Manager d'Unite Marchande H/F",
@@ -24562,7 +24368,7 @@
     "Excel",
     "Reporting / contrôle"
    ],
-   "date": "2026-09-23",
+   "date": "2026-10-23",
    "url": "https://r.holeest.com/redirect?jd_token=pJbIrw&o=1&from=https%3A%2F%2Fwww.hellowork.com%2Ffr-fr%2Femplois%2F83679211.html%3Futm_source%3Dbonnealternance%26utm_medium%3Dmetamoteurs-free%26utm_campaign%3Dalternance%2B-%2B%7Bseo_domain%7D%26utm_content%3Dfluxbonnealternance%26utm_term%3D83679211"
   },
   {
@@ -24664,55 +24470,6 @@
    ],
    "date": "2026-10-02",
    "url": "https://candidat.francetravail.fr/offres/recherche/detail/214SBSJ"
-  },
-  {
-   "id": "6ac02de8a962accea3855d22",
-   "source": "France Travail",
-   "titre": "Assistant.e Qualité en alternance (H/F)",
-   "entreprise": "PEP Lor'Est",
-   "siret": null,
-   "categorie": "ETI / PME",
-   "categorie_methode": "nom",
-   "taille": null,
-   "taille_min": null,
-   "naf": null,
-   "idcc": null,
-   "convention": null,
-   "filiere": "ingenierie",
-   "theme": "qualite",
-   "rome": [
-    "H1528"
-   ],
-   "ville": "Metz",
-   "departement": "57",
-   "region": "44",
-   "lat": 49.108385,
-   "lon": 6.194897,
-   "bassin": null,
-   "contrat": [
-    "Apprentissage"
-   ],
-   "duree_mois": 11,
-   "niveau": null,
-   "teletravail": "Non précisé",
-   "salaire_brut_mensuel": 1167,
-   "salaire_source": "minimum légal",
-   "loyer_studio": 390,
-   "pouvoir_achat_ajuste": 777,
-   "score_attractivite": 32.5,
-   "score_detail": {
-    "prestige": 8,
-    "remuneration": 6.7,
-    "missions": 10,
-    "cadre_vie": 7.8
-   },
-   "competences": [
-    "Amélioration continue",
-    "Management",
-    "Excel"
-   ],
-   "date": "2026-10-02",
-   "url": "https://app.beetween.com/WeaselWeb/p/#/apply/job/ulw21jen0p8/assistant-e-qualite-en-alternance"
   },
   {
    "id": "6ad2a2930ae368bc8d5b7138",
@@ -27549,56 +27306,6 @@
    "url": "https://candidat.francetravail.fr/offres/recherche/detail/215PCKH"
   },
   {
-   "id": "6adbdcf7bfbdb64c1a67fcac",
-   "source": "France Travail",
-   "titre": "Business Developper (H/F)",
-   "entreprise": "BAGOU",
-   "siret": "84141376800018",
-   "categorie": "ETI / PME",
-   "categorie_methode": "nom",
-   "taille": "Non diffusé",
-   "taille_min": null,
-   "naf": "Activités des marchands de biens immobiliers",
-   "idcc": null,
-   "convention": null,
-   "filiere": "commerce",
-   "theme": "b2b",
-   "rome": [
-    "M1707"
-   ],
-   "ville": "Paris",
-   "departement": "75",
-   "region": "11",
-   "lat": 48.859,
-   "lon": 2.347,
-   "bassin": "Paris / Saclay",
-   "contrat": [
-    "Apprentissage"
-   ],
-   "duree_mois": 12,
-   "niveau": null,
-   "teletravail": "Non précisé",
-   "salaire_brut_mensuel": 1167,
-   "salaire_source": "minimum légal",
-   "loyer_studio": 849,
-   "pouvoir_achat_ajuste": 318,
-   "score_attractivite": 31.7,
-   "score_detail": {
-    "prestige": 8,
-    "remuneration": 6.7,
-    "missions": 13,
-    "cadre_vie": 4
-   },
-   "competences": [
-    "International",
-    "CRM",
-    "Négociation / prospection",
-    "Grands comptes / B2B"
-   ],
-   "date": "2026-10-23",
-   "url": "https://jobs.makesense.org/fr/jobs/bagou-business-developper-4caC31m2ixlnBTYfq77d?source=france_travail"
-  },
-  {
    "id": "6ad7e5b476e8f92c0ea5253f",
    "source": "Hellowork",
    "titre": "Conseiller Commercial en Alternance H/F",
@@ -27997,6 +27704,55 @@
    ],
    "date": "2026-10-21",
    "url": "http://app.mytalentplug.com/description-offre.aspx?ojid=hqxIyBcxCe9ji7sJpTbXUA=="
+  },
+  {
+   "id": "6add2eadbfbdb64c1a6869ea",
+   "source": "France Travail",
+   "titre": "ASSISTANT MARKETING OPERATIONNEL (ALTERNANCE) H/F",
+   "entreprise": "SECOURS ISLAMIQUE FRANCE (SIF)",
+   "siret": null,
+   "categorie": "ETI / PME",
+   "categorie_methode": "nom",
+   "taille": null,
+   "taille_min": null,
+   "naf": null,
+   "idcc": null,
+   "convention": null,
+   "filiere": "commerce",
+   "theme": "marketing",
+   "rome": [
+    "M1620"
+   ],
+   "ville": "Massy",
+   "departement": "91",
+   "region": "11",
+   "lat": 48.728133,
+   "lon": 2.269556,
+   "bassin": "Paris / Saclay",
+   "contrat": [
+    "Apprentissage"
+   ],
+   "duree_mois": 12,
+   "niveau": null,
+   "teletravail": "Non précisé",
+   "salaire_brut_mensuel": 1167,
+   "salaire_source": "minimum légal",
+   "loyer_studio": 573,
+   "pouvoir_achat_ajuste": 594,
+   "score_attractivite": 31.6,
+   "score_detail": {
+    "prestige": 8,
+    "remuneration": 6.7,
+    "missions": 11,
+    "cadre_vie": 5.9
+   },
+   "competences": [
+    "International",
+    "Marketing digital",
+    "Excel"
+   ],
+   "date": "2026-10-24",
+   "url": "https://app.beetween.com/WeaselWeb/p/#/apply/job/r3beq2y66b8/assistant-marketing-operationnel-alternance-h-f"
   },
   {
    "id": "6abd880ad46e986892b9e105",
@@ -28578,53 +28334,6 @@
    ],
    "date": "2026-09-16",
    "url": "https://labonnealternance.apprentissage.beta.gouv.fr/emploi/offres_emploi_lba/6aaad9821734e71a67c8f649/conseiller-commercial"
-  },
-  {
-   "id": "6a8d69a926e1972c20f55fbf",
-   "source": "offres_emploi_lba",
-   "titre": "assistante PME / PMI ou assistant gestion et comptabilité",
-   "entreprise": "INSTI FORMA SUPERIEURE CEVENNES",
-   "siret": "44839354600024",
-   "categorie": "ETI / PME",
-   "categorie_methode": "nom",
-   "taille": "3 à 5 salariés",
-   "taille_min": 3,
-   "naf": "Entretien et réparation de véhicules automobiles légers",
-   "idcc": null,
-   "convention": null,
-   "filiere": "management",
-   "theme": "direction",
-   "rome": [
-    "M1621"
-   ],
-   "ville": "Ales",
-   "departement": "30",
-   "region": "76",
-   "lat": 44.249045,
-   "lon": 3.913997,
-   "bassin": null,
-   "contrat": [
-    "Apprentissage"
-   ],
-   "duree_mois": 24,
-   "niveau": "4",
-   "teletravail": "Non précisé",
-   "salaire_brut_mensuel": 1167,
-   "salaire_source": "minimum légal",
-   "loyer_studio": 310,
-   "pouvoir_achat_ajuste": 857,
-   "score_attractivite": 31.5,
-   "score_detail": {
-    "prestige": 9.2,
-    "remuneration": 6.7,
-    "missions": 7,
-    "cadre_vie": 8.6
-   },
-   "competences": [
-    "Gestion de projet"
-   ],
-   "date": "2026-08-25",
-   "url": "https://labonnealternance.apprentissage.beta.gouv.fr/emploi/offres_emploi_lba/6a8d69a926e1972c20f55fbf/assistante-pme-pmi-ou-assistant-gestion-et-comptabilité"
   },
   {
    "id": "6abed82e2df2835ebd35828b",
@@ -29543,54 +29252,6 @@
    ],
    "date": "2026-08-31",
    "url": "https://labonnealternance.apprentissage.beta.gouv.fr/emploi/offres_emploi_lba/6a955bbf50bc4e06f8674daa/conseiller-commercial-conseillère-commerciale-auprès-d-une-clientèle-de-particuliers"
-  },
-  {
-   "id": "6ac965f6e2ab790b62ecb870",
-   "source": "ATS_Hellowork",
-   "titre": "ALTERNANCE CHARGÉ(E) DE RECRUTEMENT",
-   "entreprise": "MARE NOSTRUM",
-   "siret": "47980236500052",
-   "categorie": "ETI / PME",
-   "categorie_methode": "nom",
-   "taille": "20 à 49 salariés",
-   "taille_min": 20,
-   "naf": "Activités des sièges sociaux",
-   "idcc": 1486,
-   "convention": "Syntec (bureaux d'études)",
-   "filiere": "management",
-   "theme": "rh",
-   "rome": [
-    "M1502"
-   ],
-   "ville": "Bordeaux",
-   "departement": "33",
-   "region": "75",
-   "lat": 44.851895,
-   "lon": -0.587877,
-   "bassin": "Bordeaux",
-   "contrat": [
-    "Apprentissage",
-    "Professionnalisation"
-   ],
-   "duree_mois": null,
-   "niveau": null,
-   "teletravail": "Non précisé",
-   "salaire_brut_mensuel": 1167,
-   "salaire_source": "minimum légal",
-   "loyer_studio": 463,
-   "pouvoir_achat_ajuste": 704,
-   "score_attractivite": 31.0,
-   "score_detail": {
-    "prestige": 11.3,
-    "remuneration": 6.7,
-    "missions": 6,
-    "cadre_vie": 7.0
-   },
-   "competences": [
-    "R&D / Innovation"
-   ],
-   "date": "2026-10-08",
-   "url": "https://labonnealternance.apprentissage.beta.gouv.fr/emploi/offres_emploi_partenaires/6ac965f6e2ab790b62ecb870/alternance-chargé-e-de-recrutement"
   },
   {
    "id": "6ad7e62276e8f92c0ea53ebd",
@@ -30802,6 +30463,57 @@
    ],
    "date": "2026-10-09",
    "url": "https://r.holeest.com/redirect?jd_token=vvxPyd&o=1&from=https%3A%2F%2Fwww.hellowork.com%2Ffr-fr%2Femplois%2F84296171.html%3Futm_source%3Dbonnealternance%26utm_medium%3Dmetamoteurs-free%26utm_campaign%3Dalternance%2B-%2Bcommerce%26utm_content%3Dfluxbonnealternance%26utm_term%3D84296171"
+  },
+  {
+   "id": "6add2baaec4f5594ab3d85e4",
+   "source": "Hellowork",
+   "titre": "Alternance Business Developer Logistique H/F",
+   "entreprise": "FACYLITIES MULTI SERVICES",
+   "siret": "50159526800043",
+   "categorie": "ETI / PME",
+   "categorie_methode": "nom",
+   "taille": "500 à 999 salariés",
+   "taille_min": 500,
+   "naf": "Traitement de données, hébergement et activités connexes",
+   "idcc": 1486,
+   "convention": "Syntec (bureaux d'études)",
+   "filiere": "commerce",
+   "theme": "b2b",
+   "rome": [
+    "M1707"
+   ],
+   "ville": "Idron",
+   "departement": "64",
+   "region": "75",
+   "lat": 43.300182,
+   "lon": -0.307446,
+   "bassin": null,
+   "contrat": [
+    "Apprentissage",
+    "Professionnalisation"
+   ],
+   "duree_mois": 24,
+   "niveau": "5",
+   "teletravail": "Présentiel",
+   "salaire_brut_mensuel": 857,
+   "salaire_source": "minimum légal",
+   "loyer_studio": 367,
+   "pouvoir_achat_ajuste": 490,
+   "score_attractivite": 30.6,
+   "score_detail": {
+    "prestige": 14.7,
+    "remuneration": 0,
+    "missions": 13,
+    "cadre_vie": 2.9
+   },
+   "competences": [
+    "Gestion de projet",
+    "Amélioration continue",
+    "Négociation / prospection",
+    "Reporting / contrôle"
+   ],
+   "date": "2026-10-23",
+   "url": "https://r.holeest.com/redirect?jd_token=B3iJwf&o=1&from=https%3A%2F%2Fwww.hellowork.com%2Ffr-fr%2Femplois%2F84769821.html%3Futm_source%3Dbonnealternance%26utm_medium%3Dmetamoteurs-free%26utm_campaign%3Dalternance%2B-%2Bcommerce%26utm_content%3Dfluxbonnealternance%26utm_term%3D84769821"
   },
   {
    "id": "6aba80be810013aef3c03d22",
@@ -33747,7 +33459,7 @@
    "competences": [
     "R&D / Innovation"
    ],
-   "date": "2026-10-18",
+   "date": "2026-10-23",
    "url": "https://www.meteojob.com/jobs/56379219?utm_source=labonnealternance&utm_medium=aggregator-free&utm_campaign=alternance"
   },
   {
@@ -34176,54 +33888,6 @@
    ],
    "date": "2026-10-16",
    "url": "https://www.meteojob.com/jobs/51075896?utm_source=pole-emploi&utm_medium=aggregator-free"
-  },
-  {
-   "id": "6ac570f31778092e497ff431",
-   "source": "Hellowork",
-   "titre": "Assistant Clients en Alternance H/F",
-   "entreprise": "CAFES RICHARD",
-   "siret": "43257346700011",
-   "categorie": "ETI / PME",
-   "categorie_methode": "nom",
-   "taille": "250 à 499 salariés",
-   "taille_min": 250,
-   "naf": "Transformation du thé et du café",
-   "idcc": 3109,
-   "convention": "Industries alimentaires diverses",
-   "filiere": "commerce",
-   "theme": "relation_client",
-   "rome": [
-    "D1401"
-   ],
-   "ville": "Gennevilliers",
-   "departement": "92",
-   "region": "11",
-   "lat": 48.93113,
-   "lon": 2.294231,
-   "bassin": "Paris / Saclay",
-   "contrat": [
-    "Apprentissage",
-    "Professionnalisation"
-   ],
-   "duree_mois": 12,
-   "niveau": "3",
-   "teletravail": "Présentiel",
-   "salaire_brut_mensuel": 1167,
-   "salaire_source": "minimum légal",
-   "loyer_studio": 680,
-   "pouvoir_achat_ajuste": 487,
-   "score_attractivite": 29.6,
-   "score_detail": {
-    "prestige": 14.0,
-    "remuneration": 6.7,
-    "missions": 6,
-    "cadre_vie": 2.9
-   },
-   "competences": [
-    "Négociation / prospection"
-   ],
-   "date": "2026-10-05",
-   "url": "https://r.holeest.com/redirect?jd_token=tncHcs&o=1&from=https%3A%2F%2Fwww.hellowork.com%2Ffr-fr%2Femplois%2F84116306.html%3Futm_source%3Dbonnealternance%26utm_medium%3Dmetamoteurs-free%26utm_campaign%3Dalternance%2B-%2Bcommerce%26utm_content%3Dfluxbonnealternance%26utm_term%3D84116306"
   },
   {
    "id": "6aceaef2bd527d1b3c3632f9",
@@ -35901,55 +35565,6 @@
    "url": "https://r.holeest.com/redirect?jd_token=tzzDkz&o=1&from=https%3A%2F%2Fwww.hellowork.com%2Ffr-fr%2Femplois%2F84127252.html%3Futm_source%3Dbonnealternance%26utm_medium%3Dmetamoteurs-free%26utm_campaign%3Dalternance%2B-%2Bcommerce%26utm_content%3Dfluxbonnealternance%26utm_term%3D84127252"
   },
   {
-   "id": "6acffc860bdf06aea2985ea6",
-   "source": "Hellowork",
-   "titre": "Assistant RH en Alternance H/F",
-   "entreprise": "OPTIONS",
-   "siret": "32234740200065",
-   "categorie": "ETI / PME",
-   "categorie_methode": "nom",
-   "taille": "500 à 999 salariés",
-   "taille_min": 500,
-   "naf": "Location et location-bail d'autres biens personnels et domestiques",
-   "idcc": 1090,
-   "convention": "Services de l'automobile",
-   "filiere": "management",
-   "theme": "rh",
-   "rome": [
-    "M1501"
-   ],
-   "ville": "Carros",
-   "departement": "06",
-   "region": "93",
-   "lat": 43.784043,
-   "lon": 7.191567,
-   "bassin": "Nice / Sophia-Antipolis",
-   "contrat": [
-    "Apprentissage",
-    "Professionnalisation"
-   ],
-   "duree_mois": null,
-   "niveau": "6",
-   "teletravail": "Présentiel",
-   "salaire_brut_mensuel": 1039,
-   "salaire_source": "minimum légal",
-   "loyer_studio": 531,
-   "pouvoir_achat_ajuste": 508,
-   "score_attractivite": 29.3,
-   "score_detail": {
-    "prestige": 14.7,
-    "remuneration": 3.5,
-    "missions": 8,
-    "cadre_vie": 3.1
-   },
-   "competences": [
-    "Excel",
-    "SIRH / paie"
-   ],
-   "date": "2026-10-13",
-   "url": "https://r.holeest.com/redirect?jd_token=yiFjCl&o=1&from=https%3A%2F%2Fwww.hellowork.com%2Ffr-fr%2Femplois%2F84406274.html%3Futm_source%3Dbonnealternance%26utm_medium%3Dmetamoteurs-free%26utm_campaign%3Dalternance%2B-%2B%7Bseo_domain%7D%26utm_content%3Dfluxbonnealternance%26utm_term%3D84406274"
-  },
-  {
    "id": "6aac643d6b0f1ab1a51eb3df",
    "source": "Hellowork",
    "titre": "Chargé de Recrutement IT - Alternance H/F",
@@ -37133,54 +36748,6 @@
    ],
    "date": "2026-10-01",
    "url": "https://labonnealternance.apprentissage.beta.gouv.fr/emploi/offres_emploi_partenaires/6ac02b890d871689a663e933/chargé-de-re"
-  },
-  {
-   "id": "6ad7e61d76e8f92c0ea53da5",
-   "source": "ATS_Hellowork",
-   "titre": "ALTERNANCE CHARGÉ(E) DE RECRUTEMENT",
-   "entreprise": "TridenTT Montauban",
-   "siret": null,
-   "categorie": "ETI / PME",
-   "categorie_methode": "nom",
-   "taille": null,
-   "taille_min": null,
-   "naf": null,
-   "idcc": null,
-   "convention": null,
-   "filiere": "management",
-   "theme": "rh",
-   "rome": [
-    "M1502"
-   ],
-   "ville": "Montauban",
-   "departement": "82",
-   "region": "76",
-   "lat": 44.020606,
-   "lon": 1.363799,
-   "bassin": null,
-   "contrat": [
-    "Apprentissage",
-    "Professionnalisation"
-   ],
-   "duree_mois": null,
-   "niveau": null,
-   "teletravail": "Non précisé",
-   "salaire_brut_mensuel": 1167,
-   "salaire_source": "minimum légal",
-   "loyer_studio": 334,
-   "pouvoir_achat_ajuste": 833,
-   "score_attractivite": 29.0,
-   "score_detail": {
-    "prestige": 8,
-    "remuneration": 6.7,
-    "missions": 6,
-    "cadre_vie": 8.3
-   },
-   "competences": [
-    "R&D / Innovation"
-   ],
-   "date": "2026-10-19",
-   "url": "https://labonnealternance.apprentissage.beta.gouv.fr/emploi/offres_emploi_partenaires/6ad7e61d76e8f92c0ea53da5/alternance-chargé-e-de-recrutement"
   },
   {
    "id": "6abd8b0b170bf3aae58587ce",
@@ -38603,55 +38170,6 @@
    "competences": [],
    "date": "2026-10-19",
    "url": "https://r.holeest.com/redirect?jd_token=zfyewy&o=1&from=https%3A%2F%2Fwww.hellowork.com%2Ffr-fr%2Femplois%2F84585738.html%3Futm_source%3Dbonnealternance%26utm_medium%3Dmetamoteurs-free%26utm_campaign%3Dalternance%2B-%2Bvente%252Csav%26utm_content%3Dfluxbonnealternance%26utm_term%3D84585738"
-  },
-  {
-   "id": "6ab59eec68233dbb8f6a9f9f",
-   "source": "Hellowork",
-   "titre": "Alternance - Chargé de Recrutement H/F",
-   "entreprise": "GI GROUP FRANCE",
-   "siret": "84464950900016",
-   "categorie": "ETI / PME",
-   "categorie_methode": "nom",
-   "taille": "20 à 49 salariés",
-   "taille_min": 20,
-   "naf": "Conseil pour les affaires et autres conseils de gestion",
-   "idcc": 1486,
-   "convention": "Syntec (bureaux d'études)",
-   "filiere": "management",
-   "theme": "rh",
-   "rome": [
-    "M1502"
-   ],
-   "ville": "Abbeville",
-   "departement": "80",
-   "region": "32",
-   "lat": 50.105799,
-   "lon": 1.828902,
-   "bassin": null,
-   "contrat": [
-    "Apprentissage",
-    "Professionnalisation"
-   ],
-   "duree_mois": 12,
-   "niveau": "6",
-   "teletravail": "Présentiel",
-   "salaire_brut_mensuel": 1039,
-   "salaire_source": "minimum légal",
-   "loyer_studio": 343,
-   "pouvoir_achat_ajuste": 696,
-   "score_attractivite": 28.8,
-   "score_detail": {
-    "prestige": 11.3,
-    "remuneration": 3.5,
-    "missions": 9,
-    "cadre_vie": 5.0
-   },
-   "competences": [
-    "Gestion de projet",
-    "Négociation / prospection"
-   ],
-   "date": "2026-09-23",
-   "url": "https://r.holeest.com/redirect?jd_token=pJ64Un&o=1&from=https%3A%2F%2Fwww.hellowork.com%2Ffr-fr%2Femplois%2F83682924.html%3Futm_source%3Dbonnealternance%26utm_medium%3Dmetamoteurs-free%26utm_campaign%3Dalternance%2B-%2B%7Bseo_domain%7D%26utm_content%3Dfluxbonnealternance%26utm_term%3D83682924"
   },
   {
    "id": "6abed969d46e986892bf072a",
@@ -40918,54 +40436,6 @@
    ],
    "date": "2026-08-14",
    "url": "https://labonnealternance.apprentissage.beta.gouv.fr/emploi/offres_emploi_lba/6a7f2246aa55268583aa140f/apprenti-commercial"
-  },
-  {
-   "id": "6acfa29122ce23a2ad443e93",
-   "source": "offres_emploi_lba",
-   "titre": "Alternant(e) Gestionnaire de paie",
-   "entreprise": "FEDERATION DES PARTICULIERS EMPLOYEURS DE FRANCE",
-   "siret": "78420478600072",
-   "categorie": "ETI / PME",
-   "categorie_methode": "nom",
-   "taille": "100 à 199 salariés",
-   "taille_min": 100,
-   "naf": "Activités des organisations patronales et consulaires",
-   "idcc": null,
-   "convention": null,
-   "filiere": "management",
-   "theme": "rh",
-   "rome": [
-    "M1507"
-   ],
-   "ville": "Paris",
-   "departement": "75",
-   "region": "11",
-   "lat": 48.879849,
-   "lon": 2.314942,
-   "bassin": "Paris / Saclay",
-   "contrat": [
-    "Apprentissage"
-   ],
-   "duree_mois": 12,
-   "niveau": "6",
-   "teletravail": "Non précisé",
-   "salaire_brut_mensuel": 1039,
-   "salaire_source": "minimum légal",
-   "loyer_studio": 849,
-   "pouvoir_achat_ajuste": 190,
-   "score_attractivite": 28.5,
-   "score_detail": {
-    "prestige": 13.0,
-    "remuneration": 3.5,
-    "missions": 8,
-    "cadre_vie": 4
-   },
-   "competences": [
-    "R&D / Innovation",
-    "SIRH / paie"
-   ],
-   "date": "2026-10-14",
-   "url": "https://labonnealternance.apprentissage.beta.gouv.fr/emploi/offres_emploi_lba/6acfa29122ce23a2ad443e93/alternant-e-gestionnaire-de-paie"
   },
   {
    "id": "6ad6972be2d92300cfde6a33",
@@ -45595,6 +45065,51 @@
    "url": "https://hub-alternance.opcoep.fr/jeune/je-cherche-un-emploi/offre-emploi/6a9eb2464ebca56dd5a2d7dd"
   },
   {
+   "id": "6add2eadbfbdb64c1a6869bc",
+   "source": "France Travail",
+   "titre": "Adjoint technicien / Adjointe technicienne d'exploitation informatique (H/F)",
+   "entreprise": "ERIC LEPELLETIER",
+   "siret": "81539825000028",
+   "categorie": "ETI / PME",
+   "categorie_methode": "nom",
+   "taille": "1 ou 2 salariés",
+   "taille_min": 1,
+   "naf": "Commerce de détail d'ordinateurs, d'unités périphériques et de logiciels en magasin spécialisé",
+   "idcc": 1686,
+   "convention": "IDCC 1686",
+   "filiere": "ingenierie",
+   "theme": "data",
+   "rome": [
+    "M1810"
+   ],
+   "ville": "Sarreguemines",
+   "departement": "57",
+   "region": "44",
+   "lat": 49.110922,
+   "lon": 7.07705,
+   "bassin": null,
+   "contrat": [
+    "Apprentissage"
+   ],
+   "duree_mois": 24,
+   "niveau": null,
+   "teletravail": "Non précisé",
+   "salaire_brut_mensuel": 1167,
+   "salaire_source": "minimum légal",
+   "loyer_studio": 305,
+   "pouvoir_achat_ajuste": 862,
+   "score_attractivite": 27.3,
+   "score_detail": {
+    "prestige": 8,
+    "remuneration": 6.7,
+    "missions": 4,
+    "cadre_vie": 8.6
+   },
+   "competences": [],
+   "date": "2026-10-24",
+   "url": "https://labonnealternance.apprentissage.beta.gouv.fr/emploi/offres_emploi_lba/6adb8dec149b034bd0537a4d/adjoint-technicien-adjointe-technicienne-d-exploitation-informatique"
+  },
+  {
    "id": "6ada3d4a1c256e6f3beed179",
    "source": "offres_emploi_lba",
    "titre": "Assistant de gestion et de direction : gestion entrepôt, stock et aide la direction dans l'administratif et la commercialisation",
@@ -46015,6 +45530,58 @@
    ],
    "date": "2026-10-03",
    "url": "https://r.holeest.com/redirect?jd_token=pJbIsk&o=1&from=https%3A%2F%2Fwww.hellowork.com%2Ffr-fr%2Femplois%2F82991907.html%3Futm_source%3Dbonnealternance%26utm_medium%3Dmetamoteurs-free%26utm_campaign%3Dalternance%2B-%2B%7Bseo_domain%7D%26utm_content%3Dfluxbonnealternance%26utm_term%3D82991907"
+  },
+  {
+   "id": "6add2a732acc1f901467c99b",
+   "source": "annonces Atlas",
+   "titre": "Chargé d’études électricité CFO CFA H/F",
+   "entreprise": "EUROELEC-SMART ENERGY",
+   "siret": null,
+   "categorie": "ETI / PME",
+   "categorie_methode": "nom",
+   "taille": null,
+   "taille_min": null,
+   "naf": null,
+   "idcc": null,
+   "convention": null,
+   "filiere": "ingenierie",
+   "theme": "btp",
+   "rome": [
+    "F1117"
+   ],
+   "ville": "Paris",
+   "departement": "75",
+   "region": "11",
+   "lat": 48.8448,
+   "lon": 2.3471,
+   "bassin": "Paris / Saclay",
+   "contrat": [
+    "Apprentissage",
+    "Professionnalisation"
+   ],
+   "duree_mois": 24,
+   "niveau": "6",
+   "teletravail": "Présentiel",
+   "salaire_brut_mensuel": 989,
+   "salaire_source": "annoncé",
+   "loyer_studio": 849,
+   "pouvoir_achat_ajuste": 140,
+   "score_attractivite": 27.2,
+   "score_detail": {
+    "prestige": 8,
+    "remuneration": 2.2,
+    "missions": 15,
+    "cadre_vie": 2
+   },
+   "competences": [
+    "Gestion de projet",
+    "Data / IA",
+    "R&D / Innovation",
+    "CAO",
+    "Automatisme"
+   ],
+   "date": "2026-10-23",
+   "url": "https://annoncesatlas.opco-atlas.fr/jobads/114410?utm_source=labonnealternance&utm_medium=aggregator-free&utm_campaign=alternance"
   },
   {
    "id": "6aa0428ea4090cbb976f13ed",
@@ -49416,6 +48983,51 @@
    "url": "https://r.holeest.com/redirect?jd_token=pJ2wQw&o=1&from=https%3A%2F%2Fwww.hellowork.com%2Ffr-fr%2Femplois%2F80941228.html%3Futm_source%3Dbonnealternance%26utm_medium%3Dmetamoteurs-free%26utm_campaign%3Dalternance%2B-%2Bcommerce%26utm_content%3Dfluxbonnealternance%26utm_term%3D80941228"
   },
   {
+   "id": "6add2eacbfbdb64c1a686998",
+   "source": "France Travail",
+   "titre": "ALTERNANCE - Chargé de recrutement dans les services à la personne (H/F)",
+   "entreprise": "Medair ! LOLE",
+   "siret": null,
+   "categorie": "ETI / PME",
+   "categorie_methode": "nom",
+   "taille": null,
+   "taille_min": null,
+   "naf": null,
+   "idcc": null,
+   "convention": null,
+   "filiere": "management",
+   "theme": "rh",
+   "rome": [
+    "M1502"
+   ],
+   "ville": "Vernon",
+   "departement": "27",
+   "region": "28",
+   "lat": 49.089623,
+   "lon": 1.494472,
+   "bassin": null,
+   "contrat": [
+    "Apprentissage"
+   ],
+   "duree_mois": 12,
+   "niveau": null,
+   "teletravail": "Non précisé",
+   "salaire_brut_mensuel": 1167,
+   "salaire_source": "minimum légal",
+   "loyer_studio": 410,
+   "pouvoir_achat_ajuste": 757,
+   "score_attractivite": 26.3,
+   "score_detail": {
+    "prestige": 8,
+    "remuneration": 6.7,
+    "missions": 4,
+    "cadre_vie": 7.6
+   },
+   "competences": [],
+   "date": "2026-10-24",
+   "url": "https://jobs.makesense.org/fr/jobs/medair-lole-alternance-charge-de-recrutement-dans-les-services-a-la-personne-hf-D4xsSKzR4tSQEO8QQMWd?source=france_travail"
+  },
+  {
    "id": "6ad3f4dccc1761c8ae03229e",
    "source": "Meteojob",
    "titre": "Téléconseiller en prise de rendez-vous H/F",
@@ -50537,7 +50149,7 @@
     "Excel",
     "Reporting / contrôle"
    ],
-   "date": "2026-09-23",
+   "date": "2026-10-23",
    "url": "https://r.holeest.com/redirect?jd_token=pJ4gDw&o=1&from=https%3A%2F%2Fwww.hellowork.com%2Ffr-fr%2Femplois%2F83677943.html%3Futm_source%3Dbonnealternance%26utm_medium%3Dmetamoteurs-free%26utm_campaign%3Dalternance%2B-%2B%7Bseo_domain%7D%26utm_content%3Dfluxbonnealternance%26utm_term%3D83677943"
   },
   {
@@ -51404,56 +51016,6 @@
    ],
    "date": "2026-10-13",
    "url": "https://r.holeest.com/redirect?jd_token=wKG7Ny&o=1&from=https%3A%2F%2Fwww.hellowork.com%2Ffr-fr%2Femplois%2F84392637.html%3Futm_source%3Dbonnealternance%26utm_medium%3Dmetamoteurs-free%26utm_campaign%3Dalternance%2B-%2Bcommerce%26utm_content%3Dfluxbonnealternance%26utm_term%3D84392637"
-  },
-  {
-   "id": "6adbddb2ec4f5594ab3d1237",
-   "source": "Meteojob",
-   "titre": "Chargé de communication digitale H/F – Alternance",
-   "entreprise": "Proesa",
-   "siret": null,
-   "categorie": "ETI / PME",
-   "categorie_methode": "nom",
-   "taille": null,
-   "taille_min": null,
-   "naf": null,
-   "idcc": null,
-   "convention": null,
-   "filiere": "commerce",
-   "theme": "marketing",
-   "rome": [
-    "M1718"
-   ],
-   "ville": "Haute-Garonne",
-   "departement": "31",
-   "region": "76",
-   "lat": 43.60426,
-   "lon": 1.44367,
-   "bassin": "Toulouse",
-   "contrat": [
-    "Apprentissage",
-    "Professionnalisation"
-   ],
-   "duree_mois": null,
-   "niveau": "6",
-   "teletravail": "Présentiel",
-   "salaire_brut_mensuel": 1039,
-   "salaire_source": "minimum légal",
-   "loyer_studio": 396,
-   "pouvoir_achat_ajuste": 643,
-   "score_attractivite": 25.9,
-   "score_detail": {
-    "prestige": 8,
-    "remuneration": 3.5,
-    "missions": 10,
-    "cadre_vie": 4.4
-   },
-   "competences": [
-    "Data / IA",
-    "R&D / Innovation",
-    "Marketing digital"
-   ],
-   "date": "2026-10-23",
-   "url": "https://www.meteojob.com/jobs/57673086?utm_source=labonnealternance&utm_medium=aggregator-free&utm_campaign=alternance"
   },
   {
    "id": "6a19774cf42479bd68216743",
@@ -54230,53 +53792,6 @@
    "url": "https://www.meteojob.com/jobs/55765955?utm_source=labonnealternance&utm_medium=aggregator-free&utm_campaign=alternance"
   },
   {
-   "id": "6a8dd885ad878e81bc7bb5d7",
-   "source": "offres_emploi_lba",
-   "titre": "Commercial/Business development",
-   "entreprise": "ROSSMARK",
-   "siret": "38862609500029",
-   "categorie": "ETI / PME",
-   "categorie_methode": "nom",
-   "taille": "3 à 5 salariés",
-   "taille_min": 3,
-   "naf": "Autres intermédiaires du commerce en denrées, boissons et tabac",
-   "idcc": null,
-   "convention": null,
-   "filiere": "commerce",
-   "theme": "relation_client",
-   "rome": [
-    "D1410"
-   ],
-   "ville": "L'Isle-Sur-La-Sorgue",
-   "departement": "84",
-   "region": "93",
-   "lat": 43.918427,
-   "lon": 5.046307,
-   "bassin": null,
-   "contrat": [
-    "Apprentissage"
-   ],
-   "duree_mois": 12,
-   "niveau": "6",
-   "teletravail": "Non précisé",
-   "salaire_brut_mensuel": 1039,
-   "salaire_source": "minimum légal",
-   "loyer_studio": 416,
-   "pouvoir_achat_ajuste": 623,
-   "score_attractivite": 24.9,
-   "score_detail": {
-    "prestige": 9.2,
-    "remuneration": 3.5,
-    "missions": 6,
-    "cadre_vie": 6.2
-   },
-   "competences": [
-    "Négociation / prospection"
-   ],
-   "date": "2026-08-25",
-   "url": "https://labonnealternance.apprentissage.beta.gouv.fr/emploi/offres_emploi_lba/6a8dd885ad878e81bc7bb5d7/commercial-business-development"
-  },
-  {
    "id": "6abae3b8de001b19233feb0c",
    "source": "APEC",
    "titre": "Assistant(e) comptable - BTS CG - REFLET IMMOBILIER - IGF F/H",
@@ -55175,56 +54690,6 @@
    ],
    "date": "2026-10-13",
    "url": "https://labonnealternance.apprentissage.beta.gouv.fr/emploi/offres_emploi_lba/6ace369866f2a3ca60c98c11/chargé-chargée-de-recherche-en-recrutement"
-  },
-  {
-   "id": "6adbda05ec4f5594ab3ccc9e",
-   "source": "Hellowork",
-   "titre": "Chargé·e de Recrutement et d'Insertion-Alternance H/F",
-   "entreprise": "MARE NOSTRUM",
-   "siret": "47980236500052",
-   "categorie": "ETI / PME",
-   "categorie_methode": "nom",
-   "taille": "20 à 49 salariés",
-   "taille_min": 20,
-   "naf": "Activités des sièges sociaux",
-   "idcc": 1486,
-   "convention": "Syntec (bureaux d'études)",
-   "filiere": "management",
-   "theme": "rh",
-   "rome": [
-    "M1502"
-   ],
-   "ville": "Colombe",
-   "departement": "38",
-   "region": "84",
-   "lat": 45.401493,
-   "lon": 5.454208,
-   "bassin": null,
-   "contrat": [
-    "Apprentissage",
-    "Professionnalisation"
-   ],
-   "duree_mois": 12,
-   "niveau": "5",
-   "teletravail": "Présentiel",
-   "salaire_brut_mensuel": 857,
-   "salaire_source": "minimum légal",
-   "loyer_studio": 324,
-   "pouvoir_achat_ajuste": 533,
-   "score_attractivite": 24.6,
-   "score_detail": {
-    "prestige": 11.3,
-    "remuneration": 0,
-    "missions": 10,
-    "cadre_vie": 3.3
-   },
-   "competences": [
-    "R&D / Innovation",
-    "Négociation / prospection",
-    "Marketing digital"
-   ],
-   "date": "2026-10-23",
-   "url": "https://r.holeest.com/redirect?jd_token=ASZrSD&o=1&from=https%3A%2F%2Fwww.hellowork.com%2Ffr-fr%2Femplois%2F84725694.html%3Futm_source%3Dbonnealternance%26utm_medium%3Dmetamoteurs-free%26utm_campaign%3Dalternance%2B-%2B%7Bseo_domain%7D%26utm_content%3Dfluxbonnealternance%26utm_term%3D84725694"
   },
   {
    "id": "6a96e36350bc4e06f868ae1c",
@@ -56550,7 +56015,7 @@
     "cadre_vie": 5.0
    },
    "competences": [],
-   "date": "2026-09-22",
+   "date": "2026-10-23",
    "url": "https://r.holeest.com/redirect?jd_token=wKEIcv&o=1&from=https%3A%2F%2Fwww.hellowork.com%2Ffr-fr%2Femplois%2F71684552.html%3Futm_source%3Dbonnealternance%26utm_medium%3Dmetamoteurs-free%26utm_campaign%3Dalternance%2B-%2Bdistribution%26utm_content%3Dfluxbonnealternance%26utm_term%3D71684552"
   },
   {
@@ -56646,6 +56111,52 @@
    "competences": [],
    "date": "2026-10-12",
    "url": "https://www.jobposting.pro/emploi-2721037-180"
+  },
+  {
+   "id": "6adc22f2149b034bd053a165",
+   "source": "Jobposting",
+   "titre": "Chargé de recrutement en alternance H/F",
+   "entreprise": "ŌDAS CONSEIL",
+   "siret": "99068168600012",
+   "categorie": "ETI / PME",
+   "categorie_methode": "nom",
+   "taille": "Non diffusé",
+   "taille_min": null,
+   "naf": "Activités des agences de placement de main-d'œuvre",
+   "idcc": null,
+   "convention": null,
+   "filiere": "management",
+   "theme": "rh",
+   "rome": [
+    "M1510"
+   ],
+   "ville": "Bordeaux",
+   "departement": "33",
+   "region": "75",
+   "lat": 44.851895,
+   "lon": -0.587877,
+   "bassin": "Bordeaux",
+   "contrat": [
+    "Apprentissage",
+    "Professionnalisation"
+   ],
+   "duree_mois": 12,
+   "niveau": "7",
+   "teletravail": "Présentiel",
+   "salaire_brut_mensuel": 1167,
+   "salaire_source": "minimum légal",
+   "loyer_studio": 463,
+   "pouvoir_achat_ajuste": 704,
+   "score_attractivite": 23.7,
+   "score_detail": {
+    "prestige": 8,
+    "remuneration": 6.7,
+    "missions": 4,
+    "cadre_vie": 5.0
+   },
+   "competences": [],
+   "date": "2026-10-23",
+   "url": "https://www.jobposting.pro/emploi-2731685-180"
   },
   {
    "id": "6abfe6d3e4c7a56b6a26142b",
@@ -57492,55 +57003,6 @@
    "competences": [],
    "date": "2026-10-07",
    "url": "https://r.holeest.com/redirect?jd_token=ulOPMb&o=1&from=https%3A%2F%2Fwww.hellowork.com%2Ffr-fr%2Femplois%2F84197208.html%3Futm_source%3Dbonnealternance%26utm_medium%3Dmetamoteurs-free%26utm_campaign%3Dalternance%2B-%2B%7Bseo_domain%7D%26utm_content%3Dfluxbonnealternance%26utm_term%3D84197208"
-  },
-  {
-   "id": "6adbda04ec4f5594ab3ccc68",
-   "source": "Hellowork",
-   "titre": "Technico-Commercial Alternance - Départements 15 - 19 - 23 - 87 H/F",
-   "entreprise": "SADAPS-BARDAHL CORPORATION",
-   "siret": "47548428300068",
-   "categorie": "ETI / PME",
-   "categorie_methode": "nom",
-   "taille": "20 à 49 salariés",
-   "taille_min": 20,
-   "naf": "Commerce de gros (commerce interentreprises) de produits chimiques",
-   "idcc": 1408,
-   "convention": "IDCC 1408",
-   "filiere": "commerce",
-   "theme": "b2b",
-   "rome": [
-    "D1407"
-   ],
-   "ville": "Guéret",
-   "departement": "23",
-   "region": "75",
-   "lat": 46.171558,
-   "lon": 1.875015,
-   "bassin": null,
-   "contrat": [
-    "Apprentissage",
-    "Professionnalisation"
-   ],
-   "duree_mois": 24,
-   "niveau": "5",
-   "teletravail": "Présentiel",
-   "salaire_brut_mensuel": 857,
-   "salaire_source": "minimum légal",
-   "loyer_studio": 279,
-   "pouvoir_achat_ajuste": 578,
-   "score_attractivite": 23.1,
-   "score_detail": {
-    "prestige": 11.3,
-    "remuneration": 0,
-    "missions": 8,
-    "cadre_vie": 3.8
-   },
-   "competences": [
-    "R&D / Innovation",
-    "Excel"
-   ],
-   "date": "2026-10-23",
-   "url": "https://r.holeest.com/redirect?jd_token=ATUN6h&o=1&from=https%3A%2F%2Fwww.hellowork.com%2Ffr-fr%2Femplois%2F84728656.html%3Futm_source%3Dbonnealternance%26utm_medium%3Dmetamoteurs-free%26utm_campaign%3Dalternance%2B-%2Bcommerce%26utm_content%3Dfluxbonnealternance%26utm_term%3D84728656"
   },
   {
    "id": "6968b8642fd23d7ccdf738c7",
@@ -58880,52 +58342,6 @@
    ],
    "date": "2026-10-07",
    "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179554600W?xtor=#at_medium=affiliate&at_campaign=Export_offres_la_bonne_alternance&at_type=partenaire_export"
-  },
-  {
-   "id": "6ac8145e9b5d06564c469f74",
-   "source": "ATS_Hellowork",
-   "titre": "Assistant Administratif en Alternance H/F",
-   "entreprise": "SOSMORPHEE@DOM",
-   "siret": null,
-   "categorie": "ETI / PME",
-   "categorie_methode": "nom",
-   "taille": null,
-   "taille_min": null,
-   "naf": null,
-   "idcc": null,
-   "convention": null,
-   "filiere": "commerce",
-   "theme": "relation_client",
-   "rome": [
-    "D1401"
-   ],
-   "ville": "Paris",
-   "departement": "75",
-   "region": "11",
-   "lat": 48.859,
-   "lon": 2.347,
-   "bassin": "Paris / Saclay",
-   "contrat": [
-    "Apprentissage",
-    "Professionnalisation"
-   ],
-   "duree_mois": null,
-   "niveau": null,
-   "teletravail": "Non précisé",
-   "salaire_brut_mensuel": 1167,
-   "salaire_source": "minimum légal",
-   "loyer_studio": 849,
-   "pouvoir_achat_ajuste": 318,
-   "score_attractivite": 22.7,
-   "score_detail": {
-    "prestige": 8,
-    "remuneration": 6.7,
-    "missions": 4,
-    "cadre_vie": 4
-   },
-   "competences": [],
-   "date": "2026-10-07",
-   "url": "https://labonnealternance.apprentissage.beta.gouv.fr/emploi/offres_emploi_partenaires/6ac8145e9b5d06564c469f74/assistant-administratif-en-alternance-h-f"
   },
   {
    "id": "6acfa7d522ce23a2ad4443c0",
@@ -60693,57 +60109,6 @@
    "url": "https://r.holeest.com/redirect?jd_token=pJ4gEK&o=1&from=https%3A%2F%2Fwww.hellowork.com%2Ffr-fr%2Femplois%2F83048190.html%3Futm_source%3Dbonnealternance%26utm_medium%3Dmetamoteurs-free%26utm_campaign%3Dalternance%2B-%2B%7Bseo_domain%7D%26utm_content%3Dfluxbonnealternance%26utm_term%3D83048190"
   },
   {
-   "id": "6adbda05ec4f5594ab3ccc82",
-   "source": "Hellowork",
-   "titre": "Alternance - Nom du Poste en Apprentissage H/F",
-   "entreprise": "Enaco",
-   "siret": "51395266300021",
-   "categorie": "ETI / PME",
-   "categorie_methode": "nom",
-   "taille": null,
-   "taille_min": null,
-   "naf": null,
-   "idcc": null,
-   "convention": null,
-   "filiere": "commerce",
-   "theme": "b2b",
-   "rome": [
-    "M1707"
-   ],
-   "ville": "Alpes-Maritimes",
-   "departement": "06",
-   "region": "93",
-   "lat": 43.70315758943409,
-   "lon": 7.252811928378465,
-   "bassin": "Nice / Sophia-Antipolis",
-   "contrat": [
-    "Apprentissage",
-    "Professionnalisation"
-   ],
-   "duree_mois": null,
-   "niveau": "3",
-   "teletravail": "Présentiel",
-   "salaire_brut_mensuel": 783,
-   "salaire_source": "annoncé",
-   "loyer_studio": 558,
-   "pouvoir_achat_ajuste": 225,
-   "score_attractivite": 22,
-   "score_detail": {
-    "prestige": 8,
-    "remuneration": 0,
-    "missions": 12,
-    "cadre_vie": 2
-   },
-   "competences": [
-    "Management",
-    "Négociation / prospection",
-    "Grands comptes / B2B",
-    "Excel"
-   ],
-   "date": "2026-10-23",
-   "url": "https://r.holeest.com/redirect?jd_token=AVQrdG&o=1&from=https%3A%2F%2Fwww.hellowork.com%2Ffr-fr%2Femplois%2F84737808.html%3Futm_source%3Dbonnealternance%26utm_medium%3Dmetamoteurs-free%26utm_campaign%3Dalternance%2B-%2Bformation%26utm_content%3Dfluxbonnealternance%26utm_term%3D84737808"
-  },
-  {
    "id": "6ad10a54da1d354d04f4f7c8",
    "source": "Jobposting",
    "titre": "ALTERNANT(E) CHARGE(E) DE RECRUTEMENT H/F",
@@ -61451,53 +60816,6 @@
    "url": "https://labonnealternance.apprentissage.beta.gouv.fr/emploi/offres_emploi_lba/6a50fcf9a8013626d335b66a/commercial-commerciale-auprès-des-particuliers"
   },
   {
-   "id": "6ad0e85107575485f004d88b",
-   "source": "offres_emploi_lba",
-   "titre": "Attaché technico-commercial / Attachée technico-commerciale",
-   "entreprise": "ATMOSPHERE",
-   "siret": "91917104100016",
-   "categorie": "ETI / PME",
-   "categorie_methode": "nom",
-   "taille": "1 ou 2 salariés",
-   "taille_min": 1,
-   "naf": "Location et location-bail d'autres machines, équipements et biens matériels n.c.a.",
-   "idcc": null,
-   "convention": null,
-   "filiere": "commerce",
-   "theme": "b2b",
-   "rome": [
-    "D1407"
-   ],
-   "ville": "Paris",
-   "departement": "75",
-   "region": "11",
-   "lat": 48.852746,
-   "lon": 2.361651,
-   "bassin": "Paris / Saclay",
-   "contrat": [
-    "Apprentissage"
-   ],
-   "duree_mois": 12,
-   "niveau": "6",
-   "teletravail": "Non précisé",
-   "salaire_brut_mensuel": 1039,
-   "salaire_source": "minimum légal",
-   "loyer_studio": 849,
-   "pouvoir_achat_ajuste": 190,
-   "score_attractivite": 21.5,
-   "score_detail": {
-    "prestige": 8,
-    "remuneration": 3.5,
-    "missions": 6,
-    "cadre_vie": 4
-   },
-   "competences": [
-    "Négociation / prospection"
-   ],
-   "date": "2026-10-15",
-   "url": "https://labonnealternance.apprentissage.beta.gouv.fr/emploi/offres_emploi_lba/6ad0e85107575485f004d88b/attaché-technico-commercial-attachée-technico-commerciale"
-  },
-  {
    "id": "6aa407ee744920529febb37b",
    "source": "offres_emploi_lba",
    "titre": "Attaché commercial",
@@ -61634,7 +60952,7 @@
     "cadre_vie": 5.9
    },
    "competences": [],
-   "date": "2026-10-01",
+   "date": "2026-10-23",
    "url": "https://www.meteojob.com/jobs/57218907?utm_source=labonnealternance&utm_medium=aggregator-free&utm_campaign=alternance"
   },
   {
@@ -62304,51 +61622,6 @@
    "url": "https://labonnealternance.apprentissage.beta.gouv.fr/emploi/offres_emploi_lba/6a97d9e2fb0dd635d1a62cd9/assistant-e-administration-des-ventes-marketplaces-alternance-bts-h-f"
   },
   {
-   "id": "6a8d2c0f26e1972c20f52ddf",
-   "source": "offres_emploi_lba",
-   "titre": "Comptable général / Comptable générale",
-   "entreprise": "CHAMBRE DE COMMERCE ET D'INDUSTRIE DE LA REUNION",
-   "siret": "18974211700121",
-   "categorie": "ETI / PME",
-   "categorie_methode": "nom",
-   "taille": "Non diffusé",
-   "taille_min": null,
-   "naf": "Commerce de détail de quincaillerie, peintures et verres en grandes surfaces (400 m2et plus)",
-   "idcc": null,
-   "convention": null,
-   "filiere": "management",
-   "theme": "finance",
-   "rome": [
-    "M1203"
-   ],
-   "ville": "Saint-Pierre",
-   "departement": "974",
-   "region": "04",
-   "lat": -21.327377,
-   "lon": 55.482358,
-   "bassin": null,
-   "contrat": [
-    "Apprentissage"
-   ],
-   "duree_mois": 12,
-   "niveau": "6",
-   "teletravail": "Non précisé",
-   "salaire_brut_mensuel": 1039,
-   "salaire_source": "minimum légal",
-   "loyer_studio": 473,
-   "pouvoir_achat_ajuste": 566,
-   "score_attractivite": 21.2,
-   "score_detail": {
-    "prestige": 8,
-    "remuneration": 3.5,
-    "missions": 4,
-    "cadre_vie": 5.7
-   },
-   "competences": [],
-   "date": "2026-08-25",
-   "url": "https://labonnealternance.apprentissage.beta.gouv.fr/emploi/offres_emploi_lba/6a8d2c0f26e1972c20f52ddf/comptable-général-comptable-générale"
-  },
-  {
    "id": "6ac02ebb0d871689a6641a2e",
    "source": "Meteojob",
    "titre": "Alternant(e) Sécurité et Environnement (H/F)",
@@ -62637,56 +61910,6 @@
    ],
    "date": "2026-10-20",
    "url": "https://www.meteojob.com/jobs/57608017?utm_source=labonnealternance&utm_medium=aggregator-free&utm_campaign=alternance"
-  },
-  {
-   "id": "6acab5851703dc6103fc82b8",
-   "source": "annonces Atlas",
-   "titre": "Assistant Administratif/ Assistant de  Direction – H/F",
-   "entreprise": "MILLIMAN SAS",
-   "siret": null,
-   "categorie": "ETI / PME",
-   "categorie_methode": "nom",
-   "taille": null,
-   "taille_min": null,
-   "naf": null,
-   "idcc": null,
-   "convention": null,
-   "filiere": "management",
-   "theme": "direction",
-   "rome": [
-    "M1604"
-   ],
-   "ville": "Paris",
-   "departement": "75",
-   "region": "11",
-   "lat": 48.8835,
-   "lon": 2.3219,
-   "bassin": "Paris / Saclay",
-   "contrat": [
-    "Apprentissage",
-    "Professionnalisation"
-   ],
-   "duree_mois": 12,
-   "niveau": "5",
-   "teletravail": "Présentiel",
-   "salaire_brut_mensuel": 857,
-   "salaire_source": "minimum légal",
-   "loyer_studio": 849,
-   "pouvoir_achat_ajuste": 8,
-   "score_attractivite": 21,
-   "score_detail": {
-    "prestige": 8,
-    "remuneration": 0,
-    "missions": 11,
-    "cadre_vie": 2
-   },
-   "competences": [
-    "International",
-    "R&D / Innovation",
-    "Management"
-   ],
-   "date": "2026-10-09",
-   "url": "https://annoncesatlas.opco-atlas.fr/jobads/114231?utm_source=labonnealternance&utm_medium=aggregator-free&utm_campaign=alternance"
   },
   {
    "id": "6aaa52061734e71a67c87cfc",
@@ -64899,56 +64122,6 @@
    "url": "https://r.holeest.com/redirect?jd_token=ArKzlV&o=1&from=https%3A%2F%2Fwww.hellowork.com%2Ffr-fr%2Femplois%2F84100316.html%3Futm_source%3Dbonnealternance%26utm_medium%3Dmetamoteurs-free%26utm_campaign%3Dalternance%2B-%2B%7Bseo_domain%7D%26utm_content%3Dfluxbonnealternance%26utm_term%3D84100316"
   },
   {
-   "id": "6abedd18d46e986892bf5379",
-   "source": "Meteojob",
-   "titre": "Assistant(e) recrutement H/F",
-   "entreprise": "LTD International",
-   "siret": null,
-   "categorie": "ETI / PME",
-   "categorie_methode": "nom",
-   "taille": null,
-   "taille_min": null,
-   "naf": null,
-   "idcc": null,
-   "convention": null,
-   "filiere": "management",
-   "theme": "rh",
-   "rome": [
-    "M1501"
-   ],
-   "ville": "Paris",
-   "departement": "75",
-   "region": "11",
-   "lat": 48.859,
-   "lon": 2.347,
-   "bassin": "Paris / Saclay",
-   "contrat": [
-    "Apprentissage",
-    "Professionnalisation"
-   ],
-   "duree_mois": null,
-   "niveau": "5",
-   "teletravail": "Présentiel",
-   "salaire_brut_mensuel": 857,
-   "salaire_source": "minimum légal",
-   "loyer_studio": 849,
-   "pouvoir_achat_ajuste": 8,
-   "score_attractivite": 20,
-   "score_detail": {
-    "prestige": 8,
-    "remuneration": 0,
-    "missions": 10,
-    "cadre_vie": 2
-   },
-   "competences": [
-    "R&D / Innovation",
-    "Management",
-    "Excel"
-   ],
-   "date": "2026-10-01",
-   "url": "https://www.meteojob.com/jobs/57215893?utm_source=labonnealternance&utm_medium=aggregator-free&utm_campaign=alternance"
-  },
-  {
    "id": "6ad2a35075ec98a5c1149860",
    "source": "Meteojob",
    "titre": "Alternant(e) Ressources Humaines  (H/F)",
@@ -64996,6 +64169,56 @@
    ],
    "date": "2026-10-15",
    "url": "https://www.meteojob.com/jobs/57518027?utm_source=labonnealternance&utm_medium=aggregator-free&utm_campaign=alternance"
+  },
+  {
+   "id": "6abedd18d46e986892bf5379",
+   "source": "Meteojob",
+   "titre": "Assistant(e) recrutement H/F",
+   "entreprise": "LTD International",
+   "siret": null,
+   "categorie": "ETI / PME",
+   "categorie_methode": "nom",
+   "taille": null,
+   "taille_min": null,
+   "naf": null,
+   "idcc": null,
+   "convention": null,
+   "filiere": "management",
+   "theme": "rh",
+   "rome": [
+    "M1501"
+   ],
+   "ville": "Paris",
+   "departement": "75",
+   "region": "11",
+   "lat": 48.859,
+   "lon": 2.347,
+   "bassin": "Paris / Saclay",
+   "contrat": [
+    "Apprentissage",
+    "Professionnalisation"
+   ],
+   "duree_mois": null,
+   "niveau": "5",
+   "teletravail": "Présentiel",
+   "salaire_brut_mensuel": 857,
+   "salaire_source": "minimum légal",
+   "loyer_studio": 849,
+   "pouvoir_achat_ajuste": 8,
+   "score_attractivite": 20,
+   "score_detail": {
+    "prestige": 8,
+    "remuneration": 0,
+    "missions": 10,
+    "cadre_vie": 2
+   },
+   "competences": [
+    "R&D / Innovation",
+    "Management",
+    "Excel"
+   ],
+   "date": "2026-10-23",
+   "url": "https://www.meteojob.com/jobs/57215893?utm_source=labonnealternance&utm_medium=aggregator-free&utm_campaign=alternance"
   },
   {
    "id": "6ac574aa1778092e49804218",
@@ -65996,54 +65219,6 @@
    "url": "https://r.holeest.com/redirect?jd_token=xzSbxt&o=1&from=https%3A%2F%2Fwww.hellowork.com%2Ffr-fr%2Femplois%2F84481499.html%3Futm_source%3Dbonnealternance%26utm_medium%3Dmetamoteurs-free%26utm_campaign%3Dalternance%2B-%2B%7Bseo_domain%7D%26utm_content%3Dfluxbonnealternance%26utm_term%3D84481499"
   },
   {
-   "id": "6adbda07ec4f5594ab3cccfb",
-   "source": "Hellowork",
-   "titre": "Attaché de Recrutement H/F",
-   "entreprise": "MARE NOSTRUM",
-   "siret": "47980236500052",
-   "categorie": "ETI / PME",
-   "categorie_methode": "nom",
-   "taille": "20 à 49 salariés",
-   "taille_min": 20,
-   "naf": "Activités des sièges sociaux",
-   "idcc": 1486,
-   "convention": "Syntec (bureaux d'études)",
-   "filiere": "management",
-   "theme": "rh",
-   "rome": [
-    "M1502"
-   ],
-   "ville": "Toulouse",
-   "departement": "31",
-   "region": "76",
-   "lat": 43.604082,
-   "lon": 1.433805,
-   "bassin": "Toulouse",
-   "contrat": [
-    "Apprentissage",
-    "Professionnalisation"
-   ],
-   "duree_mois": 12,
-   "niveau": "5",
-   "teletravail": "Présentiel",
-   "salaire_brut_mensuel": 857,
-   "salaire_source": "minimum légal",
-   "loyer_studio": 408,
-   "pouvoir_achat_ajuste": 449,
-   "score_attractivite": 19.8,
-   "score_detail": {
-    "prestige": 11.3,
-    "remuneration": 0,
-    "missions": 6,
-    "cadre_vie": 2.5
-   },
-   "competences": [
-    "Marketing digital"
-   ],
-   "date": "2026-10-23",
-   "url": "https://r.holeest.com/redirect?jd_token=AXcetc&o=1&from=https%3A%2F%2Fwww.hellowork.com%2Ffr-fr%2Femplois%2F84744200.html%3Futm_source%3Dbonnealternance%26utm_medium%3Dmetamoteurs-free%26utm_campaign%3Dalternance%2B-%2B%7Bseo_domain%7D%26utm_content%3Dfluxbonnealternance%26utm_term%3D84744200"
-  },
-  {
    "id": "6a8f6432e075d4e1ad808fc4",
    "source": "Hellowork",
    "titre": "Chargé de Marketing H/F",
@@ -66277,52 +65452,6 @@
    "competences": [],
    "date": "2026-10-20",
    "url": "https://r.holeest.com/redirect?jd_token=zrXO45&o=1&from=https%3A%2F%2Fwww.hellowork.com%2Ffr-fr%2Femplois%2F84618509.html%3Futm_source%3Dbonnealternance%26utm_medium%3Dmetamoteurs-free%26utm_campaign%3Dalternance%2B-%2B%7Bseo_domain%7D%26utm_content%3Dfluxbonnealternance%26utm_term%3D84618509"
-  },
-  {
-   "id": "6adbddb1ec4f5594ab3d11cb",
-   "source": "Meteojob",
-   "titre": "Assistant commercial - alternance (92) H/F",
-   "entreprise": "Fiducial",
-   "siret": null,
-   "categorie": "ETI / PME",
-   "categorie_methode": "nom",
-   "taille": null,
-   "taille_min": null,
-   "naf": null,
-   "idcc": null,
-   "convention": null,
-   "filiere": "commerce",
-   "theme": "relation_client",
-   "rome": [
-    "D1401"
-   ],
-   "ville": "Hauts-de-Seine",
-   "departement": "92",
-   "region": "11",
-   "lat": 48.89672,
-   "lon": 2.25666,
-   "bassin": "Paris / Saclay",
-   "contrat": [
-    "Apprentissage",
-    "Professionnalisation"
-   ],
-   "duree_mois": null,
-   "niveau": "6",
-   "teletravail": "Non précisé",
-   "salaire_brut_mensuel": 1039,
-   "salaire_source": "minimum légal",
-   "loyer_studio": 720,
-   "pouvoir_achat_ajuste": 319,
-   "score_attractivite": 19.5,
-   "score_detail": {
-    "prestige": 8,
-    "remuneration": 3.5,
-    "missions": 4,
-    "cadre_vie": 4
-   },
-   "competences": [],
-   "date": "2026-10-23",
-   "url": "https://www.meteojob.com/jobs/57668989?utm_source=labonnealternance&utm_medium=aggregator-free&utm_campaign=alternance"
   },
   {
    "id": "6ac6c60a9b5d06564c462c8f",
@@ -69498,53 +68627,6 @@
    "url": "https://labonnealternance.apprentissage.beta.gouv.fr/emploi/offres_emploi_lba/6aba24d04d5e4fa942d3ee48/assistant-administratif-et-commercial-assistante-administrative-et-commerciale"
   },
   {
-   "id": "6ad6756a9a8b0539065c249b",
-   "source": "offres_emploi_lba",
-   "titre": "Assistant(e) polyvalent(e) de gestion PME – E-commerce",
-   "entreprise": "EDGE",
-   "siret": "84859067500056",
-   "categorie": "ETI / PME",
-   "categorie_methode": "nom",
-   "taille": "1 ou 2 salariés",
-   "taille_min": 1,
-   "naf": "Vente à distance sur catalogue général",
-   "idcc": null,
-   "convention": null,
-   "filiere": "management",
-   "theme": "direction",
-   "rome": [
-    "M1621"
-   ],
-   "ville": "Saint-Loubes",
-   "departement": "33",
-   "region": "75",
-   "lat": 44.925616,
-   "lon": -0.446528,
-   "bassin": "Bordeaux",
-   "contrat": [
-    "Apprentissage"
-   ],
-   "duree_mois": 24,
-   "niveau": "5",
-   "teletravail": "Non précisé",
-   "salaire_brut_mensuel": 857,
-   "salaire_source": "minimum légal",
-   "loyer_studio": 394,
-   "pouvoir_achat_ajuste": 463,
-   "score_attractivite": 18.6,
-   "score_detail": {
-    "prestige": 8,
-    "remuneration": 0,
-    "missions": 6,
-    "cadre_vie": 4.6
-   },
-   "competences": [
-    "Marketing digital"
-   ],
-   "date": "2026-10-19",
-   "url": "https://labonnealternance.apprentissage.beta.gouv.fr/emploi/offres_emploi_lba/6ad6756a9a8b0539065c249b/assistant-e-polyvalent-e-de-gestion-pme-e-commerce"
-  },
-  {
    "id": "6a974d02db6c731160e4328c",
    "source": "Hellowork",
    "titre": "Technicien Méthodes H/F",
@@ -70384,6 +69466,54 @@
    ],
    "date": "2026-10-21",
    "url": "https://r.holeest.com/redirect?jd_token=pJ64MW&o=1&from=https%3A%2F%2Fwww.hellowork.com%2Ffr-fr%2Femplois%2F71678995.html%3Futm_source%3Dbonnealternance%26utm_medium%3Dmetamoteurs-free%26utm_campaign%3Dalternance%2B-%2B%7Bseo_domain%7D%26utm_content%3Dfluxbonnealternance%26utm_term%3D71678995"
+  },
+  {
+   "id": "6add2a932acc1f901467d128",
+   "source": "Nos Talents Nos Emplois",
+   "titre": "BTS - Comptabilite et gestion (bts) (H/F)",
+   "entreprise": "Chambre Régionale de Métiers et de l'Artisanat",
+   "siret": null,
+   "categorie": "ETI / PME",
+   "categorie_methode": "nom",
+   "taille": null,
+   "taille_min": null,
+   "naf": null,
+   "idcc": null,
+   "convention": null,
+   "filiere": "management",
+   "theme": "finance",
+   "rome": [
+    "M1213"
+   ],
+   "ville": "Les Clefs",
+   "departement": "74",
+   "region": "84",
+   "lat": 45.852978,
+   "lon": 6.329146,
+   "bassin": null,
+   "contrat": [
+    "Apprentissage",
+    "Professionnalisation"
+   ],
+   "duree_mois": null,
+   "niveau": "5",
+   "teletravail": "Non précisé",
+   "salaire_brut_mensuel": 857,
+   "salaire_source": "minimum légal",
+   "loyer_studio": 477,
+   "pouvoir_achat_ajuste": 380,
+   "score_attractivite": 18,
+   "score_detail": {
+    "prestige": 8,
+    "remuneration": 0,
+    "missions": 6,
+    "cadre_vie": 4
+   },
+   "competences": [
+    "R&D / Innovation"
+   ],
+   "date": "2026-10-23",
+   "url": "https://nostalentsnosemplois.auvergnerhonealpes.fr/jobads/16653778?utm_source=labonnealternance&utm_medium=aggregator-free&utm_campaign=alternance"
   },
   {
    "id": "69fa0472cdf4b19e1fc5bed9",
